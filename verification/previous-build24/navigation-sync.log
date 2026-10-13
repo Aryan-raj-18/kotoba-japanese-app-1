@@ -1,0 +1,11 @@
+copied everyday_nl.py
+copied roadmap_extra.py
+copied learner_engine.py
+copied search_engine.py
+copied release_safety.py
+synced templates/
+synced static/
+synced data/
+synced app.py (+ run_server)
+
+Android package is up to date: android/app/src/main/python/kotoba_app

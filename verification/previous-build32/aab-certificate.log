@@ -1,0 +1,25 @@
+Signer #1:
+
+Certificate #1:
+Owner: CN=Kotoba Upload, OU=Android, O=Kotoba, C=IN
+Issuer: CN=Kotoba Upload, OU=Android, O=Kotoba, C=IN
+Serial number: 8b3a566a8b58849
+Valid from: Fri Oct 09 06:23:49 CEST 2026 until: Tue Feb 24 05:23:49 CET 2054
+Certificate fingerprints:
+	 SHA1: B9:C5:AF:B9:22:F1:90:95:81:FC:2C:EC:B3:1A:52:B0:E9:DA:B5:F3
+	 SHA256: C6:03:35:8E:F5:1A:0F:7A:9C:9C:21:59:28:80:B6:37:00:E8:72:53:3B:3C:49:9B:03:3A:2D:8D:22:AD:09:76
+Signature algorithm name: SHA384withRSA
+Subject Public Key Algorithm: 4096-bit RSA key
+Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 98 CE EE B6 DD B6 3E 32   CA E8 46 12 E2 BB BA 5B  ......>2..F....[
+0010: 04 DE 8D F6                                        ....
+]
+]
+
+

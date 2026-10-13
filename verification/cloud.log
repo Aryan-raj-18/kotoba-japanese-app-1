@@ -1,0 +1,33 @@
+test_changed_remote_during_upload_retries_without_marking_clean (__main__.CloudTests.test_changed_remote_during_upload_retries_without_marking_clean) ... ok
+test_changes_coalesce_to_latest_snapshot (__main__.CloudTests.test_changes_coalesce_to_latest_snapshot) ... ok
+test_cloud_delete_survives_offline_process_restart (__main__.CloudTests.test_cloud_delete_survives_offline_process_restart) ... ok
+test_cloud_delete_turns_sync_off_and_keeps_local_snapshot (__main__.CloudTests.test_cloud_delete_turns_sync_off_and_keeps_local_snapshot) ... ok
+test_cloud_key_connects_a_second_device_to_same_remote_profile (__main__.CloudTests.test_cloud_key_connects_a_second_device_to_same_remote_profile) ... ok
+test_cloud_key_from_other_project_is_rejected_without_network (__main__.CloudTests.test_cloud_key_from_other_project_is_rejected_without_network) ... ok
+test_cloud_size_limit_keeps_local_pending_copy (__main__.CloudTests.test_cloud_size_limit_keeps_local_pending_copy) ... ok
+test_cloud_update_applies_only_when_local_copy_is_clean (__main__.CloudTests.test_cloud_update_applies_only_when_local_copy_is_clean) ... ok
+test_disabling_sync_during_remote_read_blocks_restore_and_upload (__main__.CloudTests.test_disabling_sync_during_remote_read_blocks_restore_and_upload) ... ok
+test_expired_identity_refreshes_without_changing_user (__main__.CloudTests.test_expired_identity_refreshes_without_changing_user) ... ok
+test_explicit_cloud_conflict_choice_preserves_cloud_copy (__main__.CloudTests.test_explicit_cloud_conflict_choice_preserves_cloud_copy) ... ok
+test_explicit_local_conflict_choice_uploads_local_copy (__main__.CloudTests.test_explicit_local_conflict_choice_uploads_local_copy) ... ok
+test_exported_key_is_separate_from_normal_progress_payload (__main__.CloudTests.test_exported_key_is_separate_from_normal_progress_payload) ... ok
+test_failed_key_verification_preserves_existing_connection (__main__.CloudTests.test_failed_key_verification_preserves_existing_connection) ... ok
+test_firestore_create_and_update_have_preconditions (__main__.CloudTests.test_firestore_create_and_update_have_preconditions) ... ok
+test_invalid_cloud_copy_cannot_replace_local_progress (__main__.CloudTests.test_invalid_cloud_copy_cannot_replace_local_progress) ... ok
+test_invalid_identity_is_not_replaced_by_new_anonymous_user (__main__.CloudTests.test_invalid_identity_is_not_replaced_by_new_anonymous_user) ... ok
+test_local_changes_during_remote_read_are_not_lost (__main__.CloudTests.test_local_changes_during_remote_read_are_not_lost) ... ok
+test_offline_changes_cannot_resurrect_deleted_remote_copy (__main__.CloudTests.test_offline_changes_cannot_resurrect_deleted_remote_copy) ... ok
+test_offline_edits_do_not_overwrite_changed_cloud (__main__.CloudTests.test_offline_edits_do_not_overwrite_changed_cloud) ... ok
+test_offline_queue_survives_process_recreation (__main__.CloudTests.test_offline_queue_survives_process_recreation) ... ok
+test_private_settings_are_not_part_of_cloud_payload (__main__.CloudTests.test_private_settings_are_not_part_of_cloud_payload) ... ok
+test_removed_cloud_copy_is_not_recreated_without_explicit_enable (__main__.CloudTests.test_removed_cloud_copy_is_not_recreated_without_explicit_enable) ... ok
+test_repeated_sync_does_not_write_duplicate_copy (__main__.CloudTests.test_repeated_sync_does_not_write_duplicate_copy) ... ok
+test_cloud_controls_require_app_csrf (__main__.OfflineAppTests.test_cloud_controls_require_app_csrf) ... ok
+test_open_save_reload_and_backup_without_external_network (__main__.OfflineAppTests.test_open_save_reload_and_backup_without_external_network) ... ok
+test_real_progress_copy_is_validated_and_restored_transactionally (__main__.OfflineAppTests.test_real_progress_copy_is_validated_and_restored_transactionally) ... ok
+test_unconfigured_build_reports_truthful_cloud_availability (__main__.OfflineAppTests.test_unconfigured_build_reports_truthful_cloud_availability) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 0.178s
+
+OK

@@ -1,0 +1,864 @@
+{
+  "scope": "Identified import faults and cross-section data consistency; not a certification of every translation.",
+  "changes": [
+    {
+      "source": "frequency_words.json",
+      "word": "非常",
+      "field": "reading",
+      "before": "ひjおう",
+      "after": "ひじょう"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "彼女",
+      "field": "reading",
+      "before": "かのjお",
+      "after": "かのじょ"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "女性",
+      "field": "reading",
+      "before": "jおせい",
+      "after": "じょせい"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "状態",
+      "field": "reading",
+      "before": "jおうたい",
+      "after": "じょうたい"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "以上",
+      "field": "reading",
+      "before": "いjおう",
+      "after": "いじょう"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "状況",
+      "field": "reading",
+      "before": "jおうきょう",
+      "after": "じょうきょう"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "情報",
+      "field": "reading",
+      "before": "jおうほう",
+      "after": "じょうほう"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "十分",
+      "field": "reading",
+      "before": "jううぶん",
+      "after": "じゅうぶん"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "重要",
+      "field": "reading",
+      "before": "jううよう",
+      "after": "じゅうよう"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "大丈夫",
+      "field": "reading",
+      "before": "だいjおうぶ",
+      "after": "だいじょうぶ"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "三十分",
+      "field": "reading",
+      "before": "さんjうっぷん",
+      "after": "さんじゅっぷん"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "二十一世紀",
+      "field": "reading",
+      "before": "にjうういっせいき",
+      "after": "にじゅういっせいき"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "授業",
+      "field": "reading",
+      "before": "jうぎょう",
+      "after": "じゅぎょう"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "十月",
+      "field": "reading",
+      "before": "jううがつ",
+      "after": "じゅうがつ"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "十二月",
+      "field": "reading",
+      "before": "jううにがつ",
+      "after": "じゅうにがつ"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "十一月",
+      "field": "reading",
+      "before": "jうういちがつ",
+      "after": "じゅういちがつ"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "近所",
+      "field": "reading",
+      "before": "きんjお",
+      "after": "きんじょ"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "準備",
+      "field": "reading",
+      "before": "jうんび",
+      "after": "じゅんび"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "技術",
+      "field": "reading",
+      "before": "ぎjうつ",
+      "after": "ぎじゅつ"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "条件",
+      "field": "reading",
+      "before": "jおうけん",
+      "after": "じょうけん"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "患者",
+      "field": "reading",
+      "before": "かんjあ",
+      "after": "かんじゃ"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "十年",
+      "field": "reading",
+      "before": "jううねん",
+      "after": "じゅうねん"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "十",
+      "field": "reading",
+      "before": "jうう",
+      "after": "じゅう"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "表情",
+      "field": "reading",
+      "before": "ひょうjおう",
+      "after": "ひょうじょう"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "手術",
+      "field": "reading",
+      "before": "しゅjうつ",
+      "after": "しゅじゅつ"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "通常",
+      "field": "reading",
+      "before": "つうjおう",
+      "after": "つうじょう"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "登場",
+      "field": "reading",
+      "before": "とうjおう",
+      "after": "とうじょう"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "現状",
+      "field": "reading",
+      "before": "げんjおう",
+      "after": "げんじょう"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "事情",
+      "field": "reading",
+      "before": "じjおう",
+      "after": "じじょう"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "十時",
+      "field": "reading",
+      "before": "jううじ",
+      "after": "じゅうじ"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "充実(する)",
+      "field": "reading",
+      "before": "jううじつする",
+      "after": "じゅうじつする"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "従来",
+      "field": "reading",
+      "before": "jううらい",
+      "after": "じゅうらい"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "感情",
+      "field": "reading",
+      "before": "かんjおう",
+      "after": "かんじょう"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "新宿",
+      "field": "reading",
+      "before": "しんjうく",
+      "after": "しんじゅく"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "会場",
+      "field": "reading",
+      "before": "かいjおう",
+      "after": "かいじょう"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "二十年",
+      "field": "reading",
+      "before": "にjううねん",
+      "after": "にじゅうねん"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "向上",
+      "field": "reading",
+      "before": "こうjおう",
+      "after": "こうじょう"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "単純",
+      "field": "reading",
+      "before": "たんjうん",
+      "after": "たんじゅん"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "基準",
+      "field": "reading",
+      "before": "きjうん",
+      "after": "きじゅん"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "工場",
+      "field": "reading",
+      "before": "こうjおう",
+      "after": "こうじょう"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "上手",
+      "field": "reading",
+      "before": "jおうず",
+      "after": "じょうず"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "症状",
+      "field": "reading",
+      "before": "しょうjおう",
+      "after": "しょうじょう"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "体重",
+      "field": "reading",
+      "before": "たいjうう",
+      "after": "たいじゅう"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "上司",
+      "field": "reading",
+      "before": "jおうし",
+      "after": "じょうし"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "十二",
+      "field": "reading",
+      "before": "jううに",
+      "after": "じゅうに"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "上昇",
+      "field": "reading",
+      "before": "jおうしょう",
+      "after": "じょうしょう"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "誕生",
+      "field": "reading",
+      "before": "たんjおう",
+      "after": "たんじょう"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "受験",
+      "field": "reading",
+      "before": "jうけん",
+      "after": "じゅけん"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "十一",
+      "field": "reading",
+      "before": "jうういち",
+      "after": "じゅういち"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "徐々に",
+      "field": "reading",
+      "before": "jおjおに",
+      "after": "じょじょに"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "異常",
+      "field": "reading",
+      "before": "いjおう",
+      "after": "いじょう"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "若干",
+      "field": "reading",
+      "before": "jあっかん",
+      "after": "じゃっかん"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "住民",
+      "field": "reading",
+      "before": "jううみん",
+      "after": "じゅうみん"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "住所",
+      "field": "reading",
+      "before": "jううしょ",
+      "after": "じゅうしょ"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "世界中",
+      "field": "reading",
+      "before": "せかいjうう",
+      "after": "せかいじゅう"
+    },
+    {
+      "source": "frequency_words.json",
+      "word": "塾",
+      "field": "reading",
+      "before": "jうく",
+      "after": "じゅく"
+    },
+    {
+      "source": "picture_dict.json",
+      "word": "ゴール",
+      "field": "reading",
+      "before": "goーru",
+      "after": "ごーる"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "今月",
+      "action": "correct parent",
+      "before": "日",
+      "after": "今"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "一月",
+      "action": "correct parent",
+      "before": "日",
+      "after": "一"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "何月",
+      "action": "correct parent",
+      "before": "日",
+      "after": "何"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "一か月",
+      "action": "correct parent",
+      "before": "日",
+      "after": "一"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "金持ち",
+      "action": "correct parent",
+      "before": "王",
+      "after": "持"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "金物",
+      "action": "correct parent",
+      "before": "王",
+      "after": "物"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "金色",
+      "action": "correct parent",
+      "before": "王",
+      "after": "色"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "金魚",
+      "action": "correct parent",
+      "before": "王",
+      "after": "魚"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "五分",
+      "action": "correct parent",
+      "before": "間",
+      "after": "五"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "犬",
+      "action": "remove import fragment",
+      "before": {
+        "word": "犬",
+        "reading": "いぬ",
+        "romaji": "ANIMALS",
+        "meaning": "77",
+        "extra_kanji": false
+      }
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "木を見て",
+      "action": "remove import fragment",
+      "before": {
+        "word": "木を見て",
+        "reading": "きをみてもりを",
+        "romaji": "",
+        "meaning": "ki o mite mori",
+        "extra_kanji": false
+      }
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "和食",
+      "action": "correct parent",
+      "before": "屋",
+      "after": "食"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "和服",
+      "action": "correct parent",
+      "before": "屋",
+      "after": "服"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "和牛",
+      "action": "correct parent",
+      "before": "屋",
+      "after": "牛"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "英語",
+      "action": "correct parent",
+      "before": "教",
+      "after": "語"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "英会話",
+      "action": "correct parent",
+      "before": "教",
+      "after": "会"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "英国",
+      "action": "correct parent",
+      "before": "教",
+      "after": "国"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "図表",
+      "action": "correct parent",
+      "before": "発",
+      "after": "図"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "大変",
+      "action": "correct parent",
+      "before": "短",
+      "after": "大"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "変化",
+      "action": "correct parent",
+      "before": "短",
+      "after": "化"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "工業",
+      "action": "correct parent",
+      "before": "授",
+      "after": "工"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "話し合う",
+      "action": "correct parent",
+      "before": "試",
+      "after": "話"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "合計する",
+      "action": "correct parent",
+      "before": "試",
+      "after": "計"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "都合",
+      "action": "correct parent",
+      "before": "試",
+      "after": "都"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "気付く",
+      "action": "correct parent",
+      "before": "忘",
+      "after": "気"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "付近",
+      "action": "correct parent",
+      "before": "忘",
+      "after": "近"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "個人",
+      "action": "correct parent",
+      "before": "品",
+      "after": "人"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "一個",
+      "action": "correct parent",
+      "before": "品",
+      "after": "一"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "若者",
+      "action": "correct parent",
+      "before": "医",
+      "after": "若"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "働き者",
+      "action": "correct parent",
+      "before": "医",
+      "after": "働"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "打者",
+      "action": "correct parent",
+      "before": "医",
+      "after": "打"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "学者",
+      "action": "correct parent",
+      "before": "医",
+      "after": "学"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "科学者",
+      "action": "correct parent",
+      "before": "医",
+      "after": "科"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "調子",
+      "action": "correct parent",
+      "before": "置",
+      "after": "子"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "社会",
+      "action": "correct parent",
+      "before": "神",
+      "after": "会"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "会社",
+      "action": "correct parent",
+      "before": "神",
+      "after": "会"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "本社",
+      "action": "correct parent",
+      "before": "神",
+      "after": "本"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "定食",
+      "action": "correct parent",
+      "before": "急",
+      "after": "食"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "定員",
+      "action": "restore truncated definition",
+      "before": {
+        "word": "定員",
+        "reading": "ていいん",
+        "romaji": "",
+        "meaning": "tei",
+        "extra_kanji": false
+      },
+      "after": {
+        "word": "定員",
+        "reading": "ていいん",
+        "romaji": "teiin",
+        "meaning": "capacity; fixed number of people",
+        "extra_kanji": false
+      }
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "定員",
+      "action": "correct parent",
+      "before": "急",
+      "after": "員"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "方向",
+      "action": "correct parent",
+      "before": "村",
+      "after": "方"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "前向き",
+      "action": "correct parent",
+      "before": "村",
+      "after": "前"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "授業",
+      "action": "restore word from existing frequency entry",
+      "before": {
+        "word": "じゅぎょう・授業",
+        "reading": "する",
+        "romaji": "",
+        "meaning": "classical Chinese",
+        "extra_kanji": false
+      },
+      "after": {
+        "word": "授業",
+        "reading": "じゅぎょう",
+        "romaji": "jugyō",
+        "meaning": "lesson, class",
+        "extra_kanji": false
+      }
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "授業",
+      "action": "correct parent",
+      "before": "達",
+      "after": "授"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "する",
+      "action": "remove import fragment",
+      "before": {
+        "word": "する",
+        "reading": "ですか",
+        "romaji": "",
+        "meaning": "writer",
+        "extra_kanji": false
+      }
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "月",
+      "action": "restore missing-character vocabulary in expanded catalog",
+      "before": "日",
+      "after": "月"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "お金",
+      "action": "restore missing-character vocabulary in expanded catalog",
+      "before": "王",
+      "after": "金"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "金",
+      "action": "restore missing-character vocabulary in expanded catalog",
+      "before": "王",
+      "after": "金"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "和",
+      "action": "restore missing-character vocabulary in expanded catalog",
+      "before": "屋",
+      "after": "和"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "表",
+      "action": "restore missing-character vocabulary in expanded catalog",
+      "before": "発",
+      "after": "表"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "変える",
+      "action": "restore missing-character vocabulary in expanded catalog",
+      "before": "短",
+      "after": "変"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "変わる",
+      "action": "restore missing-character vocabulary in expanded catalog",
+      "before": "短",
+      "after": "変"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "変",
+      "action": "restore missing-character vocabulary in expanded catalog",
+      "before": "短",
+      "after": "変"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "合う",
+      "action": "restore missing-character vocabulary in expanded catalog",
+      "before": "試",
+      "after": "合"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "付き合う",
+      "action": "restore missing-character vocabulary in expanded catalog",
+      "before": "試",
+      "after": "付"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "合格する",
+      "action": "restore missing-character vocabulary in expanded catalog",
+      "before": "試",
+      "after": "合"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "付ける",
+      "action": "restore missing-character vocabulary in expanded catalog",
+      "before": "忘",
+      "after": "付"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "者",
+      "action": "restore missing-character vocabulary in expanded catalog",
+      "before": "医",
+      "after": "者"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "向く",
+      "action": "restore missing-character vocabulary in expanded catalog",
+      "before": "村",
+      "after": "向"
+    },
+    {
+      "source": "kanji_data.json",
+      "word": "向ける",
+      "action": "restore missing-character vocabulary in expanded catalog",
+      "before": "村",
+      "after": "向"
+    }
+  ],
+  "total_changes": 117
+}

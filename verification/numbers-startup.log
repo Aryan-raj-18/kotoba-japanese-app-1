@@ -1,0 +1,18 @@
+test_all_numeric_practice_questions_use_on_yomi (__main__.Numbers.test_all_numeric_practice_questions_use_on_yomi) ... ok
+test_counters_dates_and_non_numeric_readings_unchanged (__main__.Numbers.test_counters_dates_and_non_numeric_readings_unchanged) ... ok
+test_numeric_classic_and_mcq_cards (__main__.Numbers.test_numeric_classic_and_mcq_cards) ... ok
+test_placement_numbers (__main__.Numbers.test_placement_numbers) ... ok
+test_search_numeric_kanji_display (__main__.Numbers.test_search_numeric_kanji_display) ... ok
+test_vocabulary_and_recursive_lesson_copies (__main__.Numbers.test_vocabulary_and_recursive_lesson_copies) ... ok
+test_cleanup_failure_still_clears_running_flag (__main__.Startup.test_cleanup_failure_still_clears_running_flag) ... ok
+test_concurrent_activity_reuses_live_server (__main__.Startup.test_concurrent_activity_reuses_live_server) ... ok
+test_failed_bind_remains_retryable (__main__.Startup.test_failed_bind_remains_retryable) ... ok
+test_new_native_sessions_health_and_authorization (__main__.Startup.test_new_native_sessions_health_and_authorization) ... ok
+test_reopening_keeps_saved_progress (__main__.Startup.test_reopening_keeps_saved_progress) ... ok
+test_system_exit_does_not_mark_server_running (__main__.Startup.test_system_exit_does_not_mark_server_running) ... ok
+test_worker_failure_can_restart (__main__.Startup.test_worker_failure_can_restart) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 6.048s
+
+OK

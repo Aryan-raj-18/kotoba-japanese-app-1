@@ -1,0 +1,122 @@
+[
+  {
+    "word": "月",
+    "reading": "つき",
+    "romaji": "tsuki",
+    "meaning": "moon",
+    "extra_kanji": false,
+    "kanji": "月"
+  },
+  {
+    "word": "お金",
+    "reading": "おかね",
+    "romaji": "okane",
+    "meaning": "money",
+    "extra_kanji": false,
+    "kanji": "金"
+  },
+  {
+    "word": "金",
+    "reading": "きん",
+    "romaji": "kin",
+    "meaning": "gold",
+    "extra_kanji": false,
+    "kanji": "金"
+  },
+  {
+    "word": "和",
+    "reading": "わ",
+    "romaji": "wa",
+    "meaning": "harmony",
+    "extra_kanji": false,
+    "kanji": "和"
+  },
+  {
+    "word": "表",
+    "reading": "ひょう",
+    "romaji": "hyō",
+    "meaning": "table",
+    "extra_kanji": false,
+    "kanji": "表"
+  },
+  {
+    "word": "変える",
+    "reading": "かえる",
+    "romaji": "kaeru",
+    "meaning": "to change something",
+    "extra_kanji": false,
+    "kanji": "変"
+  },
+  {
+    "word": "変わる",
+    "reading": "かわる",
+    "romaji": "kawaru",
+    "meaning": "something changes",
+    "extra_kanji": false,
+    "kanji": "変"
+  },
+  {
+    "word": "変",
+    "reading": "へん",
+    "romaji": "hen",
+    "meaning": "strange",
+    "extra_kanji": false,
+    "kanji": "変"
+  },
+  {
+    "word": "合う",
+    "reading": "あう",
+    "romaji": "au",
+    "meaning": "to fit, do mutually",
+    "extra_kanji": false,
+    "kanji": "合"
+  },
+  {
+    "word": "付き合う",
+    "reading": "つきあう",
+    "romaji": "tsukiau",
+    "meaning": "to associate with, date",
+    "extra_kanji": false,
+    "kanji": "付"
+  },
+  {
+    "word": "合格する",
+    "reading": "ごうかくする",
+    "romaji": "gōkaku suru",
+    "meaning": "to pass an exam",
+    "extra_kanji": true,
+    "kanji": "合"
+  },
+  {
+    "word": "付ける",
+    "reading": "つける",
+    "romaji": "tsukeru",
+    "meaning": "to attach",
+    "extra_kanji": false,
+    "kanji": "付"
+  },
+  {
+    "word": "者",
+    "reading": "もの",
+    "romaji": "mono",
+    "meaning": "person",
+    "extra_kanji": false,
+    "kanji": "者"
+  },
+  {
+    "word": "向く",
+    "reading": "むく",
+    "romaji": "muku",
+    "meaning": "something turns towards",
+    "extra_kanji": false,
+    "kanji": "向"
+  },
+  {
+    "word": "向ける",
+    "reading": "むける",
+    "romaji": "mukeru",
+    "meaning": "to turn something towards",
+    "extra_kanji": false,
+    "kanji": "向"
+  }
+]

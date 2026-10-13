@@ -1,0 +1,146 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/8.13/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :app:generateReleasePythonJniLibs
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :app:mergeReleaseJniLibFolders
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:mergeReleaseNativeLibs
+> Task :app:buildKotlinToolingMetadata
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+
+> Task :app:stripReleaseDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libchaquopy_java.so, libcrypto_chaquopy.so, libcrypto_python.so, libpython3.13.so, libsqlite3_chaquopy.so, libsqlite3_python.so, libssl_chaquopy.so, libssl_python.so. Run with --info option to learn more.
+
+> Task :app:extractReleasePythonBuildPackages
+> Task :app:extractReleaseNativeSymbolTables
+
+> Task :app:installReleasePythonRequirements
+Chaquopy: Installing for arm64-v8a
+Looking in indexes: https://pypi.org/simple, https://chaquo.com/pypi-13.1
+Collecting flask==3.1.2
+  Using cached flask-3.1.2-py3-none-any.whl.metadata (3.2 kB)
+Collecting blinker>=1.9.0 (from flask==3.1.2)
+  Using cached blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+Collecting click>=8.1.3 (from flask==3.1.2)
+  Using cached click-8.5.0-py3-none-any.whl.metadata (2.6 kB)
+Collecting itsdangerous>=2.2.0 (from flask==3.1.2)
+  Using cached itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+Collecting jinja2>=3.1.2 (from flask==3.1.2)
+  Using cached jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting markupsafe>=2.1.1 (from flask==3.1.2)
+  Using cached markupsafe-3.0.4-cp313-cp313-android_24_arm64_v8a.whl.metadata (2.7 kB)
+Collecting werkzeug>=3.1.0 (from flask==3.1.2)
+  Using cached werkzeug-3.1.9-py3-none-any.whl.metadata (4.1 kB)
+Using cached flask-3.1.2-py3-none-any.whl (103 kB)
+Using cached blinker-1.9.0-py3-none-any.whl (8.5 kB)
+Using cached click-8.5.0-py3-none-any.whl (125 kB)
+Using cached itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+Using cached jinja2-3.1.6-py3-none-any.whl (134 kB)
+Using cached markupsafe-3.0.4-cp313-cp313-android_24_arm64_v8a.whl (12 kB)
+Using cached werkzeug-3.1.9-py3-none-any.whl (228 kB)
+Installing collected packages: markupsafe, itsdangerous, click, blinker, werkzeug, jinja2, flask
+
+Successfully installed blinker-1.9.0 click-8.5.0 flask-3.1.2 itsdangerous-2.2.0 jinja2-3.1.6 markupsafe-3.0.4 werkzeug-3.1.9
+
+Chaquopy: Installing for x86_64
+Looking in indexes: https://pypi.org/simple, https://chaquo.com/pypi-13.1
+Collecting markupsafe==3.0.4
+  Using cached markupsafe-3.0.4-cp313-cp313-android_24_x86_64.whl.metadata (2.7 kB)
+Using cached markupsafe-3.0.4-cp313-cp313-android_24_x86_64.whl (12 kB)
+Installing collected packages: markupsafe
+Successfully installed markupsafe-3.0.4
+
+> Task :app:mergeReleaseNativeDebugMetadata NO-SOURCE
+> Task :app:mergeReleasePythonSources
+> Task :app:generateReleasePythonProxies
+> Task :app:checkReleaseAarMetadata
+> Task :app:processReleaseNavigationResources
+> Task :app:generateReleaseResValues
+> Task :app:compileReleaseNavigationResources
+> Task :app:mapReleaseSourceSetPaths
+> Task :app:generateReleaseResources
+> Task :app:packageReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:extractDeepLinksRelease
+> Task :app:parseReleaseLocalResources
+> Task :app:mergeReleaseResources
+> Task :app:processReleaseMainManifest
+> Task :app:processReleaseManifest
+> Task :app:javaPreCompileRelease
+> Task :app:mergeReleaseStartupProfile UP-TO-DATE
+> Task :app:mergeReleaseShaders
+> Task :app:mergeReleaseArtProfile
+> Task :app:compileReleaseShaders NO-SOURCE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :app:generateReleasePythonMiscAssets
+> Task :app:generateReleasePythonRequirementsAssets
+> Task :app:generateReleasePythonSourceAssets
+> Task :app:generateReleasePythonBuildAssets
+> Task :app:mergeReleaseAssets
+> Task :app:compressReleaseAssets
+> Task :app:extractReleaseVersionControlInfo
+> Task :app:extractProguardFiles
+> Task :app:desugarReleaseFileDependencies
+> Task :app:collectReleaseDependencies
+> Task :app:sdkReleaseDependencyData
+> Task :app:validateSigningRelease
+> Task :app:writeReleaseAppMetadata
+> Task :app:writeReleaseSigningConfigVersions
+> Task :app:processApplicationManifestReleaseForBundle
+> Task :app:configureReleaseDependencies
+> Task :app:parseReleaseIntegrityConfig UP-TO-DATE
+> Task :app:preReleaseUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileReleaseUnitTest
+> Task :app:processReleaseManifestForPackage
+> Task :app:processReleaseResources
+> Task :app:optimizeReleaseResources
+> Task :app:bundleReleaseResources
+> Task :app:mergeExtDexRelease
+> Task :app:compileReleaseKotlin
+> Task :app:compileReleaseJavaWithJavac NO-SOURCE
+> Task :app:dexBuilderRelease
+> Task :app:mergeReleaseGlobalSynthetics
+> Task :app:generateReleaseLintVitalReportModel
+> Task :app:processReleaseJavaRes
+> Task :app:generateReleaseLintReportModel
+> Task :app:bundleReleaseClassesToCompileJar
+> Task :app:generateReleaseUnitTestLintModel
+> Task :app:bundleReleaseClassesToRuntimeJar
+> Task :app:mergeReleaseJavaResource
+> Task :app:mergeDexRelease
+> Task :app:compileReleaseArtProfile
+> Task :app:buildReleasePreBundle
+> Task :app:compileReleaseUnitTestKotlin
+> Task :app:compileReleaseUnitTestJavaWithJavac NO-SOURCE
+> Task :app:processReleaseUnitTestJavaRes
+> Task :app:testReleaseUnitTest
+> Task :app:lintAnalyzeReleaseUnitTest
+> Task :app:lintVitalAnalyzeRelease
+> Task :app:lintAnalyzeRelease
+> Task :app:lintVitalReportRelease SKIPPED
+> Task :app:lintVitalRelease SKIPPED
+> Task :app:packageReleaseBundle
+> Task :app:packageRelease
+> Task :app:createReleaseApkListingFileRedirect
+> Task :app:assembleRelease
+
+> Task :app:lintReportRelease
+Wrote HTML report to file:///workspace/scratch/111d4db36787/finish-work/kotoba-1.0.0/android/app/build/reports/lint-results-release.html
+
+> Task :app:lintRelease
+> Task :app:signReleaseBundle
+> Task :app:produceReleaseBundleIdeListingFile
+> Task :app:createReleaseBundleListingFileRedirect
+> Task :app:bundleRelease
+
+[Incubating] Problems report is available at: file:///workspace/scratch/111d4db36787/finish-work/kotoba-1.0.0/android/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.13/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 2m 17s
+78 actionable tasks: 76 executed, 2 up-to-date

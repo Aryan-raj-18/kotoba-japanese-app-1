@@ -1,0 +1,7 @@
+PASS daily goal opens Settings and stays open after the click bubbles
+PASS goal remains usable when Settings is already open
+PASS Escape closes the goal settings and returns focus
+PASS all previous palettes stay available under More palettes
+PASS upcoming chapter preview starts at the actual recommended lesson
+PASS device appearance resolves to Sakura Journey or Kyoto Night
+All 6 journey home interaction checks passed.

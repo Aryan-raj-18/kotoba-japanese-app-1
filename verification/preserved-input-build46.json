@@ -1,0 +1,158 @@
+{
+  "input": "kotoba-japanese-app-1.0.0-every-section-liquid-glass-build46.zip",
+  "files": [
+    {
+      "file": "data/common_words.json",
+      "sha256": "0fb82093ed17e2d52ff44c5bf6410d2fe66d6f8e07a594de52f4b33446ffb82e"
+    },
+    {
+      "file": "data/content_provenance.json",
+      "sha256": "e63f38144cf4fe03c4bd23a9d4aed247dbf45a2b3d70a533e81c7a23844ed9ce"
+    },
+    {
+      "file": "data/conversations.json",
+      "sha256": "f918bdf7d9ff38bcad62e475dbb4bdc014fce97e2ed8c88a455f5f9e6211232d"
+    },
+    {
+      "file": "data/everyday_extra.json",
+      "sha256": "07fc3a9230f39bd2aa02f053896be6487c6006b035cdff52e993af3f2bf5a0bc"
+    },
+    {
+      "file": "data/frequency_words.json",
+      "sha256": "2070bfb8d9616d56cf563f014bcdbeb636e2803c9b9f30945d0de6c5ca7518fa"
+    },
+    {
+      "file": "data/grammar.json",
+      "sha256": "2598eb32eb916a26eea614325c0d50389cbb90ed8a8dbe730d97cc9c800bafdd"
+    },
+    {
+      "file": "data/hiragana.json",
+      "sha256": "08e4df7ddfada6be5088b8302c16433bdffd05733416e70254ffa33c8ed715c1"
+    },
+    {
+      "file": "data/japan_explorer.json",
+      "sha256": "2a18fe934cfc392c71502dae1c244ae6bb33645087c521162f6a338dd8ab738b"
+    },
+    {
+      "file": "data/japan_food_words.json",
+      "sha256": "07c408feaf09d3482e8cabab13f3aaaf1654b5354664cf0b65612fb6ff5cb49b"
+    },
+    {
+      "file": "data/jlpt_exam_questions.json",
+      "sha256": "748cc82d350b3f541ab9fd37a24243e9343f65ccf8faba1fd92ce5a1480ad400"
+    },
+    {
+      "file": "data/jlpt_kanji.json",
+      "sha256": "21fbec4c8bfa157c69f79c878cc61b989243ec355da9e2dca8f045a5867809c6"
+    },
+    {
+      "file": "data/kanji_catalog.json",
+      "sha256": "b79fc5aeacfd10c4535699c44b3a006838a25b821924d05199651acf5ddb9415"
+    },
+    {
+      "file": "data/kanji_data.json",
+      "sha256": "96896f0b8c036cac4c287cd0032306155480e34065fb0d087d2a59389ddba1a5"
+    },
+    {
+      "file": "data/kanji_vocab_extra.json",
+      "sha256": "d576289b8a73fa361fe6cd0975fe837a5a849bab04cf69ae2ff1160dbc4fa75d"
+    },
+    {
+      "file": "data/katakana.json",
+      "sha256": "5518dff587c20badba0fdf544aed78aca97f2f7746cab231686974254453de1a"
+    },
+    {
+      "file": "data/picture_dict.json",
+      "sha256": "9b502b6228383a4a5afbe8f788a89d4a624d965e438a724fc3edd7bc5da785f5"
+    },
+    {
+      "file": "data/practice_sentences.json",
+      "sha256": "3bd3735af2bf4c261dd3c814a7510faf87fd147dd6c508dacdff1aa3f0c3854d"
+    },
+    {
+      "file": "data/radicals.json",
+      "sha256": "25fe5200acdf84bc929e41b1e274d9fa9356a91f0acc18b13445ac7a5d1f8190"
+    },
+    {
+      "file": "data/roadmap.json",
+      "sha256": "a80a2ef1d6a8c3e239bd5b8925fefd8a4bcd91cc7bf649e502bef43bc6c5a388"
+    },
+    {
+      "file": "data/speaking_phrasebook.json",
+      "sha256": "287c3a7c7b2ac851610a9894ce0457c055db7a7370f086d3d542f03544922518"
+    },
+    {
+      "file": "data/stories.json",
+      "sha256": "d5c354a5ea4128938157f272ed7223bc0681052752ff9e600ec5327bb047daa8"
+    },
+    {
+      "file": "data/verbs.json",
+      "sha256": "41367a23c290b66585e12a76ea83b4e51b45354218416a1fd55fd75da9c10dcb"
+    },
+    {
+      "file": "static/fonts/README.md",
+      "sha256": "f3c5a3de2f98abd55af6cc47a77a03d003ba3388f22fe173b0ffded9770e84d3"
+    },
+    {
+      "file": "static/fonts/kotoba-brand-latin.woff2",
+      "sha256": "bb3dd01cf3817e4c10cd14ee9010796dbb93f9928dec884fac8ce621de6bffaa"
+    },
+    {
+      "file": "static/fonts/kotoba-brand.woff2",
+      "sha256": "cd295e03762f9105d5307ec41f7977fd7833c9a9d71ff298f376a8fcce5d20ed"
+    },
+    {
+      "file": "static/fonts/kotoba-mincho.woff2",
+      "sha256": "93003a1ba76ea7974d5a1670437902a4756ccad9ae5c82a51406bf111bcc37f7"
+    },
+    {
+      "file": "static/fonts/kotoba-rounded.woff2",
+      "sha256": "288f11569b23b08dd287debc49202eee12afe500c26142e9824377327026476c"
+    },
+    {
+      "file": "static/fonts/kotoba-serif.woff2",
+      "sha256": "d7ace348c76e503d69ad7adde4bc4e5068bc8c4f88bd8d39cb6e0d044a2774e9"
+    },
+    {
+      "file": "static/fonts/kotoba-ui-geometric.woff2",
+      "sha256": "7e0a1222b708e9cca8919fb3361a560fbd4a84a7b3d7b712b0c3a19299bab777"
+    },
+    {
+      "file": "static/fonts/kotoba-ui-rounded.woff2",
+      "sha256": "2c2551f59972b05175c4acd6f41394a010f18f23dbc9f21117a0f5f389bd67f6"
+    },
+    {
+      "file": "static/fonts/nunitosans-OFL.txt",
+      "sha256": "efbb0c9e864cef973982d9a17567e6be5c3d1759695574586f3f18c7ecca064b"
+    },
+    {
+      "file": "static/fonts/roundedmplus1c-OFL.txt",
+      "sha256": "67f64c5509e5151796599e3ad47c3131cbe0c80c4f9430b90236a1249c2eacc9"
+    },
+    {
+      "file": "static/fonts/shipporimincho-OFL.txt",
+      "sha256": "41fba056279be5f45ff9a99e44b7b53897b42732f5806d8e666e0ab49ac6bd38"
+    },
+    {
+      "file": "static/fonts/sourceserif4-OFL.txt",
+      "sha256": "5f94c3fd3a23131a417ab5a0c8452de57e70c3cfb9f604d88241f7065ebf9fd9"
+    },
+    {
+      "file": "static/fonts/spacegrotesk-OFL.txt",
+      "sha256": "564ce565c371c5e5bbf286006565a7c9aa55a9f56e7ca58d56e05d649dd61a72"
+    },
+    {
+      "file": "static/icons/apple-touch-icon.png",
+      "sha256": "772411a844b23f3c2fd784b966ec14028d46a78b3087acb7f04931cc3cf9c8a0"
+    },
+    {
+      "file": "static/icons/icon-192.png",
+      "sha256": "2331c85880303e9cb2ac79dfd6d90ea3e9a978313d5c4cd51b6ded537bc8793b"
+    },
+    {
+      "file": "static/icons/icon-512.png",
+      "sha256": "350f75c4eac9ffb1a03faf9fe6d8f2333413d7a092dcc60bfe7d19c341f7e918"
+    }
+  ],
+  "scope": "Public learning JSON and original font/icon files, byte-identical to supplied input."
+}

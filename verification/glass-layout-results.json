@@ -1,0 +1,5288 @@
+{
+  "quick": false,
+  "layouts": [
+    {
+      "route": "/",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/explore",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji/1",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji/160",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji/practice",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/radicals",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/radicals/r001",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/hiragana",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/katakana",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N1",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/practice",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/exam-practice",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/mock",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/everyday",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/verbs",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/grammar",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/grammar/g-001",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/roadmap",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/roadmap/smartphones-apps",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/speaking",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/review",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/flashcards",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/writing-practice",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/write",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/japan",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/dashboard",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/streak",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/practice",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/games",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/favorites",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/mistakes",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/backup",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/sync",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/privacy",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/about",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/feedback",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/data-controls",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji-notification",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/placement",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/stories",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/stories/neko-to-ame",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/conversations",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/conversations/self-introduction",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/search?q=sor",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/kanji/1",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/radicals/r001",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/everyday",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/verbs",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/mock",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/speaking",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/review",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/japan",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/kanji-notification",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/backup",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/explore",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji/1",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji/160",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji/practice",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/radicals",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/radicals/r001",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/hiragana",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/katakana",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N1",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/practice",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/exam-practice",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/mock",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/everyday",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/verbs",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/grammar",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/grammar/g-001",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/roadmap",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/roadmap/smartphones-apps",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/speaking",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/review",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/flashcards",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/writing-practice",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/write",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/japan",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/dashboard",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/streak",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/practice",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/games",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/favorites",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/mistakes",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/backup",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/sync",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/privacy",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/about",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/feedback",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/data-controls",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji-notification",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/placement",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/stories",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/stories/neko-to-ame",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/conversations",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/conversations/self-introduction",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/search?q=sor",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/kanji/1",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/radicals/r001",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/everyday",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/verbs",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/mock",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/speaking",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/review",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/japan",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/kanji-notification",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/backup",
+      "width": 320,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/explore",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji/1",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji/160",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji/practice",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/radicals",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/radicals/r001",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/hiragana",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/katakana",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N1",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/practice",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/exam-practice",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/mock",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/everyday",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/verbs",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/grammar",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/grammar/g-001",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/roadmap",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/roadmap/smartphones-apps",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/speaking",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/review",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/flashcards",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/writing-practice",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/write",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/japan",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/dashboard",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/streak",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/practice",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/games",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/favorites",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/mistakes",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/backup",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/sync",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/privacy",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/about",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/feedback",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/data-controls",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji-notification",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/placement",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/stories",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/stories/neko-to-ame",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/conversations",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/conversations/self-introduction",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/search?q=sor",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/kanji/1",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/radicals/r001",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/everyday",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/verbs",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/mock",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/speaking",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/review",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/japan",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/kanji-notification",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/backup",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/explore",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji/1",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji/160",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji/practice",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/radicals",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/radicals/r001",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/hiragana",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/katakana",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N1",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/practice",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/exam-practice",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/mock",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/everyday",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/verbs",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/grammar",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/grammar/g-001",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/roadmap",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/roadmap/smartphones-apps",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/speaking",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/review",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/flashcards",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/writing-practice",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/write",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/japan",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/dashboard",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/streak",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/practice",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/games",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/favorites",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/mistakes",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/backup",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/sync",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/privacy",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/about",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/feedback",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/data-controls",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji-notification",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/placement",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/stories",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/stories/neko-to-ame",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/conversations",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/conversations/self-introduction",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/search?q=sor",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/kanji/1",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/radicals/r001",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/everyday",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/verbs",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/mock",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/speaking",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/review",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/japan",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/kanji-notification",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/backup",
+      "width": 320,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/explore",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji/1",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji/160",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji/practice",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/radicals",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/radicals/r001",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/hiragana",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/katakana",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N1",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/practice",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/exam-practice",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/mock",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/everyday",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/verbs",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/grammar",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/grammar/g-001",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/roadmap",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/roadmap/smartphones-apps",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/speaking",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/review",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/flashcards",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/writing-practice",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/write",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/japan",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/dashboard",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/streak",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/practice",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/games",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/favorites",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/mistakes",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/backup",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/sync",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/privacy",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/about",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/feedback",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/data-controls",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji-notification",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/placement",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/stories",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/stories/neko-to-ame",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/conversations",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/conversations/self-introduction",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/search?q=sor",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/kanji/1",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/radicals/r001",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/everyday",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/verbs",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/mock",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/speaking",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/review",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/japan",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/kanji-notification",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/backup",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/explore",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji/1",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji/160",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji/practice",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/radicals",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/radicals/r001",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/hiragana",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/katakana",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N1",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/practice",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/exam-practice",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/mock",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/everyday",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/verbs",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/grammar",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/grammar/g-001",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/roadmap",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/roadmap/smartphones-apps",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/speaking",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/review",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/flashcards",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/writing-practice",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/write",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/japan",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/dashboard",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/streak",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/practice",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/games",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/favorites",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/mistakes",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/backup",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/sync",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/privacy",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/about",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/feedback",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/data-controls",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji-notification",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/placement",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/stories",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/stories/neko-to-ame",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/conversations",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/conversations/self-introduction",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/search?q=sor",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/kanji/1",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/radicals/r001",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/everyday",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/verbs",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/mock",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/speaking",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/review",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/japan",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/kanji-notification",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/backup",
+      "width": 390,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/explore",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji/1",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji/160",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji/practice",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/radicals",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/radicals/r001",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/hiragana",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/katakana",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N1",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/practice",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/exam-practice",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/mock",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/everyday",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/verbs",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/grammar",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/grammar/g-001",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/roadmap",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/roadmap/smartphones-apps",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/speaking",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/review",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/flashcards",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/writing-practice",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/write",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/japan",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/dashboard",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/streak",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/practice",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/games",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/favorites",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/mistakes",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/backup",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/sync",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/privacy",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/about",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/feedback",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/data-controls",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji-notification",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/placement",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/stories",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/stories/neko-to-ame",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/conversations",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/conversations/self-introduction",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/search?q=sor",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/kanji/1",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/radicals/r001",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/everyday",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/verbs",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/mock",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/speaking",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/review",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/japan",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/kanji-notification",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/backup",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/explore",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji/1",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji/160",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji/practice",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/radicals",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/radicals/r001",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/hiragana",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/katakana",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N1",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/practice",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/exam-practice",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/mock",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/everyday",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/verbs",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/grammar",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/grammar/g-001",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/roadmap",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/roadmap/smartphones-apps",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/speaking",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/review",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/flashcards",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/writing-practice",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/write",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/japan",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/dashboard",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/streak",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/practice",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/games",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/favorites",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/mistakes",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/backup",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/sync",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/privacy",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/about",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/feedback",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/data-controls",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji-notification",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/placement",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/stories",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/stories/neko-to-ame",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/conversations",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/conversations/self-introduction",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/search?q=sor",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/kanji/1",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/radicals/r001",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/everyday",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/verbs",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/mock",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/speaking",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/review",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/japan",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/kanji-notification",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/backup",
+      "width": 390,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": true,
+      "pass": true
+    },
+    {
+      "route": "/",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/explore",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji/1",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji/160",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji/practice",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/radicals",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/radicals/r001",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/hiragana",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/katakana",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N1",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/practice",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/exam-practice",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/mock",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/everyday",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/verbs",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/grammar",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/grammar/g-001",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/roadmap",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/roadmap/smartphones-apps",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/speaking",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/review",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/flashcards",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/writing-practice",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/write",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/japan",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/dashboard",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/streak",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/practice",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/games",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/favorites",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/mistakes",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/backup",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/sync",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/privacy",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/about",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/feedback",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/data-controls",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji-notification",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/placement",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/stories",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/stories/neko-to-ame",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/conversations",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/conversations/self-introduction",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/search?q=sor",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/explore",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji/1",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji/160",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji/practice",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/radicals",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/radicals/r001",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/hiragana",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/katakana",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N1",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/practice",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/exam-practice",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/mock",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/everyday",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/verbs",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/grammar",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/grammar/g-001",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/roadmap",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/roadmap/smartphones-apps",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/speaking",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/review",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/flashcards",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/writing-practice",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/write",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/japan",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/dashboard",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/streak",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/practice",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/games",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/favorites",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/mistakes",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/backup",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/sync",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/privacy",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/about",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/feedback",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/data-controls",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji-notification",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/placement",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/stories",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/stories/neko-to-ame",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/conversations",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/conversations/self-introduction",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/search?q=sor",
+      "width": 1180,
+      "theme": "sakura-journey",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/explore",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji/1",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji/160",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji/practice",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/radicals",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/radicals/r001",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/hiragana",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/katakana",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N1",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/practice",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/exam-practice",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/mock",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/everyday",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/verbs",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/grammar",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/grammar/g-001",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/roadmap",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/roadmap/smartphones-apps",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/speaking",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/review",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/flashcards",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/writing-practice",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/write",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/japan",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/dashboard",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/streak",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/practice",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/games",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/favorites",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/mistakes",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/backup",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/sync",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/privacy",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/about",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/feedback",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/data-controls",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji-notification",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/placement",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/stories",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/stories/neko-to-ame",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/conversations",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/conversations/self-introduction",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/search?q=sor",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "on",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/explore",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji/1",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji/160",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji/practice",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/radicals",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/radicals/r001",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/hiragana",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/katakana",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N1",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/practice",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/exam-practice",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/jlpt/N5/mock",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/everyday",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/verbs",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/grammar",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/grammar/g-001",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/roadmap",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/roadmap/smartphones-apps",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/speaking",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/review",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/flashcards",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/writing-practice",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/write",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/japan",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/dashboard",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/streak",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/practice",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/games",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/favorites",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/mistakes",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/backup",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/sync",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/privacy",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/about",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/feedback",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/data-controls",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/kanji-notification",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/placement",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/stories",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/stories/neko-to-ame",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/conversations",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/conversations/self-introduction",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    },
+    {
+      "route": "/search?q=sor",
+      "width": 1180,
+      "theme": "kyoto-night",
+      "glass": "off",
+      "largeText": false,
+      "pass": true
+    }
+  ],
+  "failures": [],
+  "errors": [],
+  "scope": "Desktop Chromium, including both glass states, stored toggle and enlarged CSS text. Android WebView/device QA pending."
+}

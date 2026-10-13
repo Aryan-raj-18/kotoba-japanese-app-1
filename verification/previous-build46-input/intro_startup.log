@@ -1,0 +1,7 @@
+PASS fast server uses only the remaining three-second intro
+PASS server handoff continues the existing animation timeline
+PASS long startup or native skip cannot replay the intro
+PASS Skip dismisses the web remainder and emits completion only once
+PASS browser or unavailable native timing still opens normally
+PASS returning Home in the session does not replay opening
+All 6 intro handoff interaction checks passed.

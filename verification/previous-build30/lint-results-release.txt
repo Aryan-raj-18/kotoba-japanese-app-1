@@ -1,0 +1,198 @@
+/workspace/scratch/111d4db36787/finish-work/kotoba-1.0.0/android/app/src/main/AndroidManifest.xml:48: Warning: Redundant label can be removed [RedundantLabel]
+            android:label="@string/app_name">
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "RedundantLabel":
+   When an activity does not have a label attribute, it will use the one from
+   the application tag. Since the application has already specified the same
+   label, the label on this activity can be omitted.
+
+/workspace/scratch/111d4db36787/finish-work/kotoba-1.0.0/android/app/src/main/java/com/kotoba/app/MainActivity.kt:231: Warning: Using setJavaScriptEnabled can introduce XSS vulnerabilities into your application, review carefully [SetJavaScriptEnabled]
+        webView.settings.javaScriptEnabled = true
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "SetJavaScriptEnabled":
+   Your code should not invoke setJavaScriptEnabled if you are not sure that
+   your app really requires JavaScript support.
+
+   https://goo.gle/SetJavaScriptEnabled
+   https://developer.android.com/training/articles/security-tips
+
+/workspace/scratch/111d4db36787/finish-work/kotoba-1.0.0/android/app/src/main/res/layout/activity_main.xml:2: Warning: This <FrameLayout> can be replaced with a <merge> tag [MergeRootFrame]
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+^
+
+   Explanation for issues of type "MergeRootFrame":
+   If a <FrameLayout> is the root of a layout and does not provide background
+   or padding etc, it can often be replaced with a <merge> tag which is
+   slightly more efficient. Note that this depends on context, so make sure
+   you understand how the <merge> tag works before proceeding.
+
+   https://android-developers.googleblog.com/2009/03/android-layout-tricks-3-optimize-by.html
+
+/workspace/scratch/111d4db36787/finish-work/kotoba-1.0.0/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png: Warning: The resource R.mipmap.ic_launcher_round appears to be unused [UnusedResources]
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests =true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests =true.
+   ,
+
+   Available options:
+
+   **skip-libraries** (default is true):
+   Whether the unused resource check should skip reporting unused resources in libraries.
+
+   Many libraries will declare resources that are part of the library surface; other modules depending on the library will also reference the resources. To avoid reporting all these resources as unused (in the context of a library), the unused resource check normally skips reporting unused resources in libraries. Instead, run the unused resource check on the consuming app module (along with `checkDependencies=true`).
+
+   However, there are cases where you want to check that all the resources declared in a library are used; in that case, you can disable the skip option.
+
+   To configure this option, use a `lint.xml` file with an <option> like this:
+
+   ```xml
+   <lint>
+       <issue id="UnusedResources">
+           <option name="skip-libraries" value="true" />
+       </issue>
+   </lint>
+   ```
+
+/workspace/scratch/111d4db36787/finish-work/kotoba-1.0.0/android/app/src/main/res/mipmap-hdpi/ic_launcher.png: Warning: Launcher icons should not fill every pixel of their square region; see the design guide for details [IconLauncherShape]
+/workspace/scratch/111d4db36787/finish-work/kotoba-1.0.0/android/app/src/main/res/mipmap-mdpi/ic_launcher.png: Warning: Launcher icons should not fill every pixel of their square region; see the design guide for details [IconLauncherShape]
+/workspace/scratch/111d4db36787/finish-work/kotoba-1.0.0/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png: Warning: Launcher icons should not fill every pixel of their square region; see the design guide for details [IconLauncherShape]
+/workspace/scratch/111d4db36787/finish-work/kotoba-1.0.0/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png: Warning: Launcher icons should not fill every pixel of their square region; see the design guide for details [IconLauncherShape]
+/workspace/scratch/111d4db36787/finish-work/kotoba-1.0.0/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png: Warning: Launcher icons should not fill every pixel of their square region; see the design guide for details [IconLauncherShape]
+/workspace/scratch/111d4db36787/finish-work/kotoba-1.0.0/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png: Warning: Launcher icon used as round icon did not have a circular shape [IconLauncherShape]
+/workspace/scratch/111d4db36787/finish-work/kotoba-1.0.0/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png: Warning: Launcher icon used as round icon did not have a circular shape [IconLauncherShape]
+/workspace/scratch/111d4db36787/finish-work/kotoba-1.0.0/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png: Warning: Launcher icon used as round icon did not have a circular shape [IconLauncherShape]
+/workspace/scratch/111d4db36787/finish-work/kotoba-1.0.0/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png: Warning: Launcher icon used as round icon did not have a circular shape [IconLauncherShape]
+/workspace/scratch/111d4db36787/finish-work/kotoba-1.0.0/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png: Warning: Launcher icon used as round icon did not have a circular shape [IconLauncherShape]
+
+   Explanation for issues of type "IconLauncherShape":
+   According to the Android Design Guide
+   (https://d.android.com/r/studio-ui/designer/material/iconography) your
+   launcher icons should "use a distinct silhouette", a "three-dimensional,
+   front view, with a slight perspective as if viewed from above, so that
+   users perceive some depth."
+
+   The unique silhouette implies that your launcher icon should not be a
+   filled square.
+
+/workspace/scratch/111d4db36787/finish-work/kotoba-1.0.0/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png: Warning: The following unrelated icon files have identical contents: ic_launcher.png, ic_launcher_round.png [IconDuplicates]
+/workspace/scratch/111d4db36787/finish-work/kotoba-1.0.0/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png: Warning: The following unrelated icon files have identical contents: ic_launcher.png, ic_launcher_round.png [IconDuplicates]
+/workspace/scratch/111d4db36787/finish-work/kotoba-1.0.0/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png: Warning: The following unrelated icon files have identical contents: ic_launcher.png, ic_launcher_round.png [IconDuplicates]
+/workspace/scratch/111d4db36787/finish-work/kotoba-1.0.0/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png: Warning: The following unrelated icon files have identical contents: ic_launcher.png, ic_launcher_round.png [IconDuplicates]
+/workspace/scratch/111d4db36787/finish-work/kotoba-1.0.0/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png: Warning: The following unrelated icon files have identical contents: ic_launcher.png, ic_launcher_round.png [IconDuplicates]
+
+   Explanation for issues of type "IconDuplicates":
+   If an icon is repeated under different names, you can consolidate and just
+   use one of the icons and delete the others to make your application
+   smaller. However, duplicated icons usually are not intentional and can
+   sometimes point to icons that were accidentally overwritten or accidentally
+   not updated.
+
+/workspace/scratch/111d4db36787/finish-work/kotoba-1.0.0/android/app/src/main/java/com/kotoba/app/KanjiNotification.kt:59: Warning: Use the KTX extension function SharedPreferences.edit instead? [UseKtx]
+        prefs(c).edit().clear().apply(); cancelAlarm(c)
+        ~~~~~~~~~~~~~~~
+/workspace/scratch/111d4db36787/finish-work/kotoba-1.0.0/android/app/src/main/java/com/kotoba/app/KanjiNotification.kt:94: Warning: Use the KTX extension function SharedPreferences.edit instead? [UseKtx]
+        prefs(c).edit().putString("config", json(valid).toString()).putInt("index", 0)
+        ~~~~~~~~~~~~~~~
+/workspace/scratch/111d4db36787/finish-work/kotoba-1.0.0/android/app/src/main/java/com/kotoba/app/KanjiNotification.kt:101: Warning: Use the KTX extension function SharedPreferences.edit instead? [UseKtx]
+        prefs(c).edit().putBoolean("enabled", false).putLong("deadline", 0).apply()
+        ~~~~~~~~~~~~~~~
+/workspace/scratch/111d4db36787/finish-work/kotoba-1.0.0/android/app/src/main/java/com/kotoba/app/KanjiNotification.kt:112: Warning: Use the KTX extension function SharedPreferences.edit instead? [UseKtx]
+        prefs(c).edit().putInt("index", cfg.nextIndex(prefs(c).getInt("index", 0), pool.size))
+        ~~~~~~~~~~~~~~~
+/workspace/scratch/111d4db36787/finish-work/kotoba-1.0.0/android/app/src/main/java/com/kotoba/app/KanjiNotification.kt:133: Warning: Use the KTX function createBitmap instead? [UseKtx]
+        val image = Bitmap.createBitmap(size, size, Bitmap.Config.ARGB_8888)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/workspace/scratch/111d4db36787/finish-work/kotoba-1.0.0/android/app/src/main/java/com/kotoba/app/KanjiNotification.kt:206: Warning: Use the KTX extension function String.toUri instead? [UseKtx]
+                else Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS, android.net.Uri.parse("package:" + activity.packageName))
+                                                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/workspace/scratch/111d4db36787/finish-work/kotoba-1.0.0/android/app/src/main/java/com/kotoba/app/MainActivity.kt:241: Warning: Use the KTX extension function String.toColorInt instead? [UseKtx]
+        webView.setBackgroundColor(Color.parseColor(displayBackground))
+                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/workspace/scratch/111d4db36787/finish-work/kotoba-1.0.0/android/app/src/main/java/com/kotoba/app/MainActivity.kt:437: Warning: Use the KTX extension function String.toUri instead? [UseKtx]
+            return handleExternal(Uri.parse(url))
+                                  ~~~~~~~~~~~~~~
+/workspace/scratch/111d4db36787/finish-work/kotoba-1.0.0/android/app/src/main/java/com/kotoba/app/MainActivity.kt:789: Warning: Use the KTX extension function String.toColorInt instead? [UseKtx]
+        val color = Color.parseColor(displayBackground)
+                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/workspace/scratch/111d4db36787/finish-work/kotoba-1.0.0/android/app/src/main/java/com/kotoba/app/MainActivity.kt:806: Warning: Use the KTX extension function SharedPreferences.edit instead? [UseKtx]
+                getSharedPreferences("kotoba-display", MODE_PRIVATE).edit().putBoolean("hideStatusBar", hidden).apply()
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/workspace/scratch/111d4db36787/finish-work/kotoba-1.0.0/android/app/src/main/java/com/kotoba/app/MainActivity.kt:815: Warning: Use the KTX extension function SharedPreferences.edit instead? [UseKtx]
+                getSharedPreferences("kotoba-display", MODE_PRIVATE).edit().putString("background", background).putBoolean("dark", dark).apply()
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/workspace/scratch/111d4db36787/finish-work/kotoba-1.0.0/android/app/src/main/java/com/kotoba/app/Reminder.kt:61: Warning: Use the KTX extension function SharedPreferences.edit instead? [UseKtx]
+        prefs(context).edit()
+        ~~~~~~~~~~~~~~~~~~~~~
+/workspace/scratch/111d4db36787/finish-work/kotoba-1.0.0/android/app/src/main/java/com/kotoba/app/Reminder.kt:80: Warning: Use the KTX extension function SharedPreferences.edit instead? [UseKtx]
+        prefs(context).edit().putBoolean(KEY_ENABLED, false).apply()
+        ~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UseKtx":
+   The Android KTX libraries decorates the Android platform SDK as well as
+   various libraries with more convenient extension functions available from
+   Kotlin, allowing you to use default parameters, named parameters, and
+   more.
+
+   Available options:
+
+   **remove-defaults** (default is true):
+   Whether to skip arguments that match the defaults provided by the extension.
+
+   Extensions often provide default values for some of the parameters. For example:
+   ```kotlin
+   fun Path.readLines(charset: Charset = Charsets.UTF_8): List<String> { return Files.readAllLines(this, charset) }
+   ```
+   This lint check will by default automatically omit parameters that match the default, so if your code was calling
+
+   ```kotlin
+   Files.readAllLines(file, Charset.UTF_8)
+   ```
+   lint would replace this with
+   ```kotlin
+   file.readLines()
+   ```
+   rather than
+
+   ```kotlin
+   file.readLines(Charset.UTF_8
+   ```
+   You can turn this behavior off using this option.
+
+   To configure this option, use a `lint.xml` file with an <option> like this:
+
+   ```xml
+   <lint>
+       <issue id="UseKtx">
+           <option name="remove-defaults" value="true" />
+       </issue>
+   </lint>
+   ```
+
+   **require-present** (default is true):
+   Whether to only offer extensions already available.
+
+   This option lets you only have lint suggest extension replacements if those extensions are already available on the class path (in other words, you're already depending on the library containing the extension method.)
+
+   To configure this option, use a `lint.xml` file with an <option> like this:
+
+   ```xml
+   <lint>
+       <issue id="UseKtx">
+           <option name="require-present" value="true" />
+       </issue>
+   </lint>
+   ```
+
+0 errors, 32 warnings

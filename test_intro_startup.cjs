@@ -1,0 +1,13 @@
+// DOM timing checks; native cold-start behavior still requires a phone.
+const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),{JSDOM}=require('jsdom');
+const assets=process.env.KOTOBA_TEST_PACKAGE?path.join(process.env.KOTOBA_TEST_PACKAGE,'kotoba_app'):__dirname;
+const script=fs.readFileSync(path.join(assets,'static/js/intro.js'),'utf8');let count=0;
+function setup(elapsed,seen=false){const dom=new JSDOM('<body><div id="kotoba-intro"><button id="kotoba-intro-skip">Skip</button></div></body>',{url:'http://localhost',runScripts:'outside-only'}),w=dom.window,timers=[],times=[];w.setTimeout=(f,ms)=>{timers.push({f,ms});return timers.length;};w.KotobaStartupNative={introElapsedMs:()=>{if(elapsed==='error')throw Error('Unavailable');return elapsed;}};if(seen)w.sessionStorage.setItem('kotoba:intro:session:v1','1');w.document.getElementById('kotoba-intro').getAnimations=()=>[{set currentTime(t){times.push(t);}}];let events=0;w.addEventListener('kotoba:intro:done',()=>events++);w.eval(script);return{dom,w,timers,times,get events(){return events;}};}
+function check(name,f){f();count++;console.log('PASS '+name);}
+check('fast server uses only the remaining three-second intro',()=>{const t=setup(0);assert.equal(t.timers[0].ms,2640);assert(t.w.document.body.classList.contains('intro-open'));t.w.close();});
+check('server handoff continues the existing animation timeline',()=>{const t=setup(1200);assert.equal(t.timers[0].ms,1440);assert.deepEqual(t.times,[1200]);t.timers[0].f();assert.equal(t.timers[1].ms,360);t.timers[1].f();assert.equal(t.events,1);assert(!t.w.document.getElementById('kotoba-intro'));t.w.close();});
+check('long startup or native skip cannot replay the intro',()=>{for(const ms of[3000,16000]){const t=setup(ms);assert(!t.w.document.getElementById('kotoba-intro'));assert.equal(t.timers[0].ms,0);t.timers[0].f();assert.equal(t.events,1);assert.equal(t.w.sessionStorage.getItem('kotoba:intro:session:v1'),'1');t.w.close();}});
+check('Skip dismisses the web remainder and emits completion only once',()=>{const t=setup(100);t.w.document.getElementById('kotoba-intro-skip').click();t.timers[1].f();t.timers[0].f();assert.equal(t.events,1);t.w.close();});
+check('browser or unavailable native timing still opens normally',()=>{const t=setup('error');assert.equal(t.timers[0].ms,2640);t.w.close();});
+check('returning Home in the session does not replay opening',()=>{const t=setup(0,true);assert(!t.w.document.getElementById('kotoba-intro'));assert.equal(t.timers[0].ms,0);t.w.close();});
+console.log('All '+count+' intro handoff interaction checks passed.');

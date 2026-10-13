@@ -1,0 +1,28 @@
+PASS /practice protects unfinished rounds and returns results to setup
+PASS /kanji/practice protects unfinished rounds and returns results to setup
+PASS /flashcards protects unfinished rounds and returns results to setup
+PASS /jlpt/N5/practice protects unfinished rounds and returns results to setup
+PASS /jlpt/N5/exam-practice protects unfinished rounds and returns results to setup
+PASS /jlpt/N5/mock protects unfinished rounds and returns results to setup
+PASS /review protects unfinished rounds and returns results to setup
+PASS /speaking protects unfinished rounds and returns results to setup
+PASS /placement protects unfinished rounds and returns results to setup
+PASS Back renders the previous real practice word
+PASS Back preserves the timed mock selected answer
+PASS game Back protects an active game
+PASS first roadmap card returns to Roadmap
+PASS /hiragana Back closes its word popup before page navigation
+PASS /jlpt/N5 Back closes its word popup before page navigation
+PASS /everyday Back closes its word popup before page navigation
+PASS /verbs Back closes its word popup before page navigation
+PASS section link confirms before leaving an unfinished round
+PASS ordinary Back uses actual page history
+PASS Back closes the expanded map before navigation
+PASS anime-dawn uses its own card palette for practice and letter boxes
+PASS neon-tokyo uses its own card palette for practice and letter boxes
+PASS kyoto-paper uses its own card palette for practice and letter boxes
+PASS bamboo-zen uses its own card palette for practice and letter boxes
+PASS matsuri-lantern uses its own card palette for practice and letter boxes
+PASS fuji-mist uses its own card palette for practice and letter boxes
+PASS all former undefined theme variables have been replaced
+All 27 navigation/theme interaction checks passed.

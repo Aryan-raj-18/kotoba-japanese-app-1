@@ -1,0 +1,33 @@
+// DOM integration proves overlay ownership/state. Touch physics need phone QA.
+'use strict';
+const {JSDOM}=require('jsdom'),{spawnSync}=require('node:child_process');
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+const packageRoot=process.env.KOTOBA_TEST_PACKAGE,assetRoot=packageRoot?path.join(packageRoot,'kotoba_app'):__dirname;
+const code=(packageRoot?`import sys;sys.path.insert(0,${JSON.stringify(packageRoot)});from kotoba_app.app import app;`:'from app import app;')+'print(app.test_client().get("/japan").data.decode())';
+const rendered=spawnSync(process.env.KOTOBA_TEST_PYTHON||'python',['-c',code],{cwd:__dirname,encoding:'utf8',maxBuffer:4*1024*1024});assert.equal(rendered.status,0,rendered.stderr);
+const dom=new JSDOM(rendered.stdout,{url:'http://localhost/japan',runScripts:'outside-only',pretendToBeVisual:true});
+const w=dom.window,d=w.document,root=d.documentElement,restores=[],errors=[];let checks=0;
+const read=name=>fs.readFileSync(path.join(assetRoot,'static/js',name),'utf8'),settle=()=>new Promise(r=>setImmediate(r));
+const mqCallbacks=[];w.matchMedia=q=>({matches:q.includes('max-width'),addEventListener:(event,fn)=>mqCallbacks.push(fn)});
+w.scrollX=0;w.scrollY=430;w.scrollTo=(x,y)=>{restores.push([x,y]);w.scrollX=x;w.scrollY=y;};w.Element.prototype.scrollIntoView=function(){};
+w.fetch=async()=>({ok:true,json:async()=>({visited_ids:[],visited_count:0,first_time:false})});w.addEventListener('error',e=>errors.push(e.message));
+w.DOMPoint=class {constructor(x,y){this.x=x;this.y=y;}matrixTransform(m){return new w.DOMPoint(this.x*m.a+this.y*(m.c||0)+m.e,this.x*(m.b||0)+this.y*m.d+m.f);}};const map=d.getElementById('japan-map');map.createSVGPoint=()=>new w.DOMPoint(0,0);map.getScreenCTM=()=>{const [x,y,vw]=map.getAttribute('viewBox').split(/\s+/).map(Number),scale=760/vw;return {a:scale,d:scale,e:-x*scale,f:-y*scale,inverse:()=>({a:1/scale,d:1/scale,e:x,f:y})};};w.ResizeObserver=class{observe(){}};
+function check(name,fn){fn();checks++;console.log('PASS '+name);}
+function click(id){d.getElementById(id).click();}
+(async()=>{
+ await settle();const config=[...d.querySelectorAll('script:not([src])')].find(e=>e.textContent.includes('window.JAPAN_EXPLORER_DATA'));w.eval(config.textContent);
+ for(const name of ['theme-catalog.js','scroll-lock.js','theme-icons.js','theme.js','search-match.js','japan_geography.js','japan_map.js','japan_explorer.js','navigation.js'])w.eval(read(name));d.dispatchEvent(new w.Event('DOMContentLoaded'));await settle();
+ check('hidden Japan drawer leaves ordinary scrolling enabled',()=>{assert(!root.classList.contains('kotoba-scroll-locked'));assert.equal(restores.length,0);});
+ d.querySelector('.japan-place-card').click();await settle();
+ check('real place selection locks the background at its current position',()=>{assert(d.getElementById('japan-drawer').classList.contains('open'));assert(root.classList.contains('kotoba-scroll-locked'));assert.equal(root.style.getPropertyValue('--kotoba-scroll-top'),'-430px');});
+ d.getElementById('japan-drawer').scrollTop=900;await settle();check('scrolling place details keeps the underlying position',()=>{assert.equal(w.scrollY,430);assert.equal(restores.length,0);assert(root.classList.contains('kotoba-scroll-locked'));});
+ click('settings-btn');await settle();click('settings-btn');await settle();check('closing nested settings keeps the place background locked',()=>{assert(root.classList.contains('kotoba-scroll-locked'));assert.equal(restores.length,0);});
+ w.KotobaNavigation.handleBack();await settle();check('Back closes the real drawer and restores the map position once',()=>{assert(!d.getElementById('japan-drawer').classList.contains('open'));assert(!root.classList.contains('kotoba-scroll-locked'));assert.deepEqual(restores,[[0,430]]);});
+ click('japan-open-passport');await settle();const before=restores.length;d.querySelector('[data-passport-place]').click();await settle();check('passport-to-place transfer keeps one background lock',()=>{assert(root.classList.contains('kotoba-scroll-locked'));assert(d.getElementById('japan-drawer').classList.contains('open'));assert.equal(restores.length,before);});click('japan-drawer-close');await settle();
+ w.scrollY=750;click('settings-btn');await settle();check('settings sheet also freezes its background',()=>{assert(root.classList.contains('kotoba-scroll-locked'));assert.equal(root.style.getPropertyValue('--kotoba-scroll-top'),'-750px');});
+ d.dispatchEvent(new w.KeyboardEvent('keydown',{key:'Escape',bubbles:true}));await settle();check('Escape closes settings and restores its own scroll position',()=>{assert(!root.classList.contains('kotoba-scroll-locked'));assert.deepEqual(restores.at(-1),[0,750]);});
+ const overlay=d.createElement('div');overlay.className='modal-overlay';d.body.append(overlay);await settle();const nested=d.createElement('div');nested.className='practice-exit-overlay';d.body.append(nested);await settle();overlay.hidden=true;await settle();check('nested learning dialogs cannot unlock the page prematurely',()=>{assert(root.classList.contains('kotoba-scroll-locked'));});nested.remove();await settle();check('last dialog removal unlocks and clears scroll state',()=>{assert(!root.classList.contains('kotoba-scroll-locked'));assert.equal(root.style.getPropertyValue('--kotoba-scroll-top'),'');});
+ const css=fs.readFileSync(path.join(assetRoot,'static/css/style.css'),'utf8');check('WebView fix freezes the body and contains sheet scroll at both edges',()=>{assert.match(css,/html\.kotoba-scroll-locked body\s*\{[^}]*position:\s*fixed/);assert.match(css,/html\.kotoba-scroll-locked body\s*\{[^}]*overflow:\s*hidden\s*!important/);assert.match(css,/\.japan-drawer,\.japan-passport-modal\s*\{\s*overscroll-behavior:\s*contain/);assert.equal(errors.length,0);});
+ const wrap=d.getElementById('japan-map-wrap');click('japan-map-expand');await settle();check('expanded map shares the background lock',()=>assert(root.classList.contains('kotoba-scroll-locked')));w.KotobaNavigation.handleBack();await settle();check('Back closes expanded map and releases the last lock',()=>{assert(!wrap.classList.contains('is-expanded'));assert(!root.classList.contains('kotoba-scroll-locked'));});
+ w.dispatchEvent(new w.Event('pagehide'));w.dispatchEvent(new w.Event('pageshow'));overlay.hidden=false;await settle();check('returning from page cache resumes scroll protection',()=>assert(root.classList.contains('kotoba-scroll-locked')));overlay.hidden=true;await settle();w.dispatchEvent(new w.Event('pagehide'));await settle();w.close();console.log('All '+checks+' overlay scroll integration checks passed.');
+})().catch(e=>{console.error(e);w.close();process.exitCode=1;});

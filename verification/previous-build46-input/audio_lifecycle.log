@@ -1,0 +1,14 @@
+PASS opening speaking practice does not play words automatically
+PASS Listen explicitly speaks the current word
+PASS native mic request stops TTS before capture
+PASS Listen cancels an active microphone and re-enables retry
+PASS a cancelled microphone result cannot award progress
+PASS leaving the page stops TTS and recording playback
+PASS backgrounding the page stops playback and capture
+PASS Back stops audio before the exit dialog
+PASS closing a speaking popup stops its utterance
+PASS removing the current speaking section stops its utterance
+PASS voice search stops lesson playback before opening its microphone
+PASS playing a word cancels voice-search recognition
+PASS browser mic also cancels speech before capture
+All 13 audio lifecycle interaction checks passed.

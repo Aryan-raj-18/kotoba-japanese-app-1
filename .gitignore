@@ -1,0 +1,39 @@
+# Android / Gradle build output - generated fresh by CI every run,
+# never commit these.
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/gradlew
+android/gradlew.bat
+android/gradle/
+
+# Python
+__pycache__/
+*.pyc
+
+# Runtime data this app writes to itself
+data/streak.json
+android/app/src/main/python/kotoba_app/data/streak.json
+data/feedback.json
+android/app/src/main/python/kotoba_app/data/feedback.json
+
+# Private signing material and all installation-specific data
+*.jks
+*.keystore
+android/upload-signing.properties
+data/secret_key.txt
+data/users.json
+data/user_*.json
+data/learner_state.json
+data/progress.json
+data/roadmap_progress.json
+data/roadmap_start.json
+data/before_restore_*
+android/app/src/main/python/kotoba_app/data/secret_key.txt
+android/app/src/main/python/kotoba_app/data/users.json
+android/app/src/main/python/kotoba_app/data/user_*.json
+android/app/src/main/python/kotoba_app/data/learner_state.json
+
+data/device_learner.json
+android/app/src/main/python/kotoba_app/data/device_learner.json

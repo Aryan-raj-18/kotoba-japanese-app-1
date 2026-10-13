@@ -1,0 +1,13 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /kotobaUsers/{uid}/profiles/{profile} {
+      allow read, delete: if request.auth != null && request.auth.uid == uid;
+      allow create, update: if request.auth != null && request.auth.uid == uid
+        && profile.matches('device|legacy-[0-9]+')
+        && request.resource.data.keys().hasOnly(['payload'])
+        && request.resource.data.payload is string
+        && request.resource.data.payload.size() <= 750000;
+    }
+  }
+}

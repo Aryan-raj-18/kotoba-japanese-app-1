@@ -1,0 +1,12 @@
+PASS offline users see local saving and honest unavailable-cloud status
+PASS airplane-mode indicator does not block local API calls
+PASS enabling cloud sync sends consent and CSRF to the local server
+PASS reconnection refreshes the status without remote browser requests
+PASS conflicting progress stays untouched when replacement is cancelled
+PASS explicit conflict choice carries confirmation and selected copy
+PASS downloaded preferences are applied once and exclude private settings
+PASS an old cloud settings notification cannot overwrite a later local theme
+PASS cloud deletion requires explicit confirmation and keeps local data
+PASS cancelled private-key export exposes no credentials
+PASS connecting a device requires a selected private cloud key
+All 11 cloud/offline DOM interaction checks passed.

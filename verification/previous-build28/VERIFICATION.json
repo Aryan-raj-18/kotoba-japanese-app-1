@@ -1,0 +1,270 @@
+{
+  "app_version": "1.0.0",
+  "android_version_code": 28,
+  "target_sdk": 36,
+  "min_sdk": 24,
+  "python": "3.13",
+  "chaquopy": "17.0.0",
+  "ABIs": [
+    "arm64-v8a",
+    "x86_64"
+  ],
+  "checks": {
+    "packaged_route_requests": 6971,
+    "search_tests": 16,
+    "safety_regressions": 15,
+    "voice_search_tests": 8,
+    "map_DOM_checks": 20,
+    "speaking_DOM_checks": 2,
+    "android_release_lint_errors": 0,
+    "android_release_lint_warnings": 26,
+    "bundletool_validate": "passed",
+    "apk_signatures": "verified",
+    "aab_signature": "verified self-signed upload certificate",
+    "APK_zip_alignment_16KB": "passed",
+    "native_ELF_load_alignment_minimum": 16384,
+    "bundle_native_library_alignment": "PAGE_ALIGNMENT_16K",
+    "packaged_asset_matches": 293,
+    "search_cache_fingerprint_matches": true,
+    "compiled_AAB_version_and_backup_metadata": "1.0.0",
+    "preserved_upload_certificate": "verified SHA-256 C603358EF51A0F7A9C9C21592880B63700E872533B3C499B033A2D8D22AD0976",
+    "restored_content_regressions": 5,
+    "Python_source_matches": "all packaged modules match final Android source",
+    "login_signup_absent_in_AAB": true,
+    "legacy_study_data_migration": "passed",
+    "legacy_selection_and_deletion_preserve_other_data": "passed",
+    "JLPT_mock_DOM_checks": 8,
+    "navigation_theme_DOM_checks": 28,
+    "overlay_scroll_DOM_checks": 14,
+    "numbers_startup_regressions": 13,
+    "original_course_JSON_unchanged": 21,
+    "APK_AAB_python_payload_identical": true,
+    "kanji_themes_display_DOM_checks": 25,
+    "cloud_sync_regressions": 28,
+    "cloud_offline_DOM_checks": 11,
+    "audio_lifecycle_DOM_checks": 13,
+    "intro_handoff_DOM_checks": 6,
+    "catalog_batch_DOM_checks": 10,
+    "browser_cache_routing_checks": 3,
+    "asset_loading_checks": 3,
+    "journey_home_DOM_checks": 6,
+    "regression_checks_total": 234,
+    "desktop_browser_layout_checks": 75,
+    "desktop_browser_interactions": 10
+  },
+  "device_QA": "Pending physical Android / Play internal-track testing: repeated launch/resume/recreation, upgrade, gesture Back, status bar/insets, native font scaling, TTS/mic transitions and permissions, reminders, network toggles and 16 KB runtime. Desktop Chromium passed 75 layout checks and 10 interactions; no connected Android device or live Firebase test was run.",
+  "remaining_release_work": [
+    "verify distribution permissions for restored reference-derived learning text/practice material",
+    "host privacy policy at public HTTPS URL",
+    "complete Play Console forms and listing assets",
+    "verify upload key if package already exists in Play Console",
+    "real-device, upgrade and 16KB-runtime tests",
+    "submit/approve production rollout",
+    "configure and verify Firebase backend, rules, cross-device and network-toggle behavior before activating cloud sync"
+  ],
+  "content": {
+    "jlpt_kanji": 1991,
+    "jlpt_kanji_by_level": {
+      "N5": 103,
+      "N4": 174,
+      "N3": 393,
+      "N2": 410,
+      "N1": 911
+    },
+    "kanji_catalog_entries": 2103,
+    "rich_kanji_entries": 408,
+    "grammar_entries": 229,
+    "ranked_vocabulary_entries": 1999,
+    "picture_dictionary_entries": 582,
+    "practice_questions_by_level": {
+      "N5": 180,
+      "N4": 60,
+      "N3": 36,
+      "N2": 58,
+      "N1": 38
+    },
+    "stories": 23,
+    "dialogues": 54,
+    "roadmap_chapters": 91,
+    "advanced_units": "full lessons restored; all chapters accessible",
+    "search_entries": 21374,
+    "normalized_search_fields": 57456,
+    "original_recent_content": "4 original stories, 4 original dialogues and 47 unique original practice examples retained alongside the restored collection",
+    "restoration_manifest": "CONTENT_RESTORATION.json"
+  },
+  "artifacts": {
+    "release_apk": {
+      "sha256": "1f26b074a07f492075170cc2ff65d5847f6eac32304900917914c55e831c872f",
+      "bytes": 48322929
+    },
+    "release_aab": {
+      "sha256": "15e5df91167b1623d9e868c761ef780b041219c15d814725a85026fbf8870ede",
+      "bytes": 31949379
+    }
+  },
+  "release_identity": "Version 1.0.0 build 28: Sakura Journey default light appearance, Kyoto Night dark appearance and featured Water Glass; six previous palettes retained in More palettes. Compact landscape header, clear Continue learning card, actual progress, next chapter previews, consistent vector navigation icons and calm lesson surfaces. Fixed logo and classic serif/Mincho fonts, all content, offline saving and prior navigation/audio/loading fixes retained.",
+  "login": "No signup or login screen. Local saving works online/offline. Optional cloud sync uses an anonymous identity; a private cloud key connects the user's own devices once a backend is configured. Delivered backend is disabled.",
+  "current_test_logs": [
+    "verification/actual-bundle-smoke.log",
+    "verification/artifact-verification.json",
+    "verification/assets.log",
+    "verification/audio_lifecycle.log",
+    "verification/browser_cache.log",
+    "verification/build.log",
+    "verification/catalog_batches.log",
+    "verification/cloud.log",
+    "verification/cloud_sync.log",
+    "verification/content.log",
+    "verification/intro_startup.log",
+    "verification/japan_map.log",
+    "verification/jlpt_mock.log",
+    "verification/journey-home.log",
+    "verification/journey_home.log",
+    "verification/kanji_themes.log",
+    "verification/lint-results-release.txt",
+    "verification/navigation_theme.log",
+    "verification/numbers-startup.log",
+    "verification/packaged-source-smoke.log",
+    "verification/safety.log",
+    "verification/scroll_lock.log",
+    "verification/search.log",
+    "verification/speaking.log",
+    "verification/visual-checks.json",
+    "verification/voice_search.log"
+  ],
+  "check_provenance": {
+    "current_build": 28,
+    "regression_suites": [
+      {
+        "suite": "content",
+        "exit_code": 0,
+        "seconds": 0.43
+      },
+      {
+        "suite": "search",
+        "exit_code": 0,
+        "seconds": 15.92
+      },
+      {
+        "suite": "safety",
+        "exit_code": 0,
+        "seconds": 0.63
+      },
+      {
+        "suite": "numbers-startup",
+        "exit_code": 0,
+        "seconds": 3.87
+      },
+      {
+        "suite": "cloud",
+        "exit_code": 0,
+        "seconds": 0.41
+      },
+      {
+        "suite": "assets",
+        "exit_code": 0,
+        "seconds": 0.39
+      },
+      {
+        "suite": "navigation_theme",
+        "exit_code": 0,
+        "seconds": 1.67
+      },
+      {
+        "suite": "kanji_themes",
+        "exit_code": 0,
+        "seconds": 1.42
+      },
+      {
+        "suite": "journey_home",
+        "exit_code": 0,
+        "seconds": 0.71
+      },
+      {
+        "suite": "scroll_lock",
+        "exit_code": 0,
+        "seconds": 1.03
+      },
+      {
+        "suite": "jlpt_mock",
+        "exit_code": 0,
+        "seconds": 2.81
+      },
+      {
+        "suite": "cloud_sync",
+        "exit_code": 0,
+        "seconds": 0.85
+      },
+      {
+        "suite": "audio_lifecycle",
+        "exit_code": 0,
+        "seconds": 0.81
+      },
+      {
+        "suite": "intro_startup",
+        "exit_code": 0,
+        "seconds": 0.46
+      },
+      {
+        "suite": "catalog_batches",
+        "exit_code": 0,
+        "seconds": 2.83
+      },
+      {
+        "suite": "browser_cache",
+        "exit_code": 0,
+        "seconds": 0.06
+      },
+      {
+        "suite": "voice_search",
+        "exit_code": 0,
+        "seconds": 0.07
+      },
+      {
+        "suite": "japan_map",
+        "exit_code": 0,
+        "seconds": 1.97
+      },
+      {
+        "suite": "speaking",
+        "exit_code": 0,
+        "seconds": 0.68
+      },
+      {
+        "suite": "actual-bundle-smoke",
+        "exit_code": 0,
+        "seconds": 15.93
+      }
+    ],
+    "total_regression_checks": 234,
+    "compiled_bundle_GET_requests": 6971,
+    "compiled_bundle_POST_backup_and_repeated_server_smoke": "passed",
+    "package_integrity": "All compiled modules match final source; all static assets/templates match; APK/AAB payload identical; 21 public JSON files unchanged. Signatures, preserved upload certificate, bundletool and 16 KB ELF/ZIP/bundle alignment passed.",
+    "desktop_browser": {
+      "layout_checks": 75,
+      "interactions": [
+        "goal opens settings",
+        "goal updates and persists",
+        "three featured theme previews",
+        "nine palettes retained",
+        "palette survives navigation",
+        "stable brand",
+        "legacy selection remains visible",
+        "reduced motion honored",
+        "real browser N4 detail returns to selected level",
+        "timed mock selected answer remains visible"
+      ],
+      "page_errors": [],
+      "failed_responses": []
+    },
+    "note": "Python and DOM suites use extracted AAB where supported. Legacy content/voice/map/speaking suites use source, whose packaged bytes match. Desktop Chromium layouts do not replace real Android lifecycle, font scaling, touch, microphone or Play internal-track tests."
+  },
+  "cloud_sync": {
+    "implemented": true,
+    "backend_configured": false,
+    "live_Firebase_tests": "not run; requires publisher configuration and deployed rules",
+    "cross_device_identity": "separate private cloud key, never included in normal progress backups",
+    "local_saving": "works independently of cloud; no internet dependency",
+    "pending_activation": "CLOUD_SETUP.md"
+  }
+}

@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block title %}Kanji — Kotoba{% endblock %}
+
+{% block content %}
+<section class="page-head">
+  <p class="hero-eyebrow">learn &amp; memorize</p>
+  <h1>Kanji</h1>
+  <p class="hero-lede"><strong>{{ entries|length }}</strong> unique characters gathered from Kotoba's core kanji lessons, JLPT N5–N1 data, and single-kanji vocabulary taught elsewhere in the app. Use the level filters or search to focus the list.</p>
+  <a href="{{ url_for('kanji_practice') }}" class="btn-primary kanji-practice-cta">Practice kanji — 4-option quiz →</a>
+  <a href="{{ url_for('radicals_page') }}" class="btn-ghost kanji-practice-cta">Radicals — the building blocks →</a>
+  <a href="{{ url_for('jlpt_index') }}" class="btn-ghost kanji-practice-cta">JLPT exam study (N5–N1) →</a>
+
+  <div class="kanji-level-filters" id="kanji-level-filters" aria-label="Filter kanji by JLPT level">
+    <button type="button" class="{{ 'active' if active_level == 'all' else '' }}" data-kanji-level="all">All <span>{{ entries|length }}</span></button>
+    {% for lvl in ['N5','N4','N3','N2','N1'] %}
+    <button type="button" class="{{ 'active' if active_level == lvl else '' }}" data-kanji-level="{{ lvl }}">{{ lvl }} <span>{{ level_counts[lvl] }}</span></button>
+    {% endfor %}
+    <button type="button" class="{{ 'active' if active_level == 'other' else '' }}" data-kanji-level="other">Other app kanji <span>{{ level_counts['other'] }}</span></button>
+  </div>
+
+  <div class="kanji-filter-row">
+    <input type="text" id="kanji-filter" value="{{ filter_query }}" class="filter-input" placeholder="Search kanji, meaning, on-yomi, or kun-yomi...">
+    <span id="kanji-visible-count" class="kanji-visible-count">Showing {{ entries|length }}</span>
+  </div>
+</section>
+
+<section class="kanji-grid" id="kanji-grid">
+  {% for e in initial_entries %}
+  <a class="kanji-card" {% if active_level != 'all' and (e.jlpt_level or 'other') != active_level %}hidden{% endif %} href="{{ url_for('kanji_detail', kanji_id=e.id) }}"
+     data-kanji-id="{{ e.id }}" data-level="{{ e.jlpt_level or 'other' }}"
+     data-search="{{ (e.kanji ~ ' ' ~ e.meaning ~ ' ' ~ e.on_yomi ~ ' ' ~ e.kun_yomi)|lower }}">
+    {% if e.jlpt_level %}
+      <span class="jlpt-badge jlpt-badge-{{ e.jlpt_level }} kanji-card-jlpt">{{ e.jlpt_level }}</span>
+    {% elif e.catalog_source == 'app' %}
+      <span class="kanji-source-badge kanji-card-jlpt">APP</span>
+    {% else %}
+      <span class="kanji-source-badge kanji-card-jlpt">CORE</span>
+    {% endif %}
+    <span class="kanji-card-char">{{ e.kanji }}</span>
+    <span class="kanji-card-meaning">{{ e.meaning }}</span>
+    <span class="kanji-card-strokes">{% if e.strokes %}{{ e.strokes }} strokes{% elif e.jlpt_level %}JLPT {{ e.jlpt_level }}{% else %}App vocabulary{% endif %}</span>
+  </a>
+  {% endfor %}
+</section>
+<script type="application/json" id="kanji-catalog">{{ catalog_json|safe }}</script>
+<p id="kanji-render-count" class="catalog-count" aria-live="polite"></p>
+<button type="button" class="btn-ghost" id="kanji-more">Show more kanji</button>
+
+<p id="kanji-no-results" class="empty-note kanji-no-results" hidden>No kanji match this filter.</p>
+{% endblock %}
+
+{% block scripts %}
+<script defer src="{{ url_for('static', filename='js/kanji_list.js') }}"></script>
+{% endblock %}

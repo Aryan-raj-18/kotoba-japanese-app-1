@@ -1,0 +1,3602 @@
+[
+  {
+    "id": "original-001",
+    "level": "easy",
+    "jp": "今朝は六時に起きました。",
+    "reading": "けさはろくじにおきました",
+    "romaji": "kesa wa rokuji ni okimashita",
+    "english": "I got up at six this morning.",
+    "category": "Morning routines",
+    "authorship": "original"
+  },
+  {
+    "id": "original-002",
+    "level": "easy",
+    "jp": "まず水を一杯飲みます。",
+    "reading": "まずみずをいっぱいのみます",
+    "romaji": "mazu mizu o ippai nomimasu",
+    "english": "First, I drink a glass of water.",
+    "category": "Morning routines",
+    "authorship": "original"
+  },
+  {
+    "id": "original-003",
+    "level": "easy",
+    "jp": "朝ご飯はまだです。",
+    "reading": "あさごはんはまだです",
+    "romaji": "asagohan wa mada desu",
+    "english": "I haven't had breakfast yet.",
+    "category": "Morning routines",
+    "authorship": "original"
+  },
+  {
+    "id": "original-004",
+    "level": "easy",
+    "jp": "今日は早く出かけます。",
+    "reading": "きょうははやくでかけます",
+    "romaji": "kyou wa hayaku dekakemasu",
+    "english": "I'm leaving early today.",
+    "category": "Morning routines",
+    "authorship": "original"
+  },
+  {
+    "id": "original-005",
+    "level": "easy",
+    "jp": "毎朝公園を歩きます。",
+    "reading": "まいあさこうえんをあるきます",
+    "romaji": "maiasa kouen o arukimasu",
+    "english": "I walk in the park every morning.",
+    "category": "Morning routines",
+    "authorship": "original"
+  },
+  {
+    "id": "original-006",
+    "level": "medium",
+    "jp": "寝坊したので、急いで準備します。",
+    "reading": "ねぼうしたのでいそいでじゅんびします",
+    "romaji": "nebou shita node isoide junbi shimasu",
+    "english": "I overslept, so I'll get ready quickly.",
+    "category": "Morning routines",
+    "authorship": "original"
+  },
+  {
+    "id": "original-007",
+    "level": "medium",
+    "jp": "コーヒーを入れてから仕事を始めます。",
+    "reading": "こーひーをいれてからしごとをはじめます",
+    "romaji": "koohii o irete kara shigoto o hajimemasu",
+    "english": "I'll make coffee before starting work.",
+    "category": "Morning routines",
+    "authorship": "original"
+  },
+  {
+    "id": "original-008",
+    "level": "medium",
+    "jp": "今日はお弁当を持って行くつもりです。",
+    "reading": "きょうはおべんとうをもっていくつもりです",
+    "romaji": "kyou wa obentou o motte iku tsumori desu",
+    "english": "I'm planning to bring a packed lunch today.",
+    "category": "Morning routines",
+    "authorship": "original"
+  },
+  {
+    "id": "original-009",
+    "level": "medium",
+    "jp": "出かける前に窓を閉めてください。",
+    "reading": "でかけるまえにまどをしめてください",
+    "romaji": "dekakeru mae ni mado o shimete kudasai",
+    "english": "Please close the window before leaving.",
+    "category": "Morning routines",
+    "authorship": "original"
+  },
+  {
+    "id": "original-010",
+    "level": "medium",
+    "jp": "朝は静かな音楽を聞くのが好きです。",
+    "reading": "あさはしずかなおんがくをきくのがすきです",
+    "romaji": "asa wa shizukana ongaku o kiku no ga suki desu",
+    "english": "I like listening to calm music in the morning.",
+    "category": "Morning routines",
+    "authorship": "original"
+  },
+  {
+    "id": "original-011",
+    "level": "medium",
+    "jp": "駅まで歩くと十五分ほどかかります。",
+    "reading": "えきまであるくとじゅうごふんほどかかります",
+    "romaji": "eki made aruku to juugofun hodo kakarimasu",
+    "english": "It takes about fifteen minutes to walk to the station.",
+    "category": "Morning routines",
+    "authorship": "original"
+  },
+  {
+    "id": "original-012",
+    "level": "medium",
+    "jp": "いつもより早く起きたので時間があります。",
+    "reading": "いつもよりはやくおきたのでじかんがあります",
+    "romaji": "itsumo yori hayaku okita node jikan ga arimasu",
+    "english": "I woke up earlier than usual, so I have time.",
+    "category": "Morning routines",
+    "authorship": "original"
+  },
+  {
+    "id": "original-013",
+    "level": "hard",
+    "jp": "朝のうちに買い物を済ませておきたいです。",
+    "reading": "あさのうちにかいものをすませておきたいです",
+    "romaji": "asa no uchi ni kaimono o sumasete okitai desu",
+    "english": "I'd like to finish the shopping in the morning.",
+    "category": "Morning routines",
+    "authorship": "original"
+  },
+  {
+    "id": "original-014",
+    "level": "hard",
+    "jp": "電車が混む前に家を出られるようにしています。",
+    "reading": "でんしゃがこむまえにいえをでられるようにしています",
+    "romaji": "densha ga komu mae ni ie o derareru youni shiteimasu",
+    "english": "I try to leave home before the trains get crowded.",
+    "category": "Morning routines",
+    "authorship": "original"
+  },
+  {
+    "id": "original-015",
+    "level": "hard",
+    "jp": "目覚ましをかけ忘れてしまい、約束に遅れそうです。",
+    "reading": "めざましをかけわすれてしまいやくそくにおくれそうです",
+    "romaji": "mezamashi o kakewasurete shimai yakusoku ni okuresou desu",
+    "english": "I forgot to set my alarm and may be late for our appointment.",
+    "category": "Morning routines",
+    "authorship": "original"
+  },
+  {
+    "id": "original-016",
+    "level": "easy",
+    "jp": "洗濯物を外に干します。",
+    "reading": "せんたくものをそとにほします",
+    "romaji": "sentakumono o soto ni hoshimasu",
+    "english": "I'll hang the laundry outside.",
+    "category": "Home and chores",
+    "authorship": "original"
+  },
+  {
+    "id": "original-017",
+    "level": "easy",
+    "jp": "冷蔵庫に卵があります。",
+    "reading": "れいぞうこにたまごがあります",
+    "romaji": "reizouko ni tamago ga arimasu",
+    "english": "There are eggs in the fridge.",
+    "category": "Home and chores",
+    "authorship": "original"
+  },
+  {
+    "id": "original-018",
+    "level": "easy",
+    "jp": "部屋を少し片づけます。",
+    "reading": "へやをすこしかたづけます",
+    "romaji": "heya o sukoshi katazukemasu",
+    "english": "I'll tidy the room a little.",
+    "category": "Home and chores",
+    "authorship": "original"
+  },
+  {
+    "id": "original-019",
+    "level": "easy",
+    "jp": "今夜は家で料理します。",
+    "reading": "こんやはいえでりょうりします",
+    "romaji": "kon'ya wa ie de ryouri shimasu",
+    "english": "I'll cook at home tonight.",
+    "category": "Home and chores",
+    "authorship": "original"
+  },
+  {
+    "id": "original-020",
+    "level": "easy",
+    "jp": "鍵は机の上です。",
+    "reading": "かぎはつくえのうえです",
+    "romaji": "kagi wa tsukue no ue desu",
+    "english": "The keys are on the desk.",
+    "category": "Home and chores",
+    "authorship": "original"
+  },
+  {
+    "id": "original-021",
+    "level": "medium",
+    "jp": "ごみを出す日は水曜日ですよね。",
+    "reading": "ごみをだすひはすいようびですよね",
+    "romaji": "gomi o dasu hi wa suiyoubi desu yone",
+    "english": "Wednesday is trash day, right?",
+    "category": "Home and chores",
+    "authorship": "original"
+  },
+  {
+    "id": "original-022",
+    "level": "medium",
+    "jp": "この電球は切れているので交換します。",
+    "reading": "このでんきゅうはきれているのでこうかんします",
+    "romaji": "kono denkyuu wa kirete iru node koukan shimasu",
+    "english": "This light bulb is out, so I'll replace it.",
+    "category": "Home and chores",
+    "authorship": "original"
+  },
+  {
+    "id": "original-023",
+    "level": "medium",
+    "jp": "雨が降る前に洗濯物を取り込みましょう。",
+    "reading": "あめがふるまえにせんたくものをとりこみましょう",
+    "romaji": "ame ga furu mae ni sentakumono o torikomimashou",
+    "english": "Let's bring in the laundry before it rains.",
+    "category": "Home and chores",
+    "authorship": "original"
+  },
+  {
+    "id": "original-024",
+    "level": "medium",
+    "jp": "夕食の後で食器を洗ってもらえますか。",
+    "reading": "ゆうしょくのあとでしょっきをあらってもらえますか",
+    "romaji": "yuushoku no ato de shokki o aratte moraemasu ka",
+    "english": "Could you wash the dishes after dinner?",
+    "category": "Home and chores",
+    "authorship": "original"
+  },
+  {
+    "id": "original-025",
+    "level": "medium",
+    "jp": "掃除機の音が大きいので、昼間に掃除します。",
+    "reading": "そうじきのおとがおおきいのでひるまにそうじします",
+    "romaji": "soujiki no oto ga ookii node hiruma ni souji shimasu",
+    "english": "The vacuum is loud, so I clean during the day.",
+    "category": "Home and chores",
+    "authorship": "original"
+  },
+  {
+    "id": "original-026",
+    "level": "medium",
+    "jp": "買い物リストを冷蔵庫に貼っておきました。",
+    "reading": "かいものりすとをれいぞうこにはっておきました",
+    "romaji": "kaimono risuto o reizouko ni hatte okimashita",
+    "english": "I put the shopping list on the fridge.",
+    "category": "Home and chores",
+    "authorship": "original"
+  },
+  {
+    "id": "original-027",
+    "level": "medium",
+    "jp": "この棚は一人で動かすには重すぎます。",
+    "reading": "このたなはひとりでうごかすにはおもすぎます",
+    "romaji": "kono tana wa hitori de ugokasu niha omosugimasu",
+    "english": "This shelf is too heavy to move alone.",
+    "category": "Home and chores",
+    "authorship": "original"
+  },
+  {
+    "id": "original-028",
+    "level": "hard",
+    "jp": "部屋を使い終わったら、電気を消すようにしてください。",
+    "reading": "へやをつかいおわったらでんきをけすようにしてください",
+    "romaji": "heya o tsukaiowattara denki o kesu youni shite kudasai",
+    "english": "Please make a habit of turning off the lights after using a room.",
+    "category": "Home and chores",
+    "authorship": "original"
+  },
+  {
+    "id": "original-029",
+    "level": "hard",
+    "jp": "引っ越しの準備を始めたものの、まだ荷物がたくさん残っています。",
+    "reading": "ひっこしのじゅんびをはじめたもののまだにもつがたくさんのこっています",
+    "romaji": "hikkoshi no junbi o hajimeta monono mada nimotsu ga takusan nokotte imasu",
+    "english": "Although I've started packing to move, there's still a lot left.",
+    "category": "Home and chores",
+    "authorship": "original"
+  },
+  {
+    "id": "original-030",
+    "level": "hard",
+    "jp": "水道の調子が悪いので、管理会社に連絡したほうがよさそうです。",
+    "reading": "すいどうのちょうしがわるいのでかんりがいしゃにれんらくしたほうがよさそうです",
+    "romaji": "suidou no choushi ga warui node kanrigaisha ni renraku shita hou ga yosasou desu",
+    "english": "The plumbing isn't working well, so we'd better contact the property manager.",
+    "category": "Home and chores",
+    "authorship": "original"
+  },
+  {
+    "id": "original-031",
+    "level": "easy",
+    "jp": "今日は漢字を五つ覚えます。",
+    "reading": "きょうはかんじをいつつおぼえます",
+    "romaji": "kyou wa kanji o itsutsu oboemasu",
+    "english": "I'll learn five kanji today.",
+    "category": "Learning Japanese",
+    "authorship": "original"
+  },
+  {
+    "id": "original-032",
+    "level": "easy",
+    "jp": "この言葉を声に出します。",
+    "reading": "このことばをこえにだします",
+    "romaji": "kono kotoba o koe ni dashimasu",
+    "english": "I'll say this word aloud.",
+    "category": "Learning Japanese",
+    "authorship": "original"
+  },
+  {
+    "id": "original-033",
+    "level": "easy",
+    "jp": "日本語の日記を書いています。",
+    "reading": "にほんごのにっきをかいています",
+    "romaji": "nihongo no nikki o kaite imasu",
+    "english": "I'm writing a diary in Japanese.",
+    "category": "Learning Japanese",
+    "authorship": "original"
+  },
+  {
+    "id": "original-034",
+    "level": "easy",
+    "jp": "新しい単語を復習します。",
+    "reading": "あたらしいたんごをふくしゅうします",
+    "romaji": "atarashii tango o fukushuu shimasu",
+    "english": "I'll review new vocabulary.",
+    "category": "Learning Japanese",
+    "authorship": "original"
+  },
+  {
+    "id": "original-035",
+    "level": "easy",
+    "jp": "今日は発音を練習したいです。",
+    "reading": "きょうははつおんをれんしゅうしたいです",
+    "romaji": "kyou wa hatsuon o renshuu shitai desu",
+    "english": "I want to practise pronunciation today.",
+    "category": "Learning Japanese",
+    "authorship": "original"
+  },
+  {
+    "id": "original-036",
+    "level": "medium",
+    "jp": "この漢字は読み方が二つあるそうです。",
+    "reading": "このかんじはよみかたがふたつあるそうです",
+    "romaji": "kono kanji wa yomikata ga futatsu aru sou desu",
+    "english": "I hear this kanji has two readings.",
+    "category": "Learning Japanese",
+    "authorship": "original"
+  },
+  {
+    "id": "original-037",
+    "level": "medium",
+    "jp": "例文を作ると単語を覚えやすくなります。",
+    "reading": "れいぶんをつくるとたんごをおぼえやすくなります",
+    "romaji": "reibun o tsukuru to tango o oboeyasuku narimasu",
+    "english": "Making example sentences makes words easier to remember.",
+    "category": "Learning Japanese",
+    "authorship": "original"
+  },
+  {
+    "id": "original-038",
+    "level": "medium",
+    "jp": "録音を聞いて、自分の発音を確かめます。",
+    "reading": "ろくおんをきいてじぶんのはつおんをたしかめます",
+    "romaji": "rokuon o kiite jibun no hatsuon o tashikamemasu",
+    "english": "I listen to my recording to check my pronunciation.",
+    "category": "Learning Japanese",
+    "authorship": "original"
+  },
+  {
+    "id": "original-039",
+    "level": "medium",
+    "jp": "昨日覚えた表現を会話で使ってみました。",
+    "reading": "きのうおぼえたひょうげんをかいわでつかってみました",
+    "romaji": "kinou oboeta hyougen o kaiwa de tsukatte mimashita",
+    "english": "I tried using an expression I learned yesterday in conversation.",
+    "category": "Learning Japanese",
+    "authorship": "original"
+  },
+  {
+    "id": "original-040",
+    "level": "medium",
+    "jp": "少し難しくても、最後まで聞いてみます。",
+    "reading": "すこしむずかしくてもさいごまできいてみます",
+    "romaji": "sukoshi muzukashikutemo saigo made kiite mimasu",
+    "english": "Even if it's a bit difficult, I'll listen until the end.",
+    "category": "Learning Japanese",
+    "authorship": "original"
+  },
+  {
+    "id": "original-041",
+    "level": "medium",
+    "jp": "この文章をもう少し自然に言えますか。",
+    "reading": "このぶんしょうをもうすこししぜんにいえますか",
+    "romaji": "kono bunshou o mou sukoshi shizen ni iemasu ka",
+    "english": "Can this sentence be said more naturally?",
+    "category": "Learning Japanese",
+    "authorship": "original"
+  },
+  {
+    "id": "original-042",
+    "level": "medium",
+    "jp": "知らない言葉が出たら、文脈から意味を考えます。",
+    "reading": "しらないことばがでたらぶんみゃくからいみをかんがえます",
+    "romaji": "shiranai kotoba ga detara bunmyaku kara imi o kangaemasu",
+    "english": "When I find an unfamiliar word, I guess its meaning from context.",
+    "category": "Learning Japanese",
+    "authorship": "original"
+  },
+  {
+    "id": "original-043",
+    "level": "hard",
+    "jp": "正しく話すことばかり気にせず、まず伝えてみたいです。",
+    "reading": "ただしくはなすことばかりきにせずまずつたえてみたいです",
+    "romaji": "tadashiku hanasu koto bakari kinisezu mazu tsutaete mitai desu",
+    "english": "I want to focus on communicating first rather than only speaking perfectly.",
+    "category": "Learning Japanese",
+    "authorship": "original"
+  },
+  {
+    "id": "original-044",
+    "level": "hard",
+    "jp": "聞き取れなかった部分を何度も再生して確認しました。",
+    "reading": "ききとれなかったぶぶんをなんどもさいせいしてかくにんしました",
+    "romaji": "kikitorenakatta bubun o nando mo saisei shite kakunin shimashita",
+    "english": "I replayed the part I couldn't catch several times to check it.",
+    "category": "Learning Japanese",
+    "authorship": "original"
+  },
+  {
+    "id": "original-045",
+    "level": "hard",
+    "jp": "毎日少しずつ練習すれば、自然に言葉が出てくるようになります。",
+    "reading": "まいにちすこしずつれんしゅうすればしぜんにことばがでてくるようになります",
+    "romaji": "mainichi sukoshizutsu renshuu sureba shizen ni kotoba ga detekuru youni narimasu",
+    "english": "With a little daily practice, words start coming naturally.",
+    "category": "Learning Japanese",
+    "authorship": "original"
+  },
+  {
+    "id": "original-046",
+    "level": "easy",
+    "jp": "週末は友達と会います。",
+    "reading": "しゅうまつはともだちとあいます",
+    "romaji": "shuumatsu wa tomodachi to aimasu",
+    "english": "I'm meeting a friend this weekend.",
+    "category": "Making friends",
+    "authorship": "original"
+  },
+  {
+    "id": "original-047",
+    "level": "easy",
+    "jp": "今日は一緒に帰りませんか。",
+    "reading": "きょうはいっしょにかえりませんか",
+    "romaji": "kyou wa issho ni kaerimasen ka",
+    "english": "Shall we head home together today?",
+    "category": "Making friends",
+    "authorship": "original"
+  },
+  {
+    "id": "original-048",
+    "level": "easy",
+    "jp": "その写真、いいですね。",
+    "reading": "そのしゃしんいいですね",
+    "romaji": "sono shashin ii desu ne",
+    "english": "That's a nice photo.",
+    "category": "Making friends",
+    "authorship": "original"
+  },
+  {
+    "id": "original-049",
+    "level": "easy",
+    "jp": "昨日は楽しかったです。",
+    "reading": "きのうはたのしかったです",
+    "romaji": "kinou wa tanoshikatta desu",
+    "english": "Yesterday was fun.",
+    "category": "Making friends",
+    "authorship": "original"
+  },
+  {
+    "id": "original-050",
+    "level": "easy",
+    "jp": "また連絡しますね。",
+    "reading": "またれんらくしますね",
+    "romaji": "mata renraku shimasu ne",
+    "english": "I'll get in touch again.",
+    "category": "Making friends",
+    "authorship": "original"
+  },
+  {
+    "id": "original-051",
+    "level": "medium",
+    "jp": "新しくできたカフェに行ってみませんか。",
+    "reading": "あたらしくできたかふぇにいってみませんか",
+    "romaji": "atarashiku dekita kafe ni itte mimasen ka",
+    "english": "Would you like to try the new café?",
+    "category": "Making friends",
+    "authorship": "original"
+  },
+  {
+    "id": "original-052",
+    "level": "medium",
+    "jp": "もし時間があれば、映画の後でお茶しましょう。",
+    "reading": "もしじかんがあればえいがのあとでおちゃしましょう",
+    "romaji": "moshi jikan ga areba eiga no ato de ocha shimashou",
+    "english": "If you have time, let's have tea after the movie.",
+    "category": "Making friends",
+    "authorship": "original"
+  },
+  {
+    "id": "original-053",
+    "level": "medium",
+    "jp": "その話の続き、今度ぜひ聞かせてください。",
+    "reading": "そのはなしのつづきこんどぜひきかせてください",
+    "romaji": "sono hanashi no tsuzuki kondo zehi kikasete kudasai",
+    "english": "Please tell me the rest of that story sometime.",
+    "category": "Making friends",
+    "authorship": "original"
+  },
+  {
+    "id": "original-054",
+    "level": "medium",
+    "jp": "初めて来たので、いろいろ教えてくれるとうれしいです。",
+    "reading": "はじめてきたのでいろいろおしえてくれるとうれしいです",
+    "romaji": "hajimete kita node iroiro oshiete kureru to ureshii desu",
+    "english": "It's my first time here, so I'd be glad if you could show me around.",
+    "category": "Making friends",
+    "authorship": "original"
+  },
+  {
+    "id": "original-055",
+    "level": "medium",
+    "jp": "集合場所が変わったら、メッセージを送ります。",
+    "reading": "しゅうごうばしょがかわったらめっせーじをおくります",
+    "romaji": "shuugoubasho ga kawattara messeeji o okurimasu",
+    "english": "If the meeting place changes, I'll send a message.",
+    "category": "Making friends",
+    "authorship": "original"
+  },
+  {
+    "id": "original-056",
+    "level": "medium",
+    "jp": "この辺でおすすめのお店を知っていますか。",
+    "reading": "このへんでおすすめのおみせをしっていますか",
+    "romaji": "kono hen de osusume no omise o shitte imasu ka",
+    "english": "Do you know any good shops around here?",
+    "category": "Making friends",
+    "authorship": "original"
+  },
+  {
+    "id": "original-057",
+    "level": "medium",
+    "jp": "来週の予定が決まったら、また相談しましょう。",
+    "reading": "らいしゅうのよていがきまったらまたそうだんしましょう",
+    "romaji": "raishuu no yotei ga kimattara mata soudan shimashou",
+    "english": "Let's talk again when next week's plans are decided.",
+    "category": "Making friends",
+    "authorship": "original"
+  },
+  {
+    "id": "original-058",
+    "level": "hard",
+    "jp": "予定を合わせるのが難しそうなので、別の日にしませんか。",
+    "reading": "よていをあわせるのがむずかしそうなのでべつのひにしませんか",
+    "romaji": "yotei o awaseru no ga muzukashisou nanode betsu no hi ni shimasen ka",
+    "english": "Our schedules seem hard to match, so shall we pick another day?",
+    "category": "Making friends",
+    "authorship": "original"
+  },
+  {
+    "id": "original-059",
+    "level": "hard",
+    "jp": "初対面なのに話しやすくて、時間がたつのを忘れました。",
+    "reading": "しょたいめんなのにはなしやすくてじかんがたつのをわすれました",
+    "romaji": "shotaimen nanoni hanashiyasukute jikan ga tatsu no o wasuremashita",
+    "english": "Even though we'd just met, talking was so easy I lost track of time.",
+    "category": "Making friends",
+    "authorship": "original"
+  },
+  {
+    "id": "original-060",
+    "level": "hard",
+    "jp": "誘ってくれてありがとう。今回は行けないけれど、次は参加したいです。",
+    "reading": "さそってくれてありがとうこんかいはいけないけれどつぎはさんかしたいです",
+    "romaji": "sasotte kurete arigatou konkai wa ikenai keredo tsugi wa sanka shitai desu",
+    "english": "Thanks for inviting me. I can't make it this time, but I'd like to join next time.",
+    "category": "Making friends",
+    "authorship": "original"
+  },
+  {
+    "id": "original-061",
+    "level": "easy",
+    "jp": "教室は三階にあります。",
+    "reading": "きょうしつはさんがいにあります",
+    "romaji": "kyoushitsu wa sangai ni arimasu",
+    "english": "The classroom is on the third floor.",
+    "category": "Campus and classroom",
+    "authorship": "original"
+  },
+  {
+    "id": "original-062",
+    "level": "easy",
+    "jp": "今日は宿題を出します。",
+    "reading": "きょうはしゅくだいをだします",
+    "romaji": "kyou wa shukudai o dashimasu",
+    "english": "I'll hand in my homework today.",
+    "category": "Campus and classroom",
+    "authorship": "original"
+  },
+  {
+    "id": "original-063",
+    "level": "easy",
+    "jp": "この席を使ってもいいですか。",
+    "reading": "このせきをつかってもいいですか",
+    "romaji": "kono seki o tsukattemo ii desu ka",
+    "english": "May I use this seat?",
+    "category": "Campus and classroom",
+    "authorship": "original"
+  },
+  {
+    "id": "original-064",
+    "level": "easy",
+    "jp": "次は数学の授業です。",
+    "reading": "つぎはすうがくのじゅぎょうです",
+    "romaji": "tsugi wa suugaku no jugyou desu",
+    "english": "Math is the next class.",
+    "category": "Campus and classroom",
+    "authorship": "original"
+  },
+  {
+    "id": "original-065",
+    "level": "easy",
+    "jp": "先生に質問があります。",
+    "reading": "せんせいにしつもんがあります",
+    "romaji": "sensei ni shitsumon ga arimasu",
+    "english": "I have a question for the teacher.",
+    "category": "Campus and classroom",
+    "authorship": "original"
+  },
+  {
+    "id": "original-066",
+    "level": "medium",
+    "jp": "ノートを忘れたので、紙を一枚借りてもいいですか。",
+    "reading": "のーとをわすれたのでかみをいちまいかりてもいいですか",
+    "romaji": "nooto o wasureta node kami o ichimai karitemo ii desu ka",
+    "english": "I forgot my notebook; may I borrow a sheet of paper?",
+    "category": "Campus and classroom",
+    "authorship": "original"
+  },
+  {
+    "id": "original-067",
+    "level": "medium",
+    "jp": "発表の順番はまだ決まっていません。",
+    "reading": "はっぴょうのじゅんばんはまだきまっていません",
+    "romaji": "happyou no junban wa mada kimatte imasen",
+    "english": "The presentation order hasn't been decided yet.",
+    "category": "Campus and classroom",
+    "authorship": "original"
+  },
+  {
+    "id": "original-068",
+    "level": "medium",
+    "jp": "グループで話し合ってから答えを発表しましょう。",
+    "reading": "ぐるーぷではなしあってからこたえをはっぴょうしましょう",
+    "romaji": "guruupu de hanashiatte kara kotae o happyou shimashou",
+    "english": "Let's discuss in groups before presenting our answers.",
+    "category": "Campus and classroom",
+    "authorship": "original"
+  },
+  {
+    "id": "original-069",
+    "level": "medium",
+    "jp": "試験が終わったら図書館で勉強する予定です。",
+    "reading": "しけんがおわったらとしょかんでべんきょうするよていです",
+    "romaji": "shiken ga owattara toshokan de benkyou suru yotei desu",
+    "english": "I plan to study in the library after the exam.",
+    "category": "Campus and classroom",
+    "authorship": "original"
+  },
+  {
+    "id": "original-070",
+    "level": "medium",
+    "jp": "この問題の解き方を別の方法で説明できますか。",
+    "reading": "このもんだいのときかたをべつのほうほうでせつめいできますか",
+    "romaji": "kono mondai no tokikata o betsu no houhou de setsumei dekimasu ka",
+    "english": "Can you explain another way to solve this problem?",
+    "category": "Campus and classroom",
+    "authorship": "original"
+  },
+  {
+    "id": "original-071",
+    "level": "medium",
+    "jp": "授業が始まるまであと十分あります。",
+    "reading": "じゅぎょうがはじまるまであとじゅっぷんあります",
+    "romaji": "jugyou ga hajimaru made ato juppun arimasu",
+    "english": "There are ten minutes until class starts.",
+    "category": "Campus and classroom",
+    "authorship": "original"
+  },
+  {
+    "id": "original-072",
+    "level": "medium",
+    "jp": "提出期限をもう一度確認したいです。",
+    "reading": "ていしゅつきげんをもういちどかくにんしたいです",
+    "romaji": "teishutsukigen o mouichido kakunin shitai desu",
+    "english": "I'd like to double-check the submission deadline.",
+    "category": "Campus and classroom",
+    "authorship": "original"
+  },
+  {
+    "id": "original-073",
+    "level": "hard",
+    "jp": "体調が悪くて欠席したので、授業の内容を教えてもらえますか。",
+    "reading": "たいちょうがわるくてけっせきしたのでじゅぎょうのないようをおしえてもらえますか",
+    "romaji": "taichou ga warukute kesseki shita node jugyou no naiyou o oshiete moraemasu ka",
+    "english": "I missed class because I felt ill. Could you tell me what was covered?",
+    "category": "Campus and classroom",
+    "authorship": "original"
+  },
+  {
+    "id": "original-074",
+    "level": "hard",
+    "jp": "意見が違っていても、相手の説明を最後まで聞くことが大切です。",
+    "reading": "いけんがちがっていてもあいてのせつめいをさいごまできくことがたいせつです",
+    "romaji": "iken ga chigatte itemo aite no setsumei o saigo made kiku koto ga taisetsu desu",
+    "english": "Even when we disagree, it's important to hear the other person's full explanation.",
+    "category": "Campus and classroom",
+    "authorship": "original"
+  },
+  {
+    "id": "original-075",
+    "level": "hard",
+    "jp": "発表資料を前日までに共有していただけると助かります。",
+    "reading": "はっぴょうしりょうをぜんじつまでにきょうゆうしていただけるとたすかります",
+    "romaji": "happyoushiryou o zenjitsu made ni kyouyuu shite itadakeru to tasukarimasu",
+    "english": "It would help if you could share the presentation materials by the previous day.",
+    "category": "Campus and classroom",
+    "authorship": "original"
+  },
+  {
+    "id": "original-076",
+    "level": "easy",
+    "jp": "今日は午後から会議です。",
+    "reading": "きょうはごごからかいぎです",
+    "romaji": "kyou wa gogo kara kaigi desu",
+    "english": "There's a meeting this afternoon.",
+    "category": "Work and meetings",
+    "authorship": "original"
+  },
+  {
+    "id": "original-077",
+    "level": "easy",
+    "jp": "今、資料を作っています。",
+    "reading": "いましりょうをつくっています",
+    "romaji": "ima shiryou o tsukutte imasu",
+    "english": "I'm preparing the documents now.",
+    "category": "Work and meetings",
+    "authorship": "original"
+  },
+  {
+    "id": "original-078",
+    "level": "easy",
+    "jp": "昼休みは十二時からです。",
+    "reading": "ひるやすみはじゅうにじからです",
+    "romaji": "hiruyasumi wa juuniji kara desu",
+    "english": "Lunch break starts at twelve.",
+    "category": "Work and meetings",
+    "authorship": "original"
+  },
+  {
+    "id": "original-079",
+    "level": "easy",
+    "jp": "このメールを確認します。",
+    "reading": "このめーるをかくにんします",
+    "romaji": "kono meeru o kakunin shimasu",
+    "english": "I'll check this email.",
+    "category": "Work and meetings",
+    "authorship": "original"
+  },
+  {
+    "id": "original-080",
+    "level": "easy",
+    "jp": "明日は在宅勤務です。",
+    "reading": "あしたはざいたくきんむです",
+    "romaji": "ashita wa zaitakukinmu desu",
+    "english": "I'm working from home tomorrow.",
+    "category": "Work and meetings",
+    "authorship": "original"
+  },
+  {
+    "id": "original-081",
+    "level": "medium",
+    "jp": "会議の開始時間が三十分遅くなりました。",
+    "reading": "かいぎのかいしじかんがさんじゅっぷんおそくなりました",
+    "romaji": "kaigi no kaishijikan ga sanjuppun osoku narimashita",
+    "english": "The meeting start has been delayed by thirty minutes.",
+    "category": "Work and meetings",
+    "authorship": "original"
+  },
+  {
+    "id": "original-082",
+    "level": "medium",
+    "jp": "質問があれば、途中でも遠慮なく聞いてください。",
+    "reading": "しつもんがあればとちゅうでもえんりょなくきいてください",
+    "romaji": "shitsumon ga areba tochuu demo enryo naku kiite kudasai",
+    "english": "If you have questions, feel free to ask at any time.",
+    "category": "Work and meetings",
+    "authorship": "original"
+  },
+  {
+    "id": "original-083",
+    "level": "medium",
+    "jp": "この資料は金曜日までに修正する予定です。",
+    "reading": "このしりょうはきんようびまでにしゅうせいするよていです",
+    "romaji": "kono shiryou wa kin'youbi made ni shuusei suru yotei desu",
+    "english": "I plan to revise these documents by Friday.",
+    "category": "Work and meetings",
+    "authorship": "original"
+  },
+  {
+    "id": "original-084",
+    "level": "medium",
+    "jp": "画面が見えにくいので、少し大きくできますか。",
+    "reading": "がめんがみにくいのですこしおおきくできますか",
+    "romaji": "gamen ga minikui node sukoshi ookiku dekimasu ka",
+    "english": "The screen is hard to see. Can you enlarge it?",
+    "category": "Work and meetings",
+    "authorship": "original"
+  },
+  {
+    "id": "original-085",
+    "level": "medium",
+    "jp": "先ほど送ったメールにファイルを添付しました。",
+    "reading": "さきほどおくっためーるにふぁいるをてんぷしました",
+    "romaji": "sakihodo okutta meeru ni fairu o tenpu shimashita",
+    "english": "I attached a file to the email I sent earlier.",
+    "category": "Work and meetings",
+    "authorship": "original"
+  },
+  {
+    "id": "original-086",
+    "level": "medium",
+    "jp": "その件については担当者に確認してみます。",
+    "reading": "そのけんについてはたんとうしゃにかくにんしてみます",
+    "romaji": "sono ken nitsuite wa tantousha ni kakunin shite mimasu",
+    "english": "I'll check with the person responsible about that.",
+    "category": "Work and meetings",
+    "authorship": "original"
+  },
+  {
+    "id": "original-087",
+    "level": "medium",
+    "jp": "予定どおり進んでいるか教えてください。",
+    "reading": "よていどおりすすんでいるかおしえてください",
+    "romaji": "yotei doori susunde iru ka oshiete kudasai",
+    "english": "Please tell me whether things are on schedule.",
+    "category": "Work and meetings",
+    "authorship": "original"
+  },
+  {
+    "id": "original-088",
+    "level": "hard",
+    "jp": "急な変更で申し訳ありませんが、打ち合わせを明日に延期できますか。",
+    "reading": "きゅうなへんこうでもうしわけありませんがうちあわせをあしたにえんきできますか",
+    "romaji": "kyuuna henkou de moushiwake arimasen ga uchiawase o ashita ni enki dekimasu ka",
+    "english": "I'm sorry for the sudden change, but could we move our meeting to tomorrow?",
+    "category": "Work and meetings",
+    "authorship": "original"
+  },
+  {
+    "id": "original-089",
+    "level": "hard",
+    "jp": "いただいたご意見を踏まえて、提案書を見直したいと思います。",
+    "reading": "いただいたごいけんをふまえてていあんしょをみなおしたいとおもいます",
+    "romaji": "itadaita goiken o fumaete teiansho o minaoshitai to omoimasu",
+    "english": "I'd like to revise the proposal based on your feedback.",
+    "category": "Work and meetings",
+    "authorship": "original"
+  },
+  {
+    "id": "original-090",
+    "level": "hard",
+    "jp": "準備に時間がかかっているため、結果の共有は来週になる見込みです。",
+    "reading": "じゅんびにじかんがかかっているためけっかのきょうゆうはらいしゅうになるみこみです",
+    "romaji": "junbi ni jikan ga kakatte iru tame kekka no kyouyuu wa raishuu ni naru mikomi desu",
+    "english": "Preparation is taking time, so we expect to share the results next week.",
+    "category": "Work and meetings",
+    "authorship": "original"
+  },
+  {
+    "id": "original-091",
+    "level": "easy",
+    "jp": "今日はうどんが食べたいです。",
+    "reading": "きょうはうどんがたべたいです",
+    "romaji": "kyou wa udon ga tabetai desu",
+    "english": "I feel like eating udon today.",
+    "category": "Cafés and restaurants",
+    "authorship": "original"
+  },
+  {
+    "id": "original-092",
+    "level": "easy",
+    "jp": "温かいお茶をください。",
+    "reading": "あたたかいおちゃをください",
+    "romaji": "atatakai ocha o kudasai",
+    "english": "I'd like some hot tea, please.",
+    "category": "Cafés and restaurants",
+    "authorship": "original"
+  },
+  {
+    "id": "original-093",
+    "level": "easy",
+    "jp": "ここで食べていきます。",
+    "reading": "ここでたべていきます",
+    "romaji": "koko de tabete ikimasu",
+    "english": "I'll eat here.",
+    "category": "Cafés and restaurants",
+    "authorship": "original"
+  },
+  {
+    "id": "original-094",
+    "level": "easy",
+    "jp": "デザートは後で選びます。",
+    "reading": "でざーとはあとでえらびます",
+    "romaji": "dezaato wa ato de erabimasu",
+    "english": "I'll choose dessert later.",
+    "category": "Cafés and restaurants",
+    "authorship": "original"
+  },
+  {
+    "id": "original-095",
+    "level": "easy",
+    "jp": "このスープはおいしいです。",
+    "reading": "このすーぷはおいしいです",
+    "romaji": "kono suupu wa oishii desu",
+    "english": "This soup is delicious.",
+    "category": "Cafés and restaurants",
+    "authorship": "original"
+  },
+  {
+    "id": "original-096",
+    "level": "medium",
+    "jp": "辛いものが苦手なので、辛さを控えめにできますか。",
+    "reading": "からいものがにがてなのでからさをひかえめにできますか",
+    "romaji": "karai mono ga nigate nanode karasa o hikaeme ni dekimasu ka",
+    "english": "I'm not good with spicy food. Can you make it mild?",
+    "category": "Cafés and restaurants",
+    "authorship": "original"
+  },
+  {
+    "id": "original-097",
+    "level": "medium",
+    "jp": "友達がまだ来ていないので、先に飲み物だけ注文します。",
+    "reading": "ともだちがまだきていないのでさきにのみものだけちゅうもんします",
+    "romaji": "tomodachi ga mada kite inai node saki ni nomimono dake chuumon shimasu",
+    "english": "My friend isn't here yet, so I'll just order a drink first.",
+    "category": "Cafés and restaurants",
+    "authorship": "original"
+  },
+  {
+    "id": "original-098",
+    "level": "medium",
+    "jp": "卵が入っていない料理を探しています。",
+    "reading": "たまごがはいっていないりょうりをさがしています",
+    "romaji": "tamago ga haitte inai ryouri o sagashite imasu",
+    "english": "I'm looking for a dish without eggs.",
+    "category": "Cafés and restaurants",
+    "authorship": "original"
+  },
+  {
+    "id": "original-099",
+    "level": "medium",
+    "jp": "食べきれなかった分を持ち帰ることはできますか。",
+    "reading": "たべきれなかったぶんをもちかえることはできますか",
+    "romaji": "tabekirenakatta bun o mochikaeru koto wa dekimasu ka",
+    "english": "May I take home what I couldn't finish?",
+    "category": "Cafés and restaurants",
+    "authorship": "original"
+  },
+  {
+    "id": "original-100",
+    "level": "medium",
+    "jp": "このパンは焼きたてですか。",
+    "reading": "このぱんはやきたてですか",
+    "romaji": "kono pan wa yakitate desu ka",
+    "english": "Is this bread freshly baked?",
+    "category": "Cafés and restaurants",
+    "authorship": "original"
+  },
+  {
+    "id": "original-101",
+    "level": "medium",
+    "jp": "あと五分で友達が来るので、少し待ってもらえますか。",
+    "reading": "あとごふんでともだちがくるのですこしまってもらえますか",
+    "romaji": "ato gofun de tomodachi ga kuru node sukoshi matte moraemasu ka",
+    "english": "My friend will arrive in five minutes. Could you wait a little?",
+    "category": "Cafés and restaurants",
+    "authorship": "original"
+  },
+  {
+    "id": "original-102",
+    "level": "medium",
+    "jp": "飲み物は氷なしでお願いします。",
+    "reading": "のみものはこおりなしでおねがいします",
+    "romaji": "nomimono wa koori nashi de onegai shimasu",
+    "english": "I'd like my drink without ice, please.",
+    "category": "Cafés and restaurants",
+    "authorship": "original"
+  },
+  {
+    "id": "original-103",
+    "level": "hard",
+    "jp": "予約の人数が一人増えたのですが、席を変更していただけますか。",
+    "reading": "よやくのにんずうがひとりふえたのですがせきをへんこうしていただけますか",
+    "romaji": "yoyaku no ninzuu ga hitori fueta no desu ga seki o henkou shite itadakemasu ka",
+    "english": "One more person is joining our reservation. Could you adjust the seating?",
+    "category": "Cafés and restaurants",
+    "authorship": "original"
+  },
+  {
+    "id": "original-104",
+    "level": "hard",
+    "jp": "アレルギーがあるため、調理に使う材料を確認させてください。",
+    "reading": "あれるぎーがあるためちょうりにつかうざいりょうをかくにんさせてください",
+    "romaji": "arerugii ga aru tame chouri ni tsukau zairyou o kakunin sasete kudasai",
+    "english": "I have an allergy, so please let me check the ingredients used.",
+    "category": "Cafés and restaurants",
+    "authorship": "original"
+  },
+  {
+    "id": "original-105",
+    "level": "hard",
+    "jp": "注文した飲み物がまだ届いていないようなので、確認をお願いできますか。",
+    "reading": "ちゅうもんしたのみものがまだとどいていないようなのでかくにんをおねがいできますか",
+    "romaji": "chuumon shita nomimono ga mada todoite inai you nanode kakunin o onegai dekimasu ka",
+    "english": "My drink doesn't seem to have arrived yet. Could you please check?",
+    "category": "Cafés and restaurants",
+    "authorship": "original"
+  },
+  {
+    "id": "original-106",
+    "level": "easy",
+    "jp": "りんごを三つ買います。",
+    "reading": "りんごをみっつかいます",
+    "romaji": "ringo o mittsu kaimasu",
+    "english": "I'll buy three apples.",
+    "category": "Groceries and cooking",
+    "authorship": "original"
+  },
+  {
+    "id": "original-107",
+    "level": "easy",
+    "jp": "今日の野菜は新鮮です。",
+    "reading": "きょうのやさいはしんせんです",
+    "romaji": "kyou no yasai wa shinsen desu",
+    "english": "Today's vegetables are fresh.",
+    "category": "Groceries and cooking",
+    "authorship": "original"
+  },
+  {
+    "id": "original-108",
+    "level": "easy",
+    "jp": "牛乳はどこにありますか。",
+    "reading": "ぎゅうにゅうはどこにありますか",
+    "romaji": "gyuunyuu wa doko ni arimasu ka",
+    "english": "Where is the milk?",
+    "category": "Groceries and cooking",
+    "authorship": "original"
+  },
+  {
+    "id": "original-109",
+    "level": "easy",
+    "jp": "夕飯にカレーを作ります。",
+    "reading": "ゆうはんにかれーをつくります",
+    "romaji": "yuuhan ni karee o tsukurimasu",
+    "english": "I'll make curry for dinner.",
+    "category": "Groceries and cooking",
+    "authorship": "original"
+  },
+  {
+    "id": "original-110",
+    "level": "easy",
+    "jp": "買い物袋を持ってきました。",
+    "reading": "かいものぶくろをもってきました",
+    "romaji": "kaimonobukuro o motte kimashita",
+    "english": "I brought my shopping bag.",
+    "category": "Groceries and cooking",
+    "authorship": "original"
+  },
+  {
+    "id": "original-111",
+    "level": "medium",
+    "jp": "このトマトは少し柔らかくなっています。",
+    "reading": "このとまとはすこしやわらかくなっています",
+    "romaji": "kono tomato wa sukoshi yawarakaku natte imasu",
+    "english": "These tomatoes have gotten a little soft.",
+    "category": "Groceries and cooking",
+    "authorship": "original"
+  },
+  {
+    "id": "original-112",
+    "level": "medium",
+    "jp": "レシピには玉ねぎが二個必要だと書いてあります。",
+    "reading": "れしぴにはたまねぎがにこひつようだとかいてあります",
+    "romaji": "reshipi niha tamanegi ga niko hitsuyou da to kaite arimasu",
+    "english": "The recipe says we need two onions.",
+    "category": "Groceries and cooking",
+    "authorship": "original"
+  },
+  {
+    "id": "original-113",
+    "level": "medium",
+    "jp": "冷凍食品は最後にかごに入れましょう。",
+    "reading": "れいとうしょくひんはさいごにかごにいれましょう",
+    "romaji": "reitoushokuhin wa saigo ni kago ni iremashou",
+    "english": "Let's put the frozen food in the basket last.",
+    "category": "Groceries and cooking",
+    "authorship": "original"
+  },
+  {
+    "id": "original-114",
+    "level": "medium",
+    "jp": "使い切れそうにないので、小さい袋を選びます。",
+    "reading": "つかいきれそうにないのでちいさいふくろをえらびます",
+    "romaji": "tsukaikiresou ni nai node chiisai fukuro o erabimasu",
+    "english": "I won't use it all, so I'll choose the smaller bag.",
+    "category": "Groceries and cooking",
+    "authorship": "original"
+  },
+  {
+    "id": "original-115",
+    "level": "medium",
+    "jp": "この豆腐はいつまで食べられますか。",
+    "reading": "このとうふはいつまでたべられますか",
+    "romaji": "kono toufu wa itsu made taberaremasu ka",
+    "english": "Until when is this tofu safe to eat?",
+    "category": "Groceries and cooking",
+    "authorship": "original"
+  },
+  {
+    "id": "original-116",
+    "level": "medium",
+    "jp": "にんじんを細く切ってから炒めます。",
+    "reading": "にんじんをほそくきってからいためます",
+    "romaji": "ninjin o hosoku kitte kara itamemasu",
+    "english": "I'll slice the carrots thinly before frying them.",
+    "category": "Groceries and cooking",
+    "authorship": "original"
+  },
+  {
+    "id": "original-117",
+    "level": "medium",
+    "jp": "今夜の料理には何を入れる予定ですか。",
+    "reading": "こんやのりょうりにはなにをいれるよていですか",
+    "romaji": "kon'ya no ryouri niha nani o ireru yotei desu ka",
+    "english": "What are you planning to put in tonight's dish?",
+    "category": "Groceries and cooking",
+    "authorship": "original"
+  },
+  {
+    "id": "original-118",
+    "level": "hard",
+    "jp": "余った野菜を無駄にしないように、週末にスープを作ろうと思います。",
+    "reading": "あまったやさいをむだにしないようにしゅうまつにすーぷをつくろうとおもいます",
+    "romaji": "amatta yasai o muda ni shinai youni shuumatsu ni suupu o tsukurou to omoimasu",
+    "english": "I plan to make soup this weekend so the leftover vegetables don't go to waste.",
+    "category": "Groceries and cooking",
+    "authorship": "original"
+  },
+  {
+    "id": "original-119",
+    "level": "hard",
+    "jp": "塩を入れすぎてしまったので、少し水を足して味を調整します。",
+    "reading": "しおをいれすぎてしまったのですこしみずをたしてあじをちょうせいします",
+    "romaji": "shio o iresugite shimatta node sukoshi mizu o tashite aji o chousei shimasu",
+    "english": "I added too much salt, so I'll add some water to adjust the taste.",
+    "category": "Groceries and cooking",
+    "authorship": "original"
+  },
+  {
+    "id": "original-120",
+    "level": "hard",
+    "jp": "今週は外食を減らして、できるだけ自分でご飯を作ることにしました。",
+    "reading": "こんしゅうはがいしょくをへらしてできるだけじぶんでごはんをつくることにしました",
+    "romaji": "konshuu wa gaishoku o herashite dekirudake jibun de gohan o tsukuru koto ni shimashita",
+    "english": "I've decided to eat out less and cook for myself as much as possible this week.",
+    "category": "Groceries and cooking",
+    "authorship": "original"
+  },
+  {
+    "id": "original-121",
+    "level": "easy",
+    "jp": "青いシャツを探しています。",
+    "reading": "あおいしゃつをさがしています",
+    "romaji": "aoi shatsu o sagashite imasu",
+    "english": "I'm looking for a blue shirt.",
+    "category": "Clothes and shopping",
+    "authorship": "original"
+  },
+  {
+    "id": "original-122",
+    "level": "easy",
+    "jp": "この靴は少し小さいです。",
+    "reading": "このくつはすこしちいさいです",
+    "romaji": "kono kutsu wa sukoshi chiisai desu",
+    "english": "These shoes are a little small.",
+    "category": "Clothes and shopping",
+    "authorship": "original"
+  },
+  {
+    "id": "original-123",
+    "level": "easy",
+    "jp": "違う色もありますか。",
+    "reading": "ちがういろもありますか",
+    "romaji": "chigau iro mo arimasu ka",
+    "english": "Does it come in another color?",
+    "category": "Clothes and shopping",
+    "authorship": "original"
+  },
+  {
+    "id": "original-124",
+    "level": "easy",
+    "jp": "今日は何も買いません。",
+    "reading": "きょうはなにもかいません",
+    "romaji": "kyou wa nanimo kaimasen",
+    "english": "I'm not buying anything today.",
+    "category": "Clothes and shopping",
+    "authorship": "original"
+  },
+  {
+    "id": "original-125",
+    "level": "easy",
+    "jp": "この帽子が気に入りました。",
+    "reading": "このぼうしがきにいりました",
+    "romaji": "kono boushi ga kiniirimashita",
+    "english": "I like this hat.",
+    "category": "Clothes and shopping",
+    "authorship": "original"
+  },
+  {
+    "id": "original-126",
+    "level": "medium",
+    "jp": "もう少し軽いバッグを見せていただけますか。",
+    "reading": "もうすこしかるいばっぐをみせていただけますか",
+    "romaji": "mou sukoshi karui baggu o misete itadakemasu ka",
+    "english": "Could you show me a slightly lighter bag?",
+    "category": "Clothes and shopping",
+    "authorship": "original"
+  },
+  {
+    "id": "original-127",
+    "level": "medium",
+    "jp": "この服は家で洗っても大丈夫ですか。",
+    "reading": "このふくはいえであらってもだいじょうぶですか",
+    "romaji": "kono fuku wa ie de arattemo daijoubu desu ka",
+    "english": "Is it okay to wash this clothing at home?",
+    "category": "Clothes and shopping",
+    "authorship": "original"
+  },
+  {
+    "id": "original-128",
+    "level": "medium",
+    "jp": "サイズが合わなかったので、交換できるか聞いてみます。",
+    "reading": "さいずがあわなかったのでこうかんできるかきいてみます",
+    "romaji": "saizu ga awanakatta node koukan dekiru ka kiite mimasu",
+    "english": "The size didn't fit, so I'll ask if I can exchange it.",
+    "category": "Clothes and shopping",
+    "authorship": "original"
+  },
+  {
+    "id": "original-129",
+    "level": "medium",
+    "jp": "友達への誕生日プレゼントを選んでいます。",
+    "reading": "ともだちへのたんじょうびぷれぜんとをえらんでいます",
+    "romaji": "tomodachi heno tanjoubipurezento o erande imasu",
+    "english": "I'm choosing a birthday gift for my friend.",
+    "category": "Clothes and shopping",
+    "authorship": "original"
+  },
+  {
+    "id": "original-130",
+    "level": "medium",
+    "jp": "表示されている値段には税金が含まれていますか。",
+    "reading": "ひょうじされているねだんにはぜいきんがふくまれていますか",
+    "romaji": "hyouji sarete iru nedan niha zeikin ga fukumarete imasu ka",
+    "english": "Does the displayed price include tax?",
+    "category": "Clothes and shopping",
+    "authorship": "original"
+  },
+  {
+    "id": "original-131",
+    "level": "medium",
+    "jp": "この商品は来月もう一度入荷しますか。",
+    "reading": "このしょうひんはらいげつもういちどにゅうかしますか",
+    "romaji": "kono shouhin wa raigetsu mouichido nyuuka shimasu ka",
+    "english": "Will this item be restocked next month?",
+    "category": "Clothes and shopping",
+    "authorship": "original"
+  },
+  {
+    "id": "original-132",
+    "level": "medium",
+    "jp": "雨の日でも使える靴が欲しいです。",
+    "reading": "あめのひでもつかえるくつがほしいです",
+    "romaji": "ame no hi demo tsukaeru kutsu ga hoshii desu",
+    "english": "I want shoes I can wear on rainy days.",
+    "category": "Clothes and shopping",
+    "authorship": "original"
+  },
+  {
+    "id": "original-133",
+    "level": "hard",
+    "jp": "購入した商品に不具合があったため、返品方法を教えていただけますか。",
+    "reading": "こうにゅうしたしょうひんにふぐあいがあったためへんぴんほうほうをおしえていただけますか",
+    "romaji": "kounyuu shita shouhin ni fuguai ga atta tame henpinhouhou o oshiete itadakemasu ka",
+    "english": "The item I bought is faulty. Could you explain how to return it?",
+    "category": "Clothes and shopping",
+    "authorship": "original"
+  },
+  {
+    "id": "original-134",
+    "level": "hard",
+    "jp": "予算を超えないように、必要なものから順番に買うことにしました。",
+    "reading": "よさんをこえないようにひつようなものからじゅんばんにかうことにしました",
+    "romaji": "yosan o koenai youni hitsuyouna mono kara junban ni kau koto ni shimashita",
+    "english": "I've decided to buy the essentials first so I stay within budget.",
+    "category": "Clothes and shopping",
+    "authorship": "original"
+  },
+  {
+    "id": "original-135",
+    "level": "hard",
+    "jp": "実際に試してから決めたいので、少し考える時間をいただけますか。",
+    "reading": "じっさいにためしてからきめたいのですこしかんがえるじかんをいただけますか",
+    "romaji": "jissai ni tameshite kara kimetai node sukoshi kangaeru jikan o itadakemasu ka",
+    "english": "I'd like to try it before deciding. Could you give me a little time to think?",
+    "category": "Clothes and shopping",
+    "authorship": "original"
+  },
+  {
+    "id": "original-136",
+    "level": "easy",
+    "jp": "図書館まで歩きます。",
+    "reading": "としょかんまであるきます",
+    "romaji": "toshokan made arukimasu",
+    "english": "I'll walk to the library.",
+    "category": "Walking around town",
+    "authorship": "original"
+  },
+  {
+    "id": "original-137",
+    "level": "easy",
+    "jp": "角に小さな花屋があります。",
+    "reading": "かどにちいさなはなやがあります",
+    "romaji": "kado ni chiisana hanaya ga arimasu",
+    "english": "There's a small flower shop on the corner.",
+    "category": "Walking around town",
+    "authorship": "original"
+  },
+  {
+    "id": "original-138",
+    "level": "easy",
+    "jp": "この道は静かですね。",
+    "reading": "このみちはしずかですね",
+    "romaji": "kono michi wa shizuka desu ne",
+    "english": "This street is quiet, isn't it?",
+    "category": "Walking around town",
+    "authorship": "original"
+  },
+  {
+    "id": "original-139",
+    "level": "easy",
+    "jp": "橋の向こうに公園があります。",
+    "reading": "はしのむこうにこうえんがあります",
+    "romaji": "hashi no mukou ni kouen ga arimasu",
+    "english": "There's a park across the bridge.",
+    "category": "Walking around town",
+    "authorship": "original"
+  },
+  {
+    "id": "original-140",
+    "level": "easy",
+    "jp": "ここから写真を撮ります。",
+    "reading": "ここからしゃしんをとります",
+    "romaji": "koko kara shashin o torimasu",
+    "english": "I'll take a photo from here.",
+    "category": "Walking around town",
+    "authorship": "original"
+  },
+  {
+    "id": "original-141",
+    "level": "medium",
+    "jp": "次の交差点を右に曲がると郵便局が見えます。",
+    "reading": "つぎのこうさてんをみぎにまがるとゆうびんきょくがみえます",
+    "romaji": "tsugi no kousaten o migi ni magaru to yuubinkyoku ga miemasu",
+    "english": "Turn right at the next intersection and you'll see the post office.",
+    "category": "Walking around town",
+    "authorship": "original"
+  },
+  {
+    "id": "original-142",
+    "level": "medium",
+    "jp": "この歩道は狭いので、ゆっくり歩きましょう。",
+    "reading": "このほどうはせまいのでゆっくりあるきましょう",
+    "romaji": "kono hodou wa semai node yukkuri arukimashou",
+    "english": "This sidewalk is narrow, so let's walk slowly.",
+    "category": "Walking around town",
+    "authorship": "original"
+  },
+  {
+    "id": "original-143",
+    "level": "medium",
+    "jp": "地図では近そうですが、坂が多いですね。",
+    "reading": "ちずではちかそうですがさかがおおいですね",
+    "romaji": "chizu deha chikasou desu ga saka ga ooi desu ne",
+    "english": "It looks close on the map, but there are lots of hills.",
+    "category": "Walking around town",
+    "authorship": "original"
+  },
+  {
+    "id": "original-144",
+    "level": "medium",
+    "jp": "信号を渡ったところで待ち合わせしましょう。",
+    "reading": "しんごうをわたったところでまちあわせしましょう",
+    "romaji": "shingou o watatta tokoro de machiawase shimashou",
+    "english": "Let's meet just after the traffic light.",
+    "category": "Walking around town",
+    "authorship": "original"
+  },
+  {
+    "id": "original-145",
+    "level": "medium",
+    "jp": "この道を進むと海が見えると聞きました。",
+    "reading": "このみちをすすむとうみがみえるとききました",
+    "romaji": "kono michi o susumu to umi ga mieru to kikimashita",
+    "english": "I heard you can see the sea if you follow this road.",
+    "category": "Walking around town",
+    "authorship": "original"
+  },
+  {
+    "id": "original-146",
+    "level": "medium",
+    "jp": "公園の入口は反対側にあるようです。",
+    "reading": "こうえんのいりぐちははんたいがわにあるようです",
+    "romaji": "kouen no iriguchi wa hantaigawa ni aru you desu",
+    "english": "The park entrance seems to be on the other side.",
+    "category": "Walking around town",
+    "authorship": "original"
+  },
+  {
+    "id": "original-147",
+    "level": "medium",
+    "jp": "横断歩道があるところまで戻りましょう。",
+    "reading": "おうだんほどうがあるところまでもどりましょう",
+    "romaji": "oudanhodou ga aru tokoro made modorimashou",
+    "english": "Let's go back to where the crosswalk is.",
+    "category": "Walking around town",
+    "authorship": "original"
+  },
+  {
+    "id": "original-148",
+    "level": "hard",
+    "jp": "工事でいつもの道が通れなくなっているので、別の道を探しています。",
+    "reading": "こうじでいつものみちがとおれなくなっているのでべつのみちをさがしています",
+    "romaji": "kouji de itsumo no michi ga toorenaku natte iru node betsu no michi o sagashite imasu",
+    "english": "The usual road is closed for construction, so I'm finding another way.",
+    "category": "Walking around town",
+    "authorship": "original"
+  },
+  {
+    "id": "original-149",
+    "level": "hard",
+    "jp": "急いでいないので、景色を楽しみながら遠回りしてみませんか。",
+    "reading": "いそいでいないのでけしきをたのしみながらとおまわりしてみませんか",
+    "romaji": "isoide inai node keshiki o tanoshiminagara toomawari shite mimasen ka",
+    "english": "We're not in a rush, so why don't we take a scenic detour?",
+    "category": "Walking around town",
+    "authorship": "original"
+  },
+  {
+    "id": "original-150",
+    "level": "hard",
+    "jp": "初めての場所では、建物の名前も確認しながら歩くようにしています。",
+    "reading": "はじめてのばしょではたてもののなまえもかくにんしながらあるくようにしています",
+    "romaji": "hajimete no basho deha tatemono no namae mo kakunin shinagara aruku youni shiteimasu",
+    "english": "In unfamiliar places, I make a point of checking building names as I walk.",
+    "category": "Walking around town",
+    "authorship": "original"
+  },
+  {
+    "id": "original-151",
+    "level": "easy",
+    "jp": "今日は電車で行きます。",
+    "reading": "きょうはでんしゃでいきます",
+    "romaji": "kyou wa densha de ikimasu",
+    "english": "I'll go by train today.",
+    "category": "Trains and stations",
+    "authorship": "original"
+  },
+  {
+    "id": "original-152",
+    "level": "easy",
+    "jp": "切符を買ってきます。",
+    "reading": "きっぷをかってきます",
+    "romaji": "kippu o katte kimasu",
+    "english": "I'll go buy a ticket.",
+    "category": "Trains and stations",
+    "authorship": "original"
+  },
+  {
+    "id": "original-153",
+    "level": "easy",
+    "jp": "次は渋谷駅です。",
+    "reading": "つぎはしぶやえきです",
+    "romaji": "tsugi wa shibuyaeki desu",
+    "english": "The next stop is Shibuya Station.",
+    "category": "Trains and stations",
+    "authorship": "original"
+  },
+  {
+    "id": "original-154",
+    "level": "easy",
+    "jp": "あの電車は空いています。",
+    "reading": "あのでんしゃはすいています",
+    "romaji": "ano densha wa suite imasu",
+    "english": "That train isn't crowded.",
+    "category": "Trains and stations",
+    "authorship": "original"
+  },
+  {
+    "id": "original-155",
+    "level": "easy",
+    "jp": "ホームで友達を待ちます。",
+    "reading": "ほーむでともだちをまちます",
+    "romaji": "hoomu de tomodachi o machimasu",
+    "english": "I'll wait for my friend on the platform.",
+    "category": "Trains and stations",
+    "authorship": "original"
+  },
+  {
+    "id": "original-156",
+    "level": "medium",
+    "jp": "急行に乗ると二十分ほど早く着きます。",
+    "reading": "きゅうこうにのるとにじゅっぷんほどはやくつきます",
+    "romaji": "kyuukou ni noru to nijuppun hodo hayaku tsukimasu",
+    "english": "Taking the express gets us there about twenty minutes earlier.",
+    "category": "Trains and stations",
+    "authorship": "original"
+  },
+  {
+    "id": "original-157",
+    "level": "medium",
+    "jp": "乗り換え時間が短いので、先に出口を調べます。",
+    "reading": "のりかえじかんがみじかいのでさきにでぐちをしらべます",
+    "romaji": "norikaejikan ga mijikai node saki ni deguchi o shirabemasu",
+    "english": "The transfer is tight, so I'll check the exit in advance.",
+    "category": "Trains and stations",
+    "authorship": "original"
+  },
+  {
+    "id": "original-158",
+    "level": "medium",
+    "jp": "この車両には大きな荷物を置ける場所がありますか。",
+    "reading": "このしゃりょうにはおおきなにもつをおけるばしょがありますか",
+    "romaji": "kono sharyou niha ookina nimotsu o okeru basho ga arimasu ka",
+    "english": "Is there a place for large luggage in this carriage?",
+    "category": "Trains and stations",
+    "authorship": "original"
+  },
+  {
+    "id": "original-159",
+    "level": "medium",
+    "jp": "電車が遅れているという案内が流れています。",
+    "reading": "でんしゃがおくれているというあんないがながれています",
+    "romaji": "densha ga okurete iru to iu annai ga nagarete imasu",
+    "english": "An announcement says the train is delayed.",
+    "category": "Trains and stations",
+    "authorship": "original"
+  },
+  {
+    "id": "original-160",
+    "level": "medium",
+    "jp": "改札を出る前に交通系カードの残高を確認します。",
+    "reading": "かいさつをでるまえにこうつうけいかーどのざんだかをかくにんします",
+    "romaji": "kaisatsu o deru mae ni koutsuukeikaado no zandaka o kakunin shimasu",
+    "english": "I'll check my transit card balance before leaving the gates.",
+    "category": "Trains and stations",
+    "authorship": "original"
+  },
+  {
+    "id": "original-161",
+    "level": "medium",
+    "jp": "次の駅で降りるので、ドアの近くへ移動します。",
+    "reading": "つぎのえきでおりるのでどあのちかくへいどうします",
+    "romaji": "tsugi no eki de oriru node doa no chikaku e idou shimasu",
+    "english": "I'm getting off at the next station, so I'll move closer to the door.",
+    "category": "Trains and stations",
+    "authorship": "original"
+  },
+  {
+    "id": "original-162",
+    "level": "medium",
+    "jp": "混雑していたため、一本後の電車にしました。",
+    "reading": "こんざつしていたためいっぽんあとのでんしゃにしました",
+    "romaji": "konzatsu shite ita tame ippon ato no densha ni shimashita",
+    "english": "It was crowded, so I took the next train instead.",
+    "category": "Trains and stations",
+    "authorship": "original"
+  },
+  {
+    "id": "original-163",
+    "level": "hard",
+    "jp": "目的地までの運賃が分からなかったので、駅員さんに確認しました。",
+    "reading": "もくてきちまでのうんちんがわからなかったのでえきいんさんにかくにんしました",
+    "romaji": "mokutekichi made no unchin ga wakaranakatta node ekiinsan ni kakunin shimashita",
+    "english": "I didn't know the fare to my destination, so I checked with station staff.",
+    "category": "Trains and stations",
+    "authorship": "original"
+  },
+  {
+    "id": "original-164",
+    "level": "hard",
+    "jp": "乗り過ごしてしまった場合、どの駅で折り返せばいいでしょうか。",
+    "reading": "のりすごしてしまったばあいどのえきでおりかえせばいいでしょうか",
+    "romaji": "norisugoshite shimatta baai dono eki de orikaeseba ii deshou ka",
+    "english": "If I miss my stop, which station should I use to turn back?",
+    "category": "Trains and stations",
+    "authorship": "original"
+  },
+  {
+    "id": "original-165",
+    "level": "hard",
+    "jp": "電車の運行状況が変わる可能性があるため、出発前に最新情報を確認します。",
+    "reading": "でんしゃのうんこうじょうきょうがかわるかのうせいがあるためしゅっぱつまえにさいしんじょうほうをかくにんします",
+    "romaji": "densha no unkoujoukyou ga kawaru kanousei ga aru tame shuppatsumae ni saishinjouhou o kakunin shimasu",
+    "english": "Service may change, so I'll check the latest train information before leaving.",
+    "category": "Trains and stations",
+    "authorship": "original"
+  },
+  {
+    "id": "original-166",
+    "level": "easy",
+    "jp": "明日は京都に行きます。",
+    "reading": "あしたはきょうとにいきます",
+    "romaji": "ashita wa kyouto ni ikimasu",
+    "english": "I'm going to Kyoto tomorrow.",
+    "category": "Trips and sightseeing",
+    "authorship": "original"
+  },
+  {
+    "id": "original-167",
+    "level": "easy",
+    "jp": "この神社はとても静かです。",
+    "reading": "このじんじゃはとてもしずかです",
+    "romaji": "kono jinja wa totemo shizuka desu",
+    "english": "This shrine is very peaceful.",
+    "category": "Trips and sightseeing",
+    "authorship": "original"
+  },
+  {
+    "id": "original-168",
+    "level": "easy",
+    "jp": "旅行の写真を見せます。",
+    "reading": "りょこうのしゃしんをみせます",
+    "romaji": "ryokou no shashin o misemasu",
+    "english": "I'll show you my travel photos.",
+    "category": "Trips and sightseeing",
+    "authorship": "original"
+  },
+  {
+    "id": "original-169",
+    "level": "easy",
+    "jp": "今日は博物館に行きたいです。",
+    "reading": "きょうははくぶつかんにいきたいです",
+    "romaji": "kyou wa hakubutsukan ni ikitai desu",
+    "english": "I want to visit a museum today.",
+    "category": "Trips and sightseeing",
+    "authorship": "original"
+  },
+  {
+    "id": "original-170",
+    "level": "easy",
+    "jp": "お土産にお菓子を買いました。",
+    "reading": "おみやげにおかしをかいました",
+    "romaji": "omiyage ni okashi o kaimashita",
+    "english": "I bought some sweets as souvenirs.",
+    "category": "Trips and sightseeing",
+    "authorship": "original"
+  },
+  {
+    "id": "original-171",
+    "level": "medium",
+    "jp": "朝早く出発すると、観光する時間が増えます。",
+    "reading": "あさはやくしゅっぱつするとかんこうするじかんがふえます",
+    "romaji": "asa hayaku shuppatsu suru to kankou suru jikan ga fuemasu",
+    "english": "Leaving early gives us more time to sightsee.",
+    "category": "Trips and sightseeing",
+    "authorship": "original"
+  },
+  {
+    "id": "original-172",
+    "level": "medium",
+    "jp": "この町の歴史について少し知りたいです。",
+    "reading": "このまちのれきしについてすこししりたいです",
+    "romaji": "kono machi no rekishi nitsuite sukoshi shiritai desu",
+    "english": "I'd like to learn a little about this town's history.",
+    "category": "Trips and sightseeing",
+    "authorship": "original"
+  },
+  {
+    "id": "original-173",
+    "level": "medium",
+    "jp": "入場券はオンラインで予約しておきました。",
+    "reading": "にゅうじょうけんはおんらいんでよやくしておきました",
+    "romaji": "nyuujouken wa onrain de yoyaku shite okimashita",
+    "english": "I booked the admission tickets online.",
+    "category": "Trips and sightseeing",
+    "authorship": "original"
+  },
+  {
+    "id": "original-174",
+    "level": "medium",
+    "jp": "混んでいる場所を避けて、静かな庭を散歩しました。",
+    "reading": "こんでいるばしょをさけてしずかなにわをさんぽしました",
+    "romaji": "konde iru basho o sakete shizukana niwa o sanpo shimashita",
+    "english": "I avoided the crowds and walked through a quiet garden.",
+    "category": "Trips and sightseeing",
+    "authorship": "original"
+  },
+  {
+    "id": "original-175",
+    "level": "medium",
+    "jp": "帰りのバスの時間を先に調べておきましょう。",
+    "reading": "かえりのばすのじかんをさきにしらべておきましょう",
+    "romaji": "kaeri no basu no jikan o saki ni shirabete okimashou",
+    "english": "Let's check the return bus schedule first.",
+    "category": "Trips and sightseeing",
+    "authorship": "original"
+  },
+  {
+    "id": "original-176",
+    "level": "medium",
+    "jp": "この景色が見られて本当にうれしいです。",
+    "reading": "このけしきがみられてほんとうにうれしいです",
+    "romaji": "kono keshiki ga mirarete hontouni ureshii desu",
+    "english": "I'm really happy I got to see this view.",
+    "category": "Trips and sightseeing",
+    "authorship": "original"
+  },
+  {
+    "id": "original-177",
+    "level": "medium",
+    "jp": "写真を撮ってもいい場所かどうか確認しましょう。",
+    "reading": "しゃしんをとってもいいばしょかどうかかくにんしましょう",
+    "romaji": "shashin o tottemo ii basho ka douka kakunin shimashou",
+    "english": "Let's check whether photography is allowed here.",
+    "category": "Trips and sightseeing",
+    "authorship": "original"
+  },
+  {
+    "id": "original-178",
+    "level": "hard",
+    "jp": "予定を詰め込みすぎず、一つ一つの場所をゆっくり楽しみたいです。",
+    "reading": "よていをつめこみすぎずひとつひとつのばしょをゆっくりたのしみたいです",
+    "romaji": "yotei o tsumekomisugizu hitotsu hitotsu no basho o yukkuri tanoshimitai desu",
+    "english": "I'd rather enjoy each place slowly than cram too much into the itinerary.",
+    "category": "Trips and sightseeing",
+    "authorship": "original"
+  },
+  {
+    "id": "original-179",
+    "level": "hard",
+    "jp": "雨が強くなった場合に備えて、屋内で楽しめる場所も探しておきました。",
+    "reading": "あめがつよくなったばあいにそなえておくないでたのしめるばしょもさがしておきました",
+    "romaji": "ame ga tsuyoku natta baai ni sonaete okunai de tanoshimeru basho mo sagashite okimashita",
+    "english": "I also found indoor places in case the rain gets heavy.",
+    "category": "Trips and sightseeing",
+    "authorship": "original"
+  },
+  {
+    "id": "original-180",
+    "level": "hard",
+    "jp": "地域の習慣を大切にしながら、地元の方々と交流できたらと思います。",
+    "reading": "ちいきのしゅうかんをたいせつにしながらじもとのかたがたとこうりゅうできたらとおもいます",
+    "romaji": "chiiki no shuukan o taisetsu ni shinagara jimoto no katagata to kouryuu dekitara to omoimasu",
+    "english": "I hope to connect with local people while respecting local customs.",
+    "category": "Trips and sightseeing",
+    "authorship": "original"
+  },
+  {
+    "id": "original-181",
+    "level": "easy",
+    "jp": "今日から二泊します。",
+    "reading": "きょうからにはくします",
+    "romaji": "kyou kara nihaku shimasu",
+    "english": "I'm staying for two nights from today.",
+    "category": "Hotels and guesthouses",
+    "authorship": "original"
+  },
+  {
+    "id": "original-182",
+    "level": "easy",
+    "jp": "部屋は402号室です。",
+    "reading": "へやはよんまるにごうしつです",
+    "romaji": "heya wa yonmaruni goushitsu desu",
+    "english": "My room is number 402.",
+    "category": "Hotels and guesthouses",
+    "authorship": "original"
+  },
+  {
+    "id": "original-183",
+    "level": "easy",
+    "jp": "朝は七時に出ます。",
+    "reading": "あさはしちじにでます",
+    "romaji": "asa wa shichiji ni demasu",
+    "english": "I'll leave at seven in the morning.",
+    "category": "Hotels and guesthouses",
+    "authorship": "original"
+  },
+  {
+    "id": "original-184",
+    "level": "easy",
+    "jp": "タオルを一枚使います。",
+    "reading": "たおるをいちまいつかいます",
+    "romaji": "taoru o ichimai tsukaimasu",
+    "english": "I'll use one towel.",
+    "category": "Hotels and guesthouses",
+    "authorship": "original"
+  },
+  {
+    "id": "original-185",
+    "level": "easy",
+    "jp": "荷物はここに置きます。",
+    "reading": "にもつはここにおきます",
+    "romaji": "nimotsu wa koko ni okimasu",
+    "english": "I'll leave my bags here.",
+    "category": "Hotels and guesthouses",
+    "authorship": "original"
+  },
+  {
+    "id": "original-186",
+    "level": "medium",
+    "jp": "チェックイン前に荷物を預けることはできますか。",
+    "reading": "ちぇっくいんまえににもつをあずけることはできますか",
+    "romaji": "chekkuin mae ni nimotsu o azukeru koto wa dekimasu ka",
+    "english": "Can I leave my luggage before check-in?",
+    "category": "Hotels and guesthouses",
+    "authorship": "original"
+  },
+  {
+    "id": "original-187",
+    "level": "medium",
+    "jp": "静かな部屋が空いていれば、そちらを希望します。",
+    "reading": "しずかなへやがあいていればそちらをきぼうします",
+    "romaji": "shizukana heya ga aite ireba sochira o kibou shimasu",
+    "english": "If a quiet room is available, I'd prefer that.",
+    "category": "Hotels and guesthouses",
+    "authorship": "original"
+  },
+  {
+    "id": "original-188",
+    "level": "medium",
+    "jp": "エアコンの温度を下げても部屋が涼しくなりません。",
+    "reading": "えあこんのおんどをさげてもへやがすずしくなりません",
+    "romaji": "eakon no ondo o sagetemo heya ga suzushiku narimasen",
+    "english": "The room won't cool down even when I lower the AC temperature.",
+    "category": "Hotels and guesthouses",
+    "authorship": "original"
+  },
+  {
+    "id": "original-189",
+    "level": "medium",
+    "jp": "朝食を食べない日は前日までに伝えます。",
+    "reading": "ちょうしょくをたべないひはぜんじつまでにつたえます",
+    "romaji": "choushoku o tabenai hi wa zenjitsu made ni tsutaemasu",
+    "english": "I'll let you know by the previous day if I won't have breakfast.",
+    "category": "Hotels and guesthouses",
+    "authorship": "original"
+  },
+  {
+    "id": "original-190",
+    "level": "medium",
+    "jp": "近くに早朝から開いているお店はありますか。",
+    "reading": "ちかくにそうちょうからあいているおみせはありますか",
+    "romaji": "chikaku ni souchou kara aite iru omise wa arimasu ka",
+    "english": "Are any nearby shops open early in the morning?",
+    "category": "Hotels and guesthouses",
+    "authorship": "original"
+  },
+  {
+    "id": "original-191",
+    "level": "medium",
+    "jp": "部屋のカードキーが反応しなくなりました。",
+    "reading": "へやのかーどきーがはんのうしなくなりました",
+    "romaji": "heya no kaadokii ga hannou shinaku narimashita",
+    "english": "My room key card has stopped working.",
+    "category": "Hotels and guesthouses",
+    "authorship": "original"
+  },
+  {
+    "id": "original-192",
+    "level": "medium",
+    "jp": "明日は出発が早いので、今夜中に精算できますか。",
+    "reading": "あしたはしゅっぱつがはやいのでこんやじゅうにせいさんできますか",
+    "romaji": "ashita wa shuppatsu ga hayai node kon'yajuu ni seisan dekimasu ka",
+    "english": "I'm leaving early tomorrow. Can I settle the bill tonight?",
+    "category": "Hotels and guesthouses",
+    "authorship": "original"
+  },
+  {
+    "id": "original-193",
+    "level": "hard",
+    "jp": "予約時にお願いした条件が反映されていないようなので、確認していただけますか。",
+    "reading": "よやくじにおねがいしたじょうけんがはんえいされていないようなのでかくにんしていただけますか",
+    "romaji": "yoyakuji ni onegai shita jouken ga han'ei sarete inai you nanode kakunin shite itadakemasu ka",
+    "english": "The preferences I requested when booking don't seem to be reflected. Could you check?",
+    "category": "Hotels and guesthouses",
+    "authorship": "original"
+  },
+  {
+    "id": "original-194",
+    "level": "hard",
+    "jp": "急な予定変更で滞在を一日延ばす必要があるのですが、可能でしょうか。",
+    "reading": "きゅうなよていへんこうでたいざいをいちにちのばすひつようがあるのですがかのうでしょうか",
+    "romaji": "kyuuna yoteihenkou de taizai o ichinichi nobasu hitsuyou ga aru no desu ga kanou deshou ka",
+    "english": "My plans suddenly changed and I need one more night. Would that be possible?",
+    "category": "Hotels and guesthouses",
+    "authorship": "original"
+  },
+  {
+    "id": "original-195",
+    "level": "hard",
+    "jp": "夜間は廊下の声がよく聞こえるため、静かにしていただけると助かります。",
+    "reading": "やかんはろうかのこえがよくきこえるためしずかにしていただけるとたすかります",
+    "romaji": "yakan wa rouka no koe ga yoku kikoeru tame shizuka ni shite itadakeru to tasukarimasu",
+    "english": "Voices in the corridor are clearly audible at night, so I'd appreciate some quiet.",
+    "category": "Hotels and guesthouses",
+    "authorship": "original"
+  },
+  {
+    "id": "original-196",
+    "level": "easy",
+    "jp": "今日は現金を使います。",
+    "reading": "きょうはげんきんをつかいます",
+    "romaji": "kyou wa genkin o tsukaimasu",
+    "english": "I'll pay in cash today.",
+    "category": "Money and payments",
+    "authorship": "original"
+  },
+  {
+    "id": "original-197",
+    "level": "easy",
+    "jp": "このカードで払います。",
+    "reading": "このかーどではらいます",
+    "romaji": "kono kaado de haraimasu",
+    "english": "I'll pay with this card.",
+    "category": "Money and payments",
+    "authorship": "original"
+  },
+  {
+    "id": "original-198",
+    "level": "easy",
+    "jp": "小銭を少し持っています。",
+    "reading": "こぜにをすこしもっています",
+    "romaji": "kozeni o sukoshi motte imasu",
+    "english": "I have some coins.",
+    "category": "Money and payments",
+    "authorship": "original"
+  },
+  {
+    "id": "original-199",
+    "level": "easy",
+    "jp": "予算は三千円です。",
+    "reading": "よさんはさんぜんえんです",
+    "romaji": "yosan wa sanzen'en desu",
+    "english": "My budget is three thousand yen.",
+    "category": "Money and payments",
+    "authorship": "original"
+  },
+  {
+    "id": "original-200",
+    "level": "easy",
+    "jp": "財布はかばんの中です。",
+    "reading": "さいふはかばんのなかです",
+    "romaji": "saifu wa kaban no naka desu",
+    "english": "My wallet is in my bag.",
+    "category": "Money and payments",
+    "authorship": "original"
+  },
+  {
+    "id": "original-201",
+    "level": "medium",
+    "jp": "支払いが完了したか画面で確認します。",
+    "reading": "しはらいがかんりょうしたかがめんでかくにんします",
+    "romaji": "shiharai ga kanryou shita ka gamen de kakunin shimasu",
+    "english": "I'll check the screen to see whether payment went through.",
+    "category": "Money and payments",
+    "authorship": "original"
+  },
+  {
+    "id": "original-202",
+    "level": "medium",
+    "jp": "友達と昼食代を半分ずつ出しました。",
+    "reading": "ともだちとちゅうしょくだいをはんぶんずつだしました",
+    "romaji": "tomodachi to chuushokudai o hanbunzutsu dashimashita",
+    "english": "My friend and I split the lunch bill equally.",
+    "category": "Money and payments",
+    "authorship": "original"
+  },
+  {
+    "id": "original-203",
+    "level": "medium",
+    "jp": "今日は使いすぎたので、明日は節約します。",
+    "reading": "きょうはつかいすぎたのであしたはせつやくします",
+    "romaji": "kyou wa tsukaisugita node ashita wa setsuyaku shimasu",
+    "english": "I spent too much today, so I'll save money tomorrow.",
+    "category": "Money and payments",
+    "authorship": "original"
+  },
+  {
+    "id": "original-204",
+    "level": "medium",
+    "jp": "こちらの機械は交通系カードにも対応していますか。",
+    "reading": "こちらのきかいはこうつうけいかーどにもたいおうしていますか",
+    "romaji": "kochira no kikai wa koutsuukeikaado nimo taiou shite imasu ka",
+    "english": "Does this machine accept transit cards too?",
+    "category": "Money and payments",
+    "authorship": "original"
+  },
+  {
+    "id": "original-205",
+    "level": "medium",
+    "jp": "一度に大きなお金を両替しないようにしています。",
+    "reading": "いちどにおおきなおかねをりょうがえしないようにしています",
+    "romaji": "ichido ni ookina okane o ryougae shinai youni shiteimasu",
+    "english": "I try not to exchange large amounts at once.",
+    "category": "Money and payments",
+    "authorship": "original"
+  },
+  {
+    "id": "original-206",
+    "level": "medium",
+    "jp": "領収書はメールで送っていただけますか。",
+    "reading": "りょうしゅうしょはめーるでおくっていただけますか",
+    "romaji": "ryoushuusho wa meeru de okutte itadakemasu ka",
+    "english": "Could you send the receipt by email?",
+    "category": "Money and payments",
+    "authorship": "original"
+  },
+  {
+    "id": "original-207",
+    "level": "medium",
+    "jp": "金額が予想より高かったので内訳を確認します。",
+    "reading": "きんがくがよそうよりたかかったのでうちわけをかくにんします",
+    "romaji": "kingaku ga yosou yori takakatta node uchiwake o kakunin shimasu",
+    "english": "The total was higher than expected, so I'll check the breakdown.",
+    "category": "Money and payments",
+    "authorship": "original"
+  },
+  {
+    "id": "original-208",
+    "level": "hard",
+    "jp": "二重に請求された可能性があるため、取引履歴を確認していただけますか。",
+    "reading": "にじゅうにせいきゅうされたかのうせいがあるためとりひきりれきをかくにんしていただけますか",
+    "romaji": "nijuu ni seikyuu sareta kanousei ga aru tame torihikirireki o kakunin shite itadakemasu ka",
+    "english": "I may have been charged twice. Could you check the transaction history?",
+    "category": "Money and payments",
+    "authorship": "original"
+  },
+  {
+    "id": "original-209",
+    "level": "hard",
+    "jp": "返金されるまでにどのくらい時間がかかるか教えていただきたいです。",
+    "reading": "へんきんされるまでにどのくらいじかんがかかるかおしえていただきたいです",
+    "romaji": "henkin sareru made ni donokurai jikan ga kakaru ka oshiete itadakitai desu",
+    "english": "I'd like to know roughly how long the refund will take.",
+    "category": "Money and payments",
+    "authorship": "original"
+  },
+  {
+    "id": "original-210",
+    "level": "hard",
+    "jp": "万が一カードを紛失した場合に備え、連絡先を控えておきました。",
+    "reading": "まんがいちかーどをふんしつしたばあいにそなえれんらくさきをひかえておきました",
+    "romaji": "mangaichi kaado o funshitsu shita baai ni sonae renrakusaki o hikaete okimashita",
+    "english": "I saved the contact details in case I ever lose my card.",
+    "category": "Money and payments",
+    "authorship": "original"
+  },
+  {
+    "id": "original-211",
+    "level": "easy",
+    "jp": "今、電話に出られません。",
+    "reading": "いまでんわにでられません",
+    "romaji": "ima denwa ni deraremasen",
+    "english": "I can't answer the phone right now.",
+    "category": "Phone and internet",
+    "authorship": "original"
+  },
+  {
+    "id": "original-212",
+    "level": "easy",
+    "jp": "写真を送りますね。",
+    "reading": "しゃしんをおくりますね",
+    "romaji": "shashin o okurimasu ne",
+    "english": "I'll send you the photos.",
+    "category": "Phone and internet",
+    "authorship": "original"
+  },
+  {
+    "id": "original-213",
+    "level": "easy",
+    "jp": "充電がもうすぐ切れます。",
+    "reading": "じゅうでんがもうすぐきれます",
+    "romaji": "juuden ga mousugu kiremasu",
+    "english": "My battery is almost dead.",
+    "category": "Phone and internet",
+    "authorship": "original"
+  },
+  {
+    "id": "original-214",
+    "level": "easy",
+    "jp": "パスワードを変えました。",
+    "reading": "ぱすわーどをかえました",
+    "romaji": "pasuwaado o kaemashita",
+    "english": "I changed my password.",
+    "category": "Phone and internet",
+    "authorship": "original"
+  },
+  {
+    "id": "original-215",
+    "level": "easy",
+    "jp": "今日は動画を見ます。",
+    "reading": "きょうはどうがをみます",
+    "romaji": "kyou wa douga o mimasu",
+    "english": "I'll watch a video today.",
+    "category": "Phone and internet",
+    "authorship": "original"
+  },
+  {
+    "id": "original-216",
+    "level": "medium",
+    "jp": "電波が弱いので、窓の近くに移動します。",
+    "reading": "でんぱがよわいのでまどのちかくにいどうします",
+    "romaji": "denpa ga yowai node mado no chikaku ni idou shimasu",
+    "english": "The signal is weak, so I'll move closer to the window.",
+    "category": "Phone and internet",
+    "authorship": "original"
+  },
+  {
+    "id": "original-217",
+    "level": "medium",
+    "jp": "通知が多すぎるので、いくつかオフにしました。",
+    "reading": "つうちがおおすぎるのでいくつかおふにしました",
+    "romaji": "tsuuchi ga oosugiru node ikutsuka ofu ni shimashita",
+    "english": "There were too many notifications, so I turned some off.",
+    "category": "Phone and internet",
+    "authorship": "original"
+  },
+  {
+    "id": "original-218",
+    "level": "medium",
+    "jp": "このアプリでは発音の練習もできます。",
+    "reading": "このあぷりでははつおんのれんしゅうもできます",
+    "romaji": "kono apuri deha hatsuon no renshuu mo dekimasu",
+    "english": "You can also practise pronunciation in this app.",
+    "category": "Phone and internet",
+    "authorship": "original"
+  },
+  {
+    "id": "original-219",
+    "level": "medium",
+    "jp": "メッセージが届いたら、時間のあるときに返信します。",
+    "reading": "めっせーじがとどいたらじかんのあるときにへんしんします",
+    "romaji": "messeeji ga todoitara jikan no aru toki ni henshin shimasu",
+    "english": "I'll reply when I have time after your message arrives.",
+    "category": "Phone and internet",
+    "authorship": "original"
+  },
+  {
+    "id": "original-220",
+    "level": "medium",
+    "jp": "インターネットにつながらないので、設定を確認しています。",
+    "reading": "いんたーねっとにつながらないのでせっていをかくにんしています",
+    "romaji": "intaanetto ni tsunagaranai node settei o kakunin shite imasu",
+    "english": "I'm checking the settings because I can't connect to the internet.",
+    "category": "Phone and internet",
+    "authorship": "original"
+  },
+  {
+    "id": "original-221",
+    "level": "medium",
+    "jp": "大切な写真は別の場所にも保存しておきます。",
+    "reading": "たいせつなしゃしんはべつのばしょにもほぞんしておきます",
+    "romaji": "taisetsuna shashin wa betsu no basho nimo hozon shite okimasu",
+    "english": "I'll also back up important photos somewhere else.",
+    "category": "Phone and internet",
+    "authorship": "original"
+  },
+  {
+    "id": "original-222",
+    "level": "medium",
+    "jp": "画面が固まったので、一度アプリを再起動します。",
+    "reading": "がめんがかたまったのでいちどあぷりをさいきどうします",
+    "romaji": "gamen ga katamatta node ichido apuri o saikidou shimasu",
+    "english": "The screen froze, so I'll restart the app.",
+    "category": "Phone and internet",
+    "authorship": "original"
+  },
+  {
+    "id": "original-223",
+    "level": "hard",
+    "jp": "個人情報を送る前に、相手が信頼できるか確認するようにしています。",
+    "reading": "こじんじょうほうをおくるまえにあいてがしんらいできるかかくにんするようにしています",
+    "romaji": "kojinjouhou o okuru mae ni aite ga shinrai dekiru ka kakunin suru youni shiteimasu",
+    "english": "Before sharing personal information, I check that the recipient is trustworthy.",
+    "category": "Phone and internet",
+    "authorship": "original"
+  },
+  {
+    "id": "original-224",
+    "level": "hard",
+    "jp": "接続が不安定なため、会議に戻れなかったら電話で連絡します。",
+    "reading": "せつぞくがふあんていなためかいぎにもどれなかったらでんわでれんらくします",
+    "romaji": "setsuzoku ga fuanteina tame kaigi ni modorenakattara denwa de renraku shimasu",
+    "english": "My connection is unstable; if I can't rejoin the meeting, I'll call.",
+    "category": "Phone and internet",
+    "authorship": "original"
+  },
+  {
+    "id": "original-225",
+    "level": "hard",
+    "jp": "自動翻訳だけでは意味が伝わらないこともあるので、表現を確かめます。",
+    "reading": "じどうほんやくだけではいみがつたわらないこともあるのでひょうげんをたしかめます",
+    "romaji": "jidouhon'yaku dake deha imi ga tsutawaranai koto mo aru node hyougen o tashikamemasu",
+    "english": "Automatic translation doesn't always convey the meaning, so I check the wording.",
+    "category": "Phone and internet",
+    "authorship": "original"
+  },
+  {
+    "id": "original-226",
+    "level": "easy",
+    "jp": "今日は風が強いです。",
+    "reading": "きょうはかぜがつよいです",
+    "romaji": "kyou wa kaze ga tsuyoi desu",
+    "english": "It's windy today.",
+    "category": "Weather and outdoor plans",
+    "authorship": "original"
+  },
+  {
+    "id": "original-227",
+    "level": "easy",
+    "jp": "空に雲が増えました。",
+    "reading": "そらにくもがふえました",
+    "romaji": "sora ni kumo ga fuemashita",
+    "english": "There are more clouds in the sky now.",
+    "category": "Weather and outdoor plans",
+    "authorship": "original"
+  },
+  {
+    "id": "original-228",
+    "level": "easy",
+    "jp": "傘を持っていきます。",
+    "reading": "かさをもっていきます",
+    "romaji": "kasa o motte ikimasu",
+    "english": "I'll take an umbrella.",
+    "category": "Weather and outdoor plans",
+    "authorship": "original"
+  },
+  {
+    "id": "original-229",
+    "level": "easy",
+    "jp": "夕方は涼しくなります。",
+    "reading": "ゆうがたはすずしくなります",
+    "romaji": "yuugata wa suzushiku narimasu",
+    "english": "It gets cooler in the evening.",
+    "category": "Weather and outdoor plans",
+    "authorship": "original"
+  },
+  {
+    "id": "original-230",
+    "level": "easy",
+    "jp": "明日は晴れるといいですね。",
+    "reading": "あしたははれるといいですね",
+    "romaji": "ashita wa hareru to ii desu ne",
+    "english": "I hope it's sunny tomorrow.",
+    "category": "Weather and outdoor plans",
+    "authorship": "original"
+  },
+  {
+    "id": "original-231",
+    "level": "medium",
+    "jp": "天気がよければ、自転車で川沿いを走ります。",
+    "reading": "てんきがよければじてんしゃでかわぞいをはしります",
+    "romaji": "tenki ga yokereba jitensha de kawazoi o hashirimasu",
+    "english": "If the weather's good, I'll cycle along the river.",
+    "category": "Weather and outdoor plans",
+    "authorship": "original"
+  },
+  {
+    "id": "original-232",
+    "level": "medium",
+    "jp": "午後から雨の予報なので、洗濯は明日にします。",
+    "reading": "ごごからあめのよほうなのでせんたくはあしたにします",
+    "romaji": "gogo kara ame no yohou nanode sentaku wa ashita ni shimasu",
+    "english": "Rain is forecast for the afternoon, so I'll do laundry tomorrow.",
+    "category": "Weather and outdoor plans",
+    "authorship": "original"
+  },
+  {
+    "id": "original-233",
+    "level": "medium",
+    "jp": "山の上は寒そうだから、上着を持っていこう。",
+    "reading": "やまのうえはさむそうだからうわぎをもっていこう",
+    "romaji": "yama no ue wa samusou dakara uwagi o motte ikou",
+    "english": "It looks cold on the mountain, so let's bring jackets.",
+    "category": "Weather and outdoor plans",
+    "authorship": "original"
+  },
+  {
+    "id": "original-234",
+    "level": "medium",
+    "jp": "暑い日は水分をこまめに取るようにしています。",
+    "reading": "あついひはすいぶんをこまめにとるようにしています",
+    "romaji": "atsui hi wa suibun o komame ni toru youni shiteimasu",
+    "english": "On hot days, I make sure to drink water regularly.",
+    "category": "Weather and outdoor plans",
+    "authorship": "original"
+  },
+  {
+    "id": "original-235",
+    "level": "medium",
+    "jp": "天気予報を見てからピクニックの日を決めます。",
+    "reading": "てんきよほうをみてからぴくにっくのひをきめます",
+    "romaji": "tenkiyohou o mite kara pikunikku no hi o kimemasu",
+    "english": "We'll choose the picnic day after checking the forecast.",
+    "category": "Weather and outdoor plans",
+    "authorship": "original"
+  },
+  {
+    "id": "original-236",
+    "level": "medium",
+    "jp": "雨がやんだら、犬と散歩に出かけます。",
+    "reading": "あめがやんだらいぬとさんぽにでかけます",
+    "romaji": "ame ga yandara inu to sanpo ni dekakemasu",
+    "english": "When it stops raining, I'll go for a walk with the dog.",
+    "category": "Weather and outdoor plans",
+    "authorship": "original"
+  },
+  {
+    "id": "original-237",
+    "level": "medium",
+    "jp": "朝と夜の気温差が大きいので、服装に気をつけます。",
+    "reading": "あさとよるのきおんさがおおきいのでふくそうにきをつけます",
+    "romaji": "asa to yoru no kionsa ga ookii node fukusou ni kiotsukemasu",
+    "english": "The temperature changes a lot between morning and night, so I'll dress accordingly.",
+    "category": "Weather and outdoor plans",
+    "authorship": "original"
+  },
+  {
+    "id": "original-238",
+    "level": "hard",
+    "jp": "急に天候が変わることもあるので、山に行く前に安全情報を調べます。",
+    "reading": "きゅうにてんこうがかわることもあるのでやまにいくまえにあんぜんじょうほうをしらべます",
+    "romaji": "kyuuni tenkou ga kawaru koto mo aru node yama ni iku mae ni anzenjouhou o shirabemasu",
+    "english": "Mountain weather can change suddenly, so I check safety information before going.",
+    "category": "Weather and outdoor plans",
+    "authorship": "original"
+  },
+  {
+    "id": "original-239",
+    "level": "hard",
+    "jp": "雨天の場合は屋外イベントが中止になる可能性があります。",
+    "reading": "うてんのばあいはおくがいいべんとがちゅうしになるかのうせいがあります",
+    "romaji": "uten no baai wa okugaiibento ga chuushi ni naru kanousei ga arimasu",
+    "english": "The outdoor event may be cancelled if it rains.",
+    "category": "Weather and outdoor plans",
+    "authorship": "original"
+  },
+  {
+    "id": "original-240",
+    "level": "hard",
+    "jp": "せっかく遠くまで来たのに、霧で景色がほとんど見えませんでした。",
+    "reading": "せっかくとおくまできたのにきりでけしきがほとんどみえませんでした",
+    "romaji": "sekkaku tooku made kita noni kiri de keshiki ga hotondo miemasen deshita",
+    "english": "We came all this way, but the fog hid almost all the view.",
+    "category": "Weather and outdoor plans",
+    "authorship": "original"
+  },
+  {
+    "id": "original-241",
+    "level": "easy",
+    "jp": "週末は絵を描きます。",
+    "reading": "しゅうまつはえをかきます",
+    "romaji": "shuumatsu wa e o kakimasu",
+    "english": "I draw on weekends.",
+    "category": "Hobbies and weekends",
+    "authorship": "original"
+  },
+  {
+    "id": "original-242",
+    "level": "easy",
+    "jp": "最近、料理が楽しいです。",
+    "reading": "さいきんりょうりがたのしいです",
+    "romaji": "saikin ryouri ga tanoshii desu",
+    "english": "I've been enjoying cooking lately.",
+    "category": "Hobbies and weekends",
+    "authorship": "original"
+  },
+  {
+    "id": "original-243",
+    "level": "easy",
+    "jp": "毎晩少し本を読みます。",
+    "reading": "まいばんすこしほんをよみます",
+    "romaji": "maiban sukoshi hon o yomimasu",
+    "english": "I read a little every night.",
+    "category": "Hobbies and weekends",
+    "authorship": "original"
+  },
+  {
+    "id": "original-244",
+    "level": "easy",
+    "jp": "昨日、新しい曲を聞きました。",
+    "reading": "きのうあたらしいきょくをききました",
+    "romaji": "kinou atarashii kyoku o kikimashita",
+    "english": "I listened to a new song yesterday.",
+    "category": "Hobbies and weekends",
+    "authorship": "original"
+  },
+  {
+    "id": "original-245",
+    "level": "easy",
+    "jp": "休みの日は自転車に乗ります。",
+    "reading": "やすみのひはじてんしゃにのります",
+    "romaji": "yasumi no hi wa jitensha ni norimasu",
+    "english": "I cycle on my days off.",
+    "category": "Hobbies and weekends",
+    "authorship": "original"
+  },
+  {
+    "id": "original-246",
+    "level": "medium",
+    "jp": "週末に撮った写真を整理しています。",
+    "reading": "しゅうまつにとったしゃしんをせいりしています",
+    "romaji": "shuumatsu ni totta shashin o seiri shite imasu",
+    "english": "I'm sorting the photos I took this weekend.",
+    "category": "Hobbies and weekends",
+    "authorship": "original"
+  },
+  {
+    "id": "original-247",
+    "level": "medium",
+    "jp": "時間があるときは簡単なパンを焼いています。",
+    "reading": "じかんがあるときはかんたんなぱんをやいています",
+    "romaji": "jikan ga aru toki wa kantanna pan o yaite imasu",
+    "english": "When I have time, I bake simple bread.",
+    "category": "Hobbies and weekends",
+    "authorship": "original"
+  },
+  {
+    "id": "original-248",
+    "level": "medium",
+    "jp": "ギターを始めたばかりなので、まだ練習中です。",
+    "reading": "ぎたーをはじめたばかりなのでまだれんしゅうちゅうです",
+    "romaji": "gitaa o hajimeta bakari nanode mada renshuuchuu desu",
+    "english": "I've only just started guitar, so I'm still practising.",
+    "category": "Hobbies and weekends",
+    "authorship": "original"
+  },
+  {
+    "id": "original-249",
+    "level": "medium",
+    "jp": "試合を見るのも好きですが、実際に体を動かすほうが好きです。",
+    "reading": "しあいをみるのもすきですがじっさいにからだをうごかすほうがすきです",
+    "romaji": "shiai o miru no mo suki desu ga jissai ni karada o ugokasu hou ga suki desu",
+    "english": "I like watching games, but I prefer being active myself.",
+    "category": "Hobbies and weekends",
+    "authorship": "original"
+  },
+  {
+    "id": "original-250",
+    "level": "medium",
+    "jp": "最近は植物を育てることに興味があります。",
+    "reading": "さいきんはしょくぶつをそだてることにきょうみがあります",
+    "romaji": "saikin wa shokubutsu o sodateru koto ni kyoumi ga arimasu",
+    "english": "Lately I've become interested in growing plants.",
+    "category": "Hobbies and weekends",
+    "authorship": "original"
+  },
+  {
+    "id": "original-251",
+    "level": "medium",
+    "jp": "仕事の後に短い散歩をすると気分が変わります。",
+    "reading": "しごとのあとにみじかいさんぽをするときぶんがかわります",
+    "romaji": "shigoto no ato ni mijikai sanpo o suru to kibun ga kawarimasu",
+    "english": "A short walk after work helps me reset.",
+    "category": "Hobbies and weekends",
+    "authorship": "original"
+  },
+  {
+    "id": "original-252",
+    "level": "medium",
+    "jp": "今度の休みには陶芸教室に参加してみたいです。",
+    "reading": "こんどのやすみにはとうげいきょうしつにさんかしてみたいです",
+    "romaji": "kondo no yasumi niha tougeikyoushitsu ni sanka shite mitai desu",
+    "english": "I'd like to join a pottery class on my next day off.",
+    "category": "Hobbies and weekends",
+    "authorship": "original"
+  },
+  {
+    "id": "original-253",
+    "level": "hard",
+    "jp": "新しい趣味を始めるときは、上手になることより楽しむことを大切にしています。",
+    "reading": "あたらしいしゅみをはじめるときはじょうずになることよりたのしむことをたいせつにしています",
+    "romaji": "atarashii shumi o hajimeru toki wa jouzu ni naru koto yori tanoshimu koto o taisetsu ni shiteimasu",
+    "english": "When starting a hobby, I value having fun more than becoming skilled.",
+    "category": "Hobbies and weekends",
+    "authorship": "original"
+  },
+  {
+    "id": "original-254",
+    "level": "hard",
+    "jp": "忙しくても週に一度は趣味の時間を取るようにしています。",
+    "reading": "いそがしくてもしゅうにいちどはしゅみのじかんをとるようにしています",
+    "romaji": "isogashikutemo shuu ni ichido wa shumi no jikan o toru youni shiteimasu",
+    "english": "Even when I'm busy, I try to make time for my hobby once a week.",
+    "category": "Hobbies and weekends",
+    "authorship": "original"
+  },
+  {
+    "id": "original-255",
+    "level": "hard",
+    "jp": "難しそうだと思っていたことでも、実際にやってみると意外に面白いものです。",
+    "reading": "むずかしそうだとおもっていたことでもじっさいにやってみるといがいにおもしろいものです",
+    "romaji": "muzukashisou da to omotte ita koto demo jissai ni yatte miru to igai ni omoshiroi mono desu",
+    "english": "Even something that looks difficult can be surprisingly fun when you try it.",
+    "category": "Hobbies and weekends",
+    "authorship": "original"
+  },
+  {
+    "id": "original-256",
+    "level": "easy",
+    "jp": "今日は少し疲れています。",
+    "reading": "きょうはすこしつかれています",
+    "romaji": "kyou wa sukoshi tsukarete imasu",
+    "english": "I'm a little tired today.",
+    "category": "Health and wellbeing",
+    "authorship": "original"
+  },
+  {
+    "id": "original-257",
+    "level": "easy",
+    "jp": "早めに寝るつもりです。",
+    "reading": "はやめにねるつもりです",
+    "romaji": "hayame ni neru tsumori desu",
+    "english": "I plan to go to bed early.",
+    "category": "Health and wellbeing",
+    "authorship": "original"
+  },
+  {
+    "id": "original-258",
+    "level": "easy",
+    "jp": "今日は散歩だけにします。",
+    "reading": "きょうはさんぽだけにします",
+    "romaji": "kyou wa sanpo dake ni shimasu",
+    "english": "I'll just go for a walk today.",
+    "category": "Health and wellbeing",
+    "authorship": "original"
+  },
+  {
+    "id": "original-259",
+    "level": "easy",
+    "jp": "水を飲んで休みます。",
+    "reading": "みずをのんでやすみます",
+    "romaji": "mizu o nonde yasumimasu",
+    "english": "I'll drink some water and rest.",
+    "category": "Health and wellbeing",
+    "authorship": "original"
+  },
+  {
+    "id": "original-260",
+    "level": "easy",
+    "jp": "頭が少し痛いです。",
+    "reading": "あたまがすこしいたいです",
+    "romaji": "atama ga sukoshi itai desu",
+    "english": "I have a mild headache.",
+    "category": "Health and wellbeing",
+    "authorship": "original"
+  },
+  {
+    "id": "original-261",
+    "level": "medium",
+    "jp": "昨日からのどが痛いので、今日は家で休みます。",
+    "reading": "きのうからのどがいたいのできょうはいえでやすみます",
+    "romaji": "kinou kara nodo ga itai node kyou wa ie de yasumimasu",
+    "english": "My throat has hurt since yesterday, so I'm resting at home.",
+    "category": "Health and wellbeing",
+    "authorship": "original"
+  },
+  {
+    "id": "original-262",
+    "level": "medium",
+    "jp": "具合がよくないので、予約した予定を変更したいです。",
+    "reading": "ぐあいがよくないのでよやくしたよていをへんこうしたいです",
+    "romaji": "guai ga yokunai node yoyaku shita yotei o henkou shitai desu",
+    "english": "I'm not feeling well, so I'd like to change my appointment.",
+    "category": "Health and wellbeing",
+    "authorship": "original"
+  },
+  {
+    "id": "original-263",
+    "level": "medium",
+    "jp": "この薬は食事の前に飲むものですか。",
+    "reading": "このくすりはしょくじのまえにのむものですか",
+    "romaji": "kono kusuri wa shokuji no mae ni nomu mono desu ka",
+    "english": "Is this medicine meant to be taken before meals?",
+    "category": "Health and wellbeing",
+    "authorship": "original"
+  },
+  {
+    "id": "original-264",
+    "level": "medium",
+    "jp": "よく眠れるように、寝る前は携帯を見ないようにしています。",
+    "reading": "よくねむれるようにねるまえはけいたいをみないようにしています",
+    "romaji": "yoku nemureru youni neru mae wa keitai o minai youni shiteimasu",
+    "english": "To sleep better, I try not to look at my phone before bed.",
+    "category": "Health and wellbeing",
+    "authorship": "original"
+  },
+  {
+    "id": "original-265",
+    "level": "medium",
+    "jp": "熱が続いているので、病院に相談しようと思います。",
+    "reading": "ねつがつづいているのでびょういんにそうだんしようとおもいます",
+    "romaji": "netsu ga tsuzuite iru node byouin ni soudan shiyou to omoimasu",
+    "english": "My fever has continued, so I think I'll contact a clinic.",
+    "category": "Health and wellbeing",
+    "authorship": "original"
+  },
+  {
+    "id": "original-266",
+    "level": "medium",
+    "jp": "無理をせず、今日は早めに帰ってください。",
+    "reading": "むりをせずきょうははやめにかえってください",
+    "romaji": "muri o sezu kyou wa hayame ni kaette kudasai",
+    "english": "Please don't push yourself; go home early today.",
+    "category": "Health and wellbeing",
+    "authorship": "original"
+  },
+  {
+    "id": "original-267",
+    "level": "medium",
+    "jp": "体調が戻るまで激しい運動は控えます。",
+    "reading": "たいちょうがもどるまではげしいうんどうはひかえます",
+    "romaji": "taichou ga modoru made hageshii undou wa hikaemasu",
+    "english": "I'll avoid intense exercise until I'm feeling better.",
+    "category": "Health and wellbeing",
+    "authorship": "original"
+  },
+  {
+    "id": "original-268",
+    "level": "hard",
+    "jp": "症状がいつから始まったのか、順番に説明してもよろしいでしょうか。",
+    "reading": "しょうじょうがいつからはじまったのかじゅんばんにせつめいしてもよろしいでしょうか",
+    "romaji": "shoujou ga itsu kara hajimatta no ka junban ni setsumei shitemo yoroshii deshou ka",
+    "english": "May I explain step by step when my symptoms started?",
+    "category": "Health and wellbeing",
+    "authorship": "original"
+  },
+  {
+    "id": "original-269",
+    "level": "hard",
+    "jp": "以前に同じ薬で体調を崩したことがあるので、別の方法を相談したいです。",
+    "reading": "いぜんにおなじくすりでたいちょうをくずしたことがあるのでべつのほうほうをそうだんしたいです",
+    "romaji": "izen ni onaji kusuri de taichou o kuzushita koto ga aru node betsu no houhou o soudan shitai desu",
+    "english": "I've had a bad reaction to the same medicine before, so I'd like to discuss alternatives.",
+    "category": "Health and wellbeing",
+    "authorship": "original"
+  },
+  {
+    "id": "original-270",
+    "level": "hard",
+    "jp": "体調に変化があった場合は、自己判断せずに医療機関へ連絡します。",
+    "reading": "たいちょうにへんかがあったばあいはじこはんだんせずにいりょうきかんへれんらくします",
+    "romaji": "taichou ni henka ga atta baai wa jikohandan sezu ni iryoukikan e renraku shimasu",
+    "english": "If my condition changes, I'll contact a healthcare provider rather than decide alone.",
+    "category": "Health and wellbeing",
+    "authorship": "original"
+  },
+  {
+    "id": "original-271",
+    "level": "easy",
+    "jp": "傘をどこかに忘れました。",
+    "reading": "かさをどこかにわすれました",
+    "romaji": "kasa o dokoka ni wasuremashita",
+    "english": "I left my umbrella somewhere.",
+    "category": "Solving everyday problems",
+    "authorship": "original"
+  },
+  {
+    "id": "original-272",
+    "level": "easy",
+    "jp": "このドアが開きません。",
+    "reading": "このどあがあきません",
+    "romaji": "kono doa ga akimasen",
+    "english": "This door won't open.",
+    "category": "Solving everyday problems",
+    "authorship": "original"
+  },
+  {
+    "id": "original-273",
+    "level": "easy",
+    "jp": "水が出なくなりました。",
+    "reading": "みずがでなくなりました",
+    "romaji": "mizu ga denaku narimashita",
+    "english": "The water stopped running.",
+    "category": "Solving everyday problems",
+    "authorship": "original"
+  },
+  {
+    "id": "original-274",
+    "level": "easy",
+    "jp": "道を間違えました。",
+    "reading": "みちをまちがえました",
+    "romaji": "michi o machigaemashita",
+    "english": "I took the wrong road.",
+    "category": "Solving everyday problems",
+    "authorship": "original"
+  },
+  {
+    "id": "original-275",
+    "level": "easy",
+    "jp": "少し困っています。",
+    "reading": "すこしこまっています",
+    "romaji": "sukoshi komatte imasu",
+    "english": "I'm having a bit of trouble.",
+    "category": "Solving everyday problems",
+    "authorship": "original"
+  },
+  {
+    "id": "original-276",
+    "level": "medium",
+    "jp": "レジで違う商品を受け取ったようです。",
+    "reading": "れじでちがうしょうひんをうけとったようです",
+    "romaji": "reji de chigau shouhin o uketotta you desu",
+    "english": "I seem to have received the wrong item at checkout.",
+    "category": "Solving everyday problems",
+    "authorship": "original"
+  },
+  {
+    "id": "original-277",
+    "level": "medium",
+    "jp": "地図の場所と実際の入口が違うみたいです。",
+    "reading": "ちずのばしょとじっさいのいりぐちがちがうみたいです",
+    "romaji": "chizu no basho to jissai no iriguchi ga chigau mitai desu",
+    "english": "The entrance seems to be in a different place from the map.",
+    "category": "Solving everyday problems",
+    "authorship": "original"
+  },
+  {
+    "id": "original-278",
+    "level": "medium",
+    "jp": "自転車のタイヤに空気が入っていません。",
+    "reading": "じてんしゃのたいやにくうきがはいっていません",
+    "romaji": "jitensha no taiya ni kuuki ga haitte imasen",
+    "english": "My bicycle tire doesn't have enough air.",
+    "category": "Solving everyday problems",
+    "authorship": "original"
+  },
+  {
+    "id": "original-279",
+    "level": "medium",
+    "jp": "鍵をなくしたかもしれないので、来た道を戻ります。",
+    "reading": "かぎをなくしたかもしれないのできたみちをもどります",
+    "romaji": "kagi o nakushita kamo shirenai node kita michi o modorimasu",
+    "english": "I may have lost my keys, so I'll retrace my steps.",
+    "category": "Solving everyday problems",
+    "authorship": "original"
+  },
+  {
+    "id": "original-280",
+    "level": "medium",
+    "jp": "約束の時間を勘違いしてしまいました。",
+    "reading": "やくそくのじかんをかんちがいしてしまいました",
+    "romaji": "yakusoku no jikan o kanchigai shite shimaimashita",
+    "english": "I misunderstood the time we agreed on.",
+    "category": "Solving everyday problems",
+    "authorship": "original"
+  },
+  {
+    "id": "original-281",
+    "level": "medium",
+    "jp": "困ったときに相談できる人がいて安心しました。",
+    "reading": "こまったときにそうだんできるひとがいてあんしんしました",
+    "romaji": "komatta toki ni soudan dekiru hito ga ite anshin shimashita",
+    "english": "I felt relieved to have someone to ask for help.",
+    "category": "Solving everyday problems",
+    "authorship": "original"
+  },
+  {
+    "id": "original-282",
+    "level": "medium",
+    "jp": "まず何が起きたのか落ち着いて確認します。",
+    "reading": "まずなにがおきたのかおちついてかくにんします",
+    "romaji": "mazu nani ga okita no ka ochitsuite kakunin shimasu",
+    "english": "First I'll calmly check what happened.",
+    "category": "Solving everyday problems",
+    "authorship": "original"
+  },
+  {
+    "id": "original-283",
+    "level": "hard",
+    "jp": "状況を正しく伝えたいので、最初から説明させていただけますか。",
+    "reading": "じょうきょうをただしくつたえたいのでさいしょからせつめいさせていただけますか",
+    "romaji": "joukyou o tadashiku tsutaetai node saisho kara setsumei sasete itadakemasu ka",
+    "english": "I want to explain the situation accurately, so may I start from the beginning?",
+    "category": "Solving everyday problems",
+    "authorship": "original"
+  },
+  {
+    "id": "original-284",
+    "level": "hard",
+    "jp": "案内に書かれていた手順を試したのですが、問題が解決しませんでした。",
+    "reading": "あんないにかかれていたてじゅんをためしたのですがもんだいがかいけつしませんでした",
+    "romaji": "annai ni kakarete ita tejun o tameshita no desu ga mondai ga kaiketsu shimasen deshita",
+    "english": "I followed the instructions, but the problem wasn't resolved.",
+    "category": "Solving everyday problems",
+    "authorship": "original"
+  },
+  {
+    "id": "original-285",
+    "level": "hard",
+    "jp": "同じ問題が再び起きないように、原因と対策を記録しておきます。",
+    "reading": "おなじもんだいがふたたびおきないようにげんいんとたいさくをきろくしておきます",
+    "romaji": "onaji mondai ga futatabi okinai youni gen'in to taisaku o kiroku shite okimasu",
+    "english": "I'll record the cause and solution so the same issue doesn't happen again.",
+    "category": "Solving everyday problems",
+    "authorship": "original"
+  },
+  {
+    "id": "original-286",
+    "level": "easy",
+    "jp": "こちらは危険です。",
+    "reading": "こちらはきけんです",
+    "romaji": "kochira wa kiken desu",
+    "english": "It's dangerous here.",
+    "category": "Safety and asking for help",
+    "authorship": "original"
+  },
+  {
+    "id": "original-287",
+    "level": "easy",
+    "jp": "少し離れてください。",
+    "reading": "すこしはなれてください",
+    "romaji": "sukoshi hanarete kudasai",
+    "english": "Please step back a little.",
+    "category": "Safety and asking for help",
+    "authorship": "original"
+  },
+  {
+    "id": "original-288",
+    "level": "easy",
+    "jp": "この道は通れません。",
+    "reading": "このみちはとおれません",
+    "romaji": "kono michi wa tooremasen",
+    "english": "This road is closed.",
+    "category": "Safety and asking for help",
+    "authorship": "original"
+  },
+  {
+    "id": "original-289",
+    "level": "easy",
+    "jp": "子どもが泣いています。",
+    "reading": "こどもがないています",
+    "romaji": "kodomo ga naite imasu",
+    "english": "A child is crying.",
+    "category": "Safety and asking for help",
+    "authorship": "original"
+  },
+  {
+    "id": "original-290",
+    "level": "easy",
+    "jp": "係の人を呼びます。",
+    "reading": "かかりのひとをよびます",
+    "romaji": "kakari no hito o yobimasu",
+    "english": "I'll call a staff member.",
+    "category": "Safety and asking for help",
+    "authorship": "original"
+  },
+  {
+    "id": "original-291",
+    "level": "medium",
+    "jp": "階段が滑りやすいので、手すりを使ってください。",
+    "reading": "かいだんがすべりやすいのでてすりをつかってください",
+    "romaji": "kaidan ga suberiyasui node tesuri o tsukatte kudasai",
+    "english": "The stairs are slippery, so please use the handrail.",
+    "category": "Safety and asking for help",
+    "authorship": "original"
+  },
+  {
+    "id": "original-292",
+    "level": "medium",
+    "jp": "ここで具合が悪くなった人がいるので、手伝ってください。",
+    "reading": "ここでぐあいがわるくなったひとがいるのでてつだってください",
+    "romaji": "koko de guai ga waruku natta hito ga iru node tetsudatte kudasai",
+    "english": "Someone here has become unwell. Please help.",
+    "category": "Safety and asking for help",
+    "authorship": "original"
+  },
+  {
+    "id": "original-293",
+    "level": "medium",
+    "jp": "この建物の避難場所はどこにありますか。",
+    "reading": "このたてもののひなんばしょはどこにありますか",
+    "romaji": "kono tatemono no hinanbasho wa doko ni arimasu ka",
+    "english": "Where is the evacuation area for this building?",
+    "category": "Safety and asking for help",
+    "authorship": "original"
+  },
+  {
+    "id": "original-294",
+    "level": "medium",
+    "jp": "忘れ物が見つかったら、この番号に連絡してください。",
+    "reading": "わすれものがみつかったらこのばんごうにれんらくしてください",
+    "romaji": "wasuremono ga mitsukattara kono bangou ni renraku shite kudasai",
+    "english": "If the lost item is found, please call this number.",
+    "category": "Safety and asking for help",
+    "authorship": "original"
+  },
+  {
+    "id": "original-295",
+    "level": "medium",
+    "jp": "地震の後はエレベーターを使わないでください。",
+    "reading": "じしんのあとはえれべーたーをつかわないでください",
+    "romaji": "jishin no ato wa erebeetaa o tsukawanai de kudasai",
+    "english": "Please don't use the elevator after an earthquake.",
+    "category": "Safety and asking for help",
+    "authorship": "original"
+  },
+  {
+    "id": "original-296",
+    "level": "medium",
+    "jp": "友達と離れてしまったので、待ち合わせ場所へ戻ります。",
+    "reading": "ともだちとはなれてしまったのでまちあわせばしょへもどります",
+    "romaji": "tomodachi to hanarete shimatta node machiawasebasho e modorimasu",
+    "english": "I got separated from my friend, so I'll return to our meeting point.",
+    "category": "Safety and asking for help",
+    "authorship": "original"
+  },
+  {
+    "id": "original-297",
+    "level": "medium",
+    "jp": "けがをした人がいる場合は、すぐに専門の人に知らせましょう。",
+    "reading": "けがをしたひとがいるばあいはすぐにせんもんのひとにしらせましょう",
+    "romaji": "kega o shita hito ga iru baai wa suguni senmon no hito ni shirasemashou",
+    "english": "If someone is injured, let's alert trained personnel immediately.",
+    "category": "Safety and asking for help",
+    "authorship": "original"
+  },
+  {
+    "id": "original-298",
+    "level": "hard",
+    "jp": "緊急の対応が必要かもしれないので、今の状況を詳しく伝えます。",
+    "reading": "きんきゅうのたいおうがひつようかもしれないのでいまのじょうきょうをくわしくつたえます",
+    "romaji": "kinkyuu no taiou ga hitsuyou kamo shirenai node ima no joukyou o kuwashiku tsutaemasu",
+    "english": "Urgent help may be needed, so I'll explain the situation in detail.",
+    "category": "Safety and asking for help",
+    "authorship": "original"
+  },
+  {
+    "id": "original-299",
+    "level": "hard",
+    "jp": "本人の意識があるかどうか確認し、指示を受けながら行動します。",
+    "reading": "ほんにんのいしきがあるかどうかかくにんししじをうけながらこうどうします",
+    "romaji": "honnin no ishiki ga aru ka douka kakunin shi shiji o ukenagara koudou shimasu",
+    "english": "I'll check whether the person is conscious and follow instructions.",
+    "category": "Safety and asking for help",
+    "authorship": "original"
+  },
+  {
+    "id": "original-300",
+    "level": "hard",
+    "jp": "安全が確認できるまでは、無理に現場へ近づかないようにしてください。",
+    "reading": "あんぜんがかくにんできるまではむりにげんばへちかづかないようにしてください",
+    "romaji": "anzen ga kakunin dekiru made wa murini genba e chikazukanai youni shite kudasai",
+    "english": "Please don't approach the area until it has been confirmed safe.",
+    "category": "Safety and asking for help",
+    "authorship": "original"
+  },
+  {
+    "id": "original-301",
+    "level": "easy",
+    "jp": "母に電話をかけます。",
+    "reading": "ははにでんわをかけます",
+    "romaji": "haha ni denwa o kakemasu",
+    "english": "I'll call my mother.",
+    "category": "Family and neighbours",
+    "authorship": "original"
+  },
+  {
+    "id": "original-302",
+    "level": "easy",
+    "jp": "祖父は庭にいます。",
+    "reading": "そふはにわにいます",
+    "romaji": "sofu wa niwa ni imasu",
+    "english": "My grandfather is in the garden.",
+    "category": "Family and neighbours",
+    "authorship": "original"
+  },
+  {
+    "id": "original-303",
+    "level": "easy",
+    "jp": "妹と買い物に行きます。",
+    "reading": "いもうととかいものにいきます",
+    "romaji": "imouto to kaimono ni ikimasu",
+    "english": "I'll go shopping with my younger sister.",
+    "category": "Family and neighbours",
+    "authorship": "original"
+  },
+  {
+    "id": "original-304",
+    "level": "easy",
+    "jp": "近所の人に会いました。",
+    "reading": "きんじょのひとにあいました",
+    "romaji": "kinjo no hito ni aimashita",
+    "english": "I met a neighbor.",
+    "category": "Family and neighbours",
+    "authorship": "original"
+  },
+  {
+    "id": "original-305",
+    "level": "easy",
+    "jp": "みんなで夕食を食べます。",
+    "reading": "みんなでゆうしょくをたべます",
+    "romaji": "minna de yuushoku o tabemasu",
+    "english": "We'll have dinner together.",
+    "category": "Family and neighbours",
+    "authorship": "original"
+  },
+  {
+    "id": "original-306",
+    "level": "medium",
+    "jp": "家族と相談してから旅行の日程を決めます。",
+    "reading": "かぞくとそうだんしてからりょこうのにっていをきめます",
+    "romaji": "kazoku to soudan shite kara ryokou no nittei o kimemasu",
+    "english": "I'll discuss it with my family before setting the trip dates.",
+    "category": "Family and neighbours",
+    "authorship": "original"
+  },
+  {
+    "id": "original-307",
+    "level": "medium",
+    "jp": "隣の家の方が荷物を運ぶのを手伝ってくれました。",
+    "reading": "となりのいえのかたがにもつをはこぶのをてつだってくれました",
+    "romaji": "tonari no ie no kata ga nimotsu o hakobu no o tetsudatte kuremashita",
+    "english": "Our neighbor helped carry the luggage.",
+    "category": "Family and neighbours",
+    "authorship": "original"
+  },
+  {
+    "id": "original-308",
+    "level": "medium",
+    "jp": "今度の日曜日に親戚が遊びに来る予定です。",
+    "reading": "こんどのにちようびにしんせきがあそびにくるよていです",
+    "romaji": "kondo no nichiyoubi ni shinseki ga asobi ni kuru yotei desu",
+    "english": "Relatives are coming to visit this Sunday.",
+    "category": "Family and neighbours",
+    "authorship": "original"
+  },
+  {
+    "id": "original-309",
+    "level": "medium",
+    "jp": "子どもたちは公園で元気に遊んでいます。",
+    "reading": "こどもたちはこうえんでげんきにあそんでいます",
+    "romaji": "kodomotachi wa kouen de genki ni asonde imasu",
+    "english": "The children are happily playing in the park.",
+    "category": "Family and neighbours",
+    "authorship": "original"
+  },
+  {
+    "id": "original-310",
+    "level": "medium",
+    "jp": "忙しいときはお互いに助け合うことにしています。",
+    "reading": "いそがしいときはおたがいにたすけあうことにしています",
+    "romaji": "isogashii toki wa otagai ni tasukeau koto ni shiteimasu",
+    "english": "We try to help each other when we're busy.",
+    "category": "Family and neighbours",
+    "authorship": "original"
+  },
+  {
+    "id": "original-311",
+    "level": "medium",
+    "jp": "お隣さんが旅行中なので、植物に水をあげています。",
+    "reading": "おとなりさんがりょこうちゅうなのでしょくぶつにみずをあげています",
+    "romaji": "otonarisan ga ryokouchuu nanode shokubutsu ni mizu o agete imasu",
+    "english": "Our neighbor is traveling, so I'm watering their plants.",
+    "category": "Family and neighbours",
+    "authorship": "original"
+  },
+  {
+    "id": "original-312",
+    "level": "medium",
+    "jp": "家族の誕生日を忘れないように予定表に入れました。",
+    "reading": "かぞくのたんじょうびをわすれないようによていひょうにいれました",
+    "romaji": "kazoku no tanjoubi o wasurenai youni yoteihyou ni iremashita",
+    "english": "I added the family's birthdays to my calendar so I don't forget.",
+    "category": "Family and neighbours",
+    "authorship": "original"
+  },
+  {
+    "id": "original-313",
+    "level": "hard",
+    "jp": "生活の時間帯が違うので、家ではお互いの睡眠を邪魔しないようにしています。",
+    "reading": "せいかつのじかんたいがちがうのでいえではおたがいのすいみんをじゃましないようにしています",
+    "romaji": "seikatsu no jikantai ga chigau node ie deha otagai no suimin o jama shinai youni shiteimasu",
+    "english": "Our routines differ, so we try not to disturb each other's sleep at home.",
+    "category": "Family and neighbours",
+    "authorship": "original"
+  },
+  {
+    "id": "original-314",
+    "level": "hard",
+    "jp": "近所の行事に参加したおかげで、今まで知らなかった人と知り合えました。",
+    "reading": "きんじょのぎょうじにさんかしたおかげでいままでしらなかったひととしりあえました",
+    "romaji": "kinjo no gyouji ni sanka shita okage de imamade shiranakatta hito to shiriaemashita",
+    "english": "Joining a neighborhood event helped me meet people I hadn't known.",
+    "category": "Family and neighbours",
+    "authorship": "original"
+  },
+  {
+    "id": "original-315",
+    "level": "hard",
+    "jp": "何か困ったことがあれば遠慮せずに声をかけてほしいと伝えました。",
+    "reading": "なにかこまったことがあればえんりょせずにこえをかけてほしいとつたえました",
+    "romaji": "nanika komatta koto ga areba enryo sezu ni koe o kakete hoshii to tsutaemashita",
+    "english": "I told them not to hesitate to ask if they need help.",
+    "category": "Family and neighbours",
+    "authorship": "original"
+  },
+  {
+    "id": "original-316",
+    "level": "easy",
+    "jp": "玄関で靴を脱ぎます。",
+    "reading": "げんかんでくつをぬぎます",
+    "romaji": "genkan de kutsu o nugimasu",
+    "english": "I'll take off my shoes at the entrance.",
+    "category": "Japanese manners and culture",
+    "authorship": "original"
+  },
+  {
+    "id": "original-317",
+    "level": "easy",
+    "jp": "ここでは静かに話します。",
+    "reading": "ここではしずかにはなします",
+    "romaji": "koko deha shizuka ni hanashimasu",
+    "english": "I'll speak quietly here.",
+    "category": "Japanese manners and culture",
+    "authorship": "original"
+  },
+  {
+    "id": "original-318",
+    "level": "easy",
+    "jp": "お祭りの音が聞こえます。",
+    "reading": "おまつりのおとがきこえます",
+    "romaji": "omatsuri no oto ga kikoemasu",
+    "english": "I can hear the festival sounds.",
+    "category": "Japanese manners and culture",
+    "authorship": "original"
+  },
+  {
+    "id": "original-319",
+    "level": "easy",
+    "jp": "神社の前で立ち止まります。",
+    "reading": "じんじゃのまえでたちどまります",
+    "romaji": "jinja no mae de tachidomarimasu",
+    "english": "I'll stop in front of the shrine.",
+    "category": "Japanese manners and culture",
+    "authorship": "original"
+  },
+  {
+    "id": "original-320",
+    "level": "easy",
+    "jp": "今日は和菓子を食べました。",
+    "reading": "きょうはわがしをたべました",
+    "romaji": "kyou wa wagashi o tabemashita",
+    "english": "I ate traditional Japanese sweets today.",
+    "category": "Japanese manners and culture",
+    "authorship": "original"
+  },
+  {
+    "id": "original-321",
+    "level": "medium",
+    "jp": "人が多い場所では、荷物を前に持つようにしています。",
+    "reading": "ひとがおおいばしょではにもつをまえにもつようにしています",
+    "romaji": "hito ga ooi basho deha nimotsu o mae ni motsu youni shiteimasu",
+    "english": "In crowded places, I keep my bag in front of me.",
+    "category": "Japanese manners and culture",
+    "authorship": "original"
+  },
+  {
+    "id": "original-322",
+    "level": "medium",
+    "jp": "このお店では靴を脱いでから席に上がります。",
+    "reading": "このおみせではくつをぬいでからせきにあがります",
+    "romaji": "kono omise deha kutsu o nuide kara seki ni agarimasu",
+    "english": "At this restaurant, you take off your shoes before going to your seat.",
+    "category": "Japanese manners and culture",
+    "authorship": "original"
+  },
+  {
+    "id": "original-323",
+    "level": "medium",
+    "jp": "お寺を見学するときは、周りの人の邪魔にならないようにします。",
+    "reading": "おてらをけんがくするときはまわりのひとのじゃまにならないようにします",
+    "romaji": "otera o kengaku suru toki wa mawari no hito no jama ni naranai youni shimasu",
+    "english": "When visiting a temple, I try not to disturb others.",
+    "category": "Japanese manners and culture",
+    "authorship": "original"
+  },
+  {
+    "id": "original-324",
+    "level": "medium",
+    "jp": "写真を撮る前に、その場所のルールを確認します。",
+    "reading": "しゃしんをとるまえにそのばしょのるーるをかくにんします",
+    "romaji": "shashin o toru mae ni sono basho no ruuru o kakunin shimasu",
+    "english": "Before taking photos, I check the local rules.",
+    "category": "Japanese manners and culture",
+    "authorship": "original"
+  },
+  {
+    "id": "original-325",
+    "level": "medium",
+    "jp": "季節によって違う行事があるのは面白いですね。",
+    "reading": "きせつによってちがうぎょうじがあるのはおもしろいですね",
+    "romaji": "kisetsu niyotte chigau gyouji ga aru no wa omoshiroi desu ne",
+    "english": "It's interesting how festivals differ by season.",
+    "category": "Japanese manners and culture",
+    "authorship": "original"
+  },
+  {
+    "id": "original-326",
+    "level": "medium",
+    "jp": "地域によって食べ物の味つけが違うそうです。",
+    "reading": "ちいきによってたべもののあじつけがちがうそうです",
+    "romaji": "chiiki niyotte tabemono no ajitsuke ga chigau sou desu",
+    "english": "I've heard seasoning varies by region.",
+    "category": "Japanese manners and culture",
+    "authorship": "original"
+  },
+  {
+    "id": "original-327",
+    "level": "medium",
+    "jp": "知らない習慣があれば、失礼にならないように聞いてみます。",
+    "reading": "しらないしゅうかんがあればしつれいにならないようにきいてみます",
+    "romaji": "shiranai shuukan ga areba shitsurei ni naranai youni kiite mimasu",
+    "english": "If I don't know a custom, I'll ask so I don't cause offense.",
+    "category": "Japanese manners and culture",
+    "authorship": "original"
+  },
+  {
+    "id": "original-328",
+    "level": "hard",
+    "jp": "文化の違いをすぐに判断せず、まず理由を知ろうとすることが大切だと思います。",
+    "reading": "ぶんかのちがいをすぐにはんだんせずまずりゆうをしろうとすることがたいせつだとおもいます",
+    "romaji": "bunka no chigai o suguni handan sezu mazu riyuu o shirou to suru koto ga taisetsu da to omoimasu",
+    "english": "I think it's important to understand a cultural difference before judging it.",
+    "category": "Japanese manners and culture",
+    "authorship": "original"
+  },
+  {
+    "id": "original-329",
+    "level": "hard",
+    "jp": "地域の方々に迷惑をかけないように、観光中も決まりを守って行動します。",
+    "reading": "ちいきのかたがたにめいわくをかけないようにかんこうちゅうもきまりをまもってこうどうします",
+    "romaji": "chiiki no katagata ni meiwaku o kakenai youni kankouchuu mo kimari o mamotte koudou shimasu",
+    "english": "I follow local rules while sightseeing to avoid inconveniencing residents.",
+    "category": "Japanese manners and culture",
+    "authorship": "original"
+  },
+  {
+    "id": "original-330",
+    "level": "hard",
+    "jp": "初めて見る伝統行事だったので、その由来について詳しく調べてみました。",
+    "reading": "はじめてみるでんとうぎょうじだったのでそのゆらいについてくわしくしらべてみました",
+    "romaji": "hajimete miru dentougyouji datta node sono yurai nitsuite kuwashiku shirabete mimashita",
+    "english": "It was a traditional event I'd never seen, so I researched its origins.",
+    "category": "Japanese manners and culture",
+    "authorship": "original"
+  },
+  {
+    "id": "original-331",
+    "level": "easy",
+    "jp": "次の約束は金曜日です。",
+    "reading": "つぎのやくそくはきんようびです",
+    "romaji": "tsugi no yakusoku wa kin'youbi desu",
+    "english": "Our next appointment is Friday.",
+    "category": "Plans and appointments",
+    "authorship": "original"
+  },
+  {
+    "id": "original-332",
+    "level": "easy",
+    "jp": "明日は予定があります。",
+    "reading": "あしたはよていがあります",
+    "romaji": "ashita wa yotei ga arimasu",
+    "english": "I have plans tomorrow.",
+    "category": "Plans and appointments",
+    "authorship": "original"
+  },
+  {
+    "id": "original-333",
+    "level": "easy",
+    "jp": "三時に駅で会いましょう。",
+    "reading": "さんじにえきであいましょう",
+    "romaji": "sanji ni eki de aimashou",
+    "english": "Let's meet at the station at three.",
+    "category": "Plans and appointments",
+    "authorship": "original"
+  },
+  {
+    "id": "original-334",
+    "level": "easy",
+    "jp": "今週は少し忙しいです。",
+    "reading": "こんしゅうはすこしいそがしいです",
+    "romaji": "konshuu wa sukoshi isogashii desu",
+    "english": "I'm a little busy this week.",
+    "category": "Plans and appointments",
+    "authorship": "original"
+  },
+  {
+    "id": "original-335",
+    "level": "easy",
+    "jp": "来月は時間があります。",
+    "reading": "らいげつはじかんがあります",
+    "romaji": "raigetsu wa jikan ga arimasu",
+    "english": "I have time next month.",
+    "category": "Plans and appointments",
+    "authorship": "original"
+  },
+  {
+    "id": "original-336",
+    "level": "medium",
+    "jp": "予定が決まったら、カレンダーに書き込んでおきます。",
+    "reading": "よていがきまったらかれんだーにかきこんでおきます",
+    "romaji": "yotei ga kimattara karendaa ni kakikonde okimasu",
+    "english": "Once plans are settled, I'll put them in my calendar.",
+    "category": "Plans and appointments",
+    "authorship": "original"
+  },
+  {
+    "id": "original-337",
+    "level": "medium",
+    "jp": "午後の予定が空いたので、早めに伺えます。",
+    "reading": "ごごのよていがあいたのではやめにうかがえます",
+    "romaji": "gogo no yotei ga aita node hayame ni ukagaemasu",
+    "english": "My afternoon is free now, so I can come earlier.",
+    "category": "Plans and appointments",
+    "authorship": "original"
+  },
+  {
+    "id": "original-338",
+    "level": "medium",
+    "jp": "予約の時間を一時間後ろにずらせますか。",
+    "reading": "よやくのじかんをいちじかんうしろにずらせますか",
+    "romaji": "yoyaku no jikan o ichijikan ushiro ni zurasemasu ka",
+    "english": "Could we push the booking back by an hour?",
+    "category": "Plans and appointments",
+    "authorship": "original"
+  },
+  {
+    "id": "original-339",
+    "level": "medium",
+    "jp": "交通状況によって到着時間が変わるかもしれません。",
+    "reading": "こうつうじょうきょうによってとうちゃくじかんがかわるかもしれません",
+    "romaji": "koutsuujoukyou niyotte touchakujikan ga kawaru kamo shiremasen",
+    "english": "My arrival time may change depending on traffic.",
+    "category": "Plans and appointments",
+    "authorship": "original"
+  },
+  {
+    "id": "original-340",
+    "level": "medium",
+    "jp": "予定を変更するときは、早めに連絡するようにしています。",
+    "reading": "よていをへんこうするときははやめにれんらくするようにしています",
+    "romaji": "yotei o henkou suru toki wa hayame ni renraku suru youni shiteimasu",
+    "english": "I try to give early notice when changing plans.",
+    "category": "Plans and appointments",
+    "authorship": "original"
+  },
+  {
+    "id": "original-341",
+    "level": "medium",
+    "jp": "午前中は仕事があるので、夕方なら大丈夫です。",
+    "reading": "ごぜんちゅうはしごとがあるのでゆうがたならだいじょうぶです",
+    "romaji": "gozenchuu wa shigoto ga aru node yuugata nara daijoubu desu",
+    "english": "I work in the morning, but the evening is fine.",
+    "category": "Plans and appointments",
+    "authorship": "original"
+  },
+  {
+    "id": "original-342",
+    "level": "medium",
+    "jp": "お互いに都合のよい日を探しましょう。",
+    "reading": "おたがいにつごうのよいひをさがしましょう",
+    "romaji": "otagai ni tsugou no yoi hi o sagashimashou",
+    "english": "Let's find a day that works for both of us.",
+    "category": "Plans and appointments",
+    "authorship": "original"
+  },
+  {
+    "id": "original-343",
+    "level": "hard",
+    "jp": "今週中に終わらせる必要がある作業から優先して進めます。",
+    "reading": "こんしゅうじゅうにおわらせるひつようがあるさぎょうからゆうせんしてすすめます",
+    "romaji": "konshuujuu ni owaraseru hitsuyou ga aru sagyou kara yuusen shite susumemasu",
+    "english": "I'll prioritize tasks that must be finished this week.",
+    "category": "Plans and appointments",
+    "authorship": "original"
+  },
+  {
+    "id": "original-344",
+    "level": "hard",
+    "jp": "急な用事が入ってしまったため、予定を変更できないか相談しています。",
+    "reading": "きゅうなようじがはいってしまったためよていをへんこうできないかそうだんしています",
+    "romaji": "kyuuna youji ga haitte shimatta tame yotei o henkou dekinai ka soudan shite imasu",
+    "english": "Something urgent came up, so I'm asking whether we can reschedule.",
+    "category": "Plans and appointments",
+    "authorship": "original"
+  },
+  {
+    "id": "original-345",
+    "level": "hard",
+    "jp": "先に移動時間を計算しておけば、無理のない予定を立てやすくなります。",
+    "reading": "さきにいどうじかんをけいさんしておけばむりのないよていをたてやすくなります",
+    "romaji": "saki ni idoujikan o keisan shite okeba muri no nai yotei o tateyasuku narimasu",
+    "english": "Planning travel time ahead makes it easier to schedule realistically.",
+    "category": "Plans and appointments",
+    "authorship": "original"
+  },
+  {
+    "id": "original-346",
+    "level": "easy",
+    "jp": "川の水がきれいです。",
+    "reading": "かわのみずがきれいです",
+    "romaji": "kawa no mizu ga kirei desu",
+    "english": "The river water is clear.",
+    "category": "Nature and environment",
+    "authorship": "original"
+  },
+  {
+    "id": "original-347",
+    "level": "easy",
+    "jp": "山に雪が残っています。",
+    "reading": "やまにゆきがのこっています",
+    "romaji": "yama ni yuki ga nokotte imasu",
+    "english": "There's still snow on the mountain.",
+    "category": "Nature and environment",
+    "authorship": "original"
+  },
+  {
+    "id": "original-348",
+    "level": "easy",
+    "jp": "公園で鳥を見ました。",
+    "reading": "こうえんでとりをみました",
+    "romaji": "kouen de tori o mimashita",
+    "english": "I saw a bird in the park.",
+    "category": "Nature and environment",
+    "authorship": "original"
+  },
+  {
+    "id": "original-349",
+    "level": "easy",
+    "jp": "今日は花に水をあげます。",
+    "reading": "きょうははなにみずをあげます",
+    "romaji": "kyou wa hana ni mizu o agemasu",
+    "english": "I'll water the flowers today.",
+    "category": "Nature and environment",
+    "authorship": "original"
+  },
+  {
+    "id": "original-350",
+    "level": "easy",
+    "jp": "この木はとても大きいです。",
+    "reading": "このきはとてもおおきいです",
+    "romaji": "kono ki wa totemo ookii desu",
+    "english": "This tree is very big.",
+    "category": "Nature and environment",
+    "authorship": "original"
+  },
+  {
+    "id": "original-351",
+    "level": "medium",
+    "jp": "春になると、この道には桜が咲きます。",
+    "reading": "はるになるとこのみちにはさくらがさきます",
+    "romaji": "haru ni naru to kono michi niha sakura ga sakimasu",
+    "english": "Cherry blossoms bloom along this street in spring.",
+    "category": "Nature and environment",
+    "authorship": "original"
+  },
+  {
+    "id": "original-352",
+    "level": "medium",
+    "jp": "使い捨ての容器を減らすため、水筒を持ち歩いています。",
+    "reading": "つかいすてのようきをへらすためすいとうをもちあるいています",
+    "romaji": "tsukaisute no youki o herasu tame suitou o mochiaruite imasu",
+    "english": "I carry a reusable bottle to reduce disposable containers.",
+    "category": "Nature and environment",
+    "authorship": "original"
+  },
+  {
+    "id": "original-353",
+    "level": "medium",
+    "jp": "夜は星がよく見える場所へ行ってみたいです。",
+    "reading": "よるはほしがよくみえるばしょへいってみたいです",
+    "romaji": "yoru wa hoshi ga yoku mieru basho e itte mitai desu",
+    "english": "I'd like to visit somewhere with a clear view of the stars at night.",
+    "category": "Nature and environment",
+    "authorship": "original"
+  },
+  {
+    "id": "original-354",
+    "level": "medium",
+    "jp": "海岸を歩きながら、落ちているごみを拾いました。",
+    "reading": "かいがんをあるきながらおちているごみをひろいました",
+    "romaji": "kaigan o arukinagara ochite iru gomi o hiroimashita",
+    "english": "I picked up litter while walking along the beach.",
+    "category": "Nature and environment",
+    "authorship": "original"
+  },
+  {
+    "id": "original-355",
+    "level": "medium",
+    "jp": "植物の名前を調べるのが最近の楽しみです。",
+    "reading": "しょくぶつのなまえをしらべるのがさいきんのたのしみです",
+    "romaji": "shokubutsu no namae o shiraberu no ga saikin no tanoshimi desu",
+    "english": "Looking up plant names has become a recent pleasure of mine.",
+    "category": "Nature and environment",
+    "authorship": "original"
+  },
+  {
+    "id": "original-356",
+    "level": "medium",
+    "jp": "この池には小さな魚がたくさん泳いでいます。",
+    "reading": "このいけにはちいさなさかながたくさんおよいでいます",
+    "romaji": "kono ike niha chiisana sakana ga takusan oyoide imasu",
+    "english": "Lots of small fish are swimming in this pond.",
+    "category": "Nature and environment",
+    "authorship": "original"
+  },
+  {
+    "id": "original-357",
+    "level": "medium",
+    "jp": "自然を守るために、一人でもできることを続けたいです。",
+    "reading": "しぜんをまもるためにひとりでもできることをつづけたいです",
+    "romaji": "shizen o mamoru tame ni hitori demo dekiru koto o tsuzuketai desu",
+    "english": "I want to keep doing what I can to protect nature.",
+    "category": "Nature and environment",
+    "authorship": "original"
+  },
+  {
+    "id": "original-358",
+    "level": "hard",
+    "jp": "観光客が増えることで、地域の自然環境に負担がかかる場合もあります。",
+    "reading": "かんこうきゃくがふえることでちいきのしぜんかんきょうにふたんがかかるばあいもあります",
+    "romaji": "kankoukyaku ga fueru koto de chiiki no shizenkankyou ni futan ga kakaru baai mo arimasu",
+    "english": "More visitors can sometimes put pressure on the local environment.",
+    "category": "Nature and environment",
+    "authorship": "original"
+  },
+  {
+    "id": "original-359",
+    "level": "hard",
+    "jp": "季節ごとの変化を記録しておくと、小さな自然の違いにも気づくようになります。",
+    "reading": "きせつごとのへんかをきろくしておくとちいさなしぜんのちがいにもきづくようになります",
+    "romaji": "kisetsu goto no henka o kiroku shite oku to chiisana shizen no chigai nimo kizuku youni narimasu",
+    "english": "Recording seasonal changes helps us notice small differences in nature.",
+    "category": "Nature and environment",
+    "authorship": "original"
+  },
+  {
+    "id": "original-360",
+    "level": "hard",
+    "jp": "ごみを持ち帰るだけでなく、来たときよりきれいにして帰ることを心がけています。",
+    "reading": "ごみをもちかえるだけでなくきたときよりきれいにしてかえることをこころがけています",
+    "romaji": "gomi o mochikaeru dake de naku kita toki yori kirei ni shite kaeru koto o kokorogakete imasu",
+    "english": "I try not only to take my trash home but to leave the place cleaner than I found it.",
+    "category": "Nature and environment",
+    "authorship": "original"
+  }
+]

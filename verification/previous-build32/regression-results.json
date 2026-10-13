@@ -1,0 +1,142 @@
+[
+  {
+    "suite": "content",
+    "exit_code": 0,
+    "seconds": 0.75
+  },
+  {
+    "suite": "search",
+    "exit_code": 0,
+    "seconds": 16.97
+  },
+  {
+    "suite": "safety",
+    "exit_code": 0,
+    "seconds": 1.01
+  },
+  {
+    "suite": "numbers-startup",
+    "exit_code": 0,
+    "seconds": 5.82
+  },
+  {
+    "suite": "cloud",
+    "exit_code": 0,
+    "seconds": 0.64
+  },
+  {
+    "suite": "assets",
+    "exit_code": 0,
+    "seconds": 0.51
+  },
+  {
+    "suite": "kanji-notification-catalog",
+    "exit_code": 0,
+    "seconds": 0.5
+  },
+  {
+    "suite": "roadmap-order",
+    "exit_code": 0,
+    "seconds": 1.04
+  },
+  {
+    "suite": "speech-reading-data",
+    "exit_code": 0,
+    "seconds": 2.45
+  },
+  {
+    "suite": "speech_readings",
+    "exit_code": 0,
+    "seconds": 2.79
+  },
+  {
+    "suite": "roadmap_position",
+    "exit_code": 0,
+    "seconds": 2.01
+  },
+  {
+    "suite": "navigation_theme",
+    "exit_code": 0,
+    "seconds": 2.92
+  },
+  {
+    "suite": "kanji_themes",
+    "exit_code": 0,
+    "seconds": 2.34
+  },
+  {
+    "suite": "journey_home",
+    "exit_code": 0,
+    "seconds": 1.24
+  },
+  {
+    "suite": "onboarding",
+    "exit_code": 0,
+    "seconds": 1.61
+  },
+  {
+    "suite": "kanji_notification",
+    "exit_code": 0,
+    "seconds": 1.42
+  },
+  {
+    "suite": "search_suggestions",
+    "exit_code": 0,
+    "seconds": 3.16
+  },
+  {
+    "suite": "scroll_lock",
+    "exit_code": 0,
+    "seconds": 1.74
+  },
+  {
+    "suite": "jlpt_mock",
+    "exit_code": 0,
+    "seconds": 6.79
+  },
+  {
+    "suite": "cloud_sync",
+    "exit_code": 0,
+    "seconds": 1.48
+  },
+  {
+    "suite": "audio_lifecycle",
+    "exit_code": 0,
+    "seconds": 1.23
+  },
+  {
+    "suite": "intro_startup",
+    "exit_code": 0,
+    "seconds": 0.58
+  },
+  {
+    "suite": "catalog_batches",
+    "exit_code": 0,
+    "seconds": 5.38
+  },
+  {
+    "suite": "browser_cache",
+    "exit_code": 0,
+    "seconds": 0.13
+  },
+  {
+    "suite": "voice_search",
+    "exit_code": 0,
+    "seconds": 0.19
+  },
+  {
+    "suite": "japan_map",
+    "exit_code": 0,
+    "seconds": 4.91
+  },
+  {
+    "suite": "speaking",
+    "exit_code": 0,
+    "seconds": 1.67
+  },
+  {
+    "suite": "actual-bundle-smoke",
+    "exit_code": 0,
+    "seconds": 19.21
+  }
+]

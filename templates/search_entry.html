@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block title %}{{ entry.word }} — Kotoba{% endblock %}
+{% block content %}
+<article class="search-entry">
+  <a class="back-link" href="{{ url_for('search_page', q=query or entry.word) }}">← Back to search</a>
+  <p class="hero-eyebrow">{{ entry.kind }} · {{ entry.source }}</p>
+  <h1 class="search-entry-word">{{ entry.word }}</h1>
+  {% if entry.reading %}<p class="search-entry-reading">{{ entry.reading }}</p>{% endif %}
+  {% if entry.romaji %}<p class="search-entry-reading">{{ entry.romaji }}</p>{% endif %}
+  {% if entry.meaning %}<section class="search-entry-panel"><h2>{{ entry.meaning_label }}</h2><p>{{ entry.meaning }}</p></section>{% endif %}
+  {% if entry.kind == 'Sentence' and not entry.meaning %}<p class="search-entry-note">This Japanese example has no English translation in the app's source. Open its lesson below for context.</p>{% endif %}
+  {% if entry.form_label %}<p><strong>{{ entry.form_label }}</strong><br>Base verb: {{ entry.base_word }} — {{ entry.base_meaning }}</p>{% endif %}
+  {% if entry.note %}<p class="search-entry-note">{{ entry.note }}</p>{% endif %}
+  <div class="search-entry-actions">
+    <button type="button" class="speak-btn" data-speak="{{ entry.word }}" data-reading="{{ entry.reading }}">🔊 Listen</button>
+    {% if entry.kind in ['Word', 'Sentence', 'Verb form', 'Kanji'] %}
+    <button type="button" class="favorite-btn" data-favorite-kind="{{ 'kanji' if entry.kind == 'Kanji' else 'vocab' }}" data-favorite-id="{{ entry.word }}" data-favorite-front="{{ entry.word }}" data-favorite-reading="{{ entry.reading }}" data-favorite-meaning="{{ entry.meaning }}" data-favorite-url="{{ entry.href }}">☆ Save</button>
+    {% endif %}
+  </div>
+  {% if entry.examples %}<section class="search-entry-examples"><h2>Examples</h2>
+    {% for example in entry.examples[:6] %}<div class="search-entry-panel">
+      <p class="search-example-word">{{ example.word }}</p>
+      {% if example.reading %}<p class="search-entry-reading">{{ example.reading }}</p>{% endif %}
+      <p>{{ example.meaning }}</p>
+      <button type="button" class="speak-btn" data-speak="{{ example.word }}" data-reading="{{ example.reading }}">🔊 Listen</button>
+    </div>{% endfor %}
+  </section>{% endif %}
+  {% if related %}<section><h2>Other readings or uses</h2>
+    {% for r in related %}<a class="search-result-card" href="{{ r.href }}?q={{ query|urlencode }}">
+      <span>{{ r.word }}{% if r.reading %} · {{ r.reading }}{% endif %}</span>
+      <span>{{ r.kind }}{% if r.form_label %} · {{ r.form_label }}{% endif %}</span><span>{{ r.meaning }}</span>
+    </a>{% endfor %}
+  </section>{% endif %}
+  <section><h2>Study in context</h2>
+    <div class="search-entry-sources">{% for source in entry.sources %}<a class="btn-ghost" href="{{ source.href }}">{{ source.name }} →</a>{% endfor %}</div>
+  </section>
+</article>
+{% endblock %}

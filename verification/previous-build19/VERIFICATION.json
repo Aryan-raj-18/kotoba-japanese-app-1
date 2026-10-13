@@ -1,0 +1,71 @@
+{
+  "app_version": "1.0.0",
+  "android_version_code": 19,
+  "target_sdk": 36,
+  "min_sdk": 24,
+  "python": "3.13",
+  "chaquopy": "17.0.0",
+  "ABIs": [
+    "arm64-v8a",
+    "x86_64"
+  ],
+  "checks": {
+    "packaged_route_requests": 1013,
+    "search_tests": 15,
+    "safety_regressions": 11,
+    "voice_search_tests": 8,
+    "map_DOM_checks": 20,
+    "speaking_DOM_checks": 2,
+    "android_release_lint_errors": 0,
+    "android_release_lint_warnings": 21,
+    "bundletool_validate": "passed",
+    "apk_signatures": "verified",
+    "aab_signature": "verified self-signed upload certificate",
+    "APK_zip_alignment_16KB": "passed",
+    "native_ELF_load_alignment_minimum": 16384,
+    "bundle_native_library_alignment": "PAGE_ALIGNMENT_16K",
+    "packaged_asset_matches": 264,
+    "search_cache_fingerprint_matches": true,
+    "compiled_AAB_version_and_backup_metadata": "1.0.0",
+    "preserved_upload_certificate": "verified SHA-256 C603358EF51A0F7A9C9C21592880B63700E872533B3C499B033A2D8D22AD0976"
+  },
+  "device_QA": "Pending real-device / Play internal-track/pre-launch checks; desktop and DOM checks do not verify frame rate or native runtime behaviour.",
+  "remaining_release_work": [
+    "host privacy policy at public HTTPS URL",
+    "complete Play Console forms and listing assets",
+    "verify upload key if package already exists in Play Console",
+    "real-device, upgrade and 16KB-runtime tests",
+    "submit/approve production rollout"
+  ],
+  "content": {
+    "original_starter_vocabulary": 100,
+    "kanji": 52,
+    "grammar_patterns": 20,
+    "stories": 4,
+    "dialogues": 4,
+    "common_rule_conjugated_verbs": 148,
+    "advanced_units": "unlocked previews"
+  },
+  "artifacts": {
+    "release_apk": {
+      "sha256": "da0978cb584c9022f957a1067be9bd3088d88cbc267880bd9b64d314e7e1b35e",
+      "bytes": 38563445
+    },
+    "release_aab": {
+      "sha256": "d280abfcdda9245b8a903f77900a4551edf0d2267ef0e8c921b6926d3b568606",
+      "bytes": 22180012
+    }
+  },
+  "release_identity": "First public release, retaining prior development fixes and upload certificate.",
+  "login": "Device-local profiles; no cloud account or automatic cross-device synchronization. Backup & Restore transfers learning data without credentials.",
+  "current_test_logs": [
+    "verification/search.log",
+    "verification/safety.log",
+    "verification/actual-bundle-smoke.log",
+    "verification/voice.log",
+    "verification/map.log",
+    "verification/speaking.log",
+    "verification/build.log",
+    "verification/lint-results-release.txt"
+  ]
+}

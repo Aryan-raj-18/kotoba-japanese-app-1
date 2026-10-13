@@ -1,0 +1,5 @@
+{
+  "checks": 21,
+  "errors": [],
+  "scope": "Desktop browser UI; native opening document and speech bridge simulated. No physical-device audio or Android runtime claim."
+}

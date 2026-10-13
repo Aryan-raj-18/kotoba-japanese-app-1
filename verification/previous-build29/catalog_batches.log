@@ -1,0 +1,11 @@
+PASS Kanji first view is bounded while all original characters remain searchable
+PASS Show more reaches every kanji once without losing earlier cards
+PASS search reaches characters beyond the initial batch
+PASS level changes retain correct links and complete N4 count
+PASS returning to a later character renders it before focus restoration
+PASS Everyday starts with 96 rows and keeps the entire public list
+PASS Show more appends accessible word buttons without replacing existing ones
+PASS word search reaches the last batch and opens the exact original entry
+PASS closing a word keeps its modal hidden
+PASS global-search deep links open words outside the initial DOM
+All 10 catalog batch interaction checks passed.

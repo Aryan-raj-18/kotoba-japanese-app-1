@@ -1,0 +1,650 @@
+{
+  "app_version": "1.0.0",
+  "android_version_code": 32,
+  "release_identity": "Kotoba 1.0.0 build 32: displayed-reading speech and roadmap return position fixes",
+  "changes": [
+    "Every reading-aware speech button uses the entry/card's own kana rather than ambiguous raw kanji. Roadmap, vocabulary, verbs, search and examples, both flashcard modes, saved review, speaking/shadowing, story/dialogue playback and Japan Explorer are covered. No global kanji-to-reading replacement.",
+    "Kanji detail and JLPT popups offer separate labeled on/kun reading audio; their main audio identifies the chosen study reading. Standalone numerals retain on-yomi; contextual words retain their own readings.",
+    "Flashcard APIs and review records preserve a dedicated untruncated reading. Kana/radical deck readings exclude type/position metadata. Exam feedback/review uses available sentence furigana. Grammar patterns and examples keep separate audio controls.",
+    "Verified display-copy repair for 名: kun-yomi な; on-yomi メイ/ミョウ retained. Kanjipedia https://www.kanjipedia.jp/kanji/0006666900 agrees with the existing JLPT dataset. Canonical source snapshots remain unchanged.",
+    "Roadmap Back returns to the opened chapter/section and restores its scroll position, including browser/BFCache returns, native first-card/completed Back and confirmed exit from unfinished roadmap practice. Fragment/font layout cannot override the restored position; explicit stage jumps remain independent."
+  ],
+  "checks": {
+    "regression_checks_total": 349,
+    "python_DOM_checks": 339,
+    "native_Kotlin_JVM_checks": 10,
+    "suite_counts": {
+      "content": 5,
+      "search": 22,
+      "safety": 15,
+      "numbers-startup": 13,
+      "cloud": 28,
+      "assets": 3,
+      "kanji-notification-catalog": 5,
+      "roadmap-order": 6,
+      "speech-reading-data": 8,
+      "speech_readings": 28,
+      "roadmap_position": 11,
+      "navigation_theme": 28,
+      "kanji_themes": 25,
+      "journey_home": 6,
+      "onboarding": 8,
+      "kanji_notification": 21,
+      "search_suggestions": 12,
+      "scroll_lock": 14,
+      "jlpt_mock": 8,
+      "cloud_sync": 11,
+      "audio_lifecycle": 13,
+      "intro_startup": 6,
+      "catalog_batches": 10,
+      "browser_cache": 3,
+      "voice_search": 8,
+      "japan_map": 20,
+      "speaking": 2
+    },
+    "regression_suites": [
+      {
+        "suite": "content",
+        "exit_code": 0,
+        "seconds": 0.75
+      },
+      {
+        "suite": "search",
+        "exit_code": 0,
+        "seconds": 16.97
+      },
+      {
+        "suite": "safety",
+        "exit_code": 0,
+        "seconds": 1.01
+      },
+      {
+        "suite": "numbers-startup",
+        "exit_code": 0,
+        "seconds": 5.82
+      },
+      {
+        "suite": "cloud",
+        "exit_code": 0,
+        "seconds": 0.64
+      },
+      {
+        "suite": "assets",
+        "exit_code": 0,
+        "seconds": 0.51
+      },
+      {
+        "suite": "kanji-notification-catalog",
+        "exit_code": 0,
+        "seconds": 0.5
+      },
+      {
+        "suite": "roadmap-order",
+        "exit_code": 0,
+        "seconds": 1.04
+      },
+      {
+        "suite": "speech-reading-data",
+        "exit_code": 0,
+        "seconds": 2.45
+      },
+      {
+        "suite": "speech_readings",
+        "exit_code": 0,
+        "seconds": 2.79
+      },
+      {
+        "suite": "roadmap_position",
+        "exit_code": 0,
+        "seconds": 2.01
+      },
+      {
+        "suite": "navigation_theme",
+        "exit_code": 0,
+        "seconds": 2.92
+      },
+      {
+        "suite": "kanji_themes",
+        "exit_code": 0,
+        "seconds": 2.34
+      },
+      {
+        "suite": "journey_home",
+        "exit_code": 0,
+        "seconds": 1.24
+      },
+      {
+        "suite": "onboarding",
+        "exit_code": 0,
+        "seconds": 1.61
+      },
+      {
+        "suite": "kanji_notification",
+        "exit_code": 0,
+        "seconds": 1.42
+      },
+      {
+        "suite": "search_suggestions",
+        "exit_code": 0,
+        "seconds": 3.16
+      },
+      {
+        "suite": "scroll_lock",
+        "exit_code": 0,
+        "seconds": 1.74
+      },
+      {
+        "suite": "jlpt_mock",
+        "exit_code": 0,
+        "seconds": 6.79
+      },
+      {
+        "suite": "cloud_sync",
+        "exit_code": 0,
+        "seconds": 1.48
+      },
+      {
+        "suite": "audio_lifecycle",
+        "exit_code": 0,
+        "seconds": 1.23
+      },
+      {
+        "suite": "intro_startup",
+        "exit_code": 0,
+        "seconds": 0.58
+      },
+      {
+        "suite": "catalog_batches",
+        "exit_code": 0,
+        "seconds": 5.38
+      },
+      {
+        "suite": "browser_cache",
+        "exit_code": 0,
+        "seconds": 0.13
+      },
+      {
+        "suite": "voice_search",
+        "exit_code": 0,
+        "seconds": 0.19
+      },
+      {
+        "suite": "japan_map",
+        "exit_code": 0,
+        "seconds": 4.91
+      },
+      {
+        "suite": "speaking",
+        "exit_code": 0,
+        "seconds": 1.67
+      },
+      {
+        "suite": "actual-bundle-smoke",
+        "exit_code": 0,
+        "seconds": 19.21
+      }
+    ],
+    "compiled_bundle_GET_requests": 6974,
+    "compiled_bundle_POST_backup_and_repeated_server_smoke": "passed",
+    "desktop_browser_scenarios": 9,
+    "desktop_browser": {
+      "layouts": [
+        {
+          "theme": "sakura-journey",
+          "width": 320,
+          "displayed_reading": "かぞく",
+          "chosen_kun": "よん",
+          "roadmap_before": 6480,
+          "roadmap_after": 6480,
+          "browser_back": 6480,
+          "horizontal_overflow": false
+        },
+        {
+          "theme": "sakura-journey",
+          "width": 390,
+          "displayed_reading": "かぞく",
+          "chosen_kun": "よん",
+          "roadmap_before": 6337,
+          "roadmap_after": 6337,
+          "browser_back": 6337,
+          "horizontal_overflow": false
+        },
+        {
+          "theme": "sakura-journey",
+          "width": 1180,
+          "displayed_reading": "かぞく",
+          "chosen_kun": "よん",
+          "roadmap_before": 5586,
+          "roadmap_after": 5586,
+          "browser_back": 5586,
+          "horizontal_overflow": false
+        },
+        {
+          "theme": "kyoto-night",
+          "width": 320,
+          "displayed_reading": "かぞく",
+          "chosen_kun": "よん",
+          "roadmap_before": 6480,
+          "roadmap_after": 6480,
+          "browser_back": 6480,
+          "horizontal_overflow": false
+        },
+        {
+          "theme": "kyoto-night",
+          "width": 390,
+          "displayed_reading": "かぞく",
+          "chosen_kun": "よん",
+          "roadmap_before": 6337,
+          "roadmap_after": 6337,
+          "browser_back": 6337,
+          "horizontal_overflow": false
+        },
+        {
+          "theme": "kyoto-night",
+          "width": 1180,
+          "displayed_reading": "かぞく",
+          "chosen_kun": "よん",
+          "roadmap_before": 5586,
+          "roadmap_after": 5586,
+          "browser_back": 5586,
+          "horizontal_overflow": false
+        },
+        {
+          "theme": "water-glass",
+          "width": 320,
+          "displayed_reading": "かぞく",
+          "chosen_kun": "よん",
+          "roadmap_before": 6480,
+          "roadmap_after": 6480,
+          "browser_back": 6480,
+          "horizontal_overflow": false
+        },
+        {
+          "theme": "water-glass",
+          "width": 390,
+          "displayed_reading": "かぞく",
+          "chosen_kun": "よん",
+          "roadmap_before": 6337,
+          "roadmap_after": 6337,
+          "browser_back": 6337,
+          "horizontal_overflow": false
+        },
+        {
+          "theme": "water-glass",
+          "width": 1180,
+          "displayed_reading": "かぞく",
+          "chosen_kun": "よん",
+          "roadmap_before": 5586,
+          "roadmap_after": 5586,
+          "browser_back": 5586,
+          "horizontal_overflow": false
+        }
+      ],
+      "errors": [],
+      "scope": "Native speech bridge simulated; text input checked, acoustic output requires a physical Android device."
+    },
+    "artifact_verification": {
+      "version": "1.0.0",
+      "version_code": 32,
+      "artifacts": {
+        ".apk": {
+          "bytes": 48623053,
+          "sha256": "29baad870b27d04719cd07111bd66058226415cf6527cd9f0ef5d327ab8f33a2",
+          "intro_matches": true,
+          "kanji_catalog_matches": true,
+          "native_libraries": [
+            {
+              "name": "lib/arm64-v8a/libchaquopy_java.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "lib/arm64-v8a/libcrypto_chaquopy.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "lib/arm64-v8a/libcrypto_python.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "lib/arm64-v8a/libpython3.13.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "lib/arm64-v8a/libsqlite3_chaquopy.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "lib/arm64-v8a/libsqlite3_python.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "lib/arm64-v8a/libssl_chaquopy.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "lib/arm64-v8a/libssl_python.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "lib/x86_64/libchaquopy_java.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "lib/x86_64/libcrypto_chaquopy.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "lib/x86_64/libcrypto_python.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "lib/x86_64/libpython3.13.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "lib/x86_64/libsqlite3_chaquopy.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "lib/x86_64/libsqlite3_python.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "lib/x86_64/libssl_chaquopy.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "lib/x86_64/libssl_python.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "assets/chaquopy/bootstrap-native/arm64-v8a/_bz2.cpython-313-aarch64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "assets/chaquopy/bootstrap-native/arm64-v8a/_ctypes.cpython-313-aarch64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "assets/chaquopy/bootstrap-native/arm64-v8a/_datetime.cpython-313-aarch64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "assets/chaquopy/bootstrap-native/arm64-v8a/_lzma.cpython-313-aarch64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "assets/chaquopy/bootstrap-native/arm64-v8a/_opcode.cpython-313-aarch64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "assets/chaquopy/bootstrap-native/arm64-v8a/_random.cpython-313-aarch64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "assets/chaquopy/bootstrap-native/arm64-v8a/_struct.cpython-313-aarch64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "assets/chaquopy/bootstrap-native/arm64-v8a/binascii.cpython-313-aarch64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "assets/chaquopy/bootstrap-native/arm64-v8a/java/chaquopy.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "assets/chaquopy/bootstrap-native/arm64-v8a/math.cpython-313-aarch64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "assets/chaquopy/bootstrap-native/arm64-v8a/mmap.cpython-313-aarch64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "assets/chaquopy/bootstrap-native/arm64-v8a/zlib.cpython-313-aarch64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "assets/chaquopy/bootstrap-native/x86_64/_bz2.cpython-313-x86_64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "assets/chaquopy/bootstrap-native/x86_64/_ctypes.cpython-313-x86_64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "assets/chaquopy/bootstrap-native/x86_64/_datetime.cpython-313-x86_64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "assets/chaquopy/bootstrap-native/x86_64/_lzma.cpython-313-x86_64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "assets/chaquopy/bootstrap-native/x86_64/_opcode.cpython-313-x86_64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "assets/chaquopy/bootstrap-native/x86_64/_random.cpython-313-x86_64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "assets/chaquopy/bootstrap-native/x86_64/_struct.cpython-313-x86_64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "assets/chaquopy/bootstrap-native/x86_64/binascii.cpython-313-x86_64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "assets/chaquopy/bootstrap-native/x86_64/java/chaquopy.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "assets/chaquopy/bootstrap-native/x86_64/math.cpython-313-x86_64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "assets/chaquopy/bootstrap-native/x86_64/mmap.cpython-313-x86_64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "assets/chaquopy/bootstrap-native/x86_64/zlib.cpython-313-x86_64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            }
+          ]
+        },
+        ".aab": {
+          "bytes": 32237521,
+          "sha256": "a170d3aeed63ba10cdf00f401b46413fea28ea93fedaf2b438a060654a0ba211",
+          "intro_matches": true,
+          "kanji_catalog_matches": true,
+          "native_libraries": [
+            {
+              "name": "base/assets/chaquopy/bootstrap-native/arm64-v8a/_bz2.cpython-313-aarch64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/assets/chaquopy/bootstrap-native/arm64-v8a/_ctypes.cpython-313-aarch64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/assets/chaquopy/bootstrap-native/arm64-v8a/_datetime.cpython-313-aarch64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/assets/chaquopy/bootstrap-native/arm64-v8a/_lzma.cpython-313-aarch64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/assets/chaquopy/bootstrap-native/arm64-v8a/_opcode.cpython-313-aarch64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/assets/chaquopy/bootstrap-native/arm64-v8a/_random.cpython-313-aarch64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/assets/chaquopy/bootstrap-native/arm64-v8a/_struct.cpython-313-aarch64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/assets/chaquopy/bootstrap-native/arm64-v8a/binascii.cpython-313-aarch64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/assets/chaquopy/bootstrap-native/arm64-v8a/java/chaquopy.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/assets/chaquopy/bootstrap-native/arm64-v8a/math.cpython-313-aarch64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/assets/chaquopy/bootstrap-native/arm64-v8a/mmap.cpython-313-aarch64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/assets/chaquopy/bootstrap-native/arm64-v8a/zlib.cpython-313-aarch64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/assets/chaquopy/bootstrap-native/x86_64/_bz2.cpython-313-x86_64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/assets/chaquopy/bootstrap-native/x86_64/_ctypes.cpython-313-x86_64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/assets/chaquopy/bootstrap-native/x86_64/_datetime.cpython-313-x86_64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/assets/chaquopy/bootstrap-native/x86_64/_lzma.cpython-313-x86_64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/assets/chaquopy/bootstrap-native/x86_64/_opcode.cpython-313-x86_64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/assets/chaquopy/bootstrap-native/x86_64/_random.cpython-313-x86_64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/assets/chaquopy/bootstrap-native/x86_64/_struct.cpython-313-x86_64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/assets/chaquopy/bootstrap-native/x86_64/binascii.cpython-313-x86_64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/assets/chaquopy/bootstrap-native/x86_64/java/chaquopy.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/assets/chaquopy/bootstrap-native/x86_64/math.cpython-313-x86_64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/assets/chaquopy/bootstrap-native/x86_64/mmap.cpython-313-x86_64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/assets/chaquopy/bootstrap-native/x86_64/zlib.cpython-313-x86_64-linux-android.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/lib/arm64-v8a/libchaquopy_java.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/lib/arm64-v8a/libcrypto_chaquopy.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/lib/arm64-v8a/libcrypto_python.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/lib/arm64-v8a/libpython3.13.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/lib/arm64-v8a/libsqlite3_chaquopy.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/lib/arm64-v8a/libsqlite3_python.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/lib/arm64-v8a/libssl_chaquopy.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/lib/arm64-v8a/libssl_python.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/lib/x86_64/libchaquopy_java.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/lib/x86_64/libcrypto_chaquopy.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/lib/x86_64/libcrypto_python.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/lib/x86_64/libpython3.13.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/lib/x86_64/libsqlite3_chaquopy.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/lib/x86_64/libsqlite3_python.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/lib/x86_64/libssl_chaquopy.so",
+              "minimum_PT_LOAD_alignment": 16384
+            },
+            {
+              "name": "base/lib/x86_64/libssl_python.so",
+              "minimum_PT_LOAD_alignment": 16384
+            }
+          ]
+        }
+      },
+      "APK_AAB_payload_identical": true,
+      "APK_AAB_Dex_identical": true,
+      "packaged_asset_matches": 296,
+      "compiled_modules_match": 8,
+      "actual_package": "/workspace/scratch/111d4db36787/.finish-tools/actual-package",
+      "original_course_JSON_unchanged": 21,
+      "lint_summary": "0 errors, 33 warnings"
+    },
+    "public_learning_JSON_files_byte_identical_to_build31": 21,
+    "all_91_roadmap_chapters_preserved": true
+  },
+  "check_provenance": "Final signed AAB extracted into compiled Python-only package. Supported regression suites use that package; source-only suites use code/data proven byte-equivalent to the signed artifacts. Browser checks use final packaged UI assets. Native speech bridge simulated and exact text/rate checked; no acoustic/physical-device result is claimed. Earlier build 31 browser/timing results are archived under verification/previous-build31 and are not counted as current build 32 browser checks.",
+  "device_QA": "Pending physical Android and Play internal-track/pre-launch testing: actual Japanese TTS voice/audio, native microphone interaction, Android Back, scroll on WebView, upgrade/progress, cold/warm offline launch, notification/lock-screen/AOD permissions and timing, and 16 KB runtime. No live Firebase test performed.",
+  "artifacts": {
+    "release_apk": {
+      "sha256": "29baad870b27d04719cd07111bd66058226415cf6527cd9f0ef5d327ab8f33a2",
+      "bytes": 48623053
+    },
+    "release_aab": {
+      "sha256": "a170d3aeed63ba10cdf00f401b46413fea28ea93fedaf2b438a060654a0ba211",
+      "bytes": 32237521
+    }
+  }
+}

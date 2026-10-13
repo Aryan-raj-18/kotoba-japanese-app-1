@@ -1,0 +1,6 @@
+{
+  "indexes": [],
+  "fieldOverrides": [
+    {"collectionGroup": "profiles", "fieldPath": "payload", "indexes": []}
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "layouts": [
+    {
+      "theme": "sakura-journey",
+      "width": 320,
+      "displayed_reading": "かぞく",
+      "chosen_kun": "よん",
+      "roadmap_before": 6480,
+      "roadmap_after": 6480,
+      "browser_back": 6480,
+      "horizontal_overflow": false
+    },
+    {
+      "theme": "sakura-journey",
+      "width": 390,
+      "displayed_reading": "かぞく",
+      "chosen_kun": "よん",
+      "roadmap_before": 6337,
+      "roadmap_after": 6337,
+      "browser_back": 6337,
+      "horizontal_overflow": false
+    },
+    {
+      "theme": "sakura-journey",
+      "width": 1180,
+      "displayed_reading": "かぞく",
+      "chosen_kun": "よん",
+      "roadmap_before": 5586,
+      "roadmap_after": 5586,
+      "browser_back": 5586,
+      "horizontal_overflow": false
+    },
+    {
+      "theme": "kyoto-night",
+      "width": 320,
+      "displayed_reading": "かぞく",
+      "chosen_kun": "よん",
+      "roadmap_before": 6480,
+      "roadmap_after": 6480,
+      "browser_back": 6480,
+      "horizontal_overflow": false
+    },
+    {
+      "theme": "kyoto-night",
+      "width": 390,
+      "displayed_reading": "かぞく",
+      "chosen_kun": "よん",
+      "roadmap_before": 6337,
+      "roadmap_after": 6337,
+      "browser_back": 6337,
+      "horizontal_overflow": false
+    },
+    {
+      "theme": "kyoto-night",
+      "width": 1180,
+      "displayed_reading": "かぞく",
+      "chosen_kun": "よん",
+      "roadmap_before": 5586,
+      "roadmap_after": 5586,
+      "browser_back": 5586,
+      "horizontal_overflow": false
+    },
+    {
+      "theme": "water-glass",
+      "width": 320,
+      "displayed_reading": "かぞく",
+      "chosen_kun": "よん",
+      "roadmap_before": 6480,
+      "roadmap_after": 6480,
+      "browser_back": 6480,
+      "horizontal_overflow": false
+    },
+    {
+      "theme": "water-glass",
+      "width": 390,
+      "displayed_reading": "かぞく",
+      "chosen_kun": "よん",
+      "roadmap_before": 6337,
+      "roadmap_after": 6337,
+      "browser_back": 6337,
+      "horizontal_overflow": false
+    },
+    {
+      "theme": "water-glass",
+      "width": 1180,
+      "displayed_reading": "かぞく",
+      "chosen_kun": "よん",
+      "roadmap_before": 5586,
+      "roadmap_after": 5586,
+      "browser_back": 5586,
+      "horizontal_overflow": false
+    }
+  ],
+  "errors": [],
+  "scope": "Native speech bridge simulated; text input checked, acoustic output requires a physical Android device."
+}

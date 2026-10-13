@@ -1,0 +1,239 @@
+{
+  "app_version": "1.0.0",
+  "android_version_code": 47,
+  "asset_build": "47",
+  "release_identity": "Kotoba 1.0.0 source build 47: Liquid Glass and responsive text",
+  "verified_at_utc": "2026-10-12T22:17:48.866279+00:00",
+  "delivery": "Synchronized source ZIP. No new signed APK/AAB was built in this task.",
+  "changes": [
+    "Unified glass surfaces, controls, dialogs, navigation, original logo frame and native opening screen.",
+    "Saved global Liquid Glass on/off setting, keyboard switch interaction, solid OFF surfaces and lightweight fallbacks.",
+    "Responsive text/reading/card layouts throughout learning, practice, roadmap and Japan Explorer.",
+    "Preserved accent contrast, selected/correct/incorrect states, public learning data and original fonts/icons.",
+    "Japan city-list grid rows retain their height during tap feedback so lessons open reliably."
+  ],
+  "checks": {
+    "regression_suites_passed": 32,
+    "regression_checks_total": 371,
+    "suite_counts": {
+      "content": 5,
+      "search": 22,
+      "safety": 15,
+      "numbers-startup": 13,
+      "cloud": 28,
+      "assets": 3,
+      "speaking-phrasebook": 1,
+      "original-speaking-data": 1,
+      "speaking-situations": 1,
+      "liquid-glass": 1,
+      "glass-layout-contract": 27,
+      "kanji-notification-catalog": 5,
+      "roadmap-order": 6,
+      "speech-reading-data": 8,
+      "speech_readings": 28,
+      "roadmap_position": 22,
+      "navigation_theme": 23,
+      "kanji_themes": 20,
+      "journey_home": 6,
+      "onboarding": 8,
+      "kanji_notification": 21,
+      "search_suggestions": 12,
+      "scroll_lock": 14,
+      "jlpt_mock": 8,
+      "cloud_sync": 11,
+      "audio_lifecycle": 13,
+      "intro_startup": 6,
+      "catalog_batches": 10,
+      "browser_cache": 3,
+      "voice_search": 8,
+      "japan_map": 20,
+      "speaking": 2
+    },
+    "regression_suites": [
+      {
+        "suite": "content",
+        "exit_code": 0,
+        "seconds": 1.64
+      },
+      {
+        "suite": "search",
+        "exit_code": 0,
+        "seconds": 11.48
+      },
+      {
+        "suite": "safety",
+        "exit_code": 0,
+        "seconds": 1.74
+      },
+      {
+        "suite": "numbers-startup",
+        "exit_code": 0,
+        "seconds": 4.8
+      },
+      {
+        "suite": "cloud",
+        "exit_code": 0,
+        "seconds": 1.37
+      },
+      {
+        "suite": "assets",
+        "exit_code": 0,
+        "seconds": 1.33
+      },
+      {
+        "suite": "speaking-phrasebook",
+        "exit_code": 0,
+        "seconds": 1.29
+      },
+      {
+        "suite": "original-speaking-data",
+        "exit_code": 0,
+        "seconds": 0.03
+      },
+      {
+        "suite": "speaking-situations",
+        "exit_code": 0,
+        "seconds": 0.07
+      },
+      {
+        "suite": "liquid-glass",
+        "exit_code": 0,
+        "seconds": 0.06
+      },
+      {
+        "suite": "glass-layout-contract",
+        "exit_code": 0,
+        "seconds": 1.26
+      },
+      {
+        "suite": "kanji-notification-catalog",
+        "exit_code": 0,
+        "seconds": 1.44
+      },
+      {
+        "suite": "roadmap-order",
+        "exit_code": 0,
+        "seconds": 1.71
+      },
+      {
+        "suite": "speech-reading-data",
+        "exit_code": 0,
+        "seconds": 2.76
+      },
+      {
+        "suite": "speech_readings",
+        "exit_code": 0,
+        "seconds": 2.2
+      },
+      {
+        "suite": "roadmap_position",
+        "exit_code": 0,
+        "seconds": 2.3
+      },
+      {
+        "suite": "navigation_theme",
+        "exit_code": 0,
+        "seconds": 2.56
+      },
+      {
+        "suite": "kanji_themes",
+        "exit_code": 0,
+        "seconds": 2.35
+      },
+      {
+        "suite": "journey_home",
+        "exit_code": 0,
+        "seconds": 1.69
+      },
+      {
+        "suite": "onboarding",
+        "exit_code": 0,
+        "seconds": 2.03
+      },
+      {
+        "suite": "kanji_notification",
+        "exit_code": 0,
+        "seconds": 2.02
+      },
+      {
+        "suite": "search_suggestions",
+        "exit_code": 0,
+        "seconds": 2.9
+      },
+      {
+        "suite": "scroll_lock",
+        "exit_code": 0,
+        "seconds": 2.08
+      },
+      {
+        "suite": "jlpt_mock",
+        "exit_code": 0,
+        "seconds": 3.94
+      },
+      {
+        "suite": "cloud_sync",
+        "exit_code": 0,
+        "seconds": 1.89
+      },
+      {
+        "suite": "audio_lifecycle",
+        "exit_code": 0,
+        "seconds": 1.86
+      },
+      {
+        "suite": "intro_startup",
+        "exit_code": 0,
+        "seconds": 0.37
+      },
+      {
+        "suite": "catalog_batches",
+        "exit_code": 0,
+        "seconds": 4.43
+      },
+      {
+        "suite": "browser_cache",
+        "exit_code": 0,
+        "seconds": 0.06
+      },
+      {
+        "suite": "voice_search",
+        "exit_code": 0,
+        "seconds": 0.09
+      },
+      {
+        "suite": "japan_map",
+        "exit_code": 0,
+        "seconds": 3.12
+      },
+      {
+        "suite": "speaking",
+        "exit_code": 0,
+        "seconds": 1.87
+      }
+    ],
+    "browser_layouts_passed": 660,
+    "browser_layout_failures": 0,
+    "browser_javascript_errors": 0,
+    "browser_interaction_checks_passed": 21,
+    "browser_scope": "Desktop Chromium, including both glass states, stored toggle and enlarged CSS text. Android WebView/device QA pending.",
+    "source_package_smoke": {
+      "python": "3.12.14",
+      "get_requests_passed": 6974,
+      "check_lines_passed": 178,
+      "post_backup_restore_repeat_start": "passed",
+      "compiled_android_modules": false
+    },
+    "preserved_public_json_files": 22,
+    "original_fonts_icon_files_compared": 16,
+    "android_source_mirror": "Passed 27 glass/layout contract checks; app.py mirror includes generated RUN_SERVER.",
+    "native_opening": "Generated from shared shell/glass CSS; same-origin stored preference and skip bridge checked in browser simulation."
+  },
+  "pending": [
+    "Compile/lint/sign new build 47 APK/AAB using configured Python 3.13/Chaquopy runtime and existing private upload key.",
+    "Verify final artifact certificate/version/payload/alignment and native 16 KB runtime.",
+    "Physical Android WebView text scaling, startup/reopen, navigation, lower-memory rendering and stored preferences.",
+    "Physical Japanese TTS/microphone, notification/lock-screen/AOD behavior, upgrade and backup/restore.",
+    "Play internal-track/pre-launch checks and publisher production declarations."
+  ],
+  "inherited_evidence": "verification/previous-build46-input contains earlier input release notes/artifact records. These do not verify current source build 47."
+}

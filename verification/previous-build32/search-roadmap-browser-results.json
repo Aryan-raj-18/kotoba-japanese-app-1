@@ -1,0 +1,257 @@
+{
+  "layouts": [
+    {
+      "page": "search",
+      "theme": "sakura-journey",
+      "width": 320,
+      "partial": "sor",
+      "correct_word": "空",
+      "href": "/search/entry/5957ff65a3606b11b5c6?q=sor",
+      "horizontal_overflow": false,
+      "keyboard": true,
+      "header": false
+    },
+    {
+      "page": "roadmap",
+      "theme": "sakura-journey",
+      "width": 320,
+      "chapters": 91,
+      "stage_links": 14,
+      "N1_jump": true,
+      "horizontal_overflow": false,
+      "large_font": true
+    },
+    {
+      "page": "search",
+      "theme": "sakura-journey",
+      "width": 390,
+      "partial": "sor",
+      "correct_word": "空",
+      "href": "/search/entry/5957ff65a3606b11b5c6?q=sor",
+      "horizontal_overflow": false,
+      "keyboard": true,
+      "header": false
+    },
+    {
+      "page": "roadmap",
+      "theme": "sakura-journey",
+      "width": 390,
+      "chapters": 91,
+      "stage_links": 14,
+      "N1_jump": true,
+      "horizontal_overflow": false,
+      "large_font": false
+    },
+    {
+      "page": "search",
+      "theme": "sakura-journey",
+      "width": 600,
+      "partial": "sor",
+      "correct_word": "空",
+      "href": "/search/entry/5957ff65a3606b11b5c6?q=sor",
+      "horizontal_overflow": false,
+      "keyboard": true,
+      "header": false
+    },
+    {
+      "page": "roadmap",
+      "theme": "sakura-journey",
+      "width": 600,
+      "chapters": 91,
+      "stage_links": 14,
+      "N1_jump": true,
+      "horizontal_overflow": false,
+      "large_font": false
+    },
+    {
+      "page": "search",
+      "theme": "sakura-journey",
+      "width": 1180,
+      "partial": "sor",
+      "correct_word": "空",
+      "href": "/search/entry/5957ff65a3606b11b5c6?q=sor",
+      "horizontal_overflow": false,
+      "keyboard": true,
+      "header": true
+    },
+    {
+      "page": "roadmap",
+      "theme": "sakura-journey",
+      "width": 1180,
+      "chapters": 91,
+      "stage_links": 14,
+      "N1_jump": true,
+      "horizontal_overflow": false,
+      "large_font": false
+    },
+    {
+      "page": "search",
+      "theme": "kyoto-night",
+      "width": 320,
+      "partial": "sor",
+      "correct_word": "空",
+      "href": "/search/entry/5957ff65a3606b11b5c6?q=sor",
+      "horizontal_overflow": false,
+      "keyboard": true,
+      "header": false
+    },
+    {
+      "page": "roadmap",
+      "theme": "kyoto-night",
+      "width": 320,
+      "chapters": 91,
+      "stage_links": 14,
+      "N1_jump": true,
+      "horizontal_overflow": false,
+      "large_font": true
+    },
+    {
+      "page": "search",
+      "theme": "kyoto-night",
+      "width": 390,
+      "partial": "sor",
+      "correct_word": "空",
+      "href": "/search/entry/5957ff65a3606b11b5c6?q=sor",
+      "horizontal_overflow": false,
+      "keyboard": true,
+      "header": false
+    },
+    {
+      "page": "roadmap",
+      "theme": "kyoto-night",
+      "width": 390,
+      "chapters": 91,
+      "stage_links": 14,
+      "N1_jump": true,
+      "horizontal_overflow": false,
+      "large_font": false
+    },
+    {
+      "page": "search",
+      "theme": "kyoto-night",
+      "width": 600,
+      "partial": "sor",
+      "correct_word": "空",
+      "href": "/search/entry/5957ff65a3606b11b5c6?q=sor",
+      "horizontal_overflow": false,
+      "keyboard": true,
+      "header": false
+    },
+    {
+      "page": "roadmap",
+      "theme": "kyoto-night",
+      "width": 600,
+      "chapters": 91,
+      "stage_links": 14,
+      "N1_jump": true,
+      "horizontal_overflow": false,
+      "large_font": false
+    },
+    {
+      "page": "search",
+      "theme": "kyoto-night",
+      "width": 1180,
+      "partial": "sor",
+      "correct_word": "空",
+      "href": "/search/entry/5957ff65a3606b11b5c6?q=sor",
+      "horizontal_overflow": false,
+      "keyboard": true,
+      "header": true
+    },
+    {
+      "page": "roadmap",
+      "theme": "kyoto-night",
+      "width": 1180,
+      "chapters": 91,
+      "stage_links": 14,
+      "N1_jump": true,
+      "horizontal_overflow": false,
+      "large_font": false
+    },
+    {
+      "page": "search",
+      "theme": "water-glass",
+      "width": 320,
+      "partial": "sor",
+      "correct_word": "空",
+      "href": "/search/entry/5957ff65a3606b11b5c6?q=sor",
+      "horizontal_overflow": false,
+      "keyboard": true,
+      "header": false
+    },
+    {
+      "page": "roadmap",
+      "theme": "water-glass",
+      "width": 320,
+      "chapters": 91,
+      "stage_links": 14,
+      "N1_jump": true,
+      "horizontal_overflow": false,
+      "large_font": true
+    },
+    {
+      "page": "search",
+      "theme": "water-glass",
+      "width": 390,
+      "partial": "sor",
+      "correct_word": "空",
+      "href": "/search/entry/5957ff65a3606b11b5c6?q=sor",
+      "horizontal_overflow": false,
+      "keyboard": true,
+      "header": false
+    },
+    {
+      "page": "roadmap",
+      "theme": "water-glass",
+      "width": 390,
+      "chapters": 91,
+      "stage_links": 14,
+      "N1_jump": true,
+      "horizontal_overflow": false,
+      "large_font": false
+    },
+    {
+      "page": "search",
+      "theme": "water-glass",
+      "width": 600,
+      "partial": "sor",
+      "correct_word": "空",
+      "href": "/search/entry/5957ff65a3606b11b5c6?q=sor",
+      "horizontal_overflow": false,
+      "keyboard": true,
+      "header": false
+    },
+    {
+      "page": "roadmap",
+      "theme": "water-glass",
+      "width": 600,
+      "chapters": 91,
+      "stage_links": 14,
+      "N1_jump": true,
+      "horizontal_overflow": false,
+      "large_font": false
+    },
+    {
+      "page": "search",
+      "theme": "water-glass",
+      "width": 1180,
+      "partial": "sor",
+      "correct_word": "空",
+      "href": "/search/entry/5957ff65a3606b11b5c6?q=sor",
+      "horizontal_overflow": false,
+      "keyboard": true,
+      "header": true
+    },
+    {
+      "page": "roadmap",
+      "theme": "water-glass",
+      "width": 1180,
+      "chapters": 91,
+      "stage_links": 14,
+      "N1_jump": true,
+      "horizontal_overflow": false,
+      "large_font": false
+    }
+  ],
+  "errors": []
+}

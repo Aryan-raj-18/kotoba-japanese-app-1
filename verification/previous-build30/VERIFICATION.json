@@ -1,0 +1,563 @@
+{
+  "app_version": "1.0.0",
+  "android_version_code": 30,
+  "target_sdk": 36,
+  "min_sdk": 24,
+  "python": "3.13",
+  "chaquopy": "17.0.0",
+  "ABIs": [
+    "arm64-v8a",
+    "x86_64"
+  ],
+  "checks": {
+    "packaged_route_requests": 6973,
+    "search_tests": 16,
+    "safety_regressions": 15,
+    "voice_search_tests": 8,
+    "map_DOM_checks": 20,
+    "speaking_DOM_checks": 2,
+    "android_release_lint_errors": 0,
+    "android_release_lint_warnings": 32,
+    "bundletool_validate": "passed",
+    "apk_signatures": "verified",
+    "aab_signature": "verified self-signed upload certificate",
+    "APK_zip_alignment_16KB": "passed",
+    "native_ELF_load_alignment_minimum": 16384,
+    "bundle_native_library_alignment": "PAGE_ALIGNMENT_16K",
+    "packaged_asset_matches": 295,
+    "search_cache_fingerprint_matches": true,
+    "compiled_AAB_version_and_backup_metadata": "1.0.0",
+    "preserved_upload_certificate": "verified SHA-256 C603358EF51A0F7A9C9C21592880B63700E872533B3C499B033A2D8D22AD0976",
+    "restored_content_regressions": 5,
+    "Python_source_matches": "all packaged modules match final Android source",
+    "login_signup_absent_in_AAB": true,
+    "legacy_study_data_migration": "passed",
+    "legacy_selection_and_deletion_preserve_other_data": "passed",
+    "JLPT_mock_DOM_checks": 8,
+    "navigation_theme_DOM_checks": 28,
+    "overlay_scroll_DOM_checks": 14,
+    "numbers_startup_regressions": 13,
+    "original_course_JSON_unchanged": 21,
+    "APK_AAB_python_payload_identical": true,
+    "kanji_themes_display_DOM_checks": 25,
+    "cloud_sync_regressions": 28,
+    "cloud_offline_DOM_checks": 11,
+    "audio_lifecycle_DOM_checks": 13,
+    "intro_handoff_DOM_checks": 6,
+    "catalog_batch_DOM_checks": 10,
+    "browser_cache_routing_checks": 3,
+    "asset_loading_checks": 3,
+    "journey_home_DOM_checks": 6,
+    "regression_checks_total": 274,
+    "desktop_browser_layout_checks": 24,
+    "desktop_browser_interactions": "Nine setup scenarios, twelve notification settings scenarios, and three enlarged-text settings layouts; notification bridge simulated in desktop browser.",
+    "onboarding_first_launch_checks": 8,
+    "kanji_notification_catalog_checks": 5,
+    "kanji_notification_DOM_checks": 17,
+    "native_kanji_unit_tests": 10,
+    "APK_AAB_Dex_identical": true
+  },
+  "device_QA": "Pending physical Android / Play internal-track testing. Verify notification permission/channel denial, actual lock screen and AOD icons, background timing/Doze, Next/Stop/dismissal, cold/warm exact-kanji opening, reboot, upgrade and first-launch setup persistence. Existing native speech, lifecycle, insets, reminder and 16 KB runtime checks also remain pending. Desktop notification tests simulate the native bridge; JVM tests validate pure timing/selection rules, not Android System UI.",
+  "remaining_release_work": [
+    "verify distribution permissions for restored reference-derived learning text/practice material",
+    "host privacy policy at public HTTPS URL",
+    "complete Play Console forms and listing assets",
+    "verify upload key if package already exists in Play Console",
+    "real-device, upgrade and 16KB-runtime tests",
+    "submit/approve production rollout",
+    "configure and verify Firebase backend, rules, cross-device and network-toggle behavior before activating cloud sync"
+  ],
+  "content": {
+    "jlpt_kanji": 1991,
+    "jlpt_kanji_by_level": {
+      "N5": 103,
+      "N4": 174,
+      "N3": 393,
+      "N2": 410,
+      "N1": 911
+    },
+    "kanji_catalog_entries": 2103,
+    "rich_kanji_entries": 408,
+    "grammar_entries": 229,
+    "ranked_vocabulary_entries": 1999,
+    "picture_dictionary_entries": 582,
+    "practice_questions_by_level": {
+      "N5": 180,
+      "N4": 60,
+      "N3": 36,
+      "N2": 58,
+      "N1": 38
+    },
+    "stories": 23,
+    "dialogues": 54,
+    "roadmap_chapters": 91,
+    "advanced_units": "full lessons restored; all chapters accessible",
+    "search_entries": 21374,
+    "normalized_search_fields": 57456,
+    "original_recent_content": "4 original stories, 4 original dialogues and 47 unique original practice examples retained alongside the restored collection",
+    "restoration_manifest": "CONTENT_RESTORATION.json"
+  },
+  "artifacts": {
+    "release_apk": {
+      "sha256": "e9a1adaf374e6b876ea00f3a9a9d010def98c50f5fca32b7998dc6862157b2c3",
+      "bytes": 48383213
+    },
+    "release_aab": {
+      "sha256": "42a1ad1613a0d1a80ee90a59e9d644318436fb4b3967db3482da41b6e997f73d",
+      "bytes": 32009130
+    }
+  },
+  "release_identity": "Version 1.0.0 build 30: first-launch-only setup and scoped header hiding; optional offline kanji notifications with N5\u2013N1/selected cards, custom duration, rotation/single/hold modes, meaning/readings controls, Next/Stop and exact-kanji opening. All prior themes, content, logo, fonts and navigation/audio/loading fixes retained.",
+  "login": "No signup or login screen. Local saving works online/offline. Optional cloud sync uses an anonymous identity; a private cloud key connects the user's own devices once a backend is configured. Delivered backend is disabled.",
+  "current_test_logs": [
+    "verification/aab-certificate.log",
+    "verification/aab-signature.log",
+    "verification/actual-bundle-smoke.log",
+    "verification/apk-signature.log",
+    "verification/apk-version.log",
+    "verification/artifact-verification.json",
+    "verification/assets.log",
+    "verification/audio_lifecycle.log",
+    "verification/browser-server.log",
+    "verification/browser_cache.log",
+    "verification/build-initial-packaging-conflict.log",
+    "verification/build.log",
+    "verification/bundle-config.log",
+    "verification/bundle-validation.log",
+    "verification/catalog_batches.log",
+    "verification/check-kanji-notification-browser.cjs",
+    "verification/check-onboarding-browser.cjs",
+    "verification/cloud.log",
+    "verification/cloud_sync.log",
+    "verification/content.log",
+    "verification/intro_startup.log",
+    "verification/japan_map.log",
+    "verification/jlpt_mock.log",
+    "verification/journey_home.log",
+    "verification/kanji-notification-browser-results.json",
+    "verification/kanji-notification-browser.log",
+    "verification/kanji-notification-build30.png",
+    "verification/kanji-notification-catalog.log",
+    "verification/kanji_notification.log",
+    "verification/kanji_themes.log",
+    "verification/lint-results-release.txt",
+    "verification/native-kanji-unit-tests.xml",
+    "verification/navigation_theme.log",
+    "verification/numbers-startup.log",
+    "verification/onboarding-browser-results.json",
+    "verification/onboarding-browser.log",
+    "verification/onboarding-build30.png",
+    "verification/onboarding.log",
+    "verification/regression-results.json",
+    "verification/safety.log",
+    "verification/scroll_lock.log",
+    "verification/search.log",
+    "verification/speaking.log",
+    "verification/voice_search.log",
+    "verification/zip-alignment.log"
+  ],
+  "check_provenance": {
+    "current_build": 30,
+    "regression_suites": [
+      {
+        "suite": "content",
+        "exit_code": 0,
+        "seconds": 0.66
+      },
+      {
+        "suite": "search",
+        "exit_code": 0,
+        "seconds": 22.08
+      },
+      {
+        "suite": "safety",
+        "exit_code": 0,
+        "seconds": 0.99
+      },
+      {
+        "suite": "numbers-startup",
+        "exit_code": 0,
+        "seconds": 6.49
+      },
+      {
+        "suite": "cloud",
+        "exit_code": 0,
+        "seconds": 0.54
+      },
+      {
+        "suite": "assets",
+        "exit_code": 0,
+        "seconds": 0.75
+      },
+      {
+        "suite": "kanji-notification-catalog",
+        "exit_code": 0,
+        "seconds": 0.58
+      },
+      {
+        "suite": "navigation_theme",
+        "exit_code": 0,
+        "seconds": 2.71
+      },
+      {
+        "suite": "kanji_themes",
+        "exit_code": 0,
+        "seconds": 2.78
+      },
+      {
+        "suite": "journey_home",
+        "exit_code": 0,
+        "seconds": 1.44
+      },
+      {
+        "suite": "onboarding",
+        "exit_code": 0,
+        "seconds": 2.13
+      },
+      {
+        "suite": "kanji_notification",
+        "exit_code": 0,
+        "seconds": 1.96
+      },
+      {
+        "suite": "scroll_lock",
+        "exit_code": 0,
+        "seconds": 2.36
+      },
+      {
+        "suite": "jlpt_mock",
+        "exit_code": 0,
+        "seconds": 4.88
+      },
+      {
+        "suite": "cloud_sync",
+        "exit_code": 0,
+        "seconds": 1.38
+      },
+      {
+        "suite": "audio_lifecycle",
+        "exit_code": 0,
+        "seconds": 1.22
+      },
+      {
+        "suite": "intro_startup",
+        "exit_code": 0,
+        "seconds": 0.59
+      },
+      {
+        "suite": "catalog_batches",
+        "exit_code": 0,
+        "seconds": 5.02
+      },
+      {
+        "suite": "browser_cache",
+        "exit_code": 0,
+        "seconds": 0.11
+      },
+      {
+        "suite": "voice_search",
+        "exit_code": 0,
+        "seconds": 0.15
+      },
+      {
+        "suite": "japan_map",
+        "exit_code": 0,
+        "seconds": 3.47
+      },
+      {
+        "suite": "speaking",
+        "exit_code": 0,
+        "seconds": 1.01
+      },
+      {
+        "suite": "actual-bundle-smoke",
+        "exit_code": 0,
+        "seconds": 22.4
+      }
+    ],
+    "python_DOM_checks": 264,
+    "native_Kotlin_JVM_checks": 10,
+    "total_regression_checks": 274,
+    "compiled_bundle_GET_requests": 6973,
+    "compiled_bundle_POST_backup_and_repeated_server_smoke": "passed",
+    "package_integrity": "Signatures, preserved certificate, bundletool, 16 KB native/ZIP/bundle alignment, all compiled Python modules and assets, identical APK/AAB Python and Dex payloads, native kanji catalog and 21 unchanged public learning JSON files verified.",
+    "desktop_browser": {
+      "onboarding": {
+        "layouts": [
+          {
+            "theme": "sakura-journey",
+            "width": 320,
+            "choices": 5,
+            "header_hidden": true,
+            "choices_reachable": true,
+            "repeat_setup": false,
+            "header_restored": true
+          },
+          {
+            "theme": "sakura-journey",
+            "width": 390,
+            "choices": 5,
+            "header_hidden": true,
+            "choices_reachable": true,
+            "repeat_setup": false,
+            "header_restored": true
+          },
+          {
+            "theme": "sakura-journey",
+            "width": 600,
+            "choices": 5,
+            "header_hidden": true,
+            "choices_reachable": true,
+            "repeat_setup": false,
+            "header_restored": true
+          },
+          {
+            "theme": "kyoto-night",
+            "width": 320,
+            "choices": 5,
+            "header_hidden": true,
+            "choices_reachable": true,
+            "repeat_setup": false,
+            "header_restored": true
+          },
+          {
+            "theme": "kyoto-night",
+            "width": 390,
+            "choices": 5,
+            "header_hidden": true,
+            "choices_reachable": true,
+            "repeat_setup": false,
+            "header_restored": true
+          },
+          {
+            "theme": "kyoto-night",
+            "width": 600,
+            "choices": 5,
+            "header_hidden": true,
+            "choices_reachable": true,
+            "repeat_setup": false,
+            "header_restored": true
+          },
+          {
+            "theme": "water-glass",
+            "width": 320,
+            "choices": 5,
+            "header_hidden": true,
+            "choices_reachable": true,
+            "repeat_setup": false,
+            "header_restored": true
+          },
+          {
+            "theme": "water-glass",
+            "width": 390,
+            "choices": 5,
+            "header_hidden": true,
+            "choices_reachable": true,
+            "repeat_setup": false,
+            "header_restored": true
+          },
+          {
+            "theme": "water-glass",
+            "width": 600,
+            "choices": 5,
+            "header_hidden": true,
+            "choices_reachable": true,
+            "repeat_setup": false,
+            "header_restored": true
+          }
+        ],
+        "errors": []
+      },
+      "kanji_notification": {
+        "layouts": [
+          {
+            "theme": "sakura-journey",
+            "width": 320,
+            "horizontal_overflow": false,
+            "N1_cards": 911,
+            "selection": true,
+            "custom_minutes": 75,
+            "activation": true,
+            "hold": true,
+            "stop": true,
+            "large_font": true
+          },
+          {
+            "theme": "sakura-journey",
+            "width": 390,
+            "horizontal_overflow": false,
+            "N1_cards": 911,
+            "selection": true,
+            "custom_minutes": 75,
+            "activation": true,
+            "hold": true,
+            "stop": true,
+            "large_font": false
+          },
+          {
+            "theme": "sakura-journey",
+            "width": 600,
+            "horizontal_overflow": false,
+            "N1_cards": 911,
+            "selection": true,
+            "custom_minutes": 75,
+            "activation": true,
+            "hold": true,
+            "stop": true,
+            "large_font": false
+          },
+          {
+            "theme": "sakura-journey",
+            "width": 1180,
+            "horizontal_overflow": false,
+            "N1_cards": 911,
+            "selection": true,
+            "custom_minutes": 75,
+            "activation": true,
+            "hold": true,
+            "stop": true,
+            "large_font": false
+          },
+          {
+            "theme": "kyoto-night",
+            "width": 320,
+            "horizontal_overflow": false,
+            "N1_cards": 911,
+            "selection": true,
+            "custom_minutes": 75,
+            "activation": true,
+            "hold": true,
+            "stop": true,
+            "large_font": true
+          },
+          {
+            "theme": "kyoto-night",
+            "width": 390,
+            "horizontal_overflow": false,
+            "N1_cards": 911,
+            "selection": true,
+            "custom_minutes": 75,
+            "activation": true,
+            "hold": true,
+            "stop": true,
+            "large_font": false
+          },
+          {
+            "theme": "kyoto-night",
+            "width": 600,
+            "horizontal_overflow": false,
+            "N1_cards": 911,
+            "selection": true,
+            "custom_minutes": 75,
+            "activation": true,
+            "hold": true,
+            "stop": true,
+            "large_font": false
+          },
+          {
+            "theme": "kyoto-night",
+            "width": 1180,
+            "horizontal_overflow": false,
+            "N1_cards": 911,
+            "selection": true,
+            "custom_minutes": 75,
+            "activation": true,
+            "hold": true,
+            "stop": true,
+            "large_font": false
+          },
+          {
+            "theme": "water-glass",
+            "width": 320,
+            "horizontal_overflow": false,
+            "N1_cards": 911,
+            "selection": true,
+            "custom_minutes": 75,
+            "activation": true,
+            "hold": true,
+            "stop": true,
+            "large_font": true
+          },
+          {
+            "theme": "water-glass",
+            "width": 390,
+            "horizontal_overflow": false,
+            "N1_cards": 911,
+            "selection": true,
+            "custom_minutes": 75,
+            "activation": true,
+            "hold": true,
+            "stop": true,
+            "large_font": false
+          },
+          {
+            "theme": "water-glass",
+            "width": 600,
+            "horizontal_overflow": false,
+            "N1_cards": 911,
+            "selection": true,
+            "custom_minutes": 75,
+            "activation": true,
+            "hold": true,
+            "stop": true,
+            "large_font": false
+          },
+          {
+            "theme": "water-glass",
+            "width": 1180,
+            "horizontal_overflow": false,
+            "N1_cards": 911,
+            "selection": true,
+            "custom_minutes": 75,
+            "activation": true,
+            "hold": true,
+            "stop": true,
+            "large_font": false
+          }
+        ],
+        "errors": []
+      },
+      "notification_bridge": "simulated; no real Android notification/AOD test"
+    },
+    "note": "Compiled AAB used by Python/DOM suites where supported. Legacy suites use byte-verified source. Current browser checks use final source CSS, which matches final artifacts. No real Android or live Firebase test was performed."
+  },
+  "cloud_sync": {
+    "implemented": true,
+    "backend_configured": false,
+    "live_Firebase_tests": "not run; requires publisher configuration and deployed rules",
+    "cross_device_identity": "separate private cloud key, never included in normal progress backups",
+    "local_saving": "works independently of cloud; no internet dependency",
+    "pending_activation": "CLOUD_SETUP.md"
+  },
+  "kanji_notification": {
+    "enabled_by_default": false,
+    "offline_cards": 1991,
+    "levels": [
+      "N5",
+      "N4",
+      "N3",
+      "N2",
+      "N1"
+    ],
+    "rotation_minutes": [
+      15,
+      1440
+    ],
+    "single_card_minutes": [
+      1,
+      1440
+    ],
+    "hold": "until Next/Stop",
+    "user_controls": [
+      "whole level or selected ordered subset",
+      "duration",
+      "meaning/readings",
+      "Next",
+      "Stop",
+      "Android channel settings"
+    ],
+    "always_on_display": "Kanji notification icon on compatible phones; full text and placement controlled by device. No AOD layout override.",
+    "background_timing": "Inexact non-wakeup alarms; Android may defer rotation. System timeout used for single-card expiration on API 26+.",
+    "permissions": "Uses existing notification/boot permissions; no exact-alarm, overlay, foreground-service or battery-exemption permission."
+  }
+}

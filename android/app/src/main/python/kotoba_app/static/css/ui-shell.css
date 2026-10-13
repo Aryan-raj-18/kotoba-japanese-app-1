@@ -1,0 +1,686 @@
+/* =====================================================================
+   Kotoba Immersive UI Shell
+   ---------------------------------------------------------------------
+   Non-invasive visual wrapper. It deliberately does not redefine routes,
+   data, forms, page scripts, IDs, or learning logic. Existing components
+   remain the source of truth; this file only changes presentation.
+
+   IMPORTANT: this shell no longer ships its own fixed color palette.
+   Earlier it redefined --paper/--card-bg/--ink/etc. under
+   [data-ui-shell="immersive"] to one hardcoded dark scheme, which sat at
+   the same CSS specificity as the theme picker's [data-theme="…"] rules
+   in style.css and loaded after them — so it silently won every time,
+   and switching themes in the settings panel had no visible effect.
+   Instead, every "glass" surface below reads the *current* theme's own
+   tokens (--paper, --card-bg, --ink, --indigo, --seal, --line, …) and
+   only adds translucency + blur on top of them with color-mix(). Pick
+   Sumi and the glass goes dark; pick Sakura and it goes a soft pink —
+   the shell is a finish, not a competing theme.
+
+   Each color-mix() line is preceded by a plain fallback using the same
+   variable name. Browsers without color-mix() support simply keep the
+   opaque fallback (a custom property with an unparsable value is
+   dropped, not blank), so the UI stays fully readable either way.
+   ===================================================================== */
+
+html[data-ui-shell="immersive"] {
+  --shell-radius: 22px;
+
+  /* Card / panel surfaces. ~92% of the theme's own card color, so the
+     glass reads as "the theme, lightly frosted" rather than "see-through". */
+  --shell-surface: var(--card-bg);
+  --shell-surface: color-mix(in srgb, var(--card-bg) 92%, transparent);
+  --shell-surface-strong: var(--card-bg);
+  --shell-surface-strong: color-mix(in srgb, var(--card-bg) 96%, transparent);
+
+  /* Floating header / bottom nav — slightly lighter than cards so they
+     still read as a distinct layer floating over content. */
+  --shell-header-bg: var(--paper);
+  --shell-header-bg: color-mix(in srgb, var(--paper) 90%, transparent);
+
+  --shell-border: var(--line);
+  --shell-border: color-mix(in srgb, var(--ink) 14%, var(--line));
+
+  --shell-input-bg: var(--surface);
+  --shell-input-bg: color-mix(in srgb, var(--surface) 90%, transparent);
+
+  --shell-active-bg: var(--indigo);
+}
+
+html[data-ui-shell="immersive"],
+html[data-ui-shell="immersive"] body {
+  min-height: 100%;
+}
+
+/* Ambient body wash, built from the active theme's own wash colors
+   (already tuned per-theme in style.css) rather than a fixed dark
+   gradient, so it shifts with the theme too. */
+html[data-ui-shell="immersive"] body {
+  background:
+    radial-gradient(ellipse at 12% 8%, var(--bg-wash-1), transparent 40%),
+    radial-gradient(ellipse at 88% 16%, var(--bg-wash-2), transparent 42%),
+    radial-gradient(ellipse at 50% 105%, var(--bg-wash-1), transparent 46%),
+    var(--paper);
+  background-attachment: fixed;
+}
+
+/* =====================================================================
+   USER WALLPAPER
+   ---------------------------------------------------------------------
+   Presentation-only: the chosen image/GIF is stored as a Blob in
+   IndexedDB on this device (ui-shell.js) and painted here as a fixed
+   layer behind the app. A theme-colored scrim sits on top of it at an
+   adjustable strength (the "Dim" slider) so body text and kana/kanji
+   stay legible over any photo — the scrim uses --paper, so it darkens
+   for dark themes and stays light for light themes instead of always
+   flattening everything to black.
+   ================================================================== */
+.kotoba-wallpaper {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--paper);
+}
+.kotoba-wallpaper::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--paper);
+  opacity: var(--wallpaper-scrim, 0.6);
+}
+html[data-ui-shell="immersive"] body.has-kotoba-wallpaper {
+  background: var(--paper);
+}
+html[data-ui-shell="immersive"] .seal-bg { z-index: 1; }
+html[data-ui-shell="immersive"] .site-main,
+html[data-ui-shell="immersive"] .site-footer {
+  position: relative;
+  z-index: 2;
+}
+
+/* Subtle paper-grain dot texture, colored from the theme's own ink
+   pattern token instead of a fixed white, so it stays visible without
+   ever looking like a mistake on a light theme. */
+html[data-ui-shell="immersive"] .seal-bg {
+  opacity: 0.65;
+  background-image:
+    var(--theme-motif, none);
+  background-size: var(--theme-motif-size, 180px);
+}
+
+/* Floating glass header */
+html[data-ui-shell="immersive"] .site-header {
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  margin: 12px auto 0;
+  width: min(1180px, calc(100% - 24px));
+  padding: 12px 16px;
+  gap: 12px;
+  border: 1px solid var(--shell-border);
+  border-radius: 24px;
+  background: var(--shell-header-bg);
+  backdrop-filter: blur(22px) saturate(135%);
+  -webkit-backdrop-filter: blur(22px) saturate(135%);
+  box-shadow: var(--shadow-lg);
+}
+
+html[data-ui-shell="immersive"] .header-search,
+html[data-ui-shell="immersive"] .settings-btn {
+  background: var(--shell-input-bg);
+  border-color: var(--shell-border);
+}
+html[data-ui-shell="immersive"] .site-nav a.active {
+  border-bottom-color: transparent;
+  background: var(--shell-surface-strong);
+  border-radius: 999px;
+  padding: 7px 13px;
+}
+
+/* Main content becomes the translucent surface over the backdrop. */
+html[data-ui-shell="immersive"] .site-main {
+  max-width: 1180px;
+  padding-top: 34px;
+  padding-bottom: 110px;
+}
+
+html[data-ui-shell="immersive"] .hero {
+  min-height: 360px;
+  margin-bottom: 26px;
+  padding: 34px;
+  border: 1px solid var(--shell-border);
+  border-radius: 30px;
+  background: var(--shell-surface-strong);
+  backdrop-filter: blur(18px) saturate(125%);
+  -webkit-backdrop-filter: blur(18px) saturate(125%);
+  box-shadow: var(--shadow-lg);
+}
+html[data-ui-shell="immersive"] .jp-clock,
+html[data-ui-shell="immersive"] .hero-search input {
+  background: var(--shell-input-bg);
+  border-color: var(--shell-border);
+  box-shadow: none;
+}
+
+/* Cards: same links and click handlers, new glass presentation. */
+html[data-ui-shell="immersive"] .path-grid {
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 14px;
+}
+html[data-ui-shell="immersive"] .path-card,
+html[data-ui-shell="immersive"] .quiz-card,
+html[data-ui-shell="immersive"] .explain-card,
+html[data-ui-shell="immersive"] .section-card,
+html[data-ui-shell="immersive"] .jp-card,
+html[data-ui-shell="immersive"] .card,
+html[data-ui-shell="immersive"] .panel {
+  background: var(--shell-surface);
+  border: 1px solid var(--shell-border);
+  box-shadow: var(--shadow-sm);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+html[data-ui-shell="immersive"] .path-card:hover {
+  transform: translateY(-3px);
+  background: var(--shell-surface-strong);
+}
+html[data-ui-shell="immersive"] .path-card-accent {
+  background: color-mix(in srgb, var(--seal-soft) 88%, transparent);
+  border-color: var(--seal);
+}
+
+html[data-ui-shell="immersive"] input,
+html[data-ui-shell="immersive"] textarea,
+html[data-ui-shell="immersive"] select {
+  background: var(--shell-input-bg);
+  border-color: var(--shell-border);
+}
+
+/* Wallpaper controls live inside the existing settings panel. */
+html[data-ui-shell="immersive"] .wallpaper-settings {
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+html[data-ui-shell="immersive"] .wallpaper-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+html[data-ui-shell="immersive"] .wallpaper-upload-btn { flex: 1 1 145px; }
+html[data-ui-shell="immersive"] .wallpaper-upload-btn,
+html[data-ui-shell="immersive"] .wallpaper-reposition-btn,
+html[data-ui-shell="immersive"] .wallpaper-clear-btn {
+  min-height: 38px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--surface);
+  color: var(--ink);
+  cursor: pointer;
+  padding: 8px 11px;
+  font: inherit;
+}
+html[data-ui-shell="immersive"] .wallpaper-upload-btn:hover,
+html[data-ui-shell="immersive"] .wallpaper-reposition-btn:hover,
+html[data-ui-shell="immersive"] .wallpaper-clear-btn:hover {
+  border-color: var(--indigo);
+}
+html[data-ui-shell="immersive"] .wallpaper-clear-btn[hidden],
+html[data-ui-shell="immersive"] .wallpaper-reposition-btn[hidden] { display: none; }
+html[data-ui-shell="immersive"] .wallpaper-hint {
+  margin: 7px 0 0;
+  color: var(--ink-soft);
+  font-size: 11px;
+  line-height: 1.4;
+}
+html[data-ui-shell="immersive"] .wallpaper-progress {
+  margin: 9px 0 0;
+  font-size: 12px;
+  color: var(--bad-fg);
+}
+html[data-ui-shell="immersive"] .wallpaper-dim-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  font-size: 13px;
+  color: var(--ink-soft);
+}
+html[data-ui-shell="immersive"] .wallpaper-dim-row input[type="range"] {
+  flex: 1;
+  accent-color: var(--seal);
+}
+html[data-ui-shell="immersive"] .wallpaper-dim-row[hidden] { display: none; }
+
+/* Image framing editor. The original Blob is kept intact, including GIF
+   animation; only zoom and focal position are saved. */
+.wallpaper-crop-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1900;
+  display: grid;
+  place-items: center;
+  padding: max(14px, env(safe-area-inset-top, 0px)) 14px max(14px, env(safe-area-inset-bottom, 0px));
+  background: rgba(8, 10, 14, .78);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+.wallpaper-crop-overlay[hidden] { display: none; }
+.wallpaper-crop-dialog {
+  width: min(650px, 100%);
+  max-height: calc(100dvh - 28px);
+  overflow: auto;
+  padding: 20px;
+  border: 1px solid var(--shell-border);
+  border-radius: 24px;
+  background: var(--surface);
+  color: var(--ink);
+  box-shadow: var(--shadow-lg);
+}
+.wallpaper-crop-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 14px; }
+.wallpaper-crop-head h3 { margin: 2px 0 0; font-size: 22px; }
+.wallpaper-crop-kicker { margin: 0; color: var(--seal); font-size: 11px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.wallpaper-crop-close {
+  width: 38px; height: 38px; flex: 0 0 auto; border: 1px solid var(--line); border-radius: 50%;
+  background: var(--card-bg); color: var(--ink); font: inherit; font-size: 24px; cursor: pointer;
+}
+.wallpaper-crop-help { margin: 9px 0 14px; color: var(--ink-soft); font-size: 13px; line-height: 1.45; }
+.wallpaper-crop-stage-wrap { display: grid; place-items: center; min-height: 230px; }
+.wallpaper-crop-frame {
+  position: relative; overflow: hidden; max-width: 100%; border: 2px solid rgba(255,255,255,.9);
+  border-radius: 18px; background: #111; box-shadow: 0 14px 40px rgba(0,0,0,.28);
+  cursor: grab; touch-action: none; user-select: none; -webkit-user-select: none;
+}
+.wallpaper-crop-frame.dragging { cursor: grabbing; }
+.wallpaper-crop-image { position: absolute; inset: 0; background-repeat: no-repeat; background-color: #111; }
+.wallpaper-crop-frame::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  background-image:
+    linear-gradient(to right, transparent 33.15%, rgba(255,255,255,.42) 33.33%, transparent 33.52%, transparent 66.48%, rgba(255,255,255,.42) 66.67%, transparent 66.85%),
+    linear-gradient(to bottom, transparent 33.15%, rgba(255,255,255,.42) 33.33%, transparent 33.52%, transparent 66.48%, rgba(255,255,255,.42) 66.67%, transparent 66.85%);
+  box-shadow: inset 0 0 0 1px rgba(0,0,0,.3);
+}
+.wallpaper-crop-controls { margin-top: 16px; padding: 13px; border: 1px solid var(--line); border-radius: 16px; background: var(--card-bg); }
+.wallpaper-crop-controls label { display: flex; justify-content: space-between; gap: 12px; font-size: 13px; }
+.wallpaper-crop-controls input[type=range] { width: 100%; margin: 10px 0 8px; accent-color: var(--seal); }
+.wallpaper-crop-reset { border: 0; padding: 5px 0; background: transparent; color: var(--seal); font: inherit; font-size: 12px; font-weight: 700; cursor: pointer; }
+.wallpaper-crop-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 14px; }
+.wallpaper-crop-actions button { min-height: 44px; border-radius: 14px; font: inherit; font-weight: 700; cursor: pointer; }
+.wallpaper-crop-cancel { border: 1px solid var(--line); background: var(--card-bg); color: var(--ink); }
+.wallpaper-crop-apply { border: 1px solid var(--seal); background: var(--seal); color: var(--on-accent); }
+body.wallpaper-crop-open { overflow: hidden; }
+body.onboarding-open .kotoba-bottom-nav,
+body.wallpaper-crop-open .kotoba-bottom-nav,
+body.japan-drawer-open .kotoba-bottom-nav,
+body.japan-passport-open .kotoba-bottom-nav { display: none !important; }
+
+@media (max-width: 520px) {
+  .wallpaper-crop-dialog { padding: 16px; border-radius: 20px; }
+  .wallpaper-crop-head h3 { font-size: 19px; }
+  .wallpaper-crop-stage-wrap { min-height: 210px; }
+}
+
+.kotoba-bottom-nav { display: none; }
+
+@media (max-width: 700px) {
+  html[data-ui-shell="immersive"] .site-header {
+    position: sticky;
+    /* Make the native mobile shell almost edge-to-edge. Android already
+       reserves status/navigation/cutout areas on the WebView container. */
+    margin: 4px 4px 0;
+    width: calc(100% - 8px);
+    padding: 9px 10px;
+    gap: 7px;
+    border-radius: 18px;
+  }
+  html[data-ui-shell="immersive"] .header-search,
+  html[data-ui-shell="immersive"] .auth-nav,
+  html[data-ui-shell="immersive"] .site-nav { display: none; }
+  html[data-ui-shell="immersive"] .settings-wrap { display: block; }
+  html[data-ui-shell="immersive"] .site-header .brand { margin-right: auto; }
+
+  html[data-ui-shell="immersive"] .site-main {
+    padding: 16px max(8px, env(safe-area-inset-left, 0px))
+      calc(88px + env(safe-area-inset-bottom, 0px))
+      max(8px, env(safe-area-inset-right, 0px));
+  }
+  html[data-ui-shell="immersive"] .hero {
+    min-height: auto;
+    padding: 24px 20px;
+    border-radius: 26px;
+    display: block;
+  }
+  html[data-ui-shell="immersive"] .hero h1 { font-size: 34px; }
+  html[data-ui-shell="immersive"] .hero-glyphs { display: none; }
+  html[data-ui-shell="immersive"] .hero-search { max-width: none; }
+  html[data-ui-shell="immersive"] .path-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+  html[data-ui-shell="immersive"] .path-card {
+    min-height: 145px;
+    padding: 18px 14px;
+    border-radius: 20px;
+  }
+  html[data-ui-shell="immersive"] .path-card h2 { font-size: 16px; }
+  html[data-ui-shell="immersive"] .path-card p { font-size: 12.5px; line-height: 1.4; }
+  html[data-ui-shell="immersive"] .path-card .path-kanji { font-size: 32px; }
+
+  .kotoba-bottom-nav {
+    position: fixed;
+    left: max(4px, env(safe-area-inset-left, 0px));
+    right: max(4px, env(safe-area-inset-right, 0px));
+    bottom: calc(4px + env(safe-area-inset-bottom, 0px));
+    z-index: 500;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 4px;
+    padding: 6px;
+    border: 1px solid var(--shell-border);
+    border-radius: 20px;
+    background: var(--shell-header-bg);
+    backdrop-filter: blur(24px) saturate(145%);
+    -webkit-backdrop-filter: blur(24px) saturate(145%);
+    box-shadow: var(--shadow-lg);
+  }
+  .kotoba-bottom-nav a {
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    min-height: 48px;
+    border-radius: 18px;
+    color: var(--ink-soft);
+    text-decoration: none;
+    font-size: 10px;
+  }
+  .kotoba-bottom-nav a.active {
+    color: var(--on-accent);
+    background: var(--shell-active-bg);
+  }
+  .kotoba-bottom-nav .nav-icon { font-size: 18px; line-height: 1; }
+}
+
+@media (max-width: 360px) {
+  html[data-ui-shell="immersive"] .site-header {
+    gap: 5px;
+    padding-inline: 7px;
+  }
+  html[data-ui-shell="immersive"] .site-header .brand { gap: 5px; }
+  html[data-ui-shell="immersive"] .brand-en { font-size: 16px; }
+  html[data-ui-shell="immersive"] .streak-badge,
+  html[data-ui-shell="immersive"] .review-due-badge,
+  html[data-ui-shell="immersive"] .voice-search-global-btn,
+  html[data-ui-shell="immersive"] .settings-btn { flex-shrink: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html[data-ui-shell="immersive"] * { scroll-behavior: auto !important; }
+}
+
+/* =====================================================================
+   OPENING INTRO + VOICE SEARCH
+   ================================================================== */
+body.intro-open,
+body.voice-search-open { overflow: hidden; }
+body.intro-open .kotoba-bottom-nav,
+body.voice-search-open .kotoba-bottom-nav { display: none !important; }
+
+.kotoba-intro {
+  position: fixed;
+  inset: 0;
+  z-index: 2600;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  color: #f6f0e5;
+  background:
+    radial-gradient(circle at 50% 42%, rgba(143,176,224,.22), transparent 28%),
+    radial-gradient(circle at 72% 18%, rgba(224,96,63,.16), transparent 22%),
+    linear-gradient(160deg, #101419 0%, #18212b 56%, #111418 100%);
+  opacity: 1;
+  transition: opacity .35s ease, visibility .35s ease;
+}
+.kotoba-intro[hidden] { display: none; }
+.kotoba-intro.is-leaving { opacity: 0; visibility: hidden; }
+.kotoba-intro::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: radial-gradient(circle, rgba(255,255,255,.08) 0 1px, transparent 1.4px);
+  background-size: 34px 34px;
+  mask-image: linear-gradient(to bottom, black, transparent 82%);
+}
+.kotoba-intro-skip {
+  position: absolute;
+  top: calc(18px + env(safe-area-inset-top, 0px));
+  right: calc(18px + env(safe-area-inset-right, 0px));
+  z-index: 3;
+  border: 1px solid rgba(255,255,255,.18);
+  border-radius: 999px;
+  padding: 8px 14px;
+  color: rgba(255,255,255,.82);
+  background: rgba(255,255,255,.07);
+  font: 600 13px/1 var(--serif-body);
+  backdrop-filter: blur(12px);
+  cursor: pointer;
+  animation: intro-fade-up .55s 1.2s both;
+}
+.kotoba-intro-scene {
+  position: relative;
+  width: min(92vw, 560px);
+  min-height: 520px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.kotoba-intro-logo { position: relative; z-index: 5; animation: intro-logo 1s .55s cubic-bezier(.2,.8,.2,1) both; }
+.kotoba-intro-logo .intro-mark {
+  display: grid;
+  place-items: center;
+  width: 76px;
+  height: 76px;
+  margin: 0 auto 16px;
+  border-radius: 22px;
+  color: #fff9f1;
+  background: #d95c3b;
+  box-shadow: 0 18px 50px rgba(217,92,59,.28);
+  font: 600 42px/1 var(--serif-jp);
+  transform: rotate(-4deg);
+}
+.kotoba-intro-logo p { margin: 0 0 1px; color: #F5EFE5; font: 600 18px/1.4 "Kotoba Brand", serif; letter-spacing: .18em; }
+.kotoba-intro-logo h1 { margin: 0; color: #f5efe5; font: 600 clamp(50px,12vw,76px)/1 "Kotoba Serif", Georgia, serif; letter-spacing: .02em; }
+.kotoba-intro-tagline {
+  position: absolute;
+  z-index: 5;
+  top: calc(50% + 120px);
+  width: 100%;
+  margin: 0;
+  color: rgba(245,239,229,.72);
+  font: 500 clamp(13px,3.3vw,16px)/1.4 var(--serif-body);
+  letter-spacing: .035em;
+  animation: intro-fade-up .75s 1.55s both;
+}
+.kotoba-intro-progress {
+  position: absolute;
+  z-index: 6;
+  top: calc(50% + 170px);
+  width: min(210px, 50vw);
+  height: 3px;
+  overflow: hidden;
+  border-radius: 99px;
+  background: rgba(255,255,255,.12);
+  animation: intro-fade-up .5s 1.8s both;
+}
+.kotoba-intro-progress span { display:block; width:100%; height:100%; background:#e36645; transform-origin:left; animation:intro-progress 1.15s 1.4s ease-in-out both; }
+.kotoba-intro-map { position:absolute; inset:30px 20px 70px; z-index:1; opacity:.5; transform:rotate(-10deg) scale(.9); animation:intro-map-in 1.1s .15s cubic-bezier(.2,.8,.2,1) both; }
+.intro-island { position:absolute; display:block; border:2px solid rgba(150,189,235,.7); background:rgba(78,115,159,.16); box-shadow:0 0 26px rgba(92,145,207,.11); }
+.i-hokkaido { width:70px; height:58px; right:55px; top:25px; border-radius:53% 47% 58% 42%/45% 55% 45% 55%; transform:rotate(16deg); }
+.i-honshu { width:74px; height:300px; right:150px; top:92px; border-radius:48% 52% 42% 58%/28% 25% 75% 72%; transform:rotate(28deg); }
+.i-shikoku { width:72px; height:30px; left:160px; bottom:86px; border-radius:55% 45%; transform:rotate(-10deg); }
+.i-kyushu { width:74px; height:96px; left:82px; bottom:44px; border-radius:48% 52% 58% 42%; transform:rotate(-18deg); }
+.intro-route { position:absolute; width:250px; height:100px; left:125px; top:215px; border-top:2px dashed rgba(239,119,87,.74); border-radius:50%; transform:rotate(26deg); }
+.intro-train { position:absolute; left:145px; top:218px; font-size:25px; filter:drop-shadow(0 5px 12px rgba(0,0,0,.3)); animation:intro-train 1.55s 1s ease-in-out both; }
+.intro-pin { position:absolute; width:9px; height:9px; border-radius:50%; background:#ef7757; box-shadow:0 0 0 6px rgba(239,119,87,.14); animation:intro-pin 1.7s infinite ease-in-out; }
+.intro-pin.p1 { right:190px; top:200px; }.intro-pin.p2 { left:205px; top:310px; animation-delay:.35s; }.intro-pin.p3 { left:126px; bottom:116px; animation-delay:.7s; }
+.kotoba-intro-orbit { position:absolute; z-index:2; display:grid; place-items:center; width:52px; height:52px; border:1px solid rgba(255,255,255,.12); border-radius:50%; color:rgba(255,255,255,.6); background:rgba(255,255,255,.035); font:500 25px/1 var(--serif-jp); backdrop-filter:blur(6px); animation:intro-float 3s ease-in-out infinite; }
+.intro-o1 { left:9%; top:27%; }.intro-o2 { right:8%; top:35%; animation-delay:.5s; }.intro-o3 { left:17%; bottom:17%; animation-delay:1s; }
+.kotoba-intro-petals i { position:absolute; top:-8%; width:10px; height:7px; border-radius:70% 30% 70% 30%; background:rgba(238,140,151,.65); animation:intro-petal 4.6s linear infinite; }
+.kotoba-intro-petals i:nth-child(1){left:11%;animation-delay:.2s}.kotoba-intro-petals i:nth-child(2){left:26%;animation-delay:1.2s}.kotoba-intro-petals i:nth-child(3){left:43%;animation-delay:.6s}.kotoba-intro-petals i:nth-child(4){left:62%;animation-delay:1.7s}.kotoba-intro-petals i:nth-child(5){left:79%;animation-delay:.9s}.kotoba-intro-petals i:nth-child(6){left:91%;animation-delay:2.2s}
+.kotoba-intro.intro-returning .kotoba-intro-tagline,.kotoba-intro.intro-returning .kotoba-intro-progress,.kotoba-intro.intro-returning .kotoba-intro-petals,.kotoba-intro.intro-returning .kotoba-intro-map,.kotoba-intro.intro-returning .kotoba-intro-orbit { opacity:.22; }
+@keyframes intro-logo { from{opacity:0;transform:translateY(22px) scale(.9)} to{opacity:1;transform:none} }
+@keyframes intro-fade-up { from{opacity:0;transform:translateY(12px)} to{opacity:1;transform:none} }
+@keyframes intro-map-in { from{opacity:0;transform:rotate(-10deg) scale(.78)} to{opacity:.5;transform:rotate(-10deg) scale(.9)} }
+@keyframes intro-progress { from{transform:scaleX(0)} to{transform:scaleX(1)} }
+@keyframes intro-float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-10px)} }
+@keyframes intro-pin { 0%,100%{box-shadow:0 0 0 4px rgba(239,119,87,.12)} 50%{box-shadow:0 0 0 10px rgba(239,119,87,0)} }
+@keyframes intro-train { 0%{transform:translate(-40px,30px) scale(.8);opacity:0} 15%{opacity:1} 100%{transform:translate(185px,-74px) scale(1);opacity:.95} }
+@keyframes intro-petal { 0%{transform:translate(0,-10vh) rotate(0);opacity:0} 12%{opacity:.75} 100%{transform:translate(55px,115vh) rotate(520deg);opacity:0} }
+
+.voice-search-global-btn {
+  width: 40px;
+  height: 40px;
+  flex: 0 0 auto;
+  border: 1px solid var(--shell-border, var(--line));
+  border-radius: 50%;
+  background: var(--shell-input-bg, var(--card-bg));
+  color: var(--ink);
+  cursor: pointer;
+  font-size: 17px;
+  display: inline-grid;
+  place-items: center;
+  transition: transform .15s ease, border-color .15s ease, background .15s ease;
+}
+.voice-search-global-btn:hover { transform: translateY(-1px); border-color: var(--seal); }
+.voice-search-global-btn.listening { border-color:var(--seal); background:var(--seal-soft); animation:voice-btn-pulse 1.1s ease-in-out infinite; }
+.voice-field { position:relative; display:block; min-width:0; }
+.voice-field > input { width:100%; padding-right:48px !important; }
+.header-search .voice-field { flex:1 1 auto; display:flex; min-width:0; }
+.header-search .voice-field > input { width:100%; }
+.hero-search .voice-field { flex:1 1 auto; }
+.voice-inline-btn {
+  position:absolute;
+  top:50%;
+  right:5px;
+  z-index:2;
+  width:36px;
+  height:36px;
+  min-width:36px;
+  padding:0 !important;
+  transform:translateY(-50%);
+  border:0 !important;
+  border-radius:50% !important;
+  background:transparent !important;
+  color:var(--ink-soft) !important;
+  cursor:pointer;
+  font:16px/1 sans-serif !important;
+}
+.voice-inline-btn:hover { background:var(--seal-soft) !important; color:var(--seal) !important; }
+.voice-inline-btn.listening { background:var(--seal-soft) !important; color:var(--seal) !important; animation:voice-btn-pulse 1s ease-in-out infinite; }
+@keyframes voice-btn-pulse { 0%,100%{box-shadow:0 0 0 0 color-mix(in srgb,var(--seal) 25%,transparent)} 50%{box-shadow:0 0 0 8px transparent} }
+.voice-search-overlay { position:fixed; inset:0; z-index:2500; display:grid; place-items:center; padding:18px; background:rgba(9,12,16,.72); backdrop-filter:blur(14px); -webkit-backdrop-filter:blur(14px); }
+.voice-search-overlay[hidden]{display:none}
+.voice-search-dialog { position:relative; width:min(470px,100%); padding:30px 24px 24px; border:1px solid var(--shell-border,var(--line)); border-radius:28px; background:var(--surface); color:var(--ink); text-align:center; box-shadow:var(--shadow-lg); }
+.voice-search-close { position:absolute; top:12px; right:12px; width:38px; height:38px; border:1px solid var(--line); border-radius:50%; background:var(--card-bg); color:var(--ink); font-size:24px; cursor:pointer; }
+.voice-search-pulse { width:92px; height:92px; margin:6px auto 18px; display:grid; place-items:center; border-radius:50%; background:var(--seal-soft); box-shadow:0 0 0 0 color-mix(in srgb,var(--seal) 25%,transparent); animation:voice-ring 1.25s ease-out infinite; }
+.voice-search-pulse span { font-size:38px; }
+.voice-search-dialog h2 { margin:4px 0 8px; font-size:26px; }
+.voice-search-status { margin:0; color:var(--seal); font-weight:700; }
+.voice-search-transcript { min-height:34px; margin:11px 0 14px; color:var(--ink-soft); font-size:17px; }
+.voice-search-languages { display:flex; justify-content:center; gap:8px; flex-wrap:wrap; margin:12px 0 16px; }
+.voice-search-languages button { border:1px solid var(--line); border-radius:999px; padding:8px 12px; background:var(--card-bg); color:var(--ink); font:inherit; cursor:pointer; }
+.voice-search-languages button.active { border-color:var(--seal); background:var(--seal-soft); color:var(--seal-deep); font-weight:700; }
+.voice-search-retry { margin:0 auto 14px; }
+.voice-search-dialog small { display:block; color:var(--ink-soft); line-height:1.4; }
+@keyframes voice-ring { 0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--seal) 32%,transparent)} 100%{box-shadow:0 0 0 22px transparent} }
+
+@media (max-width:700px) {
+  .voice-search-global-btn { width:38px; height:38px; font-size:16px; }
+  .voice-search-dialog { padding:26px 18px 20px; border-radius:24px; }
+  .voice-search-dialog h2 { font-size:22px; }
+  .kotoba-intro-scene { min-height:460px; }
+  .kotoba-intro-map { inset:26px 6px 58px; transform:rotate(-10deg) scale(.78); }
+  @keyframes intro-map-in { from{opacity:0;transform:rotate(-10deg) scale(.68)} to{opacity:.5;transform:rotate(-10deg) scale(.78)} }
+  .kotoba-intro-tagline { top:calc(50% + 110px); padding:0 26px; }
+  .kotoba-intro-progress { top:calc(50% + 160px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .kotoba-intro *, .voice-search-pulse, .voice-search-global-btn.listening, .voice-inline-btn.listening { animation:none !important; }
+  .kotoba-intro { transition:none; }
+}
+
+/* Search: long examples remain readable on small screens. */
+.search-result-card { display:flex; flex-direction:column; gap:5px; padding:18px; margin-bottom:12px; border:1px solid var(--line); border-radius:16px; background:var(--surface); color:var(--ink); text-decoration:none; overflow-wrap:anywhere; min-width:0; }
+.search-result-card:hover, .search-result-card:focus-visible { border-color:var(--seal); }
+.search-result-source { color:var(--ink-soft); font-size:12px; }
+.search-result-word { font-size:22px; line-height:1.6; }
+.search-result-reading, .search-result-romaji { color:var(--ink-soft); font-size:14px; line-height:1.5; }
+.search-result-meaning { line-height:1.6; }
+.search-field-label { display:block; color:var(--ink-soft); font-size:12px; }
+.search-entry { max-width:780px; margin:0 auto; overflow-wrap:anywhere; }
+.search-entry-word { font-size:clamp(26px,5vw,44px); line-height:1.5; }
+.search-entry-reading { color:var(--ink-soft); line-height:1.6; }
+.search-entry-panel { padding:18px; margin:16px 0; border:1px solid var(--line); border-radius:16px; background:var(--surface); }
+.search-entry-panel h2 { font-size:18px; margin:0 0 8px; }
+.search-entry-panel p { line-height:1.65; margin:8px 0; }
+.search-entry-actions,.search-entry-sources { display:flex; flex-wrap:wrap; gap:10px; margin:18px 0; }
+.search-entry-actions button,.search-entry-sources a { min-height:44px; }
+.search-entry-sources a { max-width:100%; white-space:normal; }
+.search-example-word { font-size:20px; }
+.search-result-open { color:var(--seal); font-size:12px; margin-top:4px; }
+.search-summary { overflow-wrap:anywhere; }
+.search-pagination { display:flex; align-items:center; justify-content:center; flex-wrap:wrap; gap:16px; margin:24px 0; }
+.voice-search-overlay { overflow:auto; padding:max(12px,env(safe-area-inset-top)) 12px max(12px,env(safe-area-inset-bottom)); }
+.voice-search-dialog { max-height:calc(100vh - 32px); max-height:calc(100dvh - 32px); overflow-y:auto; overscroll-behavior:contain; }
+.voice-transcript-label { display:block; font-size:13px; text-align:left; margin-top:16px; }
+textarea.voice-search-transcript { display:block; box-sizing:border-box; width:100%; min-height:90px; max-height:180px; resize:vertical; padding:12px; border:1px solid var(--line); border-radius:12px; background:var(--card-bg); color:var(--ink); font:inherit; line-height:1.5; text-align:left; }
+.voice-search-actions { display:flex; flex-wrap:wrap; justify-content:center; gap:8px; margin-bottom:14px; }
+.voice-search-actions button { min-height:44px; margin:0; }
+.voice-search-actions [hidden] { display:none; }
+.voice-search-alternatives { display:flex; flex-direction:column; gap:6px; margin-bottom:12px; }
+.voice-search-alternatives[hidden] { display:none; }
+.voice-search-alternatives button { text-align:left; font:inherit; color:var(--ink); border:1px solid var(--line); border-radius:10px; background:var(--card-bg); padding:10px; overflow-wrap:anywhere; }
+.voice-search-everywhere { display:block; margin-bottom:14px; }
+.voice-search-everywhere[hidden] { display:none; }
+.voice-search-overlay:not(.is-listening) .voice-search-pulse { animation:none; }
+@media (max-height:700px) { .voice-search-pulse { width:44px; height:44px; margin:0 auto 8px; } .voice-search-pulse span { font-size:24px; } }
+
+/* ===== Smooth rendering / 60 FPS target =====
+   Keep transform/opacity animations on compositor-friendly layers. These
+   hints are intentionally limited to small moving elements so they improve
+   animation smoothness without promoting the whole page and wasting memory. */
+.kotoba-intro,
+.kotoba-intro-logo,
+.kotoba-intro-tagline,
+.kotoba-intro-progress,
+.kotoba-intro-progress span,
+.kotoba-intro-map,
+.intro-train,
+.kotoba-intro-orbit,
+.kotoba-intro-petals i {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.kotoba-intro { will-change: opacity; }
+.kotoba-intro-logo,
+.kotoba-intro-tagline,
+.kotoba-intro-progress,
+.kotoba-intro-progress span,
+.kotoba-intro-map,
+.intro-train,
+.kotoba-intro-orbit,
+.kotoba-intro-petals i {
+  will-change: transform, opacity;
+}
+
+
+html[data-ui-shell="immersive"] body.has-kotoba-wallpaper .seal-bg { opacity:0; }
+
+/* Keep the native splash logo neutral in both Light and Dark modes. */
+.kotoba-intro-logo .intro-mark { object-fit:contain;background:#1B2C47;transform:none; }

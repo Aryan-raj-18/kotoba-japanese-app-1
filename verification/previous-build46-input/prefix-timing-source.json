@@ -1,0 +1,25 @@
+{
+  "cache_loaded_before_query": true,
+  "timings": {
+    "sor": {
+      "milliseconds": 3.22,
+      "results": 8
+    },
+    "wat": {
+      "milliseconds": 0.85,
+      "results": 8
+    },
+    "そ": {
+      "milliseconds": 8.73,
+      "results": 8
+    },
+    "so": {
+      "milliseconds": 7.75,
+      "results": 8
+    },
+    "sora": {
+      "milliseconds": 0.47,
+      "results": 2
+    }
+  }
+}

@@ -1,0 +1,58 @@
+TAP version 13
+# Subtest: Browser speech preserves every segment and waits for user Search
+ok 1 - Browser speech preserves every segment and waits for user Search
+  ---
+  duration_ms: 3.756537
+  type: 'test'
+  ...
+# Subtest: Closing or restarting ignores a late result from the old recording
+ok 2 - Closing or restarting ignores a late result from the old recording
+  ---
+  duration_ms: 2.077187
+  type: 'test'
+  ...
+# Subtest: Correcting the transcript stops speech from overwriting the edit
+ok 3 - Correcting the transcript stops speech from overwriting the edit
+  ---
+  duration_ms: 1.15117
+  type: 'test'
+  ...
+# Subtest: Native Done speaking requests the final result instead of cancelling
+ok 4 - Native Done speaking requests the final result instead of cancelling
+  ---
+  duration_ms: 1.156135
+  type: 'test'
+  ...
+# Subtest: Native stale callbacks cannot replace a newer session
+ok 5 - Native stale callbacks cannot replace a newer session
+  ---
+  duration_ms: 1.079287
+  type: 'test'
+  ...
+# Subtest: Selecting an alternative uses that phrase, not the first suggestion
+ok 6 - Selecting an alternative uses that phrase, not the first suggestion
+  ---
+  duration_ms: 0.948691
+  type: 'test'
+  ...
+# Subtest: Local voice input emits filter events only after user confirmation
+ok 7 - Local voice input emits filter events only after user confirmation
+  ---
+  duration_ms: 2.217006
+  type: 'test'
+  ...
+# Subtest: Typed and spoken local filters keep English word boundaries and kana normalization
+ok 8 - Typed and spoken local filters keep English word boundaries and kana normalization
+  ---
+  duration_ms: 1.578817
+  type: 'test'
+  ...
+1..8
+# tests 8
+# suites 0
+# pass 8
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 25.682639

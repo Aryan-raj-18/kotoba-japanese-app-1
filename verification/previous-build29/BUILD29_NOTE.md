@@ -1,0 +1,1 @@
+Build 29 passed signed output and byte integrity checks, 242 source regression checks and nine onboarding browser layouts. It was superseded before delivery by build 30 after the user requested kanji notifications. Physical Android testing was not performed.

@@ -1,0 +1,17 @@
+{
+  "layout_checks": 75,
+  "interactions": [
+    "goal opens settings",
+    "goal updates and persists",
+    "three featured theme previews",
+    "nine palettes retained",
+    "palette survives navigation",
+    "stable brand",
+    "legacy selection remains visible",
+    "reduced motion honored",
+    "real browser N4 detail returns to selected level",
+    "timed mock selected answer remains visible"
+  ],
+  "page_errors": [],
+  "failed_responses": []
+}

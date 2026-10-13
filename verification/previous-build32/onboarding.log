@@ -1,0 +1,9 @@
+PASS first launch shows all five choices and records the first appearance
+PASS reopening after leaving without a choice does not show setup again
+PASS existing onboarding preferences remain respected after upgrade
+PASS placement test choice is already persisted before navigation
+PASS Skip and outside dismissal restore the ordinary app shell
+PASS each lesson choice still saves its recommended starting chapter
+PASS setup waits for intro completion and records only its actual appearance
+PASS header hiding is scoped to the open setup panel
+All 8 first-launch setup checks passed.

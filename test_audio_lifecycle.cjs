@@ -1,0 +1,29 @@
+// Page/bridge interactions. Actual sound tails and native microphones need phone QA.
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+const {spawnSync}=require('node:child_process'),{JSDOM}=require('jsdom');
+const pkg=process.env.KOTOBA_TEST_PACKAGE,assets=pkg?path.join(pkg,'kotoba_app'):__dirname;
+const code=(pkg?'import sys;sys.path.insert(0,'+JSON.stringify(pkg)+');from kotoba_app.app import app':'from app import app')+';print(app.test_client().get("/speaking").data.decode())';
+const r=spawnSync(process.env.KOTOBA_TEST_PYTHON||'python',['-c',code],{cwd:__dirname,encoding:'utf8'});assert.equal(r.status,0,r.stderr);
+const settle=()=>new Promise(r=>setTimeout(r,10));let count=0;const check=(name,f)=>{f();count++;console.log('PASS '+name);};
+async function setup(native=true){const dom=new JSDOM(r.stdout,{url:'http://localhost/speaking',runScripts:'outside-only'}),w=dom.window,d=w.document,events=[],records=[];await settle();w.HTMLMediaElement.prototype.pause=function(){events.push('pause');};
+ w.fetch=async()=>({ok:true,json:async()=>({items:[{id:'one',jp:'水',reading:'みず',english:'water'},{id:'two',jp:'空',reading:'そら',english:'sky'}]})});w.KotobaLearn={action(){},record:x=>records.push(x)};
+ if(native){w.KotobaSpeechNative={speak:text=>events.push('speak:'+text),stop:()=>events.push('tts-stop')};w.KotobaVoiceRecognitionNative={startSession:(lang,token)=>events.push('mic:'+token),start(){},stop:()=>events.push('mic-stop')};}
+ else{w.SpeechSynthesisUtterance=class{constructor(text){this.text=text;}};w.speechSynthesis={cancel:()=>events.push('tts-stop'),getVoices:()=>[],speak:x=>events.push('speak:'+x.text)};w.SpeechRecognition=class{start(){events.push('browser-mic');}abort(){events.push('browser-abort');}};}
+ for(const name of ['voice-search','speech','speaking','navigation'])w.eval(fs.readFileSync(path.join(assets,'static/js/'+name+'.js'),'utf8'));
+ d.dispatchEvent(new w.Event('DOMContentLoaded'));d.getElementById('speaking-start').click();await settle();events.length=0;return {dom,w,d,events,records,close:()=>{w.dispatchEvent(new w.Event('pagehide'));dom.window.close();}};}
+(async()=>{
+ let t=await setup();check('opening speaking practice does not play words automatically',()=>assert(!t.events.some(e=>e.startsWith('speak:'))));
+ t.d.getElementById('speaking-listen').click();check('Listen explicitly speaks the current word',()=>assert(t.events.includes('speak:みず')));
+ t.events.length=0;t.d.getElementById('speaking-mic').click();check('native mic request stops TTS before capture',()=>{const mic=t.events.findIndex(e=>e.startsWith('mic:'));assert(mic>=0);assert(t.events.indexOf('tts-stop')>=0&&t.events.indexOf('tts-stop')<mic);});
+ const old=t.events.find(e=>e.startsWith('mic:')).slice(4);t.events.length=0;t.d.getElementById('speaking-listen').click();check('Listen cancels an active microphone and re-enables retry',()=>{assert(t.events.indexOf('mic-stop')<t.events.indexOf('speak:みず'));assert.equal(t.d.getElementById('speaking-mic').disabled,false);});
+ t.w.KotobaSpeakingNative._nativeResults(JSON.stringify(['水']),old);check('a cancelled microphone result cannot award progress',()=>assert.equal(t.records.length,0));
+ t.events.length=0;t.w.dispatchEvent(new t.w.Event('pagehide'));check('leaving the page stops TTS and recording playback',()=>{assert(t.events.includes('tts-stop'));assert(t.events.includes('pause'));});const restored=new t.w.Event('pageshow');Object.defineProperty(restored,'persisted',{value:true});t.w.dispatchEvent(restored);
+ t.d.getElementById('speaking-listen').click();t.events.length=0;Object.defineProperty(t.d,'visibilityState',{value:'hidden',configurable:true});t.d.dispatchEvent(new t.w.Event('visibilitychange'));check('backgrounding the page stops playback and capture',()=>{assert(t.events.includes('tts-stop'));assert.equal(t.d.getElementById('speaking-mic').disabled,false);});Object.defineProperty(t.d,'visibilityState',{value:'visible',configurable:true});
+ t.d.getElementById('speaking-listen').click();t.events.length=0;t.w.KotobaNavigation.handleBack();check('Back stops audio before the exit dialog',()=>{assert(t.events.includes('tts-stop'));assert(t.d.querySelector('.practice-exit-overlay'));});t.d.querySelector('[data-stay]').click();
+ const panel=t.d.createElement('div');panel.id='test-modal';panel.innerHTML='<button data-speak="日本語">Listen</button>';t.d.body.append(panel);await settle();panel.querySelector('button').click();t.events.length=0;panel.hidden=true;await settle();check('closing a speaking popup stops its utterance',()=>assert(t.events.includes('tts-stop')));
+ panel.hidden=false;panel.querySelector('button').click();t.events.length=0;panel.remove();await settle();check('removing the current speaking section stops its utterance',()=>assert(t.events.includes('tts-stop')));
+ t.d.getElementById('speaking-listen').click();t.events.length=0;t.w.KotobaVoiceSearch.start(null,{global:true});check('voice search stops lesson playback before opening its microphone',()=>{const i=t.events.findIndex(e=>e.startsWith('mic:'));assert(i>=0);assert(t.events.indexOf('tts-stop')<i);});
+ t.events.length=0;t.w.KotobaSpeech.speak('空');check('playing a word cancels voice-search recognition',()=>{assert(t.events.includes('mic-stop'));assert(t.events.indexOf('mic-stop')<t.events.indexOf('speak:空'));});t.close();
+ t=await setup(false);t.d.getElementById('speaking-listen').click();t.events.length=0;t.d.getElementById('speaking-mic').click();check('browser mic also cancels speech before capture',()=>{assert(t.events.indexOf('tts-stop')<t.events.indexOf('browser-mic'));assert(t.events.includes('browser-mic'));});t.close();
+ console.log('All '+count+' audio lifecycle interaction checks passed.');
+})().catch(e=>{console.error(e);process.exitCode=1;});

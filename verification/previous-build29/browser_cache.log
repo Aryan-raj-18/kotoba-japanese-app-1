@@ -1,0 +1,4 @@
+PASS shell precaches the current versioned assets
+PASS offline versioned requests use the current cache fallback
+PASS personal pages, APIs and external requests bypass the cache
+All 3 browser-cache routing checks passed.

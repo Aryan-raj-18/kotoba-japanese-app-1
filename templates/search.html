@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block title %}Search{% if query %}: {{ query }}{% endif %} — Kotoba{% endblock %}
+{% block content %}
+<section class="page-head">
+  <p class="hero-eyebrow">検索 — search Kotoba</p>
+  <h1>Find a word or sentence</h1>
+  <p class="hero-lede">Search in Japanese, English, or romaji. Find vocabulary, examples, conversations, stories, lessons, and places across the app.</p>
+  <form class="hero-search search-page-form" action="{{ url_for('search_page') }}" method="get">
+    <input type="search" name="q" value="{{ query }}" aria-label="Search words and sentences" placeholder="Type or speak a word or sentence…" autocomplete="off">
+    <button type="submit">Search</button>
+  </form>
+  {% if query %}<p class="search-summary" role="status">{{ total }} result{{ '' if total == 1 else 's' }} for “{{ query }}”{% if pages > 1 %} · Page {{ page }} of {{ pages }}{% endif %}</p>{% endif %}
+</section>
+{% if suggestions %}
+<section class="search-prefix-results" aria-label="Suggested words">
+  <h2>Words starting with “{{ query }}”</h2>
+  <p>Choose a word to see its own meaning and reading.</p>
+  <div class="search-prefix-grid">
+  {% for r in suggestions %}<a class="search-result-card" href="{{ r.href }}{% if r.kind != 'Section' %}?q={{ query|urlencode }}{% endif %}"><span class="search-result-source">{{ r.kind }}</span><span class="search-result-word">{{ r.word }}</span><span class="search-result-reading">{{ r.reading }}{% if r.romaji %} · {{ r.romaji }}{% endif %}</span><span class="search-result-meaning">{{ r.meaning }}</span></a>{% endfor %}
+  </div>
+</section>
+{% endif %}
+<section class="search-results" aria-label="Search results">
+  {% if query and not results %}
+  <p class="empty-note">{% if suggestions %}No full-word or sentence match for “{{ query }}”. Choose a suggested word above.{% else %}No matching content found for “{{ query }}”. Check the words heard by the microphone, choose Japanese or English, or try another spelling or meaning.{% endif %}</p>
+  {% endif %}
+  {% for r in results %}
+  <a class="search-result-card" href="{{ r.href }}{% if r.kind != 'Section' %}?q={{ query|urlencode }}{% endif %}">
+    <span class="search-result-source">{{ r.kind }} · {{ r.source }}</span>
+    <span class="search-result-word">{{ r.word }}</span>
+    {% if r.reading %}<span class="search-result-reading">{{ r.reading }}</span>{% endif %}
+    {% if r.romaji %}<span class="search-result-romaji">{{ r.romaji }}</span>{% endif %}
+    {% if r.meaning %}<span class="search-result-meaning"><span class="search-field-label">{{ r.meaning_label }}</span>{{ r.meaning }}</span>{% endif %}
+    {% if r.form_label %}<span class="search-result-reading">{{ r.form_label }} · {{ r.base_word }}</span>{% endif %}
+    <span class="search-result-open">{{ 'Open section' if r.kind == 'Section' else 'View meaning and details' }} →</span>
+  </a>
+  {% endfor %}
+</section>
+{% if pages > 1 %}
+<nav class="search-pagination" aria-label="Search result pages">
+  {% if page > 1 %}<a class="btn-ghost" href="{{ url_for('search_page', q=query, page=page-1) }}">← Previous</a>{% endif %}
+  <span>{{ page }} / {{ pages }}</span>
+  {% if page < pages %}<a class="btn-primary" href="{{ url_for('search_page', q=query, page=page+1) }}">More results →</a>{% endif %}
+</nav>
+{% endif %}
+{% endblock %}

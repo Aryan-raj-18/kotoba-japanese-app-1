@@ -1,0 +1,18 @@
+PASS opt-in default and every JLPT level available
+PASS N1 includes the entire 911-card catalog
+PASS selected cards survive searching without adding unseen cards
+PASS chosen subset and custom duration reach native bridge
+PASS an older action reply cannot unlock a newer settings request
+PASS denied permission never reports active notification
+PASS confirmed native activation enables Next and Stop
+PASS Next updates the exact current-card preview
+PASS Stop reflects disabled native state
+PASS hold mode hides and disables timing input
+PASS invalid durations do not reach native scheduling
+PASS single-card mode accepts a one-minute lifetime
+PASS empty custom selection cannot enable notifications
+PASS Android notification settings stay under user control
+PASS kanji detail link preselects exact character and level
+PASS saved native preferences restore without auto-enabling again
+PASS browser preview clearly explains installed-app requirement
+All 17 kanji notification interaction checks passed.

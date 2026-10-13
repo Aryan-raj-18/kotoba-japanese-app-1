@@ -1,0 +1,29 @@
+PASS data reading mei reaches native engine as めい
+PASS context reading 生 / なま
+PASS context reading 生 / セイ SEI
+PASS context reading ひとつ / ひと(つ) hito(tsu)
+PASS context reading 四 / し · On-yomi
+PASS context reading 四日 / よっか
+PASS context reading 生物 / せいぶつ
+PASS context reading 生物 / なまもの
+PASS context reading 空 / そら · Common #12
+PASS context reading 今日、100円。 / きょう、100えん。
+PASS context reading 日本語 / 
+PASS on/kun alternatives retain their individual kana
+PASS exam furigana reads each segment in sentence order
+PASS browser fallback also speaks displayed mei kana
+PASS roadmap card speaks mei rather than guessed na
+PASS next roadmap card updates audio to its kun reading
+PASS previous roadmap card restores its own audio
+PASS roadmap numeral keeps displayed on-yomi
+PASS select flashcard uses dedicated kana
+PASS flashcard review record preserves exact reading
+PASS everyday word and dialogue retain their own kana
+PASS verb modal speaks its displayed dictionary reading
+PASS saved review keeps word-specific alternative reading
+PASS JLPT isolated numeral speaks on-yomi
+PASS JLPT exposes distinct labeled on and kun audio
+PASS explicit kun button speaks the chosen visible kana
+PASS normal and slow story audio use sentence kana
+PASS dialogue playback uses contextual hiragana
+All 28 speech reading checks passed.

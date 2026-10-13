@@ -1,0 +1,12 @@
+PASS chapter return restores the exact saved position before recommendation
+PASS browser back restores the selected section without a URL hash
+PASS direct lesson return falls back to its own chapter anchor
+PASS explicit stage jump takes priority over stale saved position
+PASS first roadmap visit stays at its beginning
+PASS invalid saved position still allows normal recommendation
+PASS opening a distant chapter records its ID and current scroll
+PASS BFCache return restores position instead of jumping to next lesson
+PASS Android first-card Back targets selected chapter anchor
+PASS Android completed-lesson Back returns to selected section
+PASS confirmed exit from roadmap practice returns to chosen section
+All 11 roadmap position checks passed.

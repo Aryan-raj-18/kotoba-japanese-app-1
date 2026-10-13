@@ -1,0 +1,96 @@
+{
+  "app_version": "1.0.0",
+  "android_version_code": 20,
+  "target_sdk": 36,
+  "min_sdk": 24,
+  "python": "3.13",
+  "chaquopy": "17.0.0",
+  "ABIs": [
+    "arm64-v8a",
+    "x86_64"
+  ],
+  "checks": {
+    "packaged_route_requests": 6971,
+    "search_tests": 15,
+    "safety_regressions": 11,
+    "voice_search_tests": 8,
+    "map_DOM_checks": 20,
+    "speaking_DOM_checks": 2,
+    "android_release_lint_errors": 0,
+    "android_release_lint_warnings": 21,
+    "bundletool_validate": "passed",
+    "apk_signatures": "verified",
+    "aab_signature": "verified self-signed upload certificate",
+    "APK_zip_alignment_16KB": "passed",
+    "native_ELF_load_alignment_minimum": 16384,
+    "bundle_native_library_alignment": "PAGE_ALIGNMENT_16K",
+    "packaged_asset_matches": 264,
+    "search_cache_fingerprint_matches": true,
+    "compiled_AAB_version_and_backup_metadata": "1.0.0",
+    "preserved_upload_certificate": "verified SHA-256 C603358EF51A0F7A9C9C21592880B63700E872533B3C499B033A2D8D22AD0976",
+    "restored_content_regressions": 5,
+    "Python_source_matches": "all packaged modules match final Android source"
+  },
+  "device_QA": "Pending real-device / Play internal-track/pre-launch checks; desktop and DOM checks do not verify frame rate or native runtime behaviour.",
+  "remaining_release_work": [
+    "verify distribution permissions for restored reference-derived learning text/practice material",
+    "host privacy policy at public HTTPS URL",
+    "complete Play Console forms and listing assets",
+    "verify upload key if package already exists in Play Console",
+    "real-device, upgrade and 16KB-runtime tests",
+    "submit/approve production rollout"
+  ],
+  "content": {
+    "jlpt_kanji": 1991,
+    "jlpt_kanji_by_level": {
+      "N5": 103,
+      "N4": 174,
+      "N3": 393,
+      "N2": 410,
+      "N1": 911
+    },
+    "kanji_catalog_entries": 2103,
+    "rich_kanji_entries": 408,
+    "grammar_entries": 229,
+    "ranked_vocabulary_entries": 1999,
+    "picture_dictionary_entries": 582,
+    "practice_questions_by_level": {
+      "N5": 180,
+      "N4": 60,
+      "N3": 36,
+      "N2": 58,
+      "N1": 38
+    },
+    "stories": 23,
+    "dialogues": 54,
+    "roadmap_chapters": 91,
+    "advanced_units": "full lessons restored; all chapters accessible",
+    "search_entries": 21385,
+    "normalized_search_fields": 57453,
+    "original_recent_content": "4 original stories, 4 original dialogues and 47 unique original practice examples retained alongside the restored collection",
+    "restoration_manifest": "CONTENT_RESTORATION.json"
+  },
+  "artifacts": {
+    "release_apk": {
+      "sha256": "294d0a50f730f7ee76b3519b7fb4cb13fb7e3b9bc873204c013999c449b71cc4",
+      "bytes": 43363965
+    },
+    "release_aab": {
+      "sha256": "d4087b57b964ece7eca5aa11e336b7b05f0f16ff82d95d9a81f86f410d0d38db",
+      "bytes": 26993631
+    }
+  },
+  "release_identity": "First public release with complete previous learning content restored, prior runtime fixes and signing certificate preserved.",
+  "login": "Device-local profiles; no cloud account or automatic cross-device synchronization. Backup & Restore transfers learning data without credentials.",
+  "current_test_logs": [
+    "verification/restored-tests.log",
+    "verification/search.log",
+    "verification/safety.log",
+    "verification/actual-bundle-smoke.log",
+    "verification/voice.log",
+    "verification/map.log",
+    "verification/speaking.log",
+    "verification/build.log",
+    "verification/lint-results-release.txt"
+  ]
+}

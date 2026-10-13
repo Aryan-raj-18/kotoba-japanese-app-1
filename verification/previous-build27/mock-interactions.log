@@ -1,0 +1,9 @@
+PASS N5 accepts every option and visibly retains changes across questions
+PASS N4 accepts every option and visibly retains changes across questions
+PASS N3 accepts every option and visibly retains changes across questions
+PASS N2 accepts every option and visibly retains changes across questions
+PASS N1 accepts every option and visibly retains changes across questions
+PASS submission saves the latest selected answers once and freezes choices
+PASS results show the choices the learner actually selected
+PASS timeout grades the selected answer and preserves unanswered questions
+All 8 JLPT mock interaction checks passed.

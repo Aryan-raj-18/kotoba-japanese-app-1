@@ -1,0 +1,129 @@
+{
+  "app_version": "1.0.0",
+  "android_version_code": 22,
+  "target_sdk": 36,
+  "min_sdk": 24,
+  "python": "3.13",
+  "chaquopy": "17.0.0",
+  "ABIs": [
+    "arm64-v8a",
+    "x86_64"
+  ],
+  "checks": {
+    "packaged_route_requests": 6969,
+    "search_tests": 16,
+    "safety_regressions": 15,
+    "voice_search_tests": 8,
+    "map_DOM_checks": 20,
+    "speaking_DOM_checks": 2,
+    "android_release_lint_errors": 0,
+    "android_release_lint_warnings": 22,
+    "bundletool_validate": "passed",
+    "apk_signatures": "verified",
+    "aab_signature": "verified self-signed upload certificate",
+    "APK_zip_alignment_16KB": "passed",
+    "native_ELF_load_alignment_minimum": 16384,
+    "bundle_native_library_alignment": "PAGE_ALIGNMENT_16K",
+    "packaged_asset_matches": 262,
+    "search_cache_fingerprint_matches": true,
+    "compiled_AAB_version_and_backup_metadata": "1.0.0",
+    "preserved_upload_certificate": "verified SHA-256 C603358EF51A0F7A9C9C21592880B63700E872533B3C499B033A2D8D22AD0976",
+    "restored_content_regressions": 5,
+    "Python_source_matches": "all packaged modules match final Android source",
+    "login_signup_absent_in_AAB": true,
+    "legacy_study_data_migration": "passed",
+    "legacy_selection_and_deletion_preserve_other_data": "passed",
+    "JLPT_mock_DOM_checks": 8
+  },
+  "device_QA": "Pending real-device / Play internal-track/pre-launch checks; desktop and DOM checks do not verify frame rate or native runtime behaviour.",
+  "remaining_release_work": [
+    "verify distribution permissions for restored reference-derived learning text/practice material",
+    "host privacy policy at public HTTPS URL",
+    "complete Play Console forms and listing assets",
+    "verify upload key if package already exists in Play Console",
+    "real-device, upgrade and 16KB-runtime tests",
+    "submit/approve production rollout"
+  ],
+  "content": {
+    "jlpt_kanji": 1991,
+    "jlpt_kanji_by_level": {
+      "N5": 103,
+      "N4": 174,
+      "N3": 393,
+      "N2": 410,
+      "N1": 911
+    },
+    "kanji_catalog_entries": 2103,
+    "rich_kanji_entries": 408,
+    "grammar_entries": 229,
+    "ranked_vocabulary_entries": 1999,
+    "picture_dictionary_entries": 582,
+    "practice_questions_by_level": {
+      "N5": 180,
+      "N4": 60,
+      "N3": 36,
+      "N2": 58,
+      "N1": 38
+    },
+    "stories": 23,
+    "dialogues": 54,
+    "roadmap_chapters": 91,
+    "advanced_units": "full lessons restored; all chapters accessible",
+    "search_entries": 21385,
+    "normalized_search_fields": 57453,
+    "original_recent_content": "4 original stories, 4 original dialogues and 47 unique original practice examples retained alongside the restored collection",
+    "restoration_manifest": "CONTENT_RESTORATION.json"
+  },
+  "artifacts": {
+    "release_apk": {
+      "sha256": "a5642ae3fff5b1751a3b2e338906173e129143ba983f278ee1676414666cbd47",
+      "bytes": 43369509
+    },
+    "release_aab": {
+      "sha256": "540fa4ca89eb1716e1e36ec67b8857ac895dc1f3551c11a42becac3729455d3c",
+      "bytes": 26994217
+    }
+  },
+  "release_identity": "Version 1.0.0 build 22: visible, freely changeable answer selection in N5\u2013N1 timed mocks; all content, features and no-login behavior retained.",
+  "login": "No signup, login, logout or password entry. Device study data and older local study records are available without authentication. Backup & Restore transfers study data; no automatic cloud synchronization.",
+  "current_test_logs": [
+    "verification/mock-interactions.log",
+    "verification/restored-tests.log",
+    "verification/actual-bundle-smoke.log",
+    "verification/build.log",
+    "verification/lint-results-release.txt",
+    "verification/artifact-verification.json"
+  ],
+  "check_provenance": {
+    "current_build": 22,
+    "rerun_checks": [
+      "APK_zip_alignment_16KB",
+      "JLPT_mock_DOM_checks",
+      "Python_source_matches",
+      "aab_signature",
+      "android_release_lint_errors",
+      "android_release_lint_warnings",
+      "apk_signatures",
+      "bundle_native_library_alignment",
+      "bundletool_validate",
+      "compiled_AAB_version_and_backup_metadata",
+      "login_signup_absent_in_AAB",
+      "native_ELF_load_alignment_minimum",
+      "packaged_asset_matches",
+      "packaged_route_requests",
+      "preserved_upload_certificate",
+      "restored_content_regressions",
+      "search_cache_fingerprint_matches"
+    ],
+    "previous_build21_checks": [
+      "legacy_selection_and_deletion_preserve_other_data",
+      "legacy_study_data_migration",
+      "map_DOM_checks",
+      "safety_regressions",
+      "search_tests",
+      "speaking_DOM_checks",
+      "voice_search_tests"
+    ],
+    "note": "Previous checks are retained as historical evidence; this update changes only the timed-mock interface, static cache version and internal Android build number. All packaged Python sources and all learning data retain their previous content."
+  }
+}

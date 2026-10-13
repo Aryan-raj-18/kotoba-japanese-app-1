@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kotoba.app.KanjiDeckTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-10-10T08:25:09.268Z" hostname="67a9d495b7f3" time="0.043">
+  <properties/>
+  <testcase name="durationMustBeWithinUserRange" classname="com.kotoba.app.KanjiDeckTest" time="0.03"/>
+  <testcase name="singleCardExpiresOnlyAtItsDeadline" classname="com.kotoba.app.KanjiDeckTest" time="0.001"/>
+  <testcase name="selectionsAreDeduplicated" classname="com.kotoba.app.KanjiDeckTest" time="0.001"/>
+  <testcase name="selectedOrderIsRetained" classname="com.kotoba.app.KanjiDeckTest" time="0.001"/>
+  <testcase name="wrongLevelSelectionIsRejected" classname="com.kotoba.app.KanjiDeckTest" time="0.002"/>
+  <testcase name="wholeLevelIsRestrictedToChosenLevel" classname="com.kotoba.app.KanjiDeckTest" time="0.0"/>
+  <testcase name="nextWrapsWithoutSkippingOneCardDeck" classname="com.kotoba.app.KanjiDeckTest" time="0.002"/>
+  <testcase name="holdHasNoDeadlineAndDoesNotExpire" classname="com.kotoba.app.KanjiDeckTest" time="0.0"/>
+  <testcase name="selectedDurationSetsNextDeadline" classname="com.kotoba.app.KanjiDeckTest" time="0.001"/>
+  <testcase name="unsupportedLevelsAndModesAreRejected" classname="com.kotoba.app.KanjiDeckTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

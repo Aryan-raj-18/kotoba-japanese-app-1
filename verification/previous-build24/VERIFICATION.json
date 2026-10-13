@@ -1,0 +1,168 @@
+{
+  "app_version": "1.0.0",
+  "android_version_code": 24,
+  "target_sdk": 36,
+  "min_sdk": 24,
+  "python": "3.13",
+  "chaquopy": "17.0.0",
+  "ABIs": [
+    "arm64-v8a",
+    "x86_64"
+  ],
+  "checks": {
+    "packaged_route_requests": 6969,
+    "search_tests": 16,
+    "safety_regressions": 15,
+    "voice_search_tests": 8,
+    "map_DOM_checks": 20,
+    "speaking_DOM_checks": 2,
+    "android_release_lint_errors": 0,
+    "android_release_lint_warnings": 26,
+    "bundletool_validate": "passed",
+    "apk_signatures": "verified",
+    "aab_signature": "verified self-signed upload certificate",
+    "APK_zip_alignment_16KB": "passed",
+    "native_ELF_load_alignment_minimum": 16384,
+    "bundle_native_library_alignment": "PAGE_ALIGNMENT_16K",
+    "packaged_asset_matches": 270,
+    "search_cache_fingerprint_matches": true,
+    "compiled_AAB_version_and_backup_metadata": "1.0.0",
+    "preserved_upload_certificate": "verified SHA-256 C603358EF51A0F7A9C9C21592880B63700E872533B3C499B033A2D8D22AD0976",
+    "restored_content_regressions": 5,
+    "Python_source_matches": "all packaged modules match final Android source",
+    "login_signup_absent_in_AAB": true,
+    "legacy_study_data_migration": "passed",
+    "legacy_selection_and_deletion_preserve_other_data": "passed",
+    "JLPT_mock_DOM_checks": 8,
+    "navigation_theme_DOM_checks": 27,
+    "overlay_scroll_DOM_checks": 14,
+    "numbers_startup_regressions": 13,
+    "original_course_JSON_unchanged": 21,
+    "APK_AAB_python_payload_identical": true,
+    "kanji_themes_display_DOM_checks": 22
+  },
+  "device_QA": "Pending physical Android / Play internal-track/pre-launch testing, including repeated launch/resume/Activity recreation, upgrade, N4 return context, status-bar show/hide, safe insets, Japanese font layout and native touch scrolling. The reported native freeze was not reproduced on a connected device. Desktop server and simulated DOM tests cannot establish native runtime behavior or frame rate.",
+  "remaining_release_work": [
+    "verify distribution permissions for restored reference-derived learning text/practice material",
+    "host privacy policy at public HTTPS URL",
+    "complete Play Console forms and listing assets",
+    "verify upload key if package already exists in Play Console",
+    "real-device, upgrade and 16KB-runtime tests",
+    "submit/approve production rollout"
+  ],
+  "content": {
+    "jlpt_kanji": 1991,
+    "jlpt_kanji_by_level": {
+      "N5": 103,
+      "N4": 174,
+      "N3": 393,
+      "N2": 410,
+      "N1": 911
+    },
+    "kanji_catalog_entries": 2103,
+    "rich_kanji_entries": 408,
+    "grammar_entries": 229,
+    "ranked_vocabulary_entries": 1999,
+    "picture_dictionary_entries": 582,
+    "practice_questions_by_level": {
+      "N5": 180,
+      "N4": 60,
+      "N3": 36,
+      "N2": 58,
+      "N1": 38
+    },
+    "stories": 23,
+    "dialogues": 54,
+    "roadmap_chapters": 91,
+    "advanced_units": "full lessons restored; all chapters accessible",
+    "search_entries": 21374,
+    "normalized_search_fields": 57456,
+    "original_recent_content": "4 original stories, 4 original dialogues and 47 unique original practice examples retained alongside the restored collection",
+    "restoration_manifest": "CONTENT_RESTORATION.json"
+  },
+  "artifacts": {
+    "release_apk": {
+      "sha256": "e40a259078a30a73fa510b05931c8517d49a093c96bda164fbc62025898dc47f",
+      "bytes": 47563937
+    },
+    "release_aab": {
+      "sha256": "4c5c82dbb7fca46c8136f0ba1db0a1b25a3da3e12a55d3e33071fb4e014adffa",
+      "bytes": 31191175
+    }
+  },
+  "release_identity": "Version 1.0.0 build 24: preserved kanji level/search/list position on Back, native status-bar visibility setting and parent safe insets, six Japanese-inspired skins with offline fonts, themed in-app SVG icons and reduced-motion-aware transitions. Earlier navigation, number, startup and map-scroll fixes retained. Full N5\u2013N1 content and features retained; no login/signup.",
+  "login": "No signup, login, logout or password entry. Device study data and older local study records are available without authentication. Backup & Restore transfers study data; no automatic cloud synchronization.",
+  "current_test_logs": [
+    "verification/kanji-themes.log",
+    "verification/navigation-theme.log",
+    "verification/scroll-lock.log",
+    "verification/mock-interactions.log",
+    "verification/numbers-startup.log",
+    "verification/safety-tests.log",
+    "verification/search-tests.log",
+    "verification/restored-tests.log",
+    "verification/voice-search.log",
+    "verification/map-interactions.log",
+    "verification/speaking-interactions.log",
+    "verification/actual-bundle-smoke.log",
+    "verification/navigation-sync.log",
+    "verification/navigation-artifacts.log",
+    "verification/build.log",
+    "verification/lint-results-release.txt",
+    "verification/artifact-verification.json"
+  ],
+  "check_provenance": {
+    "current_build": 24,
+    "rerun_checks": [
+      "APK_AAB_python_payload_identical",
+      "APK_zip_alignment_16KB",
+      "JLPT_mock_DOM_checks",
+      "Python_source_matches",
+      "aab_signature",
+      "android_release_lint_errors",
+      "android_release_lint_warnings",
+      "apk_signatures",
+      "bundle_native_library_alignment",
+      "bundletool_validate",
+      "compiled_AAB_version_and_backup_metadata",
+      "kanji_themes_display_DOM_checks",
+      "legacy_selection_and_deletion_preserve_other_data",
+      "legacy_study_data_migration",
+      "login_signup_absent_in_AAB",
+      "map_DOM_checks",
+      "native_ELF_load_alignment_minimum",
+      "navigation_theme_DOM_checks",
+      "numbers_startup_regressions",
+      "original_course_JSON_unchanged",
+      "overlay_scroll_DOM_checks",
+      "packaged_asset_matches",
+      "packaged_route_requests",
+      "preserved_upload_certificate",
+      "restored_content_regressions",
+      "safety_regressions",
+      "search_cache_fingerprint_matches",
+      "search_tests",
+      "speaking_DOM_checks",
+      "voice_search_tests"
+    ],
+    "compiled_AAB_checks": [
+      "6969 GET requests and POST/backup/repeated-server smoke",
+      "13 number/server regressions",
+      "16 search regressions",
+      "15 safety/data-preservation regressions"
+    ],
+    "actual_AAB_assets_DOM_checks": [
+      "22 kanji-return/theme/display checks",
+      "27 navigation/theme checks",
+      "14 scroll-lock checks",
+      "8 timed-mock checks"
+    ],
+    "source_checks": [
+      "5 full-content/hash regressions",
+      "8 voice-search checks",
+      "20 map checks",
+      "2 speaking checks"
+    ],
+    "note": "Every listed suite was run in this task. Source-tested public assets match the signed AAB byte for byte, and the APK/AAB application payloads are identical. All earlier build evidence is historical in verification/previous-build23 and earlier folders. Native device QA remains pending."
+  }
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "suite": "content",
+    "exit_code": 0,
+    "seconds": 2.43
+  },
+  {
+    "suite": "search",
+    "exit_code": 0,
+    "seconds": 19.89
+  },
+  {
+    "suite": "safety",
+    "exit_code": 0,
+    "seconds": 2.57
+  },
+  {
+    "suite": "numbers-startup",
+    "exit_code": 0,
+    "seconds": 8.09
+  },
+  {
+    "suite": "cloud",
+    "exit_code": 0,
+    "seconds": 2.1
+  },
+  {
+    "suite": "assets",
+    "exit_code": 0,
+    "seconds": 2.03
+  },
+  {
+    "suite": "speaking-phrasebook",
+    "exit_code": 0,
+    "seconds": 2.12
+  },
+  {
+    "suite": "original-speaking-data",
+    "exit_code": 0,
+    "seconds": 0.03
+  },
+  {
+    "suite": "speaking-situations",
+    "exit_code": 0,
+    "seconds": 0.05
+  },
+  {
+    "suite": "liquid-glass",
+    "exit_code": 0,
+    "seconds": 0.05
+  },
+  {
+    "suite": "glass-layout-contract",
+    "exit_code": 0,
+    "seconds": 1.98
+  },
+  {
+    "suite": "kanji-notification-catalog",
+    "exit_code": 0,
+    "seconds": 2.44
+  },
+  {
+    "suite": "roadmap-order",
+    "exit_code": 0,
+    "seconds": 2.92
+  },
+  {
+    "suite": "speech-reading-data",
+    "exit_code": 0,
+    "seconds": 4.12
+  },
+  {
+    "suite": "speech_readings",
+    "exit_code": 0,
+    "seconds": 3.67
+  },
+  {
+    "suite": "roadmap_position",
+    "exit_code": 0,
+    "seconds": 3.8
+  },
+  {
+    "suite": "navigation_theme",
+    "exit_code": 0,
+    "seconds": 4.2
+  },
+  {
+    "suite": "kanji_themes",
+    "exit_code": 0,
+    "seconds": 3.95
+  },
+  {
+    "suite": "journey_home",
+    "exit_code": 0,
+    "seconds": 2.66
+  },
+  {
+    "suite": "onboarding",
+    "exit_code": 0,
+    "seconds": 3.24
+  },
+  {
+    "suite": "kanji_notification",
+    "exit_code": 0,
+    "seconds": 3.63
+  },
+  {
+    "suite": "search_suggestions",
+    "exit_code": 0,
+    "seconds": 3.1
+  },
+  {
+    "suite": "scroll_lock",
+    "exit_code": 0,
+    "seconds": 3.52
+  },
+  {
+    "suite": "jlpt_mock",
+    "exit_code": 0,
+    "seconds": 7.36
+  },
+  {
+    "suite": "cloud_sync",
+    "exit_code": 0,
+    "seconds": 2.92
+  },
+  {
+    "suite": "audio_lifecycle",
+    "exit_code": 0,
+    "seconds": 3.16
+  },
+  {
+    "suite": "intro_startup",
+    "exit_code": 0,
+    "seconds": 0.5
+  },
+  {
+    "suite": "catalog_batches",
+    "exit_code": 0,
+    "seconds": 6.88
+  },
+  {
+    "suite": "browser_cache",
+    "exit_code": 0,
+    "seconds": 0.05
+  },
+  {
+    "suite": "voice_search",
+    "exit_code": 0,
+    "seconds": 0.09
+  },
+  {
+    "suite": "japan_map",
+    "exit_code": 0,
+    "seconds": 6.04
+  },
+  {
+    "suite": "speaking",
+    "exit_code": 0,
+    "seconds": 3.24
+  }
+]

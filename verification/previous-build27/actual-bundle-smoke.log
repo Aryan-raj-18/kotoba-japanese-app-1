@@ -1,0 +1,182 @@
+127.0.0.1 - - [09/Oct/2026 22:15:27] "GET / HTTP/1.1" 200 -
+Python 3.13.16
+PASS import kotoba_app.app
+PASS login/signup/logout routes are absent
+PASS restored rich kanji coverage
+PASS restored full kanji catalog
+PASS full Kanji catalog IDs unique
+PASS full Kanji catalog characters unique
+PASS full Kanji catalog contains every JLPT kanji
+PASS first-run onboarding no longer embeds Daily goal controls
+PASS wallpaper upload has drag/zoom framing editor
+PASS Japan drawer hides mobile bottom navigation
+PASS Japan mobile lesson actions are full-width
+PASS Japan mini quiz scrolls into visible drawer area
+PASS opening intro is wired into Home
+PASS global voice search is present
+PASS voice search covers local filter inputs
+PASS Search results page has a mobile-refinable search form
+PASS Android native voice-recognition bridge is present
+PASS Android speech-recognition service is discoverable
+PASS Japan Explorer has all 47 places
+PASS Japan Explorer place IDs unique
+PASS Japan Explorer has four train routes
+PASS Japan Explorer has four seasons
+PASS Japan Explorer has dialect data for every region
+PASS Japan train route tokaido uses known stops
+PASS Japan train route tohoku uses known stops
+PASS Japan train route sanyo uses known stops
+PASS Japan train route kyushu uses known stops
+PASS Japan place hokkaido has level words
+PASS Japan place hokkaido has situation levels
+PASS Japan place hokkaido has seasonal guidance
+PASS Japan place aomori has level words
+PASS Japan place aomori has situation levels
+PASS Japan place aomori has seasonal guidance
+PASS Japan place iwate has level words
+PASS Japan place iwate has situation levels
+PASS Japan place iwate has seasonal guidance
+PASS Japan place miyagi has level words
+PASS Japan place miyagi has situation levels
+PASS Japan place miyagi has seasonal guidance
+PASS Japan place akita has level words
+PASS Japan place akita has situation levels
+PASS Japan place akita has seasonal guidance
+PASS Japan place yamagata has level words
+PASS Japan place yamagata has situation levels
+PASS Japan place yamagata has seasonal guidance
+PASS Japan place fukushima has level words
+PASS Japan place fukushima has situation levels
+PASS Japan place fukushima has seasonal guidance
+PASS Japan place ibaraki has level words
+PASS Japan place ibaraki has situation levels
+PASS Japan place ibaraki has seasonal guidance
+PASS Japan place tochigi has level words
+PASS Japan place tochigi has situation levels
+PASS Japan place tochigi has seasonal guidance
+PASS Japan place gunma has level words
+PASS Japan place gunma has situation levels
+PASS Japan place gunma has seasonal guidance
+PASS Japan place saitama has level words
+PASS Japan place saitama has situation levels
+PASS Japan place saitama has seasonal guidance
+PASS Japan place chiba has level words
+PASS Japan place chiba has situation levels
+PASS Japan place chiba has seasonal guidance
+PASS Japan place tokyo has level words
+PASS Japan place tokyo has situation levels
+PASS Japan place tokyo has seasonal guidance
+PASS Japan place kanagawa has level words
+PASS Japan place kanagawa has situation levels
+PASS Japan place kanagawa has seasonal guidance
+PASS Japan place niigata has level words
+PASS Japan place niigata has situation levels
+PASS Japan place niigata has seasonal guidance
+PASS Japan place toyama has level words
+PASS Japan place toyama has situation levels
+PASS Japan place toyama has seasonal guidance
+PASS Japan place ishikawa has level words
+PASS Japan place ishikawa has situation levels
+PASS Japan place ishikawa has seasonal guidance
+PASS Japan place fukui has level words
+PASS Japan place fukui has situation levels
+PASS Japan place fukui has seasonal guidance
+PASS Japan place yamanashi has level words
+PASS Japan place yamanashi has situation levels
+PASS Japan place yamanashi has seasonal guidance
+PASS Japan place nagano has level words
+PASS Japan place nagano has situation levels
+PASS Japan place nagano has seasonal guidance
+PASS Japan place gifu has level words
+PASS Japan place gifu has situation levels
+PASS Japan place gifu has seasonal guidance
+PASS Japan place shizuoka has level words
+PASS Japan place shizuoka has situation levels
+PASS Japan place shizuoka has seasonal guidance
+PASS Japan place aichi has level words
+PASS Japan place aichi has situation levels
+PASS Japan place aichi has seasonal guidance
+PASS Japan place mie has level words
+PASS Japan place mie has situation levels
+PASS Japan place mie has seasonal guidance
+PASS Japan place shiga has level words
+PASS Japan place shiga has situation levels
+PASS Japan place shiga has seasonal guidance
+PASS Japan place kyoto has level words
+PASS Japan place kyoto has situation levels
+PASS Japan place kyoto has seasonal guidance
+PASS Japan place osaka has level words
+PASS Japan place osaka has situation levels
+PASS Japan place osaka has seasonal guidance
+PASS Japan place hyogo has level words
+PASS Japan place hyogo has situation levels
+PASS Japan place hyogo has seasonal guidance
+PASS Japan place nara has level words
+PASS Japan place nara has situation levels
+PASS Japan place nara has seasonal guidance
+PASS Japan place wakayama has level words
+PASS Japan place wakayama has situation levels
+PASS Japan place wakayama has seasonal guidance
+PASS Japan place tottori has level words
+PASS Japan place tottori has situation levels
+PASS Japan place tottori has seasonal guidance
+PASS Japan place shimane has level words
+PASS Japan place shimane has situation levels
+PASS Japan place shimane has seasonal guidance
+PASS Japan place okayama has level words
+PASS Japan place okayama has situation levels
+PASS Japan place okayama has seasonal guidance
+PASS Japan place hiroshima has level words
+PASS Japan place hiroshima has situation levels
+PASS Japan place hiroshima has seasonal guidance
+PASS Japan place yamaguchi has level words
+PASS Japan place yamaguchi has situation levels
+PASS Japan place yamaguchi has seasonal guidance
+PASS Japan place tokushima has level words
+PASS Japan place tokushima has situation levels
+PASS Japan place tokushima has seasonal guidance
+PASS Japan place kagawa has level words
+PASS Japan place kagawa has situation levels
+PASS Japan place kagawa has seasonal guidance
+PASS Japan place ehime has level words
+PASS Japan place ehime has situation levels
+PASS Japan place ehime has seasonal guidance
+PASS Japan place kochi has level words
+PASS Japan place kochi has situation levels
+PASS Japan place kochi has seasonal guidance
+PASS Japan place fukuoka has level words
+PASS Japan place fukuoka has situation levels
+PASS Japan place fukuoka has seasonal guidance
+PASS Japan place saga has level words
+PASS Japan place saga has situation levels
+PASS Japan place saga has seasonal guidance
+PASS Japan place nagasaki has level words
+PASS Japan place nagasaki has situation levels
+PASS Japan place nagasaki has seasonal guidance
+PASS Japan place kumamoto has level words
+PASS Japan place kumamoto has situation levels
+PASS Japan place kumamoto has seasonal guidance
+PASS Japan place oita has level words
+PASS Japan place oita has situation levels
+PASS Japan place oita has seasonal guidance
+PASS Japan place miyazaki has level words
+PASS Japan place miyazaki has situation levels
+PASS Japan place miyazaki has seasonal guidance
+PASS Japan place kagoshima has level words
+PASS Japan place kagoshima has situation levels
+PASS Japan place kagoshima has seasonal guidance
+PASS Japan place okinawa has level words
+PASS Japan place okinawa has situation levels
+PASS Japan place okinawa has seasonal guidance
+PASS Review Cards supports a 60-card session
+PASS Writing Practice exposes full Kanji catalog
+PASS Kanji Practice safely limits a large request to available unique kanji
+PASS 6971 GET requests all OK
+PASS POST endpoints answer without a server error
+PASS learner backup exports
+PASS learner backup restores
+PASS home page renders after progress is recorded
+PASS repeat run_server() calls return without raising
+PASS server still serving after repeat calls
+
+All smoke checks passed.

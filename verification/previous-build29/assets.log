@@ -1,0 +1,8 @@
+/workspace/scratch/111d4db36787/finish-work/kotoba-1.0.0/test_asset_loading.py:9: ResourceWarning: unclosed file <_io.BufferedReader name='/workspace/scratch/111d4db36787/finish-work/kotoba-1.0.0/android/app/src/main/python/kotoba_app/static/js/kanji_list.js'>
+  c=app.test_client();self.assertIn('max-age=31536000',c.get('/static/js/kanji_list.js?v=29').headers['Cache-Control'])
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.091s
+
+OK

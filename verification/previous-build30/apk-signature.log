@@ -1,0 +1,17 @@
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): false
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=Kotoba Upload, OU=Android, O=Kotoba, C=IN
+Signer #1 certificate SHA-256 digest: c603358ef51a0f7a9c9c21592880b63700e872533b3c499b033a2d8d22ad0976
+Signer #1 certificate SHA-1 digest: b9c5afb922f1909581fc2cecb31a52b0e9dab5f3
+Signer #1 certificate MD5 digest: 3c4d792e51a01aa2775b741cd804dc21
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 4096
+Signer #1 public key SHA-256 digest: 6a8c362f5b183e0a13ca35877569f0168605f435305bda31e258e65969ca8e48
+Signer #1 public key SHA-1 digest: d0b89c620cd26c02d17239bb507da74a331be8a5
+Signer #1 public key MD5 digest: f559d80313d2f2dd2862c81fbdec8648

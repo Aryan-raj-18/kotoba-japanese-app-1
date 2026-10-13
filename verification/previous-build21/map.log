@@ -1,0 +1,21 @@
+PASS 47 geographic prefectures and 47 matching capital pins
+PASS zoom starts at all Japan and cannot go below 100%
+PASS button zoom stops at 800%
+PASS reset restores the whole geographic extent
+PASS mouse wheel zooms around the cursor
+PASS arrow keys pan and Home resets
+PASS region filtering focuses the map and disables other prefectures
+PASS city search focuses the matching capital
+PASS all 47 prefectures open their own capital details
+PASS city labels increase when zooming into a region
+PASS dragging a capital pans without opening its details
+PASS overlapping pin hit areas choose the nearest capital
+PASS expanded map has a close control and Escape restores the page
+PASS the scale bar updates as the map zooms
+PASS two-finger pinch zooms on a mobile viewport
+PASS lifting one pinch finger preserves queued zoom before the remaining pan
+PASS single-finger drag pans after a pinch
+PASS touch cancellation leaves subsequent zoom controls working
+PASS transferring touch capture from a prefecture keeps the drag active
+PASS map interactions finish without JavaScript exceptions
+All 20 Japan map interaction checks passed (DOM simulation).

@@ -1,0 +1,13 @@
+PASS header, home and search forms all get accessible suggestions
+PASS typing is debounced into one offline prefix request
+PASS sor displays sora and its precise dictionary destination
+PASS keyboard choice updates the active option without losing input focus
+PASS Escape dismisses the list and clears accessibility state
+PASS late responses cannot replace the newest prefix
+PASS clearing search immediately closes suggestions
+PASS a response after focus leaves the form cannot reopen the popup
+PASS Japanese IME waits until composition is committed
+PASS starting voice search dismisses typed suggestions
+PASS dictionary text is rendered safely and unsafe links are discarded
+PASS failed suggestions leave the original search form usable
+All 12 search suggestion interaction checks passed.

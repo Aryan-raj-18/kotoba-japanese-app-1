@@ -1,0 +1,346 @@
+/* Kotoba Liquid Glass — build 47.
+   Inspired by liquid-glass-react (MIT): frosted tint, a luminous rim and
+   reflected highlights. Native backdrop composition stays behind the text.
+   No SVG displacement, duplicate overlay plates or moving text filters.
+   Geometry is shared by ON/OFF; lists use inherited frost without per-tile
+   GPU blur. Layout wrappers never become extra glass plates. */
+html[data-ui-shell="immersive"] {
+ --liquid-panel: var(--card-bg);
+ --liquid-panel-strong: var(--card-bg);
+ --liquid-bar: var(--paper);
+ --liquid-trim: var(--line);
+ --liquid-shine: transparent;
+ --liquid-reflection: linear-gradient(transparent,transparent);
+ --liquid-blur: none;
+ --liquid-shadow: 0 4px 14px #00000010;
+ --liquid-brand: #1B2C47;
+}
+html[data-ui-shell="immersive"][data-glass="on"] {
+ --liquid-shine: #ffffff36;
+ --liquid-reflection: linear-gradient(135deg,#ffffff18 0%,#ffffff04 36%,transparent 58%,#ffffff0a 100%);
+ --liquid-blur: blur(12px) saturate(145%);
+ --liquid-shadow: inset 0 1px 0 var(--liquid-shine),inset 0 -1px 0 #00000010,0 6px 18px #00000016;
+}
+/* Guard custom-property syntax as well as the property itself for older WebViews. */
+@supports (background:color-mix(in srgb,white 50%,transparent)) {
+ html[data-ui-shell="immersive"][data-glass="on"] {
+  --liquid-panel: color-mix(in srgb,var(--card-bg) 72%,transparent);
+  --liquid-panel-strong: color-mix(in srgb,var(--card-bg) 86%,transparent);
+  --liquid-bar: color-mix(in srgb,var(--paper) 68%,transparent);
+  --liquid-trim: color-mix(in srgb,white 24%,var(--line));
+  --liquid-brand: color-mix(in srgb,#1B2C47 74%,transparent);
+ }
+}
+
+/* Shared content surfaces across every route and dynamically opened panels. */
+html[data-ui-shell="immersive"] :is(
+ .site-main > .page-head, .detail-top, .rad-section, .sentence-section,
+ .hero, .home-hero, .journey-hero, .continue-card, .journey-chapter, .focus-card,
+ .home-stat, .home-companion, .home-search-card, .advanced-callout, .achievement-card,
+ .learner-stat, .path-card, .japan-path-card, .section-card, .learn-card, .quiz-card,
+ .explain-card, .exam-quiz-card, .review-card, .review-session-card, .speaking-card,
+ .speaking-result, .grammar-detail-card, .grammar-quiz, .story-card, .story-body,
+ .story-quiz, .convo, .vocab-section, .rad-panel, .rad-intro-card, .detail-info,
+ .rm-panel, .rm-guide, .rm-section-banner, .rm-done-panel, .rm-summary,
+ .jlpt-level-card, .japan-map-card, .japan-list-panel, .japan-train-panel,
+ .japan-passport-card, .japan-hero, .japan-season-banner, .japan-mini-quiz,
+ .japan-how > div, .search-entry-panel, .search-prefix-results, .about-card,
+ .backup-card, .favorite-list-block, .mistake-card, .write-panel, .sub-panel,
+ .feedback-form, .settings-panel, .modal-card, .wallpaper-crop-dialog,
+ .voice-search-dialog, .practice-exit-dialog, .japan-passport-modal,
+ .notification-preview, .placement-card, .write-sheet, .study-panel,
+ .onboarding-card, .flash-face, .stage-panel, .exam-stage-panel,
+ .japan-drawer, .japan-dialect-card, .japan-situation-card,
+ .trace-pad-shell, .category-block
+) {
+ background-color: var(--liquid-panel) !important;
+ background-image: var(--liquid-reflection) !important;
+ border: 1px solid var(--liquid-trim);
+ border-radius: 22px;
+ box-shadow: var(--liquid-shadow) !important;
+ -webkit-backdrop-filter: var(--liquid-blur) !important;
+ backdrop-filter: var(--liquid-blur) !important;
+ filter: none;
+ min-width: 0;
+ max-width: 100%;
+}
+html[data-ui-shell="immersive"] :is(
+ .site-main > .page-head,.detail-top,.rad-section,.sentence-section,.stage-panel,.exam-stage-panel,.mock-stage
+) { padding: clamp(14px,3vw,22px); }
+
+/* Smaller glass tiles have the same rim and reflections, with no second blur
+   behind their text. This avoids expensive hundreds-of-layer catalogs. */
+html[data-ui-shell="immersive"] :is(
+ .kanji-card, .kana-tile, .rad-card, .grammar-card, .grammar-point,
+ .grammar-example, .search-result-card, .favorite-card, .japan-gallery-card,
+ .japan-word-card, .japan-fact-grid > div, .japan-phrase-card, .japan-place-card,
+ .story-line, .convo-line, .vocab-row, .result-row, .everyday-row, .verb-row,
+ .jlpt-entry-card, .rm-word-card, .sentence-card, .rad-origin, .rad-tip,
+ .rad-build, .rad-ex, .rad-read-list, .reading-list > div, .fc-radical,
+ .japan-passport-stamp, .japan-passport-stats > div,
+ .japan-passport-region-grid article, .japan-passport-train-grid button,
+ .home-quick-actions a, .review-topline, .review-summary, .speaking-line,
+ .trace-helper, .kanji-source-badge, .rad-form-chip, .filter-chip, .result-chip,
+ .mini-stat, .flash-hint, .flash-meta, .kanji-lockscreen-help,
+ .kanji-notification-choices, .kanji-notification-choice, .rm-summary-list li,
+ .detail-char, .rad-panel-glyph, .rad-ex-char, .continue-icon, .focus-icon,
+ .home-stat-icon, .rm-node, .rm-stage-badge, .chapter-cover,
+ .mission-card, .connection-note, .site-footer, .rm-toast
+) {
+ background-color: var(--liquid-panel-strong);
+ background-image: var(--liquid-reflection);
+ border: 1px solid var(--liquid-trim);
+ border-radius: 16px;
+ box-shadow: inset 0 1px 0 var(--liquid-shine);
+ -webkit-backdrop-filter: none;
+ backdrop-filter: none;
+ filter: none;
+ min-width: 0;
+ max-width: 100%;
+}
+html[data-ui-shell="immersive"] :is(.reading-list > div,.rad-origin,.rad-tip,.rad-build,.rad-read-list) { padding:12px 14px; }
+html[data-ui-shell="immersive"] .reading-list {gap:12px;}
+html[data-ui-shell="immersive"] .reading-list > div { flex:1 1 200px; }
+
+/* Every control has a glass finish. Colored feedback/selection still wins. */
+html[data-ui-shell="immersive"][data-glass="on"] :is(
+ button:not(.switch):not(.theme-opt):not(.kanji-card):not(.kana-tile):not(.rad-card):not(.everyday-row),
+ .btn, .btn-primary, .btn-ghost, .back-link, .page-back, .settings-action-link,
+ .kanji-notification-link, .line-speak, .flash-controls button,
+ .kanji-level-filters button, .rm-stage-nav a, .jlpt-tab, .cat-tab,
+ .kotoba-bottom-nav a, .streak-badge, .review-due-badge,
+ input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="file"]),
+ select, textarea, .theme-opt, .switch
+):not(:is(.btn-primary,.hero-search > button,.active,.selected,.correct,.incorrect,.wrong,.rm-correct,.rm-wrong,[aria-pressed="true"],[aria-checked="true"],:disabled)) {
+ background-color: var(--liquid-panel-strong);
+ color:var(--ink);
+ background-image: var(--liquid-reflection);
+ border-color: var(--liquid-trim);
+ box-shadow: inset 0 1px 0 var(--liquid-shine);
+ -webkit-backdrop-filter: none;
+ backdrop-filter: none;
+}
+html[data-ui-shell="immersive"][data-glass="on"] :is(.btn-primary,.btn-ghost,button,input,select,textarea,.kotoba-bottom-nav a) {
+ background-image: var(--liquid-reflection);
+}
+/* Preserve correct/incorrect/selected answers; never distort their glyphs. */
+html[data-ui-shell="immersive"][data-glass="on"] :is(
+ .quiz-option.correct,.quiz-option.incorrect,.quiz-option.selected,
+ .rm-option.rm-correct,.rm-option.rm-wrong,
+ .exam-option.correct,.exam-option.incorrect,.exam-option.selected,
+ .japan-quiz-options button.correct,.japan-quiz-options button.wrong,
+ .mission-card.done,.trace-verdict.pass,.trace-verdict.fail,
+ .japan-place-card.visited,.japan-passport-stamp.stamped
+) { filter:none; -webkit-backdrop-filter:none; backdrop-filter:none; }
+/* Neutral roadmap choices share the control finish. */
+html[data-ui-shell="immersive"][data-glass="on"] .rm-option:not(.rm-correct):not(.rm-wrong) {
+ background-color:var(--liquid-panel-strong);
+}
+
+/* One visible card owns a pane; the grid/flex wrapper remains a layout. */
+html[data-ui-shell="immersive"] :is(
+ .practice-stage, .game-stage, .speaking-stage, .review-stage,
+ .flash-mode, .flashcard, .kana-group, .exam-practice-stage,
+ .japan-explorer-layout, .japan-fact-grid, .japan-gallery,
+ .home-quick-actions, .focus-grid, .journey-chapters, .search-results,
+ .vocab-table, .reading-list, .detail-actions, .kanji-level-filters,
+ .kanji-filter-row, .japan-word-grid, .japan-food-tags,
+ .japan-lesson-actions, .japan-quiz-options, .rm-summary-list
+) {
+ background: transparent !important;
+ border:0 !important;
+ box-shadow:none !important;
+ -webkit-backdrop-filter:none !important;
+ backdrop-filter:none !important;
+ filter:none;
+}
+@supports selector(:has(.quiz-card)) {
+ html[data-ui-shell="immersive"] :is(.stage-panel,.exam-stage-panel,.mock-stage,.rm-panel):has(:is(.quiz-card,.learn-card,.exam-quiz-card,.speaking-card,.review-card,.rm-word-card,.flash-face)) {
+  background:transparent !important; border:0; box-shadow:none !important;
+  -webkit-backdrop-filter:none !important; backdrop-filter:none !important;
+ }
+}
+html[data-ui-shell="immersive"] .exam-practice-stage > .exam-stage-panel:is(#exam-panel-intro,#exam-panel-results) {border-radius:22px;}
+html[data-ui-shell="immersive"] .detail-top > .detail-info {
+ background:transparent !important; border:0; box-shadow:none !important;
+ -webkit-backdrop-filter:none !important; backdrop-filter:none !important;
+}
+/* No page-sized compositing sheet behind a dialog. */
+html[data-ui-shell="immersive"] .modal-overlay {
+ background:rgba(8,15,32,.68); -webkit-backdrop-filter:none !important; backdrop-filter:none !important;
+}
+html[data-ui-shell="immersive"] .modal-overlay > .modal-card {border-radius:22px;}
+
+/* Navigation, the original logo and opening logo all share the glass finish. */
+html[data-ui-shell="immersive"] :is(.site-header,.kotoba-bottom-nav) {
+ background:var(--liquid-bar) !important;
+ border:1px solid var(--liquid-trim);
+ box-shadow:var(--liquid-shadow);
+ -webkit-backdrop-filter:var(--liquid-blur) !important;
+ backdrop-filter:var(--liquid-blur) !important;
+ filter:none; overflow:visible;
+}
+html[data-ui-shell="immersive"] .brand {
+ background-color:var(--liquid-brand);
+ background-image:var(--liquid-reflection);
+ border:1px solid var(--liquid-trim);
+ border-radius:16px;
+ box-shadow:var(--liquid-shadow);
+ -webkit-backdrop-filter:var(--liquid-blur);
+ backdrop-filter:var(--liquid-blur);
+}
+/* Opening screen: the logo sits directly on the scene, with no bounding box. */
+html[data-ui-shell="immersive"] .kotoba-intro-logo {padding:0;max-width:min(340px,100%);margin-inline:auto;background:none !important;background-image:none !important;border:0 !important;border-radius:0;box-shadow:none !important;-webkit-backdrop-filter:none !important;backdrop-filter:none !important;}
+html[data-ui-shell="immersive"] :is(.brand-jp,.brand-en,.kotoba-intro-logo h1,.kotoba-intro-logo p) {color:#F5EFE5;}
+html[data-ui-shell="immersive"] :is(.brand-mark,.intro-mark) {
+ object-fit:contain; border:1px solid #ffffff33; box-shadow:inset 0 1px 0 #ffffff38,0 3px 8px #00000014;
+}
+html[data-ui-shell="immersive"] .brand-text {line-height:1.45;min-width:0;}
+html[data-ui-shell="immersive"] .brand {flex-shrink:0;}
+html[data-ui-shell="immersive"] .brand-mark {flex:0 0 auto;}
+html[data-ui-shell="immersive"] .site-header::before,
+html[data-ui-shell="immersive"] .site-header::after,
+html[data-ui-shell="immersive"] .kotoba-bottom-nav::before,
+html[data-ui-shell="immersive"] .kotoba-bottom-nav::after {content: none !important;}
+html[data-ui-shell="immersive"] :is(.kotoba-glass-warp,.kotoba-glass-refractive::after) {display:none !important;}
+
+/* OFF removes ALL backdrop effects, including components from older shell CSS,
+   dropdowns, dialogs, logo and pseudo elements; wallpaper and progress stay put. */
+html[data-ui-shell="immersive"][data-glass="off"] {
+ --shell-surface:var(--card-bg); --shell-surface-strong:var(--card-bg);
+ --shell-header-bg:var(--paper); --shell-input-bg:var(--surface);
+}
+html[data-ui-shell="immersive"][data-glass="off"] *,
+html[data-ui-shell="immersive"][data-glass="off"] *::before,
+html[data-ui-shell="immersive"][data-glass="off"] *::after {
+ -webkit-backdrop-filter:none !important; backdrop-filter:none !important;
+}
+html[data-ui-shell="immersive"][data-glass="off"] :is(.brand,.kotoba-intro-logo,.site-header,.kotoba-bottom-nav) {background-image:none;}
+html[data-ui-shell="immersive"][data-glass="on"][data-glass-quality="lite"] {--liquid-blur:none;}
+@media (prefers-reduced-transparency: reduce) {
+ html[data-ui-shell="immersive"][data-glass="on"] {--liquid-panel:var(--card-bg);--liquid-panel-strong:var(--card-bg);--liquid-bar:var(--paper);--liquid-blur:none;}
+}
+@media (prefers-reduced-motion: reduce) {
+ html[data-ui-shell="immersive"][data-glass="on"] .tap-effect-ripple {display:none;}
+ html[data-ui-shell="immersive"][data-glass="on"] .kotoba-bottom-nav a {transition:none;}
+}
+@supports not ((-webkit-backdrop-filter:blur(1px)) or (backdrop-filter:blur(1px))) {
+ html[data-ui-shell="immersive"][data-glass="on"] {--liquid-panel:var(--card-bg);--liquid-panel-strong:var(--card-bg);--liquid-bar:var(--paper);--liquid-blur:none;}
+}
+
+/* Layout containment is independent of the glass preference. Text wraps and
+   panels grow instead of clipping letters behind overflow:hidden. */
+html[data-ui-shell="immersive"] .site-main { min-width:0; }
+html[data-ui-shell="immersive"] .site-main :is(h1,h2,h3,p,dt,dd,li,span,button,a,label,small,code,th,td) {
+ min-width:0; overflow-wrap:anywhere;
+}
+html[data-ui-shell="immersive"] :is(.page-head,.detail-top,.rad-section,.sentence-section,.stage-panel,.exam-stage-panel,.mock-stage,.detail-info) { overflow:visible; }
+html[data-ui-shell="immersive"] .detail-top {
+ display:grid; grid-template-columns:minmax(0,140px) minmax(0,1fr);
+ gap:clamp(12px,2vw,24px); align-items:start;
+}
+html[data-ui-shell="immersive"] .detail-char {
+ width:min(140px,100%); height:auto; min-height:140px; aspect-ratio:1;
+ font-size:clamp(48px,16vw,84px); line-height:1.5; padding:14px;
+}
+html[data-ui-shell="immersive"] :is(.detail-info,.rad-panel-body,.rad-ex-body,.continue-copy,.chapter-copy,.home-hero-copy,.settings-row > span) {min-width:0;max-width:100%;}
+html[data-ui-shell="immersive"] .reading-list > div {min-width:0;max-width:100%;}
+html[data-ui-shell="immersive"] :is(.detail-actions,.rm-btn-row,.stage-controls,.jlpt-level-tabs,.practice-cta-row,.settings-goal-chips) {display:flex;flex-wrap:wrap;gap:8px;}
+html[data-ui-shell="immersive"] :is(button,.btn,.btn-primary,.btn-ghost,.back-link,.kanji-notification-link) {white-space:normal;max-width:100%;}
+html[data-ui-shell="immersive"] :is(.vocab-row,.result-row) {grid-template-columns:repeat(4,minmax(0,1fr));}
+html[data-ui-shell="immersive"] .everyday-row {grid-template-columns:30px repeat(3,minmax(0,1fr)) minmax(0,1.6fr);}
+html[data-ui-shell="immersive"] .verb-row {grid-template-columns:repeat(4,minmax(0,1fr));}
+html[data-ui-shell="immersive"] :is(.vocab-row,.result-row,.everyday-row) > * {min-width:0;max-width:100%;}
+html[data-ui-shell="immersive"] :is(.kanji-card,.kana-tile,.rad-card,.grammar-card,.jlpt-entry-card) {height:auto;white-space:normal;}
+html[data-ui-shell="immersive"] :is(.kanji-card-meaning,.rad-card-meaning,.rad-card-name) {width:100%;line-height:1.55;}
+html[data-ui-shell="immersive"] .flash-face {font-size:clamp(24px,8vw,60px);line-height:1.5;overflow-y:auto;}
+html[data-ui-shell="immersive"] .modal-card {min-width:0;max-width:calc(100vw - 24px);padding:clamp(16px,3vw,28px);}
+html[data-ui-shell="immersive"] :is(.modal-card,.voice-search-dialog,.wallpaper-crop-dialog,.practice-exit-dialog,.japan-passport-modal) {overflow-y:auto;overscroll-behavior:contain;}
+html[data-ui-shell="immersive"] .conj-table {table-layout:fixed;width:100%;}
+html[data-ui-shell="immersive"] .site-header {flex-wrap:wrap;}
+html[data-ui-shell="immersive"] .header-search {min-width:0;flex:1 1 240px;}
+html[data-ui-shell="immersive"] .site-nav {flex-wrap:wrap;}
+html[data-ui-shell="immersive"] .settings-row > span {flex:1;}
+html[data-ui-shell="immersive"] .settings-row small {display:block;line-height:1.5;}
+html[data-ui-shell="immersive"] .switch {flex-shrink:0;}
+html[data-ui-shell="immersive"] #liquid-glass-hint {display:block;margin:6px 0 12px;line-height:1.6;}
+html[data-ui-shell="immersive"] .settings-panel {overflow-x:hidden;overflow-y:auto;overscroll-behavior:contain;}
+/* The generic glass-panel rule above sets max-width:100%, which for this absolutely positioned
+   dropdown means 100% of the 40px settings-button wrapper (a thin vertical strip). Restore its
+   real size on desktop; on phones it is a fixed bottom sheet and already sizes itself. */
+/* The dropdown lives inside the blurred header, so its own backdrop blur cannot reach the page
+   behind it and a see-through fill lets the page text bleed into the menu. Keep it opaque. */
+html[data-ui-shell="immersive"] #settings-panel.settings-panel {background-color:var(--card-bg) !important;background-image:none !important;-webkit-backdrop-filter:none !important;backdrop-filter:none !important;}
+@media (min-width:561px){
+ html[data-ui-shell="immersive"] .settings-panel {width:min(320px,calc(100vw - 24px)) !important;max-width:calc(100vw - 24px) !important;min-width:min(260px,calc(100vw - 24px)) !important;}
+}
+html[data-ui-shell="immersive"] .journey-art {min-width:0;max-width:100%;margin-right:0;overflow:hidden;}
+html[data-ui-shell="immersive"] .journey-art svg {width:100%;min-width:0;max-width:100%;}
+html[data-ui-shell="immersive"] .japan-passport-card {overflow-wrap:anywhere;min-width:0;}
+html[data-ui-shell="immersive"] .japan-passport-card > * {min-width:0;max-width:100%;}
+html[data-ui-shell="immersive"] .japan-passport-card {color:var(--ink);}
+html[data-ui-shell="immersive"] :is(.passport-top,.passport-progress) {flex-wrap:wrap;}
+html[data-ui-shell="immersive"][data-glass="off"] :is(
+ button:not(.switch),.btn,.btn-primary,.btn-ghost,.back-link,.page-back,
+ .settings-action-link,.kanji-notification-link,.kotoba-bottom-nav a,
+ .streak-badge,.review-due-badge,input,select,textarea
+):not(:is(.btn-primary,.hero-search > button,.active,.selected,.correct,.incorrect,.wrong,.rm-correct,.rm-wrong,[aria-pressed="true"],:disabled)) {
+ background-color:var(--card-bg);color:var(--ink);background-image:none;
+}
+html[data-ui-shell="immersive"] .japan-passport-card h2 {font-size:clamp(20px,4vw,32px);white-space:normal;}
+html[data-ui-shell="immersive"][data-glass="on"] :is(.mission-card.done,.quiz-option.correct,.exam-option.correct,.japan-quiz-options button.correct) {
+ background-color:var(--ok-bg);color:var(--ok-fg);border-color:var(--ok-line);
+}
+@media(max-width:700px) {
+ html[data-ui-shell="immersive"] .detail-top {grid-template-columns:minmax(0,1fr);}
+ html[data-ui-shell="immersive"] .detail-char {justify-self:center;}
+ html[data-ui-shell="immersive"] .journey-hero {display:grid;grid-template-columns:minmax(0,1fr);}
+ html[data-ui-shell="immersive"] :is(.vocab-row,.result-row,.verb-row) {grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;}
+ html[data-ui-shell="immersive"] .everyday-row:not(.verb-row) {grid-template-columns:26px minmax(0,1fr) minmax(0,1fr);gap:8px;}
+ html[data-ui-shell="immersive"] .everyday-row:not(.verb-row) :is(.everyday-meaning,.everyday-romaji,.everyday-category) {display:block;grid-column:2 / -1;}
+ html[data-ui-shell="immersive"] .verb-row .everyday-meaning {grid-column:1 / -1;}
+ html[data-ui-shell="immersive"] .jlpt-level-tabs a {flex:1 1 42px;text-align:center;}
+ html[data-ui-shell="immersive"] .rad-panel-row {flex-wrap:wrap;}
+}
+@media(max-width:420px) {
+ html[data-ui-shell="immersive"] :is(.vocab-row,.result-row) {grid-template-columns:minmax(0,1fr);}
+ html[data-ui-shell="immersive"] .kanji-grid {grid-template-columns:repeat(2,minmax(0,1fr));}
+ html[data-ui-shell="immersive"] .kana-grid {grid-template-columns:repeat(3,minmax(0,1fr));}
+}
+
+/* Keep single glyph links from being shrunk by adjacent long explanations. */
+html[data-ui-shell="immersive"] .rad-ex-char {flex:0 0 56px;width:56px;min-width:56px;line-height:1.5;padding:4px;}
+html[data-ui-shell="immersive"] .rad-ex-body {flex:1 1 0;}
+html[data-ui-shell="immersive"] .rm-chapter-title-row > div {min-width:0;}
+html[data-ui-shell="immersive"] .koto-mini {flex:0 0 78px;width:78px;display:flex;justify-content:center;}
+html[data-ui-shell="immersive"] .japan-place-card {grid-template-columns:38px minmax(0,1fr) 24px;}
+html[data-ui-shell="immersive"] .japan-place-card :is(small,strong,p) {white-space:normal;overflow:visible;text-overflow:clip;overflow-wrap:anywhere;}
+html[data-ui-shell="immersive"] .japan-map-hint {white-space:normal;overflow-wrap:anywhere;max-width:calc(100% - 24px);}
+html[data-ui-shell="immersive"] .koto-mini .koto-mascot {--koto-size:62px;}
+/* Word-card entry stays inside its bounds during every animation frame. */
+@keyframes rm-card-fit {from{opacity:.45;transform:scale(.99)}to{opacity:1;transform:none}}
+html[data-ui-shell="immersive"] .rm-card-enter {animation-name:rm-card-fit;}
+html[data-ui-shell="immersive"] .passport-track {background:var(--line);}
+html[data-ui-shell="immersive"] .passport-track i {background:var(--seal);}
+html[data-ui-shell="immersive"] .japan-place-copy em {display:block;white-space:normal;overflow:visible;text-overflow:clip;overflow-wrap:anywhere;}
+html[data-ui-shell="immersive"][data-glass="on"][data-glass-quality="lite"] *,
+html[data-ui-shell="immersive"][data-glass="on"][data-glass-quality="lite"] *::before,
+html[data-ui-shell="immersive"][data-glass="on"][data-glass-quality="lite"] *::after {
+ -webkit-backdrop-filter:none !important;backdrop-filter:none !important;
+}
+html[data-ui-shell="immersive"] .kotoba-intro-logo h1 {font-size:clamp(36px,12vw,72px);line-height:1.35;overflow-wrap:anywhere;}
+html[data-ui-shell="immersive"] .kotoba-intro-logo p {line-height:1.6;overflow-wrap:anywhere;}
+html[data-ui-shell="immersive"] .kotoba-intro-tagline {max-width:100%;overflow-wrap:anywhere;}
+
+/* Filled actions and progress keep their contrasting semantic palette.
+   The reflection sits over the accent; it never replaces the accent fill. */
+html[data-ui-shell="immersive"] .btn-primary {background-color:var(--indigo);color:var(--on-accent);border-color:var(--indigo);}
+html[data-ui-shell="immersive"] .rm-node.rm-unlocked {background-color:var(--seal);color:var(--on-accent);}
+html[data-ui-shell="immersive"] .rm-node.rm-completed {background-color:var(--indigo);color:var(--on-accent);}
+html[data-ui-shell="immersive"] :is(.chapter-cover,.continue-icon,.focus-icon,.home-stat-icon,.rm-stage-badge,.rm-toast) {color:var(--ink);}
+html[data-ui-shell="immersive"] .passport-sun {background-color:var(--seal);color:var(--on-accent);background-image:var(--liquid-reflection);}
+html[data-ui-shell="immersive"] :is(.japan-place-card.visited,.japan-passport-stamp.stamped) {background-color:var(--ok-bg);border-color:var(--ok-line);}
+
+/* Tap ripples must not shrink scroll-list grid rows between press and release. */
+html[data-ui-shell="immersive"] .japan-place-list {grid-auto-rows:max-content;align-content:start;}
+html[data-ui-shell="immersive"] .japan-place-card {min-height:min-content;}

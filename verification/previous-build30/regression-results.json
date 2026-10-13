@@ -1,0 +1,117 @@
+[
+  {
+    "suite": "content",
+    "exit_code": 0,
+    "seconds": 0.66
+  },
+  {
+    "suite": "search",
+    "exit_code": 0,
+    "seconds": 22.08
+  },
+  {
+    "suite": "safety",
+    "exit_code": 0,
+    "seconds": 0.99
+  },
+  {
+    "suite": "numbers-startup",
+    "exit_code": 0,
+    "seconds": 6.49
+  },
+  {
+    "suite": "cloud",
+    "exit_code": 0,
+    "seconds": 0.54
+  },
+  {
+    "suite": "assets",
+    "exit_code": 0,
+    "seconds": 0.75
+  },
+  {
+    "suite": "kanji-notification-catalog",
+    "exit_code": 0,
+    "seconds": 0.58
+  },
+  {
+    "suite": "navigation_theme",
+    "exit_code": 0,
+    "seconds": 2.71
+  },
+  {
+    "suite": "kanji_themes",
+    "exit_code": 0,
+    "seconds": 2.78
+  },
+  {
+    "suite": "journey_home",
+    "exit_code": 0,
+    "seconds": 1.44
+  },
+  {
+    "suite": "onboarding",
+    "exit_code": 0,
+    "seconds": 2.13
+  },
+  {
+    "suite": "kanji_notification",
+    "exit_code": 0,
+    "seconds": 1.96
+  },
+  {
+    "suite": "scroll_lock",
+    "exit_code": 0,
+    "seconds": 2.36
+  },
+  {
+    "suite": "jlpt_mock",
+    "exit_code": 0,
+    "seconds": 4.88
+  },
+  {
+    "suite": "cloud_sync",
+    "exit_code": 0,
+    "seconds": 1.38
+  },
+  {
+    "suite": "audio_lifecycle",
+    "exit_code": 0,
+    "seconds": 1.22
+  },
+  {
+    "suite": "intro_startup",
+    "exit_code": 0,
+    "seconds": 0.59
+  },
+  {
+    "suite": "catalog_batches",
+    "exit_code": 0,
+    "seconds": 5.02
+  },
+  {
+    "suite": "browser_cache",
+    "exit_code": 0,
+    "seconds": 0.11
+  },
+  {
+    "suite": "voice_search",
+    "exit_code": 0,
+    "seconds": 0.15
+  },
+  {
+    "suite": "japan_map",
+    "exit_code": 0,
+    "seconds": 3.47
+  },
+  {
+    "suite": "speaking",
+    "exit_code": 0,
+    "seconds": 1.01
+  },
+  {
+    "suite": "actual-bundle-smoke",
+    "exit_code": 0,
+    "seconds": 22.4
+  }
+]

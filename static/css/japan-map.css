@@ -1,0 +1,55 @@
+/* Geographic map styling. Shapes, routes, and pins share one projection. */
+.japan-map-wrap{height:auto;min-height:0;aspect-ratio:760/920;background:#aacddd!important;border:1px solid #8cb3c8;isolation:isolate;cursor:grab}
+.japan-map-wrap #japan-map{display:block;width:100%;height:100%;min-height:0;max-height:none;touch-action:none;user-select:none;outline-offset:-3px}
+.japan-map-wrap.is-dragging{cursor:grabbing}
+.japan-map-wrap #japan-map:focus-visible{outline:3px solid var(--indigo)}
+.jp-map-title{position:absolute;left:15px;top:14px;z-index:2;display:grid;gap:2px;pointer-events:none;color:#233e50;text-shadow:0 1px #eff8ff}
+.jp-map-title>span{font-size:1.2rem;letter-spacing:.22em;font-family:var(--serif-body)}
+.jp-map-title>strong{font-size:1rem;letter-spacing:.25em;font-weight:700}
+.jp-map-title>small{font-size:.62rem;margin-top:3px}
+.jp-map-controls{position:absolute;right:12px;bottom:60px;z-index:3;display:flex;flex-direction:column;align-items:center;overflow:hidden;border-radius:12px;border:1px solid #fff9;background:#fffffff0;box-shadow:0 3px 12px #254d6630;cursor:default}
+.jp-map-controls button{width:44px;height:44px;min-height:44px;border:0;background:transparent;color:#244456;font:600 1.5rem/1 system-ui;cursor:pointer;border-top:1px solid #cee0e8}
+.jp-map-controls button:first-child{border-top:0}
+.jp-map-controls button:hover{background:#e6f1f7}
+.jp-map-controls button:focus-visible{outline:3px solid var(--seal);outline-offset:-4px}
+.jp-map-controls button:disabled{color:#a4b7c1;cursor:default}
+.jp-map-controls output{font:600 .65rem/1.7 system-ui;color:#425e70;min-width:44px;text-align:center}
+.jp-map-compass{position:absolute;left:16px;bottom:76px;z-index:2;display:grid;justify-items:center;gap:4px;color:#264c64;pointer-events:none}
+.jp-map-compass span{font:700 .65rem system-ui}
+.jp-map-compass i{width:20px;height:32px;clip-path:polygon(50% 0,100% 100%,50% 78%,0 100%);background:linear-gradient(90deg,#d46a4b 50%,#fff7e3 50%);filter:drop-shadow(0 1px 1px #304956)}
+.jp-context-land{fill:#e7dec0;stroke:#a0aa97;stroke-width:.7;vector-effect:non-scaling-stroke;pointer-events:none}
+.jp-prefecture{fill:url(#jp-land);stroke:#b8a882;stroke-width:.65;vector-effect:non-scaling-stroke;stroke-linejoin:round;cursor:pointer;transition:fill .15s,opacity .15s;outline:none}
+.jp-prefecture:nth-child(3n){fill:#f5f1dd}
+.jp-prefecture:nth-child(3n+1){fill:#faf7e7}
+.jp-prefecture:hover,.jp-prefecture:focus-visible{fill:#d8e6c2;stroke:#60897b;stroke-width:1.3}
+.jp-prefecture.selected{fill:#e6b973;stroke:#a2683b;stroke-width:1.8}
+.jp-prefecture.filtered-out{opacity:.26;pointer-events:none}
+.jp-map-grid{fill:none;stroke:#477b98;stroke-width:.5;opacity:.24;vector-effect:non-scaling-stroke;pointer-events:none}
+.jp-grid-label{fill:#315e79;font:11px system-ui;opacity:.8;pointer-events:none}
+.jp-geographic-label{fill:#476d78;font:italic 16px var(--serif-body);text-anchor:middle;paint-order:stroke;stroke:#c4dce8;stroke-width:2;stroke-linejoin:round;pointer-events:none}
+.jp-geographic-label tspan{font:11px var(--serif-body);letter-spacing:.06em}
+.jp-country-label{fill:#807653;font:600 13px system-ui;text-anchor:middle;letter-spacing:.12em;pointer-events:none}
+.jp-capital-label{font:600 12px system-ui;fill:#283f4b;paint-order:stroke;stroke:#ffffeff2;stroke-width:3;stroke-linejoin:round;pointer-events:none}
+.jp-capital-label.filtered-out{visibility:hidden}
+.jp-pin-dot,.jp-map-pin:hover .jp-pin-dot,.jp-map-pin:focus .jp-pin-dot,.jp-map-pin.selected .jp-pin-dot{r:var(--pin-radius,4px);stroke-width:1.6;vector-effect:non-scaling-stroke;transition:fill .15s,stroke .15s}
+.jp-map-pin .jp-pin-pulse{animation:none;stroke-width:1;opacity:0;vector-effect:non-scaling-stroke}
+.jp-map-pin.selected .jp-pin-pulse,.jp-map-pin:focus-visible .jp-pin-pulse{opacity:.9;animation:none}
+.jp-map-pin.season-featured .jp-pin-dot{stroke-width:2;filter:none}
+.jp-map-pin.filtered-out{visibility:hidden;opacity:0;pointer-events:none}
+.jp-map-pin.overview-dot{pointer-events:none;opacity:.62}
+.jp-train-route-line{stroke-width:2.6;vector-effect:non-scaling-stroke}
+.jp-route-stop{stroke-width:1;vector-effect:non-scaling-stroke}
+.jp-season-particle{font-size:12px;opacity:.18;animation:none}
+.jp-map-scale{position:absolute;bottom:44px;left:16px;z-index:2;color:#274c61;pointer-events:none}
+.jp-map-scale span{display:block;font:600 .63rem system-ui;margin-bottom:4px;text-shadow:0 1px #fff}
+.jp-map-scale i{display:block;width:90px;height:6px;border:solid #315a70;border-width:0 1.5px 1.5px}
+.japan-map-hint{bottom:10px;max-width:calc(100% - 24px);font-size:.63rem;background:#25475bc9;padding:7px 11px;pointer-events:none}
+.jp-map-attribution{font-size:.62rem;line-height:1.65;color:var(--ink-soft);margin:8px 3px 0}
+.jp-map-attribution a{color:inherit;text-decoration:underline;text-underline-offset:2px}
+.japan-map-wrap.is-expanded{position:fixed;inset:0;z-index:450;width:100%;height:100dvh;aspect-ratio:auto;border:0;border-radius:0;background:#aacddd!important;padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom)}
+.japan-map-wrap.is-expanded .jp-map-controls{bottom:calc(60px + env(safe-area-inset-bottom));right:calc(12px + env(safe-area-inset-right))}
+.japan-map-wrap.is-expanded .japan-map-hint{bottom:calc(10px + env(safe-area-inset-bottom))}
+body.japan-map-expanded{overflow:hidden}
+@media(min-width:981px){.japan-map-wrap{max-height:790px}}
+@media(max-width:680px){.japan-map-card{padding:10px}.jp-map-title{left:12px;top:12px}.jp-map-title>small{display:none}.jp-map-title>span{font-size:1rem}.jp-map-title>strong{font-size:.8rem}.jp-map-controls{right:9px}.japan-map-hint{font-size:.57rem}}
+@media(prefers-reduced-motion:reduce){.jp-prefecture,.jp-pin-dot{transition:none}}

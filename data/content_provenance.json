@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "learning_content": "Full learning datasets restored from the publisher-supplied previous Kotoba project. Includes reference-derived examples/practice and curated linguistic facts.",
+  "restoration_manifest": "CONTENT_RESTORATION.json",
+  "jlpt_levels": "N5, N4, N3, N2, N1: kanji, practice questions, flashcards and timed practice available.",
+  "advanced_units": "All full roadmap lessons restored and accessible.",
+  "learning_content_license": "No blanket CC BY or original-content claim applies to the restored reference-derived material; preserve source metadata and verify publisher distribution permissions.",
+  "maps": "geoBoundaries Japan ADM1 ODbL 1.0; Natural Earth land public domain; map_sources/README.md.",
+  "fonts": "Platform fonts; no font binaries shipped."
+}

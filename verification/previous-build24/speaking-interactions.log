@@ -1,0 +1,2 @@
+PASS repeated self-check awards exactly one score
+PASS native recognition escapes transcripts and ignores repeated or stale results

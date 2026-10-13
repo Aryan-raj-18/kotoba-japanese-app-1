@@ -1,0 +1,346 @@
+{
+  "version": "1.0.0",
+  "version_code": 29,
+  "artifacts": {
+    ".apk": {
+      "bytes": 48323001,
+      "sha256": "955b48a9a754c0e2d00fc3a9aeeb88a2d613c6bddaf70b44ab31958f4594913b",
+      "intro_matches": true,
+      "native_libraries": [
+        {
+          "name": "lib/arm64-v8a/libchaquopy_java.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "lib/arm64-v8a/libcrypto_chaquopy.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "lib/arm64-v8a/libcrypto_python.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "lib/arm64-v8a/libpython3.13.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "lib/arm64-v8a/libsqlite3_chaquopy.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "lib/arm64-v8a/libsqlite3_python.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "lib/arm64-v8a/libssl_chaquopy.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "lib/arm64-v8a/libssl_python.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "lib/x86_64/libchaquopy_java.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "lib/x86_64/libcrypto_chaquopy.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "lib/x86_64/libcrypto_python.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "lib/x86_64/libpython3.13.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "lib/x86_64/libsqlite3_chaquopy.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "lib/x86_64/libsqlite3_python.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "lib/x86_64/libssl_chaquopy.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "lib/x86_64/libssl_python.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/arm64-v8a/_bz2.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/arm64-v8a/_ctypes.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/arm64-v8a/_datetime.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/arm64-v8a/_lzma.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/arm64-v8a/_opcode.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/arm64-v8a/_random.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/arm64-v8a/_struct.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/arm64-v8a/binascii.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/arm64-v8a/java/chaquopy.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/arm64-v8a/math.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/arm64-v8a/mmap.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/arm64-v8a/zlib.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/x86_64/_bz2.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/x86_64/_ctypes.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/x86_64/_datetime.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/x86_64/_lzma.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/x86_64/_opcode.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/x86_64/_random.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/x86_64/_struct.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/x86_64/binascii.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/x86_64/java/chaquopy.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/x86_64/math.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/x86_64/mmap.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/x86_64/zlib.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        }
+      ]
+    },
+    ".aab": {
+      "bytes": 31953324,
+      "sha256": "941f012ffaddb158cd895397706210c501682e06066e961aafabe43c85145d53",
+      "intro_matches": true,
+      "native_libraries": [
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/arm64-v8a/_bz2.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/arm64-v8a/_ctypes.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/arm64-v8a/_datetime.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/arm64-v8a/_lzma.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/arm64-v8a/_opcode.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/arm64-v8a/_random.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/arm64-v8a/_struct.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/arm64-v8a/binascii.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/arm64-v8a/java/chaquopy.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/arm64-v8a/math.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/arm64-v8a/mmap.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/arm64-v8a/zlib.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/x86_64/_bz2.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/x86_64/_ctypes.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/x86_64/_datetime.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/x86_64/_lzma.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/x86_64/_opcode.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/x86_64/_random.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/x86_64/_struct.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/x86_64/binascii.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/x86_64/java/chaquopy.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/x86_64/math.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/x86_64/mmap.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/x86_64/zlib.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/lib/arm64-v8a/libchaquopy_java.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/lib/arm64-v8a/libcrypto_chaquopy.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/lib/arm64-v8a/libcrypto_python.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/lib/arm64-v8a/libpython3.13.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/lib/arm64-v8a/libsqlite3_chaquopy.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/lib/arm64-v8a/libsqlite3_python.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/lib/arm64-v8a/libssl_chaquopy.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/lib/arm64-v8a/libssl_python.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/lib/x86_64/libchaquopy_java.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/lib/x86_64/libcrypto_chaquopy.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/lib/x86_64/libcrypto_python.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/lib/x86_64/libpython3.13.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/lib/x86_64/libsqlite3_chaquopy.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/lib/x86_64/libsqlite3_python.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/lib/x86_64/libssl_chaquopy.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/lib/x86_64/libssl_python.so",
+          "minimum_PT_LOAD_alignment": 16384
+        }
+      ]
+    }
+  },
+  "APK_AAB_payload_identical": true,
+  "packaged_asset_matches": 293,
+  "compiled_modules_match": 8,
+  "actual_package": "/workspace/scratch/111d4db36787/.finish-tools/actual-package",
+  "original_course_JSON_unchanged": 21,
+  "lint_summary": "0 errors, 26 warnings"
+}

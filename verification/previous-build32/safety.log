@@ -1,0 +1,20 @@
+test_android_session_is_required_without_user_login (__main__.ReleaseTests.test_android_session_is_required_without_user_login) ... ok
+test_available_reviews_have_questions (__main__.ReleaseTests.test_available_reviews_have_questions) ... ok
+test_bad_backup_does_not_break_home_or_progress (__main__.ReleaseTests.test_bad_backup_does_not_break_home_or_progress) ... ok
+test_corrupt_local_counters_recover (__main__.ReleaseTests.test_corrupt_local_counters_recover) ... ok
+test_failed_restore_rolls_back_earlier_writes (__main__.ReleaseTests.test_failed_restore_rolls_back_earlier_writes) ... ok
+test_legacy_boolean_history_and_valid_backup_restore (__main__.ReleaseTests.test_legacy_boolean_history_and_valid_backup_restore) ... ok
+test_login_and_signup_are_removed_and_content_still_accessible (__main__.ReleaseTests.test_login_and_signup_are_removed_and_content_still_accessible) ... ok
+test_malformed_requests_do_not_mutate_state (__main__.ReleaseTests.test_malformed_requests_do_not_mutate_state) ... ok
+test_preview_is_open_but_not_completable (__main__.ReleaseTests.test_preview_is_open_but_not_completable) ... ok
+test_previous_study_data_survives_cookie_expiry_and_switching (__main__.ReleaseTests.test_previous_study_data_survives_cookie_expiry_and_switching) ... ok
+test_previous_study_deletion_preserves_other_record_and_device (__main__.ReleaseTests.test_previous_study_deletion_preserves_other_record_and_device) ... ok
+test_privacy_and_controls_available (__main__.ReleaseTests.test_privacy_and_controls_available) ... ok
+test_reset_requires_confirmation_and_removes_state (__main__.ReleaseTests.test_reset_requires_confirmation_and_removes_state) ... ok
+test_saved_study_selection_requires_csrf_and_known_id (__main__.ReleaseTests.test_saved_study_selection_requires_csrf_and_known_id) ... ok
+test_upgrade_preserves_active_previous_study_record (__main__.ReleaseTests.test_upgrade_preserves_active_previous_study_record) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.526s
+
+OK

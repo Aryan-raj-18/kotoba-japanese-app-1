@@ -1,0 +1,23 @@
+PASS chapter return restores the exact saved position before recommendation
+PASS browser back restores the selected section without a URL hash
+PASS direct lesson return falls back to its own chapter anchor
+PASS explicit stage jump takes priority over stale saved position
+PASS first roadmap visit stays at its beginning
+PASS invalid saved position still allows normal recommendation
+PASS opening a distant chapter records its ID and current scroll
+PASS BFCache return restores position instead of jumping to next lesson
+PASS Android first-card Back targets selected chapter anchor
+PASS Android completed-lesson Back returns to selected section
+PASS confirmed exit from roadmap practice returns to chosen section
+PASS Android first-card Back from Home returns to the journey preview
+PASS completed lesson preserves Home source and labels its return
+PASS confirmed quiz exit from Home returns to its preview
+PASS unknown origin falls back to the fixed internal roadmap URL
+PASS all Home journey lesson links carry a fixed Home origin
+PASS opening a preview saves Home position without moving the page
+PASS Home BFCache return restores its saved vertical position
+PASS Home return restores exactly despite onboarding already being completed
+PASS missing Home position safely falls back to its journey heading
+PASS browser Back without a hash restores the Home preview position
+PASS fresh Home visits and other fragment links ignore old preview positions
+All 22 roadmap position checks passed.

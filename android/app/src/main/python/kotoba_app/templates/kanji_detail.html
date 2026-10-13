@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+{% block title %}{{ entry.kanji }} — {{ entry.meaning }} — Kotoba{% endblock %}
+
+{% block content %}
+{% set study_reading = (kana_readings(study_kanji_reading(entry)) or [entry.kanji])[0] %}
+<section class="detail-head">
+  <a class="back-link" {% if kanji_from_list %}data-kanji-return{% endif %} href="{{ kanji_return_url }}">← {{ kanji_return_level ~ ' kanji' if kanji_from_list and kanji_return_level != 'all' else 'All kanji' }}</a>
+  <div class="detail-top">
+    <div class="detail-char">{{ entry.kanji }}</div>
+    <div class="detail-info">
+      <div class="detail-actions"><button type="button" class="speak-btn" data-speak="{{ entry.kanji }}" data-reading="{{ study_reading }}">🔊 {{ study_reading }}</button><button type="button" class="favorite-btn" data-favorite-kind="kanji" data-favorite-id="{{ entry.kanji }}" data-favorite-front="{{ entry.kanji }}" data-favorite-reading="{{ study_reading }}" data-favorite-meaning="{{ entry.meaning }}">☆ Save</button></div>
+      <h1>{{ entry.meaning }}</h1>
+      {% if entry.jlpt_level %}<a class="btn kanji-notification-link" href="/kanji-notification?level={{ entry.jlpt_level }}&amp;kanji={{ entry.kanji|urlencode }}">Show this kanji in a notification</a>{% endif %}
+      {% if entry.jlpt_level %}
+      <a href="{{ url_for('jlpt_level', level=entry.jlpt_level) }}" class="jlpt-badge jlpt-badge-{{ entry.jlpt_level }}">JLPT {{ entry.jlpt_level }}</a>
+      {% elif entry.catalog_source == 'app' %}
+      <span class="kanji-source-badge">Taught elsewhere in Kotoba</span>
+      {% endif %}
+      <dl class="reading-list">
+        <div>
+          <dt>On-yomi <span>(Chinese reading)</span></dt>
+          <dd>{{ entry.on_yomi if entry.on_yomi else "—" }}{% for reading in kana_readings(entry.on_yomi) %} <button type="button" class="line-speak" data-speak="{{ reading }}" aria-label="Listen to {{ reading }}">🔊 {{ reading }}</button>{% endfor %}</dd>
+        </div>
+        <div>
+          <dt>Kun-yomi <span>(Japanese reading)</span></dt>
+          <dd>{{ entry.kun_yomi if entry.kun_yomi else "—" }}{% for reading in kana_readings(entry.kun_yomi) %} <button type="button" class="line-speak" data-speak="{{ reading }}" aria-label="Listen to {{ reading }}">🔊 {{ reading }}</button>{% endfor %}</dd>
+        </div>
+        <div>
+          <dt>Stroke count</dt>
+          <dd>{{ entry.strokes if entry.strokes else "—" }}</dd>
+        </div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+{% if radical %}
+<section class="rad-section rad-panel">
+  <h2>Radical &amp; how this kanji is built</h2>
+  <div class="rad-panel-row">
+    <a class="rad-panel-glyph" href="{{ url_for('radical_detail', rid=radical.id) }}">{{ radical.glyph }}</a>
+    <div class="rad-panel-body">
+      <p><strong>{{ radical.meaning|capitalize }}</strong> radical &middot; called <strong>{{ radical.name }}</strong> ({{ radical.romaji }})</p>
+      <p class="rad-panel-pos">{{ radical.position }} — it {{ radical.position_note }}.</p>
+      {% if radical.forms %}<p class="rad-panel-pos">Also written: {{ radical.forms }}</p>{% endif %}
+      <p>{{ radical.origin }}</p>
+    </div>
+  </div>
+  {% if radical.parts %}
+  <div class="rad-build">
+    <p class="rad-build-parts">{{ entry.kanji }} = {{ radical.parts }}</p>
+    <p>{{ radical.story }}</p>
+  </div>
+  {% endif %}
+  <p class="rad-tip">Spot <strong>{{ radical.glyph }}</strong> first, think “{{ radical.meaning }}”, then use the readings below.</p>
+</section>
+{% endif %}
+
+<section class="rad-section">
+  <h2>How to read {{ entry.kanji }}</h2>
+  <ul class="rad-read-list">
+    {% if guide.kun %}<li><strong>Kun-yomi (Japanese reading): {{ guide.kun }}</strong> — used when the kanji stands alone or with hiragana endings.
+      {% for v in guide.alone %}<span class="rad-read-ex">{{ v.word }} <em>{{ v.reading }}</em> = {{ v.meaning }}</span>{% endfor %}</li>{% endif %}
+    {% if guide.on %}<li><strong>On-yomi (Chinese reading): {{ guide.on }}</strong> — often used in compounds of two or more kanji.
+      {% for v in guide.compound %}<span class="rad-read-ex">{{ v.word }} <em>{{ v.reading }}</em> = {{ v.meaning }}</span>{% endfor %}</li>{% endif %}
+    {% if not guide.kun and not guide.on and entry.vocab %}<li><strong>Word reading:</strong> {{ entry.vocab[0].reading }} — this character is taught elsewhere in Kotoba as the vocabulary item shown below; the app's current sources do not label separate on/kun readings for it.</li>{% endif %}
+  </ul>
+</section>
+
+<section class="vocab-section">
+  <h2>Vocabulary</h2>
+  <div class="vocab-table">
+    {% for v in entry.vocab %}
+    <div class="vocab-row">
+      <span class="vocab-word">{{ v.word }}</span>
+      <span class="vocab-reading">{{ v.reading }} <button type="button" class="line-speak" data-speak="{{ v.word }}" data-reading="{{ v.reading }}" aria-label="Listen to {{ v.reading }}">🔊</button></span>
+      <span class="vocab-romaji">{{ v.romaji }}</span>
+      <span class="vocab-meaning">{{ v.meaning }}</span>
+    </div>
+    {% else %}
+    <p class="empty-note">No vocabulary recorded for this character yet.</p>
+    {% endfor %}
+  </div>
+</section>
+
+{% if explanation %}
+<section class="sentence-section">
+  <h2>In a sentence</h2>
+  <div class="sentence-card">
+    <p class="sentence-kanji">{{ explanation.sentence_kanji }}</p>
+    <p class="sentence-hiragana">{{ explanation.sentence_hiragana }}</p>
+    <p class="sentence-romaji">{{ explanation.sentence_romaji }}</p>
+    <p class="sentence-en">{{ explanation.sentence_en }}</p>
+    <p class="sentence-usage"><strong>Commonly used:</strong> {{ explanation.usage_note }}</p>
+  </div>
+</section>
+{% endif %}
+{% endblock %}

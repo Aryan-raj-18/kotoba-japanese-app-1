@@ -1,0 +1,15 @@
+PASS hidden Japan drawer leaves ordinary scrolling enabled
+PASS real place selection locks the background at its current position
+PASS scrolling place details keeps the underlying position
+PASS closing nested settings keeps the place background locked
+PASS Back closes the real drawer and restores the map position once
+PASS passport-to-place transfer keeps one background lock
+PASS settings sheet also freezes its background
+PASS Escape closes settings and restores its own scroll position
+PASS nested learning dialogs cannot unlock the page prematurely
+PASS last dialog removal unlocks and clears scroll state
+PASS WebView fix freezes the body and contains sheet scroll at both edges
+PASS expanded map shares the background lock
+PASS Back closes expanded map and releases the last lock
+PASS returning from page cache resumes scroll protection
+All 14 overlay scroll integration checks passed.

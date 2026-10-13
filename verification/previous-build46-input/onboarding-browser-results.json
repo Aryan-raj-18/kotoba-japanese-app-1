@@ -1,0 +1,86 @@
+{
+  "layouts": [
+    {
+      "theme": "sakura-journey",
+      "width": 320,
+      "choices": 5,
+      "header_hidden": true,
+      "choices_reachable": true,
+      "repeat_setup": false,
+      "header_restored": true
+    },
+    {
+      "theme": "sakura-journey",
+      "width": 390,
+      "choices": 5,
+      "header_hidden": true,
+      "choices_reachable": true,
+      "repeat_setup": false,
+      "header_restored": true
+    },
+    {
+      "theme": "sakura-journey",
+      "width": 600,
+      "choices": 5,
+      "header_hidden": true,
+      "choices_reachable": true,
+      "repeat_setup": false,
+      "header_restored": true
+    },
+    {
+      "theme": "kyoto-night",
+      "width": 320,
+      "choices": 5,
+      "header_hidden": true,
+      "choices_reachable": true,
+      "repeat_setup": false,
+      "header_restored": true
+    },
+    {
+      "theme": "kyoto-night",
+      "width": 390,
+      "choices": 5,
+      "header_hidden": true,
+      "choices_reachable": true,
+      "repeat_setup": false,
+      "header_restored": true
+    },
+    {
+      "theme": "kyoto-night",
+      "width": 600,
+      "choices": 5,
+      "header_hidden": true,
+      "choices_reachable": true,
+      "repeat_setup": false,
+      "header_restored": true
+    },
+    {
+      "theme": "water-glass",
+      "width": 320,
+      "choices": 5,
+      "header_hidden": true,
+      "choices_reachable": true,
+      "repeat_setup": false,
+      "header_restored": true
+    },
+    {
+      "theme": "water-glass",
+      "width": 390,
+      "choices": 5,
+      "header_hidden": true,
+      "choices_reachable": true,
+      "repeat_setup": false,
+      "header_restored": true
+    },
+    {
+      "theme": "water-glass",
+      "width": 600,
+      "choices": 5,
+      "header_hidden": true,
+      "choices_reachable": true,
+      "repeat_setup": false,
+      "header_restored": true
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,1109 @@
+{
+  "app_version": "1.0.0",
+  "version_code": 20,
+  "artifacts": {
+    ".apk": {
+      "bytes": 43363965,
+      "sha256": "294d0a50f730f7ee76b3519b7fb4cb13fb7e3b9bc873204c013999c449b71cc4",
+      "manifest": "package: name='com.kotoba.app' versionCode='20' versionName='1.0.0' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'",
+      "signatures": "Verifies\nVerified using v1 scheme (JAR signing): false\nVerified using v2 scheme (APK Signature Scheme v2): true\nVerified using v3 scheme (APK Signature Scheme v3): false\nVerified using v3.1 scheme (APK Signature Scheme v3.1): false\nVerified using v4 scheme (APK Signature Scheme v4): false\nVerified for SourceStamp: false\nNumber of signers: 1\nSigner #1 certificate DN: CN=Kotoba Upload, OU=Android, O=Kotoba, C=IN\nSigner #1 certificate SHA-256 digest: c603358ef51a0f7a9c9c21592880b63700e872533b3c499b033a2d8d22ad0976\nSigner #1 certificate SHA-1 digest: b9c5afb922f1909581fc2cecb31a52b0e9dab5f3\nSigner #1 certificate MD5 digest: 3c4d792e51a01aa2775b741cd804dc21\nSigner #1 key algorithm: RSA\nSigner #1 key size (bits): 4096\nSigner #1 public key SHA-256 digest: 6a8c362f5b183e0a13ca35877569f0168605f435305bda31e258e65969ca8e48\nSigner #1 public key SHA-1 digest: d0b89c620cd26c02d17239bb507da74a331be8a5\nSigner #1 public key MD5 digest: f559d80313d2f2dd2862c81fbdec8648\n",
+      "zipalign_16KB": "passed",
+      "native_ELF_libraries": [
+        {
+          "name": "lib/arm64-v8a/libchaquopy_java.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "lib/arm64-v8a/libcrypto_chaquopy.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "lib/arm64-v8a/libcrypto_python.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "lib/arm64-v8a/libpython3.13.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "lib/arm64-v8a/libsqlite3_chaquopy.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "lib/arm64-v8a/libsqlite3_python.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "lib/arm64-v8a/libssl_chaquopy.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "lib/arm64-v8a/libssl_python.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "lib/x86_64/libchaquopy_java.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "lib/x86_64/libcrypto_chaquopy.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "lib/x86_64/libcrypto_python.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "lib/x86_64/libpython3.13.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "lib/x86_64/libsqlite3_chaquopy.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "lib/x86_64/libsqlite3_python.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "lib/x86_64/libssl_chaquopy.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "lib/x86_64/libssl_python.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/arm64-v8a/_bz2.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/arm64-v8a/_ctypes.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/arm64-v8a/_datetime.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/arm64-v8a/_lzma.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/arm64-v8a/_opcode.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/arm64-v8a/_random.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/arm64-v8a/_struct.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/arm64-v8a/binascii.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/arm64-v8a/java/chaquopy.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/arm64-v8a/math.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/arm64-v8a/mmap.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/arm64-v8a/zlib.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/x86_64/_bz2.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/x86_64/_ctypes.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/x86_64/_datetime.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/x86_64/_lzma.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/x86_64/_opcode.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/x86_64/_random.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/x86_64/_struct.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/x86_64/binascii.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/x86_64/java/chaquopy.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/x86_64/math.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/x86_64/mmap.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/bootstrap-native/x86_64/zlib.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/requirements-arm64-v8a.imy!markupsafe/_speedups.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/requirements-x86_64.imy!markupsafe/_speedups.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!_asyncio.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!_bisect.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!_blake2.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!_codecs_cn.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!_codecs_hk.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!_codecs_iso2022.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!_codecs_jp.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!_codecs_kr.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!_codecs_tw.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!_contextvars.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!_csv.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!_decimal.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!_elementtree.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!_hashlib.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!_heapq.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!_interpchannels.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!_interpqueues.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!_interpreters.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!_json.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!_lsprof.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!_md5.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!_multibytecodec.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!_pickle.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!_posixsubprocess.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!_queue.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!_sha1.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!_sha2.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!_sha3.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!_socket.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!_sqlite3.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!_ssl.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!_statistics.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!_xxtestfuzz.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!_zoneinfo.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!array.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!cmath.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!fcntl.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!pyexpat.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!resource.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!select.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!syslog.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!termios.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!unicodedata.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!xxlimited.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!xxlimited_35.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-arm64-v8a.imy!xxsubtype.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!_asyncio.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!_bisect.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!_blake2.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!_codecs_cn.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!_codecs_hk.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!_codecs_iso2022.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!_codecs_jp.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!_codecs_kr.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!_codecs_tw.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!_contextvars.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!_csv.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!_decimal.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!_elementtree.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!_hashlib.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!_heapq.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!_interpchannels.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!_interpqueues.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!_interpreters.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!_json.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!_lsprof.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!_md5.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!_multibytecodec.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!_pickle.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!_posixsubprocess.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!_queue.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!_sha1.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!_sha2.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!_sha3.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!_socket.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!_sqlite3.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!_ssl.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!_statistics.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!_xxtestfuzz.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!_zoneinfo.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!array.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!cmath.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!fcntl.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!pyexpat.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!resource.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!select.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!syslog.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!termios.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!unicodedata.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!xxlimited.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!xxlimited_35.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "assets/chaquopy/stdlib-x86_64.imy!xxsubtype.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        }
+      ]
+    },
+    ".aab": {
+      "bytes": 26993631,
+      "sha256": "d4087b57b964ece7eca5aa11e336b7b05f0f16ff82d95d9a81f86f410d0d38db",
+      "validate": "App Bundle information\n------------\nFeature modules:\n\tFeature module: base\n\t\tFile: assets/chaquopy/app.imy\n\t\tFile: assets/chaquopy/bootstrap-native/arm64-v8a/_bz2.cpython-313-aarch64-linux-android.so\n\t\tFile: assets/chaquopy/bootstrap-native/arm64-v8a/_ctypes.cpython-313-aarch64-linux-android.so\n\t\tFile: assets/chaquopy/bootstrap-native/arm64-v8a/_datetime.cpython-313-aarch64-linux-android.so\n\t\tFile: assets/chaquopy/bootstrap-native/arm64-v8a/_lzma.cpython-313-aarch64-linux-android.so\n\t\tFile: assets/chaquopy/bootstrap-native/arm64-v8a/_opcode.cpython-313-aarch64-linux-android.so\n\t\tFile: assets/chaquopy/bootstrap-native/arm64-v8a/_random.cpython-313-aarch64-linux-android.so\n\t\tFile: assets/chaquopy/bootstrap-native/arm64-v8a/_struct.cpython-313-aarch64-linux-android.so\n\t\tFile: assets/chaquopy/bootstrap-native/arm64-v8a/binascii.cpython-313-aarch64-linux-android.so\n\t\tFile: assets/chaquopy/bootstrap-native/arm64-v8a/java/chaquopy.so\n\t\tFile: assets/chaquopy/bootstrap-native/arm64-v8a/math.cpython-313-aarch64-linux-android.so\n\t\tFile: assets/chaquopy/bootstrap-native/arm64-v8a/mmap.cpython-313-aarch64-linux-android.so\n\t\tFile: assets/chaquopy/bootstrap-native/arm64-v8a/zlib.cpython-313-aarch64-linux-android.so\n\t\tFile: assets/chaquopy/bootstrap-native/x86_64/_bz2.cpython-313-x86_64-linux-android.so\n\t\tFile: assets/chaquopy/bootstrap-native/x86_64/_ctypes.cpython-313-x86_64-linux-android.so\n\t\tFile: assets/chaquopy/bootstrap-native/x86_64/_datetime.cpython-313-x86_64-linux-android.so\n\t\tFile: assets/chaquopy/bootstrap-native/x86_64/_lzma.cpython-313-x86_64-linux-android.so\n\t\tFile: assets/chaquopy/bootstrap-native/x86_64/_opcode.cpython-313-x86_64-linux-android.so\n\t\tFile: assets/chaquopy/bootstrap-native/x86_64/_random.cpython-313-x86_64-linux-android.so\n\t\tFile: assets/chaquopy/bootstrap-native/x86_64/_struct.cpython-313-x86_64-linux-android.so\n\t\tFile: assets/chaquopy/bootstrap-native/x86_64/binascii.cpython-313-x86_64-linux-android.so\n\t\tFile: assets/chaquopy/bootstrap-native/x86_64/java/chaquopy.so\n\t\tFile: assets/chaquopy/bootstrap-native/x86_64/math.cpython-313-x86_64-linux-android.so\n\t\tFile: assets/chaquopy/bootstrap-native/x86_64/mmap.cpython-313-x86_64-linux-android.so\n\t\tFile: assets/chaquopy/bootstrap-native/x86_64/zlib.cpython-313-x86_64-linux-android.so\n\t\tFile: assets/chaquopy/bootstrap.imy\n\t\tFile: assets/chaquopy/build.json\n\t\tFile: assets/chaquopy/cacert.pem\n\t\tFile: assets/chaquopy/requirements-arm64-v8a.imy\n\t\tFile: assets/chaquopy/requirements-common.imy\n\t\tFile: assets/chaquopy/requirements-x86_64.imy\n\t\tFile: assets/chaquopy/stdlib-arm64-v8a.imy\n\t\tFile: assets/chaquopy/stdlib-common.imy\n\t\tFile: assets/chaquopy/stdlib-x86_64.imy\n\t\tFile: dex/classes.dex\n\t\tFile: lib/arm64-v8a/libchaquopy_java.so\n\t\tFile: lib/arm64-v8a/libcrypto_chaquopy.so\n\t\tFile: lib/arm64-v8a/libcrypto_python.so\n\t\tFile: lib/arm64-v8a/libpython3.13.so\n\t\tFile: lib/arm64-v8a/libsqlite3_chaquopy.so\n\t\tFile: lib/arm64-v8a/libsqlite3_python.so\n\t\tFile: lib/arm64-v8a/libssl_chaquopy.so\n\t\tFile: lib/arm64-v8a/libssl_python.so\n\t\tFile: lib/x86_64/libchaquopy_java.so\n\t\tFile: lib/x86_64/libcrypto_chaquopy.so\n\t\tFile: lib/x86_64/libcrypto_python.so\n\t\tFile: lib/x86_64/libpython3.13.so\n\t\tFile: lib/x86_64/libsqlite3_chaquopy.so\n\t\tFile: lib/x86_64/libsqlite3_python.so\n\t\tFile: lib/x86_64/libssl_chaquopy.so\n\t\tFile: lib/x86_64/libssl_python.so\n\t\tFile: res/anim-v21/fragment_fast_out_extra_slow_in.xml\n\t\tFile: res/anim/abc_fade_in.xml\n\t\tFile: res/anim/abc_fade_out.xml\n\t\tFile: res/anim/abc_grow_fade_in_from_bottom.xml\n\t\tFile: res/anim/abc_popup_enter.xml\n\t\tFile: res/anim/abc_popup_exit.xml\n\t\tFile: res/anim/abc_shrink_fade_out_from_bottom.xml\n\t\tFile: res/anim/abc_slide_in_bottom.xml\n\t\tFile: res/anim/abc_slide_in_top.xml\n\t\tFile: res/anim/abc_slide_out_bottom.xml\n\t\tFile: res/anim/abc_slide_out_top.xml\n\t\tFile: res/anim/abc_tooltip_enter.xml\n\t\tFile: res/anim/abc_tooltip_exit.xml\n\t\tFile: res/anim/btn_checkbox_to_checked_box_inner_merged_animation.xml\n\t\tFile: res/anim/btn_checkbox_to_checked_box_outer_merged_animation.xml\n\t\tFile: res/anim/btn_checkbox_to_checked_icon_null_animation.xml\n\t\tFile: res/anim/btn_checkbox_to_unchecked_box_inner_merged_animation.xml\n\t\tFile: res/anim/btn_checkbox_to_unchecked_check_path_merged_animation.xml\n\t\tFile: res/anim/btn_checkbox_to_unchecked_icon_null_animation.xml\n\t\tFile: res/anim/btn_radio_to_off_mtrl_dot_group_animation.xml\n\t\tFile: res/anim/btn_radio_to_off_mtrl_ring_outer_animation.xml\n\t\tFile: res/anim/btn_radio_to_off_mtrl_ring_outer_path_animation.xml\n\t\tFile: res/anim/btn_radio_to_on_mtrl_dot_group_animation.xml\n\t\tFile: res/anim/btn_radio_to_on_mtrl_ring_outer_animation.xml\n\t\tFile: res/anim/btn_radio_to_on_mtrl_ring_outer_path_animation.xml\n\t\tFile: res/animator/fragment_close_enter.xml\n\t\tFile: res/animator/fragment_close_exit.xml\n\t\tFile: res/animator/fragment_fade_enter.xml\n\t\tFile: res/animator/fragment_fade_exit.xml\n\t\tFile: res/animator/fragment_open_enter.xml\n\t\tFile: res/animator/fragment_open_exit.xml\n\t\tFile: res/color-v23/abc_btn_colored_borderless_text_material.xml\n\t\tFile: res/color-v23/abc_btn_colored_text_material.xml\n\t\tFile: res/color-v23/abc_color_highlight_material.xml\n\t\tFile: res/color-v23/abc_tint_btn_checkable.xml\n\t\tFile: res/color-v23/abc_tint_default.xml\n\t\tFile: res/color-v23/abc_tint_edittext.xml\n\t\tFile: res/color-v23/abc_tint_seek_thumb.xml\n\t\tFile: res/color-v23/abc_tint_spinner.xml\n\t\tFile: res/color-v23/abc_tint_switch_track.xml\n\t\tFile: res/color/abc_background_cache_hint_selector_material_dark.xml\n\t\tFile: res/color/abc_background_cache_hint_selector_material_light.xml\n\t\tFile: res/color/abc_hint_foreground_material_dark.xml\n\t\tFile: res/color/abc_hint_foreground_material_light.xml\n\t\tFile: res/color/abc_primary_text_disable_only_material_dark.xml\n\t\tFile: res/color/abc_primary_text_disable_only_material_light.xml\n\t\tFile: res/color/abc_primary_text_material_dark.xml\n\t\tFile: res/color/abc_primary_text_material_light.xml\n\t\tFile: res/color/abc_search_url_text.xml\n\t\tFile: res/color/abc_secondary_text_material_dark.xml\n\t\tFile: res/color/abc_secondary_text_material_light.xml\n\t\tFile: res/color/switch_thumb_material_dark.xml\n\t\tFile: res/color/switch_thumb_material_light.xml\n\t\tFile: res/drawable-anydpi-v21/ic_call_answer.xml\n\t\tFile: res/drawable-anydpi-v21/ic_call_answer_low.xml\n\t\tFile: res/drawable-anydpi-v21/ic_call_answer_video.xml\n\t\tFile: res/drawable-anydpi-v21/ic_call_answer_video_low.xml\n\t\tFile: res/drawable-anydpi-v21/ic_call_decline.xml\n\t\tFile: res/drawable-anydpi-v21/ic_call_decline_low.xml\n\t\tFile: res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png\n\t\tFile: res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png\n\t\tFile: res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png\n\t\tFile: res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png\n\t\tFile: res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png\n\t\tFile: res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png\n\t\tFile: res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png\n\t\tFile: res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png\n\t\tFile: res/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png\n\t\tFile: res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png\n\t\tFile: res/drawable-hdpi-v4/abc_list_focused_holo.9.png\n\t\tFile: res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png\n\t\tFile: res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png\n\t\tFile: res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png\n\t\tFile: res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png\n\t\tFile: res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png\n\t\tFile: res/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png\n\t\tFile: res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png\n\t\tFile: res/drawable-hdpi-v4/abc_scrubber_control_off_mtrl_alpha.png\n\t\tFile: res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png\n\t\tFile: res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png\n\t\tFile: res/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png\n\t\tFile: res/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png\n\t\tFile: res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png\n\t\tFile: res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png\n\t\tFile: res/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png\n\t\tFile: res/drawable-hdpi-v4/abc_text_select_handle_left_mtrl.png\n\t\tFile: res/drawable-hdpi-v4/abc_text_select_handle_middle_mtrl.png\n\t\tFile: res/drawable-hdpi-v4/abc_text_select_handle_right_mtrl.png\n\t\tFile: res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png\n\t\tFile: res/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png\n\t\tFile: res/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png\n\t\tFile: res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png\n\t\tFile: res/drawable-hdpi-v4/ic_call_answer.png\n\t\tFile: res/drawable-hdpi-v4/ic_call_answer_low.png\n\t\tFile: res/drawable-hdpi-v4/ic_call_answer_video.png\n\t\tFile: res/drawable-hdpi-v4/ic_call_answer_video_low.png\n\t\tFile: res/drawable-hdpi-v4/ic_call_decline.png\n\t\tFile: res/drawable-hdpi-v4/ic_call_decline_low.png\n\t\tFile: res/drawable-hdpi-v4/notification_bg_low_normal.9.png\n\t\tFile: res/drawable-hdpi-v4/notification_bg_low_pressed.9.png\n\t\tFile: res/drawable-hdpi-v4/notification_bg_normal.9.png\n\t\tFile: res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png\n\t\tFile: res/drawable-hdpi-v4/notification_oversize_large_icon_bg.png\n\t\tFile: res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png\n\t\tFile: res/drawable-ldpi-v4/ic_call_answer.png\n\t\tFile: res/drawable-ldpi-v4/ic_call_answer_low.png\n\t\tFile: res/drawable-ldpi-v4/ic_call_answer_video.png\n\t\tFile: res/drawable-ldpi-v4/ic_call_answer_video_low.png\n\t\tFile: res/drawable-ldpi-v4/ic_call_decline.png\n\t\tFile: res/drawable-ldpi-v4/ic_call_decline_low.png\n\t\tFile: res/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png\n\t\tFile: res/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png\n\t\tFile: res/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png\n\t\tFile: res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png\n\t\tFile: res/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png\n\t\tFile: res/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png\n\t\tFile: res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png\n\t\tFile: res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png\n\t\tFile: res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png\n\t\tFile: res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_015.png\n\t\tFile: res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png\n\t\tFile: res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png\n\t\tFile: res/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png\n\t\tFile: res/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png\n\t\tFile: res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png\n\t\tFile: res/drawable-mdpi-v4/abc_list_focused_holo.9.png\n\t\tFile: res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png\n\t\tFile: res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png\n\t\tFile: res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png\n\t\tFile: res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png\n\t\tFile: res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png\n\t\tFile: res/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png\n\t\tFile: res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png\n\t\tFile: res/drawable-mdpi-v4/abc_scrubber_control_off_mtrl_alpha.png\n\t\tFile: res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png\n\t\tFile: res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png\n\t\tFile: res/drawable-mdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png\n\t\tFile: res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png\n\t\tFile: res/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png\n\t\tFile: res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png\n\t\tFile: res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png\n\t\tFile: res/drawable-mdpi-v4/abc_text_select_handle_left_mtrl.png\n\t\tFile: res/drawable-mdpi-v4/abc_text_select_handle_middle_mtrl.png\n\t\tFile: res/drawable-mdpi-v4/abc_text_select_handle_right_mtrl.png\n\t\tFile: res/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png\n\t\tFile: res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png\n\t\tFile: res/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png\n\t\tFile: res/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png\n\t\tFile: res/drawable-mdpi-v4/ic_call_answer.png\n\t\tFile: res/drawable-mdpi-v4/ic_call_answer_low.png\n\t\tFile: res/drawable-mdpi-v4/ic_call_answer_video.png\n\t\tFile: res/drawable-mdpi-v4/ic_call_answer_video_low.png\n\t\tFile: res/drawable-mdpi-v4/ic_call_decline.png\n\t\tFile: res/drawable-mdpi-v4/ic_call_decline_low.png\n\t\tFile: res/drawable-mdpi-v4/notification_bg_low_normal.9.png\n\t\tFile: res/drawable-mdpi-v4/notification_bg_low_pressed.9.png\n\t\tFile: res/drawable-mdpi-v4/notification_bg_normal.9.png\n\t\tFile: res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png\n\t\tFile: res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png\n\t\tFile: res/drawable-v21/abc_action_bar_item_background_material.xml\n\t\tFile: res/drawable-v21/abc_btn_colored_material.xml\n\t\tFile: res/drawable-v21/abc_dialog_material_background.xml\n\t\tFile: res/drawable-v21/abc_edit_text_material.xml\n\t\tFile: res/drawable-v21/abc_list_divider_material.xml\n\t\tFile: res/drawable-v21/notification_action_background.xml\n\t\tFile: res/drawable-v23/abc_control_background_material.xml\n\t\tFile: res/drawable-watch-v20/abc_dialog_material_background.xml\n\t\tFile: res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png\n\t\tFile: res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png\n\t\tFile: res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png\n\t\tFile: res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png\n\t\tFile: res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png\n\t\tFile: res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png\n\t\tFile: res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png\n\t\tFile: res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png\n\t\tFile: res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png\n\t\tFile: res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png\n\t\tFile: res/drawable-xhdpi-v4/abc_list_focused_holo.9.png\n\t\tFile: res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png\n\t\tFile: res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png\n\t\tFile: res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png\n\t\tFile: res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png\n\t\tFile: res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png\n\t\tFile: res/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png\n\t\tFile: res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png\n\t\tFile: res/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png\n\t\tFile: res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png\n\t\tFile: res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png\n\t\tFile: res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png\n\t\tFile: res/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png\n\t\tFile: res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png\n\t\tFile: res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png\n\t\tFile: res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png\n\t\tFile: res/drawable-xhdpi-v4/abc_text_select_handle_left_mtrl.png\n\t\tFile: res/drawable-xhdpi-v4/abc_text_select_handle_middle_mtrl.png\n\t\tFile: res/drawable-xhdpi-v4/abc_text_select_handle_right_mtrl.png\n\t\tFile: res/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png\n\t\tFile: res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png\n\t\tFile: res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png\n\t\tFile: res/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png\n\t\tFile: res/drawable-xhdpi-v4/ic_call_answer.png\n\t\tFile: res/drawable-xhdpi-v4/ic_call_answer_low.png\n\t\tFile: res/drawable-xhdpi-v4/ic_call_answer_video.png\n\t\tFile: res/drawable-xhdpi-v4/ic_call_answer_video_low.png\n\t\tFile: res/drawable-xhdpi-v4/ic_call_decline.png\n\t\tFile: res/drawable-xhdpi-v4/ic_call_decline_low.png\n\t\tFile: res/drawable-xhdpi-v4/notification_bg_low_normal.9.png\n\t\tFile: res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png\n\t\tFile: res/drawable-xhdpi-v4/notification_bg_normal.9.png\n\t\tFile: res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png\n\t\tFile: res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png\n\t\tFile: res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png\n\t\tFile: res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png\n\t\tFile: res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png\n\t\tFile: res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png\n\t\tFile: res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png\n\t\tFile: res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png\n\t\tFile: res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png\n\t\tFile: res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png\n\t\tFile: res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png\n\t\tFile: res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png\n\t\tFile: res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png\n\t\tFile: res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png\n\t\tFile: res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png\n\t\tFile: res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png\n\t\tFile: res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png\n\t\tFile: res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png\n\t\tFile: res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png\n\t\tFile: res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png\n\t\tFile: res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png\n\t\tFile: res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png\n\t\tFile: res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png\n\t\tFile: res/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png\n\t\tFile: res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png\n\t\tFile: res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png\n\t\tFile: res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png\n\t\tFile: res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png\n\t\tFile: res/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl.png\n\t\tFile: res/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl.png\n\t\tFile: res/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl.png\n\t\tFile: res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png\n\t\tFile: res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png\n\t\tFile: res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png\n\t\tFile: res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png\n\t\tFile: res/drawable-xxhdpi-v4/ic_call_answer.png\n\t\tFile: res/drawable-xxhdpi-v4/ic_call_answer_low.png\n\t\tFile: res/drawable-xxhdpi-v4/ic_call_answer_video.png\n\t\tFile: res/drawable-xxhdpi-v4/ic_call_answer_video_low.png\n\t\tFile: res/drawable-xxhdpi-v4/ic_call_decline.png\n\t\tFile: res/drawable-xxhdpi-v4/ic_call_decline_low.png\n\t\tFile: res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png\n\t\tFile: res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png\n\t\tFile: res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png\n\t\tFile: res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png\n\t\tFile: res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png\n\t\tFile: res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png\n\t\tFile: res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png\n\t\tFile: res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png\n\t\tFile: res/drawable-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png\n\t\tFile: res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png\n\t\tFile: res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png\n\t\tFile: res/drawable-xxxhdpi-v4/abc_text_select_handle_left_mtrl.png\n\t\tFile: res/drawable-xxxhdpi-v4/abc_text_select_handle_right_mtrl.png\n\t\tFile: res/drawable-xxxhdpi-v4/ic_call_answer.png\n\t\tFile: res/drawable-xxxhdpi-v4/ic_call_answer_low.png\n\t\tFile: res/drawable-xxxhdpi-v4/ic_call_answer_video.png\n\t\tFile: res/drawable-xxxhdpi-v4/ic_call_answer_video_low.png\n\t\tFile: res/drawable-xxxhdpi-v4/ic_call_decline.png\n\t\tFile: res/drawable-xxxhdpi-v4/ic_call_decline_low.png\n\t\tFile: res/drawable/abc_btn_borderless_material.xml\n\t\tFile: res/drawable/abc_btn_check_material.xml\n\t\tFile: res/drawable/abc_btn_check_material_anim.xml\n\t\tFile: res/drawable/abc_btn_default_mtrl_shape.xml\n\t\tFile: res/drawable/abc_btn_radio_material.xml\n\t\tFile: res/drawable/abc_btn_radio_material_anim.xml\n\t\tFile: res/drawable/abc_cab_background_internal_bg.xml\n\t\tFile: res/drawable/abc_cab_background_top_material.xml\n\t\tFile: res/drawable/abc_ic_ab_back_material.xml\n\t\tFile: res/drawable/abc_ic_arrow_drop_right_black_24dp.xml\n\t\tFile: res/drawable/abc_ic_clear_material.xml\n\t\tFile: res/drawable/abc_ic_go_search_api_material.xml\n\t\tFile: res/drawable/abc_ic_menu_copy_mtrl_am_alpha.xml\n\t\tFile: res/drawable/abc_ic_menu_cut_mtrl_alpha.xml\n\t\tFile: res/drawable/abc_ic_menu_overflow_material.xml\n\t\tFile: res/drawable/abc_ic_menu_paste_mtrl_am_alpha.xml\n\t\tFile: res/drawable/abc_ic_menu_selectall_mtrl_alpha.xml\n\t\tFile: res/drawable/abc_ic_menu_share_mtrl_alpha.xml\n\t\tFile: res/drawable/abc_ic_search_api_material.xml\n\t\tFile: res/drawable/abc_ic_voice_search_api_material.xml\n\t\tFile: res/drawable/abc_item_background_holo_dark.xml\n\t\tFile: res/drawable/abc_item_background_holo_light.xml\n\t\tFile: res/drawable/abc_list_selector_background_transition_holo_dark.xml\n\t\tFile: res/drawable/abc_list_selector_background_transition_holo_light.xml\n\t\tFile: res/drawable/abc_list_selector_holo_dark.xml\n\t\tFile: res/drawable/abc_list_selector_holo_light.xml\n\t\tFile: res/drawable/abc_ratingbar_indicator_material.xml\n\t\tFile: res/drawable/abc_ratingbar_material.xml\n\t\tFile: res/drawable/abc_ratingbar_small_material.xml\n\t\tFile: res/drawable/abc_seekbar_thumb_material.xml\n\t\tFile: res/drawable/abc_seekbar_tick_mark_material.xml\n\t\tFile: res/drawable/abc_seekbar_track_material.xml\n\t\tFile: res/drawable/abc_spinner_textfield_background_material.xml\n\t\tFile: res/drawable/abc_star_black_48dp.xml\n\t\tFile: res/drawable/abc_star_half_black_48dp.xml\n\t\tFile: res/drawable/abc_switch_thumb_material.xml\n\t\tFile: res/drawable/abc_tab_indicator_material.xml\n\t\tFile: res/drawable/abc_text_cursor_material.xml\n\t\tFile: res/drawable/abc_textfield_search_material.xml\n\t\tFile: res/drawable/abc_vector_test.xml\n\t\tFile: res/drawable/btn_checkbox_checked_mtrl.xml\n\t\tFile: res/drawable/btn_checkbox_checked_to_unchecked_mtrl_animation.xml\n\t\tFile: res/drawable/btn_checkbox_unchecked_mtrl.xml\n\t\tFile: res/drawable/btn_checkbox_unchecked_to_checked_mtrl_animation.xml\n\t\tFile: res/drawable/btn_radio_off_mtrl.xml\n\t\tFile: res/drawable/btn_radio_off_to_on_mtrl_animation.xml\n\t\tFile: res/drawable/btn_radio_on_mtrl.xml\n\t\tFile: res/drawable/btn_radio_on_to_off_mtrl_animation.xml\n\t\tFile: res/drawable/ic_notification.xml\n\t\tFile: res/drawable/notification_bg.xml\n\t\tFile: res/drawable/notification_bg_low.xml\n\t\tFile: res/drawable/notification_icon_background.xml\n\t\tFile: res/drawable/notification_tile_bg.xml\n\t\tFile: res/drawable/test_level_drawable.xml\n\t\tFile: res/drawable/tooltip_frame_dark.xml\n\t\tFile: res/drawable/tooltip_frame_light.xml\n\t\tFile: res/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_0.xml\n\t\tFile: res/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1.xml\n\t\tFile: res/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml\n\t\tFile: res/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml\n\t\tFile: res/interpolator/btn_radio_to_off_mtrl_animation_interpolator_0.xml\n\t\tFile: res/interpolator/btn_radio_to_on_mtrl_animation_interpolator_0.xml\n\t\tFile: res/interpolator/fast_out_slow_in.xml\n\t\tFile: res/layout-v21/notification_action.xml\n\t\tFile: res/layout-v21/notification_action_tombstone.xml\n\t\tFile: res/layout-v21/notification_template_custom_big.xml\n\t\tFile: res/layout-v21/notification_template_icon_group.xml\n\t\tFile: res/layout-v26/abc_screen_toolbar.xml\n\t\tFile: res/layout-watch-v20/abc_alert_dialog_button_bar_material.xml\n\t\tFile: res/layout-watch-v20/abc_alert_dialog_title_material.xml\n\t\tFile: res/layout/abc_action_bar_title_item.xml\n\t\tFile: res/layout/abc_action_bar_up_container.xml\n\t\tFile: res/layout/abc_action_menu_item_layout.xml\n\t\tFile: res/layout/abc_action_menu_layout.xml\n\t\tFile: res/layout/abc_action_mode_bar.xml\n\t\tFile: res/layout/abc_action_mode_close_item_material.xml\n\t\tFile: res/layout/abc_activity_chooser_view.xml\n\t\tFile: res/layout/abc_activity_chooser_view_list_item.xml\n\t\tFile: res/layout/abc_alert_dialog_button_bar_material.xml\n\t\tFile: res/layout/abc_alert_dialog_material.xml\n\t\tFile: res/layout/abc_alert_dialog_title_material.xml\n\t\tFile: res/layout/abc_cascading_menu_item_layout.xml\n\t\tFile: res/layout/abc_dialog_title_material.xml\n\t\tFile: res/layout/abc_expanded_menu_layout.xml\n\t\tFile: res/layout/abc_list_menu_item_checkbox.xml\n\t\tFile: res/layout/abc_list_menu_item_icon.xml\n\t\tFile: res/layout/abc_list_menu_item_layout.xml\n\t\tFile: res/layout/abc_list_menu_item_radio.xml\n\t\tFile: res/layout/abc_popup_menu_header_item_layout.xml\n\t\tFile: res/layout/abc_popup_menu_item_layout.xml\n\t\tFile: res/layout/abc_screen_content_include.xml\n\t\tFile: res/layout/abc_screen_simple.xml\n\t\tFile: res/layout/abc_screen_simple_overlay_action_mode.xml\n\t\tFile: res/layout/abc_screen_toolbar.xml\n\t\tFile: res/layout/abc_search_dropdown_item_icons_2line.xml\n\t\tFile: res/layout/abc_search_view.xml\n\t\tFile: res/layout/abc_select_dialog_material.xml\n\t\tFile: res/layout/abc_tooltip.xml\n\t\tFile: res/layout/activity_main.xml\n\t\tFile: res/layout/custom_dialog.xml\n\t\tFile: res/layout/ime_base_split_test_activity.xml\n\t\tFile: res/layout/ime_secondary_split_test_activity.xml\n\t\tFile: res/layout/notification_template_part_chronometer.xml\n\t\tFile: res/layout/notification_template_part_time.xml\n\t\tFile: res/layout/select_dialog_item_material.xml\n\t\tFile: res/layout/select_dialog_multichoice_material.xml\n\t\tFile: res/layout/select_dialog_singlechoice_material.xml\n\t\tFile: res/layout/support_simple_spinner_dropdown_item.xml\n\t\tFile: res/mipmap-hdpi-v4/ic_launcher.png\n\t\tFile: res/mipmap-hdpi-v4/ic_launcher_round.png\n\t\tFile: res/mipmap-mdpi-v4/ic_launcher.png\n\t\tFile: res/mipmap-mdpi-v4/ic_launcher_round.png\n\t\tFile: res/mipmap-xhdpi-v4/ic_launcher.png\n\t\tFile: res/mipmap-xhdpi-v4/ic_launcher_round.png\n\t\tFile: res/mipmap-xxhdpi-v4/ic_launcher.png\n\t\tFile: res/mipmap-xxhdpi-v4/ic_launcher_round.png\n\t\tFile: res/mipmap-xxxhdpi-v4/ic_launcher.png\n\t\tFile: res/mipmap-xxxhdpi-v4/ic_launcher_round.png\n\t\tFile: res/xml/backup_rules.xml\n\t\tFile: res/xml/data_extraction_rules.xml\n\t\tFile: res/xml/network_security_config.xml\n\t\tFile: root/DebugProbesKt.bin\n\t\tFile: root/META-INF/androidx.activity_activity-ktx.version\n\t\tFile: root/META-INF/androidx.activity_activity.version\n\t\tFile: root/META-INF/androidx.annotation_annotation-experimental.version\n\t\tFile: root/META-INF/androidx.appcompat_appcompat-resources.version\n\t\tFile: root/META-INF/androidx.appcompat_appcompat.version\n\t\tFile: root/META-INF/androidx.arch.core_core-runtime.version\n\t\tFile: root/META-INF/androidx.core_core-ktx.version\n\t\tFile: root/META-INF/androidx.core_core.version\n\t\tFile: root/META-INF/androidx.cursoradapter_cursoradapter.version\n\t\tFile: root/META-INF/androidx.customview_customview.version\n\t\tFile: root/META-INF/androidx.drawerlayout_drawerlayout.version\n\t\tFile: root/META-INF/androidx.emoji2_emoji2-views-helper.version\n\t\tFile: root/META-INF/androidx.emoji2_emoji2.version\n\t\tFile: root/META-INF/androidx.fragment_fragment.version\n\t\tFile: root/META-INF/androidx.interpolator_interpolator.version\n\t\tFile: root/META-INF/androidx.lifecycle_lifecycle-livedata-core.version\n\t\tFile: root/META-INF/androidx.lifecycle_lifecycle-livedata.version\n\t\tFile: root/META-INF/androidx.lifecycle_lifecycle-process.version\n\t\tFile: root/META-INF/androidx.lifecycle_lifecycle-runtime-ktx.version\n\t\tFile: root/META-INF/androidx.lifecycle_lifecycle-runtime.version\n\t\tFile: root/META-INF/androidx.lifecycle_lifecycle-viewmodel-ktx.version\n\t\tFile: root/META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version\n\t\tFile: root/META-INF/androidx.lifecycle_lifecycle-viewmodel.version\n\t\tFile: root/META-INF/androidx.loader_loader.version\n\t\tFile: root/META-INF/androidx.profileinstaller_profileinstaller.version\n\t\tFile: root/META-INF/androidx.savedstate_savedstate-ktx.version\n\t\tFile: root/META-INF/androidx.savedstate_savedstate.version\n\t\tFile: root/META-INF/androidx.startup_startup-runtime.version\n\t\tFile: root/META-INF/androidx.tracing_tracing.version\n\t\tFile: root/META-INF/androidx.vectordrawable_vectordrawable-animated.version\n\t\tFile: root/META-INF/androidx.vectordrawable_vectordrawable.version\n\t\tFile: root/META-INF/androidx.versionedparcelable_versionedparcelable.version\n\t\tFile: root/META-INF/androidx.viewpager_viewpager.version\n\t\tFile: root/META-INF/com/android/build/gradle/app-metadata.properties\n\t\tFile: root/META-INF/kotlinx_coroutines_android.version\n\t\tFile: root/META-INF/kotlinx_coroutines_core.version\n\t\tFile: root/META-INF/services/kotlinx.coroutines.CoroutineExceptionHandler\n\t\tFile: root/META-INF/services/kotlinx.coroutines.internal.MainDispatcherFactory\n\t\tFile: root/META-INF/version-control-info.textproto\n\t\tFile: root/kotlin-tooling-metadata.json\n\t\tFile: root/kotlin/annotation/annotation.kotlin_builtins\n\t\tFile: root/kotlin/collections/collections.kotlin_builtins\n\t\tFile: root/kotlin/concurrent/atomics/atomics.kotlin_builtins\n\t\tFile: root/kotlin/coroutines/coroutines.kotlin_builtins\n\t\tFile: root/kotlin/internal/internal.kotlin_builtins\n\t\tFile: root/kotlin/kotlin.kotlin_builtins\n\t\tFile: root/kotlin/ranges/ranges.kotlin_builtins\n\t\tFile: root/kotlin/reflect/reflect.kotlin_builtins\n",
+      "manifest": "<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:compileSdkVersion=\"36\" android:compileSdkVersionCodename=\"16\" android:versionCode=\"20\" android:versionName=\"1.0.0\" package=\"com.kotoba.app\" platformBuildVersionCode=\"36\" platformBuildVersionName=\"16\">\n      \n  <uses-sdk android:minSdkVersion=\"24\" android:targetSdkVersion=\"36\"/>\n      \n  <uses-permission android:name=\"android.permission.INTERNET\"/>\n      \n    \n  <uses-permission android:name=\"android.permission.VIBRATE\"/>\n      \n    \n  <uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>\n      \n    \n  <uses-permission android:name=\"android.permission.POST_NOTIFICATIONS\"/>\n      \n  <uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\"/>\n      \n  <queries>\n            \n        \n    <intent>\n                  \n      <action android:name=\"android.speech.RecognitionService\"/>\n              \n    </intent>\n            \n    <intent>\n                  \n      <action android:name=\"android.intent.action.SENDTO\"/>\n                  \n      <data android:scheme=\"mailto\"/>\n              \n    </intent>\n        \n  </queries>\n      \n  <permission android:name=\"com.kotoba.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION\" android:protectionLevel=\"0x00000002\"/>\n      \n  <uses-permission android:name=\"com.kotoba.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION\"/>\n      \n  <application android:allowBackup=\"false\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\" android:dataExtractionRules=\"@xml/data_extraction_rules\" android:extractNativeLibs=\"false\" android:fullBackupContent=\"@xml/backup_rules\" android:hardwareAccelerated=\"true\" android:icon=\"@mipmap/ic_launcher\" android:label=\"@string/app_name\" android:networkSecurityConfig=\"@xml/network_security_config\" android:theme=\"@style/Theme.Kotoba\" android:usesCleartextTraffic=\"false\">\n            \n    <activity android:configChanges=\"0x40003fa4\" android:exported=\"true\" android:label=\"@string/app_name\" android:launchMode=\"2\" android:name=\"com.kotoba.app.MainActivity\">\n                  \n      <intent-filter>\n                        \n        <action android:name=\"android.intent.action.MAIN\"/>\n                        \n        <category android:name=\"android.intent.category.LAUNCHER\"/>\n                    \n      </intent-filter>\n              \n    </activity>\n            \n        \n    <receiver android:exported=\"false\" android:name=\"com.kotoba.app.ReminderAlarmReceiver\"/>\n            \n        \n    <receiver android:exported=\"true\" android:name=\"com.kotoba.app.ReminderBootReceiver\">\n                  \n      <intent-filter>\n                        \n        <action android:name=\"android.intent.action.BOOT_COMPLETED\"/>\n                    \n      </intent-filter>\n              \n    </receiver>\n            \n    <provider android:authorities=\"com.kotoba.app.androidx-startup\" android:exported=\"false\" android:name=\"androidx.startup.InitializationProvider\">\n                  \n      <meta-data android:name=\"androidx.emoji2.text.EmojiCompatInitializer\" android:value=\"androidx.startup\"/>\n                  \n      <meta-data android:name=\"androidx.lifecycle.ProcessLifecycleInitializer\" android:value=\"androidx.startup\"/>\n                  \n      <meta-data android:name=\"androidx.profileinstaller.ProfileInstallerInitializer\" android:value=\"androidx.startup\"/>\n              \n    </provider>\n            \n    <receiver android:directBootAware=\"false\" android:enabled=\"true\" android:exported=\"true\" android:name=\"androidx.profileinstaller.ProfileInstallReceiver\" android:permission=\"android.permission.DUMP\">\n                  \n      <intent-filter>\n                        \n        <action android:name=\"androidx.profileinstaller.action.INSTALL_PROFILE\"/>\n                    \n      </intent-filter>\n                  \n      <intent-filter>\n                        \n        <action android:name=\"androidx.profileinstaller.action.SKIP_FILE\"/>\n                    \n      </intent-filter>\n                  \n      <intent-filter>\n                        \n        <action android:name=\"androidx.profileinstaller.action.SAVE_PROFILE\"/>\n                    \n      </intent-filter>\n                  \n      <intent-filter>\n                        \n        <action android:name=\"androidx.profileinstaller.action.BENCHMARK_OPERATION\"/>\n                    \n      </intent-filter>\n              \n    </receiver>\n        \n  </application>\n  \n</manifest>\n",
+      "signatures": "\njar verified.\n\nWarning: \nThis jar contains entries whose certificate chain is invalid. Reason: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target\nThis jar contains entries whose signer certificate is self-signed.\nThis jar contains signatures that do not include a timestamp. Without a timestamp, users may not be able to validate this jar after any of the signer certificates expire (as early as 2054-02-24).\nPOSIX file permission and/or symlink attributes detected. These attributes are ignored when signing and are not protected by the signature.\n\nThis JAR file contains internal inconsistencies that may result in different contents when reading via JarFile and JarInputStream:\n- Manifest is missing when reading via JarInputStream\n- Entry BUNDLE-METADATA/com.android.tools.build.gradle/app-metadata.properties is signed in JarFile but is not signed in JarInputStream\n- Entry BUNDLE-METADATA/com.android.tools.build.libraries/dependencies.pb is signed in JarFile but is not signed in JarInputStream\n- Entry BUNDLE-METADATA/com.android.tools.build.profiles/baseline.prof is signed in JarFile but is not signed in JarInputStream\n- Entry BUNDLE-METADATA/com.android.tools.build.profiles/baseline.profm is signed in JarFile but is not signed in JarInputStream\n- Entry BUNDLE-METADATA/com.android.tools/d8.json is signed in JarFile but is not signed in JarInputStream\n- Entry BundleConfig.pb is signed in JarFile but is not signed in JarInputStream\n- Entry base/assets.pb is signed in JarFile but is not signed in JarInputStream\n- Entry base/assets/chaquopy/app.imy is signed in JarFile but is not signed in JarInputStream\n- Entry base/assets/chaquopy/bootstrap-native/arm64-v8a/_bz2.cpython-313-aarch64-linux-android.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/assets/chaquopy/bootstrap-native/arm64-v8a/_ctypes.cpython-313-aarch64-linux-android.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/assets/chaquopy/bootstrap-native/arm64-v8a/_datetime.cpython-313-aarch64-linux-android.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/assets/chaquopy/bootstrap-native/arm64-v8a/_lzma.cpython-313-aarch64-linux-android.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/assets/chaquopy/bootstrap-native/arm64-v8a/_opcode.cpython-313-aarch64-linux-android.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/assets/chaquopy/bootstrap-native/arm64-v8a/_random.cpython-313-aarch64-linux-android.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/assets/chaquopy/bootstrap-native/arm64-v8a/_struct.cpython-313-aarch64-linux-android.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/assets/chaquopy/bootstrap-native/arm64-v8a/binascii.cpython-313-aarch64-linux-android.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/assets/chaquopy/bootstrap-native/arm64-v8a/java/chaquopy.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/assets/chaquopy/bootstrap-native/arm64-v8a/math.cpython-313-aarch64-linux-android.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/assets/chaquopy/bootstrap-native/arm64-v8a/mmap.cpython-313-aarch64-linux-android.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/assets/chaquopy/bootstrap-native/arm64-v8a/zlib.cpython-313-aarch64-linux-android.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/assets/chaquopy/bootstrap-native/x86_64/_bz2.cpython-313-x86_64-linux-android.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/assets/chaquopy/bootstrap-native/x86_64/_ctypes.cpython-313-x86_64-linux-android.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/assets/chaquopy/bootstrap-native/x86_64/_datetime.cpython-313-x86_64-linux-android.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/assets/chaquopy/bootstrap-native/x86_64/_lzma.cpython-313-x86_64-linux-android.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/assets/chaquopy/bootstrap-native/x86_64/_opcode.cpython-313-x86_64-linux-android.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/assets/chaquopy/bootstrap-native/x86_64/_random.cpython-313-x86_64-linux-android.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/assets/chaquopy/bootstrap-native/x86_64/_struct.cpython-313-x86_64-linux-android.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/assets/chaquopy/bootstrap-native/x86_64/binascii.cpython-313-x86_64-linux-android.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/assets/chaquopy/bootstrap-native/x86_64/java/chaquopy.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/assets/chaquopy/bootstrap-native/x86_64/math.cpython-313-x86_64-linux-android.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/assets/chaquopy/bootstrap-native/x86_64/mmap.cpython-313-x86_64-linux-android.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/assets/chaquopy/bootstrap-native/x86_64/zlib.cpython-313-x86_64-linux-android.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/assets/chaquopy/bootstrap.imy is signed in JarFile but is not signed in JarInputStream\n- Entry base/assets/chaquopy/build.json is signed in JarFile but is not signed in JarInputStream\n- Entry base/assets/chaquopy/cacert.pem is signed in JarFile but is not signed in JarInputStream\n- Entry base/assets/chaquopy/requirements-arm64-v8a.imy is signed in JarFile but is not signed in JarInputStream\n- Entry base/assets/chaquopy/requirements-common.imy is signed in JarFile but is not signed in JarInputStream\n- Entry base/assets/chaquopy/requirements-x86_64.imy is signed in JarFile but is not signed in JarInputStream\n- Entry base/assets/chaquopy/stdlib-arm64-v8a.imy is signed in JarFile but is not signed in JarInputStream\n- Entry base/assets/chaquopy/stdlib-common.imy is signed in JarFile but is not signed in JarInputStream\n- Entry base/assets/chaquopy/stdlib-x86_64.imy is signed in JarFile but is not signed in JarInputStream\n- Entry base/dex/classes.dex is signed in JarFile but is not signed in JarInputStream\n- Entry base/lib/arm64-v8a/libchaquopy_java.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/lib/arm64-v8a/libcrypto_chaquopy.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/lib/arm64-v8a/libcrypto_python.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/lib/arm64-v8a/libpython3.13.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/lib/arm64-v8a/libsqlite3_chaquopy.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/lib/arm64-v8a/libsqlite3_python.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/lib/arm64-v8a/libssl_chaquopy.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/lib/arm64-v8a/libssl_python.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/lib/x86_64/libchaquopy_java.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/lib/x86_64/libcrypto_chaquopy.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/lib/x86_64/libcrypto_python.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/lib/x86_64/libpython3.13.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/lib/x86_64/libsqlite3_chaquopy.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/lib/x86_64/libsqlite3_python.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/lib/x86_64/libssl_chaquopy.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/lib/x86_64/libssl_python.so is signed in JarFile but is not signed in JarInputStream\n- Entry base/manifest/AndroidManifest.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/native.pb is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/anim-v21/fragment_fast_out_extra_slow_in.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/anim/abc_fade_in.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/anim/abc_fade_out.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/anim/abc_grow_fade_in_from_bottom.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/anim/abc_popup_enter.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/anim/abc_popup_exit.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/anim/abc_shrink_fade_out_from_bottom.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/anim/abc_slide_in_bottom.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/anim/abc_slide_in_top.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/anim/abc_slide_out_bottom.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/anim/abc_slide_out_top.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/anim/abc_tooltip_enter.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/anim/abc_tooltip_exit.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/anim/btn_checkbox_to_checked_box_inner_merged_animation.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/anim/btn_checkbox_to_checked_box_outer_merged_animation.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/anim/btn_checkbox_to_checked_icon_null_animation.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/anim/btn_checkbox_to_unchecked_box_inner_merged_animation.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/anim/btn_checkbox_to_unchecked_check_path_merged_animation.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/anim/btn_checkbox_to_unchecked_icon_null_animation.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/anim/btn_radio_to_off_mtrl_dot_group_animation.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/anim/btn_radio_to_off_mtrl_ring_outer_animation.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/anim/btn_radio_to_off_mtrl_ring_outer_path_animation.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/anim/btn_radio_to_on_mtrl_dot_group_animation.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/anim/btn_radio_to_on_mtrl_ring_outer_animation.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/anim/btn_radio_to_on_mtrl_ring_outer_path_animation.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/animator/fragment_close_enter.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/animator/fragment_close_exit.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/animator/fragment_fade_enter.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/animator/fragment_fade_exit.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/animator/fragment_open_enter.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/animator/fragment_open_exit.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/color-v23/abc_btn_colored_borderless_text_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/color-v23/abc_btn_colored_text_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/color-v23/abc_color_highlight_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/color-v23/abc_tint_btn_checkable.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/color-v23/abc_tint_default.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/color-v23/abc_tint_edittext.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/color-v23/abc_tint_seek_thumb.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/color-v23/abc_tint_spinner.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/color-v23/abc_tint_switch_track.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/color/abc_background_cache_hint_selector_material_dark.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/color/abc_background_cache_hint_selector_material_light.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/color/abc_hint_foreground_material_dark.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/color/abc_hint_foreground_material_light.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/color/abc_primary_text_disable_only_material_dark.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/color/abc_primary_text_disable_only_material_light.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/color/abc_primary_text_material_dark.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/color/abc_primary_text_material_light.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/color/abc_search_url_text.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/color/abc_secondary_text_material_dark.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/color/abc_secondary_text_material_light.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/color/switch_thumb_material_dark.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/color/switch_thumb_material_light.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-anydpi-v21/ic_call_answer.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-anydpi-v21/ic_call_answer_low.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-anydpi-v21/ic_call_answer_video.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-anydpi-v21/ic_call_answer_video_low.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-anydpi-v21/ic_call_decline.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-anydpi-v21/ic_call_decline_low.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/abc_list_focused_holo.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/abc_scrubber_control_off_mtrl_alpha.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/abc_text_select_handle_left_mtrl.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/abc_text_select_handle_middle_mtrl.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/abc_text_select_handle_right_mtrl.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/ic_call_answer.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/ic_call_answer_low.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/ic_call_answer_video.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/ic_call_answer_video_low.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/ic_call_decline.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/ic_call_decline_low.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/notification_bg_low_normal.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/notification_bg_normal.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/notification_oversize_large_icon_bg.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-ldpi-v4/ic_call_answer.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-ldpi-v4/ic_call_answer_low.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-ldpi-v4/ic_call_answer_video.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-ldpi-v4/ic_call_answer_video_low.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-ldpi-v4/ic_call_decline.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-ldpi-v4/ic_call_decline_low.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_015.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/abc_list_focused_holo.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/abc_scrubber_control_off_mtrl_alpha.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/abc_text_select_handle_left_mtrl.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/abc_text_select_handle_middle_mtrl.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/abc_text_select_handle_right_mtrl.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/ic_call_answer.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/ic_call_answer_low.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/ic_call_answer_video.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/ic_call_answer_video_low.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/ic_call_decline.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/ic_call_decline_low.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/notification_bg_low_normal.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/notification_bg_normal.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-v21/abc_action_bar_item_background_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-v21/abc_btn_colored_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-v21/abc_dialog_material_background.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-v21/abc_edit_text_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-v21/abc_list_divider_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-v21/notification_action_background.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-v23/abc_control_background_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-watch-v20/abc_dialog_material_background.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/abc_list_focused_holo.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/abc_text_select_handle_left_mtrl.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/abc_text_select_handle_middle_mtrl.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/abc_text_select_handle_right_mtrl.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/ic_call_answer.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/ic_call_answer_low.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/ic_call_answer_video.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/ic_call_answer_video_low.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/ic_call_decline.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/ic_call_decline_low.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/notification_bg_normal.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/ic_call_answer.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/ic_call_answer_low.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/ic_call_answer_video.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/ic_call_answer_video_low.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/ic_call_decline.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxhdpi-v4/ic_call_decline_low.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxxhdpi-v4/abc_text_select_handle_left_mtrl.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxxhdpi-v4/abc_text_select_handle_right_mtrl.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxxhdpi-v4/ic_call_answer.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxxhdpi-v4/ic_call_answer_low.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxxhdpi-v4/ic_call_answer_video.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxxhdpi-v4/ic_call_answer_video_low.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxxhdpi-v4/ic_call_decline.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable-xxxhdpi-v4/ic_call_decline_low.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_btn_borderless_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_btn_check_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_btn_check_material_anim.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_btn_default_mtrl_shape.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_btn_radio_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_btn_radio_material_anim.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_cab_background_internal_bg.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_cab_background_top_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_ic_ab_back_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_ic_clear_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_ic_go_search_api_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_ic_menu_copy_mtrl_am_alpha.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_ic_menu_cut_mtrl_alpha.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_ic_menu_overflow_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_ic_menu_paste_mtrl_am_alpha.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_ic_menu_selectall_mtrl_alpha.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_ic_menu_share_mtrl_alpha.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_ic_search_api_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_ic_voice_search_api_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_item_background_holo_dark.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_item_background_holo_light.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_list_selector_background_transition_holo_dark.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_list_selector_background_transition_holo_light.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_list_selector_holo_dark.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_list_selector_holo_light.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_ratingbar_indicator_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_ratingbar_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_ratingbar_small_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_seekbar_thumb_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_seekbar_tick_mark_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_seekbar_track_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_spinner_textfield_background_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_star_black_48dp.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_star_half_black_48dp.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_switch_thumb_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_tab_indicator_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_text_cursor_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_textfield_search_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/abc_vector_test.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/btn_checkbox_checked_mtrl.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/btn_checkbox_checked_to_unchecked_mtrl_animation.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/btn_checkbox_unchecked_mtrl.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/btn_checkbox_unchecked_to_checked_mtrl_animation.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/btn_radio_off_mtrl.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/btn_radio_off_to_on_mtrl_animation.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/btn_radio_on_mtrl.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/btn_radio_on_to_off_mtrl_animation.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/ic_notification.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/notification_bg.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/notification_bg_low.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/notification_icon_background.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/notification_tile_bg.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/test_level_drawable.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/tooltip_frame_dark.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/drawable/tooltip_frame_light.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_0.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/interpolator/btn_radio_to_off_mtrl_animation_interpolator_0.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/interpolator/btn_radio_to_on_mtrl_animation_interpolator_0.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/interpolator/fast_out_slow_in.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout-v21/notification_action.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout-v21/notification_action_tombstone.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout-v21/notification_template_custom_big.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout-v21/notification_template_icon_group.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout-v26/abc_screen_toolbar.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout-watch-v20/abc_alert_dialog_button_bar_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout-watch-v20/abc_alert_dialog_title_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/abc_action_bar_title_item.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/abc_action_bar_up_container.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/abc_action_menu_item_layout.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/abc_action_menu_layout.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/abc_action_mode_bar.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/abc_action_mode_close_item_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/abc_activity_chooser_view.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/abc_activity_chooser_view_list_item.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/abc_alert_dialog_button_bar_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/abc_alert_dialog_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/abc_alert_dialog_title_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/abc_cascading_menu_item_layout.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/abc_dialog_title_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/abc_expanded_menu_layout.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/abc_list_menu_item_checkbox.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/abc_list_menu_item_icon.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/abc_list_menu_item_layout.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/abc_list_menu_item_radio.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/abc_popup_menu_header_item_layout.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/abc_popup_menu_item_layout.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/abc_screen_content_include.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/abc_screen_simple.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/abc_screen_simple_overlay_action_mode.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/abc_screen_toolbar.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/abc_search_dropdown_item_icons_2line.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/abc_search_view.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/abc_select_dialog_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/abc_tooltip.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/activity_main.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/custom_dialog.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/ime_base_split_test_activity.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/ime_secondary_split_test_activity.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/notification_template_part_chronometer.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/notification_template_part_time.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/select_dialog_item_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/select_dialog_multichoice_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/select_dialog_singlechoice_material.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/layout/support_simple_spinner_dropdown_item.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/mipmap-hdpi-v4/ic_launcher.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/mipmap-hdpi-v4/ic_launcher_round.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/mipmap-mdpi-v4/ic_launcher.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/mipmap-mdpi-v4/ic_launcher_round.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/mipmap-xhdpi-v4/ic_launcher.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/mipmap-xhdpi-v4/ic_launcher_round.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/mipmap-xxhdpi-v4/ic_launcher.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/mipmap-xxhdpi-v4/ic_launcher_round.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/mipmap-xxxhdpi-v4/ic_launcher.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/mipmap-xxxhdpi-v4/ic_launcher_round.png is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/xml/backup_rules.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/xml/data_extraction_rules.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/res/xml/network_security_config.xml is signed in JarFile but is not signed in JarInputStream\n- Entry base/resources.pb is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/DebugProbesKt.bin is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/androidx.activity_activity-ktx.version is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/androidx.activity_activity.version is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/androidx.annotation_annotation-experimental.version is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/androidx.appcompat_appcompat-resources.version is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/androidx.appcompat_appcompat.version is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/androidx.arch.core_core-runtime.version is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/androidx.core_core-ktx.version is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/androidx.core_core.version is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/androidx.cursoradapter_cursoradapter.version is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/androidx.customview_customview.version is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/androidx.drawerlayout_drawerlayout.version is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/androidx.emoji2_emoji2-views-helper.version is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/androidx.emoji2_emoji2.version is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/androidx.fragment_fragment.version is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/androidx.interpolator_interpolator.version is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/androidx.lifecycle_lifecycle-livedata-core.version is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/androidx.lifecycle_lifecycle-livedata.version is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/androidx.lifecycle_lifecycle-process.version is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/androidx.lifecycle_lifecycle-runtime-ktx.version is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/androidx.lifecycle_lifecycle-runtime.version is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/androidx.lifecycle_lifecycle-viewmodel-ktx.version is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/androidx.lifecycle_lifecycle-viewmodel.version is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/androidx.loader_loader.version is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/androidx.profileinstaller_profileinstaller.version is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/androidx.savedstate_savedstate-ktx.version is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/androidx.savedstate_savedstate.version is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/androidx.startup_startup-runtime.version is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/androidx.tracing_tracing.version is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/androidx.vectordrawable_vectordrawable-animated.version is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/androidx.vectordrawable_vectordrawable.version is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/androidx.versionedparcelable_versionedparcelable.version is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/androidx.viewpager_viewpager.version is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/com/android/build/gradle/app-metadata.properties is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/kotlinx_coroutines_android.version is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/kotlinx_coroutines_core.version is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/services/kotlinx.coroutines.CoroutineExceptionHandler is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/services/kotlinx.coroutines.internal.MainDispatcherFactory is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/META-INF/version-control-info.textproto is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/kotlin-tooling-metadata.json is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/kotlin/annotation/annotation.kotlin_builtins is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/kotlin/collections/collections.kotlin_builtins is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/kotlin/concurrent/atomics/atomics.kotlin_builtins is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/kotlin/coroutines/coroutines.kotlin_builtins is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/kotlin/internal/internal.kotlin_builtins is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/kotlin/kotlin.kotlin_builtins is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/kotlin/ranges/ranges.kotlin_builtins is signed in JarFile but is not signed in JarInputStream\n- Entry base/root/kotlin/reflect/reflect.kotlin_builtins is signed in JarFile but is not signed in JarInputStream\n- Entry META-INF/MANIFEST.MF is signed in JarFile but is not signed in JarInputStream\n\nRe-run with the -verbose and -certs options for more details.\n",
+      "bundle_native_alignment": "PAGE_ALIGNMENT_16K",
+      "native_ELF_libraries": [
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/arm64-v8a/_bz2.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/arm64-v8a/_ctypes.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/arm64-v8a/_datetime.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/arm64-v8a/_lzma.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/arm64-v8a/_opcode.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/arm64-v8a/_random.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/arm64-v8a/_struct.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/arm64-v8a/binascii.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/arm64-v8a/java/chaquopy.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/arm64-v8a/math.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/arm64-v8a/mmap.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/arm64-v8a/zlib.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/x86_64/_bz2.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/x86_64/_ctypes.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/x86_64/_datetime.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/x86_64/_lzma.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/x86_64/_opcode.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/x86_64/_random.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/x86_64/_struct.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/x86_64/binascii.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/x86_64/java/chaquopy.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/x86_64/math.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/x86_64/mmap.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/bootstrap-native/x86_64/zlib.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/requirements-arm64-v8a.imy!markupsafe/_speedups.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/requirements-x86_64.imy!markupsafe/_speedups.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!_asyncio.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!_bisect.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!_blake2.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!_codecs_cn.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!_codecs_hk.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!_codecs_iso2022.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!_codecs_jp.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!_codecs_kr.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!_codecs_tw.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!_contextvars.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!_csv.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!_decimal.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!_elementtree.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!_hashlib.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!_heapq.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!_interpchannels.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!_interpqueues.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!_interpreters.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!_json.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!_lsprof.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!_md5.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!_multibytecodec.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!_pickle.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!_posixsubprocess.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!_queue.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!_sha1.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!_sha2.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!_sha3.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!_socket.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!_sqlite3.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!_ssl.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!_statistics.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!_xxtestfuzz.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!_zoneinfo.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!array.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!cmath.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!fcntl.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!pyexpat.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!resource.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!select.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!syslog.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!termios.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!unicodedata.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!xxlimited.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!xxlimited_35.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-arm64-v8a.imy!xxsubtype.cpython-313-aarch64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!_asyncio.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!_bisect.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!_blake2.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!_codecs_cn.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!_codecs_hk.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!_codecs_iso2022.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!_codecs_jp.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!_codecs_kr.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!_codecs_tw.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!_contextvars.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!_csv.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!_decimal.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!_elementtree.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!_hashlib.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!_heapq.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!_interpchannels.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!_interpqueues.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!_interpreters.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!_json.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!_lsprof.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!_md5.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!_multibytecodec.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!_pickle.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!_posixsubprocess.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!_queue.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!_sha1.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!_sha2.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!_sha3.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!_socket.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!_sqlite3.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!_ssl.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!_statistics.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!_xxtestfuzz.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!_zoneinfo.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!array.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!cmath.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!fcntl.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!pyexpat.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!resource.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!select.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!syslog.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!termios.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!unicodedata.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!xxlimited.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!xxlimited_35.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/assets/chaquopy/stdlib-x86_64.imy!xxsubtype.cpython-313-x86_64-linux-android.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/lib/arm64-v8a/libchaquopy_java.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/lib/arm64-v8a/libcrypto_chaquopy.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/lib/arm64-v8a/libcrypto_python.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/lib/arm64-v8a/libpython3.13.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/lib/arm64-v8a/libsqlite3_chaquopy.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/lib/arm64-v8a/libsqlite3_python.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/lib/arm64-v8a/libssl_chaquopy.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/lib/arm64-v8a/libssl_python.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/lib/x86_64/libchaquopy_java.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/lib/x86_64/libcrypto_chaquopy.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/lib/x86_64/libcrypto_python.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/lib/x86_64/libpython3.13.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/lib/x86_64/libsqlite3_chaquopy.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/lib/x86_64/libsqlite3_python.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/lib/x86_64/libssl_chaquopy.so",
+          "minimum_PT_LOAD_alignment": 16384
+        },
+        {
+          "name": "base/lib/x86_64/libssl_python.so",
+          "minimum_PT_LOAD_alignment": 16384
+        }
+      ],
+      "public_asset_matches": 264,
+      "Python_source_matches": "all packaged modules match final Android source",
+      "search_cache_fingerprint_matches": true,
+      "search_documents": 21385,
+      "practice_questions_by_level": {
+        "N5": 180,
+        "N4": 60,
+        "N2": 58,
+        "N1": 38,
+        "N3": 36
+      },
+      "JLPT_kanji_count": 1991
+    }
+  }
+}

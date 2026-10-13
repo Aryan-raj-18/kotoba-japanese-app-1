@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}Internet & cloud sync — Kotoba{% endblock %}
+{% block content %}
+<section class="page-head"><p class="hero-eyebrow">保存 — save your progress</p><h1>Study online or offline</h1><p class="hero-lede">Kotoba opens with or without internet. Lessons, search, practice and progress saving work on this device in either mode.</p></section>
+<section class="backup-grid">
+  <article class="path-card"><h2>On this device</h2><p>Progress saves automatically as you study. Switching Wi-Fi or mobile data on or off does not change where your local progress is stored.</p><p>Voice recognition, network voices, email and cloud drives may need internet. Typing and studying remain available.</p><a class="btn" href="/backup">Save or restore a backup file</a></article>
+  <article class="path-card"><h2>Automatic cloud sync</h2><p>When available and enabled, cloud sync saves a second copy of your progress when internet returns. Local saving continues while disconnected.</p>
+    <div class="settings-row"><span>Sync my progress</span><button type="button" class="switch" id="cloud-sync-switch" role="switch" aria-checked="false" aria-label="Sync my progress" disabled></button></div>
+    <p id="cloud-sync-status" role="status">Checking cloud availability. Your progress stays on this device.</p>
+    <p id="cloud-last-sync"></p>
+    <button class="btn" type="button" id="cloud-delete" hidden>Delete this study data's cloud copy</button>
+    <div id="cloud-conflict" hidden><p>This device and the cloud have different progress. Keep a backup before choosing a copy. Other devices will receive the copy you choose.</p><button class="btn" type="button" data-cloud-choice="local">Keep this device's copy</button><button class="btn" type="button" data-cloud-choice="cloud">Use the cloud copy</button></div>
+    <p>Cloud sync covers study progress and selected preferences. Wallpaper, microphone recordings, reminders and private connection credentials are not uploaded in the progress copy.</p>
+    <p>No signup or login screen is required. Each installation starts with a separate private cloud identity. Connect your own devices with a private cloud key to sync the same progress.</p>
+    <div id="cloud-connection" hidden><h3>Connect your devices</h3><p>Save your private cloud key and keep it somewhere safe. It gives access to your cloud progress, so share it only with your own devices. A normal progress backup does not include this key.</p><button class="btn" type="button" id="cloud-save-key">Save private cloud key</button><p>To continue on another device or after reinstalling, first export that device's local progress. Choose your cloud key below and connect. Its cloud progress will replace the selected local study data; the previous copy is also kept as a recovery backup.</p><input type="file" id="cloud-key-file" accept="application/json,.json" aria-label="Private Kotoba cloud key"><button class="btn" type="button" id="cloud-connect-key">Connect with this key</button></div>
+    <p><a href="/privacy">How your data is handled</a></p>
+  </article>
+</section>
+{% endblock %}

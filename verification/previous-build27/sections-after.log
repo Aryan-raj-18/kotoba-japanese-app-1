@@ -1,0 +1,100 @@
+[
+  {
+    "route": "/",
+    "status": 200,
+    "bytes": 21271,
+    "median_ms": 1.05,
+    "first_ms": 21.11
+  },
+  {
+    "route": "/kanji",
+    "status": 200,
+    "bytes": 198070,
+    "median_ms": 3.1,
+    "first_ms": 11.4
+  },
+  {
+    "route": "/kanji?level=N4",
+    "status": 200,
+    "bytes": 198915,
+    "median_ms": 3.04,
+    "first_ms": 3.04
+  },
+  {
+    "route": "/grammar",
+    "status": 200,
+    "bytes": 122145,
+    "median_ms": 5.0,
+    "first_ms": 8.9
+  },
+  {
+    "route": "/everyday",
+    "status": 200,
+    "bytes": 1125673,
+    "median_ms": 3.93,
+    "first_ms": 23.05
+  },
+  {
+    "route": "/jlpt/N5",
+    "status": 200,
+    "bytes": 73166,
+    "median_ms": 2.14,
+    "first_ms": 8.04
+  },
+  {
+    "route": "/speaking",
+    "status": 200,
+    "bytes": 13744,
+    "median_ms": 0.61,
+    "first_ms": 1.83
+  },
+  {
+    "route": "/roadmap",
+    "status": 200,
+    "bytes": 48394,
+    "median_ms": 2.07,
+    "first_ms": 7.35
+  },
+  {
+    "route": "/stories",
+    "status": 200,
+    "bytes": 20991,
+    "median_ms": 0.87,
+    "first_ms": 3.05
+  },
+  {
+    "route": "/conversations",
+    "status": 200,
+    "bytes": 31000,
+    "median_ms": 1.2,
+    "first_ms": 3.09
+  },
+  {
+    "route": "/api/learner/summary",
+    "status": 200,
+    "bytes": 1981,
+    "median_ms": 0.45,
+    "first_ms": 0.52
+  }
+]
+         39312 function calls (38998 primitive calls) in 0.013 seconds
+
+   Ordered by: cumulative time
+   List reduced from 427 to 12 due to restriction <12>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.013    0.013 /workspace/scratch/111d4db36787/.restore-py/lib/python3.13/site-packages/werkzeug/test.py:1163(get)
+        1    0.000    0.000    0.013    0.013 /workspace/scratch/111d4db36787/.restore-py/lib/python3.13/site-packages/flask/testing.py:204(open)
+        1    0.000    0.000    0.013    0.013 /workspace/scratch/111d4db36787/.restore-py/lib/python3.13/site-packages/werkzeug/test.py:1062(open)
+        1    0.000    0.000    0.013    0.013 /workspace/scratch/111d4db36787/.restore-py/lib/python3.13/site-packages/werkzeug/test.py:984(run_wsgi_app)
+        1    0.000    0.000    0.013    0.013 /workspace/scratch/111d4db36787/.restore-py/lib/python3.13/site-packages/werkzeug/test.py:1230(run_wsgi_app)
+        1    0.000    0.000    0.013    0.013 /workspace/scratch/111d4db36787/.restore-py/lib/python3.13/site-packages/flask/app.py:1529(__call__)
+        1    0.000    0.000    0.013    0.013 /workspace/scratch/111d4db36787/.restore-py/lib/python3.13/site-packages/flask/app.py:1479(wsgi_app)
+        1    0.000    0.000    0.012    0.012 /workspace/scratch/111d4db36787/.restore-py/lib/python3.13/site-packages/flask/app.py:904(full_dispatch_request)
+        1    0.000    0.000    0.012    0.012 /workspace/scratch/111d4db36787/.restore-py/lib/python3.13/site-packages/flask/app.py:879(dispatch_request)
+        1    0.000    0.000    0.012    0.012 /workspace/scratch/111d4db36787/restore-current/kotoba-1.0.0/app.py:1538(kanji_list)
+        1    0.000    0.000    0.009    0.009 /workspace/scratch/111d4db36787/.restore-py/lib/python3.13/site-packages/flask/templating.py:138(render_template)
+        1    0.000    0.000    0.009    0.009 /workspace/scratch/111d4db36787/.restore-py/lib/python3.13/site-packages/flask/templating.py:126(_render)
+
+
+

@@ -1,0 +1,27 @@
+{
+  "compiled": true,
+  "cache_loaded_before_query": true,
+  "desktop_import_milliseconds": 332.63,
+  "timings": {
+    "sor": {
+      "milliseconds": 2.73,
+      "results": 8
+    },
+    "wat": {
+      "milliseconds": 0.87,
+      "results": 8
+    },
+    "そ": {
+      "milliseconds": 2.37,
+      "results": 8
+    },
+    "so": {
+      "milliseconds": 3.94,
+      "results": 8
+    },
+    "sora": {
+      "milliseconds": 0.63,
+      "results": 2
+    }
+  }
+}

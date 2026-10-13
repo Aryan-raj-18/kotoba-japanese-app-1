@@ -1,0 +1,10 @@
+test_all_levels_have_kanji_and_working_practice (__main__.RestoredCourseTests.test_all_levels_have_kanji_and_working_practice) ... ok
+test_every_level_and_category_can_produce_exam_questions (__main__.RestoredCourseTests.test_every_level_and_category_can_produce_exam_questions) ... ok
+test_full_roadmap_is_unlocked_and_advanced_lessons_are_completable (__main__.RestoredCourseTests.test_full_roadmap_is_unlocked_and_advanced_lessons_are_completable) ... ok
+test_other_restored_sections_are_populated (__main__.RestoredCourseTests.test_other_restored_sections_are_populated) ... ok
+test_restored_datasets_match_saved_full_course (__main__.RestoredCourseTests.test_restored_datasets_match_saved_full_course) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.129s
+
+OK

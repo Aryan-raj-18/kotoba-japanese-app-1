@@ -1,0 +1,24 @@
+test_api_and_pagination (__main__.SearchTests.test_api_and_pagination) ... ok
+test_conjugated_forms_have_correct_tense_and_context (__main__.SearchTests.test_conjugated_forms_have_correct_tense_and_context) ... ok
+test_device_study_selection_does_not_invalidate_content_cache (__main__.SearchTests.test_device_study_selection_does_not_invalidate_content_cache) ... ok
+test_every_indexed_field_is_retrievable (__main__.SearchTests.test_every_indexed_field_is_retrievable) ... ok
+test_every_result_has_an_existing_destination (__main__.SearchTests.test_every_result_has_an_existing_destination) ... ok
+test_examples_do_not_impersonate_word_definitions (__main__.SearchTests.test_examples_do_not_impersonate_word_definitions) ... ok
+test_import_faults_are_gone_from_all_learning_pools (__main__.SearchTests.test_import_faults_are_gone_from_all_learning_pools) ... ok
+test_kanji_links_and_examples_share_character_identity (__main__.SearchTests.test_kanji_links_and_examples_share_character_identity) ... ok
+test_local_food_sentences_have_readings_and_english_translations (__main__.SearchTests.test_local_food_sentences_have_readings_and_english_translations) ... ok
+test_normalization_and_ranking (__main__.SearchTests.test_normalization_and_ranking) ... ok
+test_remaining_irregular_english_past_forms (__main__.SearchTests.test_remaining_irregular_english_past_forms) ... ok
+test_source_sentences_are_not_dropped (__main__.SearchTests.test_source_sentences_are_not_dropped) ... ok
+test_source_words_are_not_dropped (__main__.SearchTests.test_source_words_are_not_dropped) ... ok
+test_stand_does_not_match_understand_or_standard (__main__.SearchTests.test_stand_does_not_match_understand_or_standard) ... ok
+test_word_details_preserve_the_clicked_word_and_meaning (__main__.SearchTests.test_word_details_preserve_the_clicked_word_and_meaning) ... ok
+test_words_use_their_own_readings (__main__.SearchTests.test_words_use_their_own_readings) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 16.628s
+
+OK
+
+Search entries: 21374 {'Word': 4944, 'Sentence': 11120, 'Kanji': 2430, 'Kana': 208, 'Radical': 201, 'Verb form': 1184, 'Grammar': 480, 'Story': 23, 'Question': 72, 'Conversation': 54, 'Lesson': 70, 'Place': 47, 'Situation': 141, 'Journey': 4, 'Season': 4, 'Exam example': 372, 'Section': 20}
+Searchable normalized fields: 57456

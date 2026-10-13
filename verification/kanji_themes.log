@@ -1,0 +1,21 @@
+PASS N4 restored from URL and carried into every detail link
+PASS N1 restored from URL and carried into every detail link
+PASS search, selected card and scroll position survive leaving the list
+PASS Android and visible Back use the prior N4 list
+PASS direct-open detail returns to its N4 context without unrelated history
+PASS return destinations reject invalid levels and external URLs
+PASS settings presents only Light/Dark, while preserving native hide switch
+PASS status switch calls Android with both hide and show choices
+PASS Light changes saved palette, vector icons, classic serif fonts and motion together
+PASS Dark changes saved palette, vector icons, classic serif fonts and motion together
+PASS two palettes share clear icons and restored classic serif fonts
+PASS reduced motion switches theme without text or icon animation
+PASS existing washi preference migrates to sakura-journey
+PASS existing sakura preference migrates to sakura-journey
+PASS existing matcha preference migrates to sakura-journey
+PASS existing sumi preference migrates to kyoto-night
+PASS existing yozakura preference migrates to kyoto-night
+PASS existing water-glass preference migrates to sakura-journey
+PASS existing neon-tokyo preference migrates to kyoto-night
+PASS offline Japanese fonts and attribution are present
+All 20 kanji-return/theme/display interaction checks passed.

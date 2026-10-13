@@ -1,0 +1,102 @@
+[
+  {
+    "suite": "content",
+    "exit_code": 0,
+    "seconds": 0.64
+  },
+  {
+    "suite": "search",
+    "exit_code": 0,
+    "seconds": 16.53
+  },
+  {
+    "suite": "safety",
+    "exit_code": 0,
+    "seconds": 1.22
+  },
+  {
+    "suite": "numbers-startup",
+    "exit_code": 0,
+    "seconds": 6.03
+  },
+  {
+    "suite": "cloud",
+    "exit_code": 0,
+    "seconds": 0.55
+  },
+  {
+    "suite": "assets",
+    "exit_code": 0,
+    "seconds": 0.6
+  },
+  {
+    "suite": "navigation_theme",
+    "exit_code": 0,
+    "seconds": 2.2
+  },
+  {
+    "suite": "kanji_themes",
+    "exit_code": 0,
+    "seconds": 2.17
+  },
+  {
+    "suite": "journey_home",
+    "exit_code": 0,
+    "seconds": 1.22
+  },
+  {
+    "suite": "onboarding",
+    "exit_code": 0,
+    "seconds": 1.58
+  },
+  {
+    "suite": "scroll_lock",
+    "exit_code": 0,
+    "seconds": 1.62
+  },
+  {
+    "suite": "jlpt_mock",
+    "exit_code": 0,
+    "seconds": 5.28
+  },
+  {
+    "suite": "cloud_sync",
+    "exit_code": 0,
+    "seconds": 1.3
+  },
+  {
+    "suite": "audio_lifecycle",
+    "exit_code": 0,
+    "seconds": 1.26
+  },
+  {
+    "suite": "intro_startup",
+    "exit_code": 0,
+    "seconds": 0.5
+  },
+  {
+    "suite": "catalog_batches",
+    "exit_code": 0,
+    "seconds": 4.8
+  },
+  {
+    "suite": "browser_cache",
+    "exit_code": 0,
+    "seconds": 0.1
+  },
+  {
+    "suite": "voice_search",
+    "exit_code": 0,
+    "seconds": 0.11
+  },
+  {
+    "suite": "japan_map",
+    "exit_code": 0,
+    "seconds": 3.17
+  },
+  {
+    "suite": "speaking",
+    "exit_code": 0,
+    "seconds": 1.13
+  }
+]

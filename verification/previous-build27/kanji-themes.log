@@ -1,0 +1,24 @@
+PASS N4 restored from URL and carried into every detail link
+PASS N1 restored from URL and carried into every detail link
+PASS search, selected card and scroll position survive leaving the list
+PASS Android and visible Back use the prior N4 list
+PASS direct-open detail returns to its N4 context without unrelated history
+PASS return destinations reject invalid levels and external URLs
+PASS settings presents seven skins including Water Glass and restores the native hide switch
+PASS status switch calls Android with both hide and show choices
+PASS Anime Dawn changes saved palette, vector icons, classic serif fonts and motion together
+PASS Neon Tokyo changes saved palette, vector icons, classic serif fonts and motion together
+PASS Kyoto Paper changes saved palette, vector icons, classic serif fonts and motion together
+PASS Bamboo Zen changes saved palette, vector icons, classic serif fonts and motion together
+PASS Matsuri Lantern changes saved palette, vector icons, classic serif fonts and motion together
+PASS Fuji Mist changes saved palette, vector icons, classic serif fonts and motion together
+PASS Water Glass changes saved palette, vector icons, classic serif fonts and motion together
+PASS seven skins have distinct icons/motion with restored classic serif fonts
+PASS reduced motion switches theme without text or icon animation
+PASS existing washi preference migrates to kyoto-paper
+PASS existing sakura preference migrates to anime-dawn
+PASS existing matcha preference migrates to bamboo-zen
+PASS existing sumi preference migrates to neon-tokyo
+PASS existing yozakura preference migrates to matsuri-lantern
+PASS offline Japanese fonts and attribution are present
+All 23 kanji-return/theme/display interaction checks passed.

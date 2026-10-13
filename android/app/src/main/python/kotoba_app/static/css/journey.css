@@ -1,0 +1,225 @@
+/* Kotoba Journey: shared layout, offline vector scenery, calm study surfaces. */
+:root { --journey-sky: var(--paper-warm); --journey-mountain: #7892A3; --journey-hill: #B7C7BB; --journey-water: #C9DEE1; --journey-petal: #D692A6; --journey-sun: #E5C58F; }
+:root[data-theme="kyoto-night"], :root[data-theme="neon-tokyo"], :root[data-theme="matsuri-lantern"] { --journey-mountain: #455D77; --journey-hill: #2B494B; --journey-water: #30475B; --journey-petal: #C0809C; --journey-sun: #E9C485; }
+html[data-ui-shell="immersive"] { --shell-surface: var(--card-bg); --shell-surface-strong: var(--card-bg); --shell-input-bg: var(--surface); --shell-border: var(--line); }
+html[data-ui-shell="immersive"] body { background: var(--paper); background-attachment: scroll; font-size: 16px; line-height: 1.6; }
+html[data-ui-shell="immersive"] .seal-bg { opacity: .22; }
+html[data-ui-shell="immersive"] .site-header { box-shadow: var(--shadow-sm); border-radius: 20px; backdrop-filter: none; -webkit-backdrop-filter: none; background: var(--card-bg); }
+/* The first-run choices have their own panel; the app header returns on dismissal. */
+body.onboarding-open .site-header { display: none !important; }
+.kanji-notification-grid { display: grid; grid-template-columns: minmax(0,1.15fr) minmax(0,1fr); gap: 20px; max-width: 980px; margin: 0 auto 28px; }
+.kanji-notification-form label:not(.kanji-notification-check) { display: block; margin: 14px 0 6px; font-weight: 700; }
+.kanji-notification-form select,.kanji-notification-form input[type="search"],.kanji-notification-form input[type="number"] { width: 100%; max-width: 100%; box-sizing: border-box; padding: 10px 12px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); color: var(--ink); font: inherit; }
+.kanji-notification-form small { display: block; margin-top: 7px; color: var(--ink-soft); }
+.kanji-notification-check { display: flex; gap: 9px; align-items: center; margin: 14px 0; }
+.kanji-notification-check input { accent-color: var(--seal); }
+.kanji-notification-actions { display: flex; gap: 9px; flex-wrap: wrap; margin-top: 18px; }
+.kanji-notification-grid .btn,.kanji-notification-link { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; box-sizing: border-box; padding: 10px 16px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); color: var(--ink); font: inherit; font-weight: 700; text-decoration: none; cursor: pointer; }
+.kanji-notification-grid .btn:disabled { opacity: .5; cursor: default; }
+#kanji-notification-apply { background: var(--indigo); border-color: var(--indigo); color: var(--paper); }
+.kanji-notification-grid .btn:focus-visible,.kanji-notification-link:focus-visible { outline: 2px solid var(--seal); outline-offset: 3px; }
+.kanji-notification-glyph { font-family: var(--serif-jp); font-size: 6rem; line-height: 1.3; text-align: center; color: var(--ink); }
+.kanji-notification-preview > h2,.kanji-notification-preview > p:not(:last-child) { text-align: center; }
+.kanji-notification-preview hr { border: 0; border-top: 1px solid var(--line); margin: 22px 0; }
+.kanji-notification-link { margin-bottom: 10px; }
+#kanji-notification-selected { overflow-wrap: anywhere; }
+.kanji-notification-choices { max-height: 320px; overflow-y: auto; overscroll-behavior: contain; scrollbar-gutter: stable; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); padding: 6px; }
+.kanji-notification-form .kanji-notification-choice { display: flex !important; align-items: center; gap: 10px; margin: 0 !important; min-height: 48px; padding: 8px; border-radius: 8px; font-weight: 400 !important; cursor: pointer; }
+.kanji-notification-choice input { width: 20px; height: 20px; flex-shrink: 0; accent-color: var(--indigo); }
+.kanji-notification-choice span { min-width: 0; overflow-wrap: anywhere; }
+.kanji-notification-choice:has(input:checked) { background: var(--paper-warm); }
+.kanji-notification-choices:focus-visible,.kanji-notification-choice:focus-within { outline: 2px solid var(--seal); outline-offset: 2px; }
+.kanji-lockscreen-help { text-align: left; margin: 16px 0; padding: 12px; border: 1px solid var(--line); border-radius: 12px; }
+.kanji-lockscreen-help summary { cursor: pointer; font-weight: 700; }
+.kanji-lockscreen-help ol { padding-left: 22px; }
+.kanji-lockscreen-help li { margin: 8px 0; }
+.has-search-suggestions { position: relative; }
+.search-suggestions { position: absolute; inset: 100% 0 auto; margin-top: 8px; max-height: min(380px,50vh); overflow: auto; background: var(--card-bg); border: 1px solid var(--line); border-radius: 14px; box-shadow: var(--shadow-sm); z-index: 100; }
+.search-suggestions.opens-above { inset: auto 0 100%; margin-top: 0; margin-bottom: 8px; }
+html[data-ui-shell="immersive"] .site-main:has(.search-suggestions:not([hidden])) { z-index: 3; }
+.search-suggestion { display: grid; grid-template-columns: minmax(0,1fr); gap: 2px; padding: 10px 14px; min-height: 44px; border-bottom: 1px solid var(--line); color: var(--ink); text-decoration: none; overflow-wrap: anywhere; }
+.search-suggestion:last-child { border-bottom: 0; }
+.search-suggestion span,.search-suggestion small { color: var(--ink-soft); font-size: 13px; }
+.search-suggestion[aria-selected="true"],.search-suggestion:focus-visible,.search-suggestion:hover { background: var(--paper-warm); }
+.search-suggestion-status { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+.search-prefix-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%,240px),1fr)); gap: 12px; margin-bottom: 24px; }
+.rm-stage-nav { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%,220px),1fr)); gap: 8px; margin: 18px 0 30px; }
+.rm-stage-nav a { display: flex; flex-direction: column; padding: 12px 16px; border: 1px solid var(--line); border-radius: 12px; color: var(--ink); background: var(--card-bg); text-decoration: none; }
+.rm-stage-nav small { color: var(--ink-soft); }
+.rm-section-banner { scroll-margin-top: 110px; }
+@media(max-width:680px) { .kanji-notification-grid { grid-template-columns: minmax(0,1fr); gap: 14px; } }
+html[data-ui-shell="immersive"] .site-main { padding-top: 24px; }
+.page-head h1 { font-size: clamp(28px, 4vw, 42px); }
+.hero-eyebrow { font-size: 12px; letter-spacing: .07em; color: var(--ink-soft); }
+.journey-hero { position: relative; grid-template-columns: minmax(0, 1fr) minmax(240px, .85fr); padding: 28px 32px; gap: 24px; min-height: 220px; border-radius: 24px; box-shadow: none; background: var(--paper-warm); margin-bottom: 16px; }
+.journey-hero .home-hero-copy { position: relative; z-index: 1; }
+.journey-hero h1 { max-width: 15ch; font-size: clamp(32px, 4.2vw, 48px); line-height: 1.12; letter-spacing: -.025em; }
+.journey-hero .home-lede { font-size: 16px; margin: 10px 0 14px; max-width: 28ch; }
+.home-goal-pill { display: inline-flex; align-items: center; min-height: 44px; margin: 0; padding: 8px 14px; background: var(--card-bg); border: 1px solid var(--line); border-radius: 999px; color: var(--ink); font: inherit; font-size: 14px; cursor: pointer; }
+.journey-art { min-width: 0; align-self: stretch; display: grid; align-items: end; }
+.journey-landscape { display: block; width: 100%; height: auto; }
+.scene-sun { fill: var(--journey-sun); opacity: .7; }
+.scene-cloud, .scene-snow { fill: var(--card-bg); opacity: .85; }
+.scene-fuji { fill: var(--journey-mountain); }
+.scene-hill { fill: var(--journey-hill); }
+.scene-water { fill: var(--journey-water); }
+.scene-ripples { stroke: var(--card-bg); opacity: .6; }
+.scene-torii { stroke: var(--seal); opacity: .8; }
+.scene-branch { stroke: var(--ink-soft); opacity: .65; }
+.scene-blossoms { fill: var(--journey-petal); }
+.scene-stars { display: none; color: var(--gold); }
+.scene-lantern { display: none; fill: var(--gold); stroke: var(--gold); }
+[data-theme="kyoto-night"] .scene-stars, [data-theme="kyoto-night"] .scene-lantern { display: inline; }
+[data-theme="kyoto-night"] .scene-blossoms { opacity: .28; }
+.home-next-step { margin: 0; }
+.continue-card { padding: 22px; gap: 18px; box-shadow: var(--shadow-sm); background: var(--card-bg); border: 1px solid var(--line); border-left: 4px solid var(--indigo); border-radius: 20px; }
+.continue-copy h2 { font-size: 24px; margin: 3px 0 7px; }
+.continue-meta { color: var(--ink-soft); font-size: 12px; }
+.continue-copy p { font-size: 14px; }
+.continue-progress { height: 6px; background: var(--paper-warm); }
+.continue-progress span { background: var(--indigo); }
+.continue-icon { width: 58px; height: 58px; border-radius: 16px; font-size: 28px; }
+.continue-btn { display: inline-flex; align-items: center; justify-content: center; gap: 16px; min-height: 48px; border-radius: 14px; font-size: 16px; }
+.home-quick-actions { margin-top: 12px; gap: 12px; }
+.home-quick-actions a { min-width: 0; min-height: 78px; background: var(--card-bg); padding: 13px; }
+.home-quick-actions strong { font-size: 15px; }
+.home-quick-actions small { font-size: 12px; }
+.home-quick-actions .theme-icon { font-size: 21px; }
+.home-connection { margin: 14px 0; font-size: 13px; }
+.home-stats { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin: 18px 0; }
+.home-stat { grid-template-columns: auto minmax(0, 1fr); align-items: center; gap: 3px 10px; padding: 16px; min-width: 0; }
+.home-stat-icon { grid-row: 1 / 3; color: var(--indigo); font-size: 20px; }
+.home-stat strong { line-height: 1.25; font-size: 24px; }
+.home-stat small { font-size: 13px; }
+.home-companion { display: flex; align-items: center; gap: 18px; padding: 14px 20px; background: var(--seal-soft); border: 1px solid var(--line); border-radius: 20px; margin: 20px 0 24px; }
+.home-companion .koto-mascot { --koto-size: 54px; flex: 0 0 var(--koto-size); animation: none; }
+.home-companion .koto-arm { animation: none; }
+.home-companion strong { font-size: 16px; }
+.home-companion p { font-size: 14px; margin: 2px 0 0; color: var(--ink-soft); }
+.home-section-head { margin: 28px 0 14px; align-items: center; flex-wrap: wrap; }
+.home-section-head h2 { font-size: 26px; }
+.home-section-head > a { min-height: 44px; display: inline-flex; align-items: center; font-size: 14px; }
+.journey-chapters { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.journey-chapter { display: grid; grid-template-columns: minmax(0, 1fr) auto; border: 1px solid var(--line); border-radius: 20px; background: var(--card-bg); overflow: hidden; text-decoration: none; color: var(--ink); min-width: 0; }
+.chapter-cover { position: relative; grid-column: 1 / -1; min-height: 78px; background: var(--paper-warm); display: grid; place-items: center; }
+.chapter-cover > span { font-size: 30px; font-family: var(--serif-jp); position: relative; z-index: 1; padding: 2px 9px; background: var(--card-bg); border-radius: 12px; }
+.chapter-cover svg { position: absolute; bottom: 0; right: 0; width: 140px; height: 54px; color: var(--journey-mountain); opacity: .35; }
+.chapter-copy { min-width: 0; display: flex; flex-direction: column; padding: 14px; gap: 3px; overflow-wrap: anywhere; }
+.chapter-copy small { color: var(--ink-soft); font-size: 12px; }
+.chapter-copy strong { font-size: 17px; line-height: 1.4; }
+.chapter-arrow { padding: 14px 14px 14px 0; align-self: center; color: var(--indigo); }
+.focus-grid { gap: 14px; }
+.focus-card { padding: 20px; gap: 14px; border-radius: 20px; align-items: center; box-shadow: none; }
+.focus-card h3 { font-size: 19px; margin: 0 0 5px; }
+.focus-card p { font-size: 14px; line-height: 1.55; }
+.focus-icon { background: var(--paper-warm); border: 0; color: var(--indigo); }
+.advanced-callout { background: var(--paper-warm); padding: 24px; box-shadow: none; }
+.advanced-callout h2 { font-size: 24px; }
+.mission-card { padding: 18px; min-width: 0; border-radius: 18px; }
+.mission-card strong { font-size: 16px; }
+.mission-card small { font-size: 14px; }
+.mission-card.done { opacity: 1; background: var(--ok-bg); color: var(--ok-fg); }
+.home-search-card { padding: 22px; }
+.home-search-card input { min-width: 0; font-size: 16px; }
+.detail-top { gap: 28px; }
+.detail-char { background: var(--paper-warm); border-radius: 22px; padding: 16px; color: var(--ink); }
+.reading-list dd, .vocab-reading { line-height: 1.75; }
+.grammar-detail-card, .speaking-card, .review-card { padding: 24px; }
+.grammar-detail-jp { line-height: 1.8; }
+.quiz-option, .rm-option, .exam-option { min-height: 52px; line-height: 1.5; padding: 14px 16px; }
+.rm-section-banner { position: relative; background: var(--paper-warm); color: var(--ink); border: 1px solid var(--line); overflow: hidden; }
+.rm-section-banner::after { content: ''; position: absolute; width: 140px; height: 78px; right: -20px; bottom: -20px; background: var(--journey-mountain); opacity: .13; clip-path: polygon(0 100%, 55% 0, 100% 100%); pointer-events: none; }
+.rm-section-banner .rm-section-num, .rm-section-banner .rm-section-jp, .rm-section-banner .rm-section-blurb { color: var(--ink-soft); }
+.rm-stage-badge { background: var(--card-bg); border-color: var(--line); }
+.rm-current .rm-unlocked { animation: none; }
+.rm-next-hint { font-size: 14px; line-height: 1.5; }
+.theme-options { display: grid; grid-template-columns: 1fr; gap: 10px; }
+.theme-opt { width: 100%; align-items: center; gap: 12px; padding: 12px; min-height: 94px; text-align: left; }
+.theme-opt-name { font-size: 16px; }
+.theme-opt-jp { font-size: 12px; }
+.theme-preview { position: relative; flex: 0 0 90px; width: 90px; height: 66px; border-radius: 10px; overflow: hidden; background: var(--sw-a); border: 1px solid var(--sw-b); }
+.theme-preview i { position: absolute; display: block; }
+.preview-sun { top: 8px; right: 12px; width: 14px; height: 14px; background: var(--sw-b); opacity: .4; border-radius: 50%; }
+.preview-mountain { top: 10px; right: -2px; width: 60px; height: 31px; background: var(--sw-b); opacity: .15; clip-path: polygon(0 100%, 50% 0, 100% 100%); }
+.preview-card { top: 29px; left: 7px; right: 7px; height: 22px; border: 1px solid var(--sw-b); border-radius: 5px; }
+.preview-card b { position: absolute; width: 30px; height: 3px; left: 5px; top: 5px; background: var(--preview-ink); opacity: .7; border-radius: 2px; }
+.preview-card em { position: absolute; width: 15px; height: 10px; right: 4px; top: 5px; background: var(--sw-b); border-radius: 3px; }
+.preview-nav { bottom: 5px; left: 12px; right: 12px; height: 3px; background: var(--sw-b); opacity: .4; border-radius: 3px; }
+.theme-more { grid-column: 1 / -1; }
+.theme-more summary { padding: 12px 3px; color: var(--ink-soft); cursor: pointer; font-size: 14px; }
+.theme-extra-options { display: grid; gap: 8px; }
+.settings-panel { max-width: calc(100vw - 24px); }
+.theme-icon-frame { opacity: .16; stroke-width: 1.2; }
+.theme-icon-symbol { stroke-width: 1.9; }
+.btn-primary, .btn-ghost { border-radius: 12px; }
+:where(a, button, input, select, textarea):focus-visible { outline: 3px solid var(--indigo); outline-offset: 3px; }
+@media (hover: hover) { .focus-card:hover, .journey-chapter:hover { border-color: var(--indigo); transform: translateY(-2px); } }
+@media (prefers-reduced-motion: no-preference) { .journey-chapter { transition: transform 150ms ease, border-color 150ms ease; } .btn-primary:active { transform: scale(.98); } .home-companion .koto-mascot { animation: journey-greeting 450ms ease-out 1; } }
+@keyframes journey-greeting { from { transform: translateY(3px); } to { transform: none; } }
+@media (max-width: 700px) {
+  html[data-ui-shell="immersive"] .site-header { padding: 10px; gap: 6px; }
+  html[data-ui-shell="immersive"] .site-main { padding-top: 16px; }
+  .journey-hero { grid-template-columns: minmax(0, 1fr) 38%; min-height: 180px; padding: 20px; gap: 4px; }
+  .journey-hero h1 { font-size: 32px; max-width: none; }
+  .journey-hero .home-lede { font-size: 14px; margin: 8px 0 10px; }
+  .journey-art { margin-right: -20px; margin-left: -14px; }
+  .journey-landscape { min-width: 180px; }
+  .continue-card { padding: 16px; gap: 12px; grid-template-columns: auto minmax(0, 1fr); }
+  .continue-copy h2 { font-size: 22px; }
+  .continue-btn { grid-column: 1 / -1; width: 100%; }
+  .home-quick-actions { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+  .home-quick-actions a { display: flex; flex-direction: column; align-items: center; gap: 4px; padding: 12px 5px; text-align: center; }
+  .home-quick-actions strong { font-size: 14px; line-height: 1.3; }
+  .home-quick-actions small { font-size: 11px; line-height: 1.4; }
+  .home-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .home-stat { padding: 14px; }
+  .home-companion { padding: 14px 16px; gap: 16px; }
+  .home-section-head h2 { font-size: 24px; }
+  .journey-chapters { grid-template-columns: 1fr; gap: 10px; }
+  .journey-chapter { grid-template-columns: 66px minmax(0, 1fr) auto; padding: 10px; gap: 12px; align-items: center; }
+  .chapter-cover { grid-column: auto; min-height: 66px; border-radius: 14px; overflow: hidden; }
+  .chapter-cover svg { width: 70px; height: 24px; }
+  .chapter-copy { padding: 4px 0; }
+  .chapter-arrow { padding: 4px; }
+  .focus-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .focus-card { flex-direction: column; align-items: flex-start; padding: 16px; gap: 12px; }
+  .focus-icon { flex-basis: auto; width: 46px; height: 46px; }
+  .focus-card h3 { font-size: 18px; }
+  .focus-card p { font-size: 13px; }
+  .mission-grid { gap: 10px; }
+  .home-search-card { display: block; padding: 18px; }
+  .home-search-card .hero-search { margin-top: 12px; }
+  .home-search-card .hero-search button { padding-inline: 14px; }
+  .grammar-detail-card, .speaking-card, .review-card { padding: 18px; }
+  .kotoba-bottom-nav { border-radius: 20px; background: var(--card-bg); backdrop-filter: none; -webkit-backdrop-filter: none; box-shadow: var(--shadow-sm); }
+}
+@media (max-width: 380px) { .journey-hero { padding: 18px 16px; } .journey-hero h1 { font-size: 28px; } .journey-art { margin-right: -16px; } .focus-grid { grid-template-columns: 1fr; } .focus-card { flex-direction: row; align-items: flex-start; } .focus-icon { flex: 0 0 46px; } .brand { padding-right: 5px; } .brand-mark { width: 28px; height: 28px; } .brand-jp { font-size: 17px; } .brand-en { font-size: 10px; } .streak-badge, .review-due-badge { padding-inline: 5px; } }
+@media (prefers-reduced-motion: reduce) { .home-companion .koto-mascot, .home-companion .koto-arm { animation: none !important; } .journey-chapter { transition: none; } .btn-primary:active { transform: none; } }
+
+/* ---- Build 49: phone-width layout fixes (checked at 320 and 360 px) ---- */
+/* Back links are drawn as pills; give the label room inside its border. */
+.back-link { display: inline-flex; align-items: center; gap: 6px; min-height: 40px; box-sizing: border-box; padding: 8px 14px; border-radius: 999px; line-height: 1.3; }
+/* The plain .btn class (links and buttons on /sync, cloud and kanji screens) had no padding of its own. */
+.btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 44px; box-sizing: border-box; padding: 10px 16px; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); color: var(--ink); font: inherit; font-weight: 700; line-height: 1.35; text-align: center; text-decoration: none; cursor: pointer; }
+/* Text that sits in a bordered box needs inner padding. */
+.grammar-example { padding: 10px 12px; }
+.connection-note, .home-connection { padding: 10px 14px; line-height: 1.5; }
+.flash-hint { padding: 10px 14px; line-height: 1.5; }
+.passport-open-mini { min-height: 44px; box-sizing: border-box; padding: 10px 14px; border: 1px solid transparent; border-radius: 12px; line-height: 1.35; }
+/* Space above the section headings on a grammar page. */
+.grammar-detail-card h2 { margin: 24px 0 8px; font-size: 20px; }
+.grammar-detail-card .grammar-detail-actions + h2 { margin-top: 20px; }
+/* Writing-page script buttons stay on one line each. */
+.mode-toggle { flex-wrap: wrap; }
+.mode-btn { white-space: nowrap; }
+@media (max-width: 400px) { .mode-toggle { gap: 6px; } .mode-btn { flex: 1 1 auto; padding: 8px 12px; text-align: center; } }
+/* Footer lines up with the 8 px page margin. */
+@media (max-width: 700px) { html[data-ui-shell="immersive"] .site-footer, .site-footer { margin-inline: 8px; padding: 24px 16px calc(96px + env(safe-area-inset-bottom, 0px)); } }
+/* Japan lesson sheet and stamps panel: solid, so the map behind never greys the text. These are
+   written with a higher specificity than the glass rule in liquid-glass.css (loaded after this file). */
+html:root[data-ui-shell] body .japan-drawer,
+html:root[data-ui-shell] body .japan-passport-modal { background-color: var(--paper) !important; background-image: none !important; -webkit-backdrop-filter: none !important; backdrop-filter: none !important; }
+/* Japan Explorer filter chips never split a word. Higher specificity than the glass rule that sets white-space: normal on every button. */
+html:root[data-ui-shell] :is(.level-segment, .japan-season-switch, .japan-region-chips) button { flex: 0 0 auto; white-space: nowrap; overflow-wrap: normal; word-break: keep-all; hyphens: manual; }
+/* The Places count badge was squeezed to 18 px wide (glass sets min-width: 0), so "47" spilled out of an oval. */
+html:root[data-ui-shell] .japan-list-head > span { flex: 0 0 auto; min-width: 40px; padding-inline: 8px; box-sizing: border-box; border-radius: 999px; }

@@ -1,0 +1,155 @@
+{% extends "base.html" %}
+{% block title %}Japan Explorer — Kotoba{% endblock %}
+{% block extra_head %}<link rel="stylesheet" href="{{ url_for('static', filename='css/japan-map.css') }}">{% endblock %}
+
+{% block content %}
+<section class="japan-hero">
+  <div class="japan-hero-copy">
+    <p class="hero-eyebrow">日本を旅する — explore Japan</p>
+    <h1>Learn Japanese through places.</h1>
+    <p class="home-lede">Explore Japan's coastlines and 47 prefectures. Zoom in and tap a prefecture or capital to discover local culture, food, and a Japanese lesson.</p>
+    <div class="japan-hero-actions">
+      <button class="btn-primary" id="japan-surprise" type="button">✈ Surprise me</button>
+      <button class="btn-ghost" id="japan-train-toggle" type="button">🚄 Train journeys</button>
+      <button class="btn-ghost" id="japan-open-passport" type="button">🛂 Open passport</button>
+      <button class="btn-ghost" id="japan-show-unvisited" type="button">Show unvisited</button>
+    </div>
+  </div>
+  <article class="japan-passport-card" aria-label="Japan Explorer passport progress">
+    <div class="passport-top"><span>ことば</span><strong>JAPAN PASSPORT</strong></div>
+    <div class="passport-sun">日</div>
+    <div class="passport-progress"><strong id="japan-visited-count">{{ visited_count }}</strong><span>/ 47 places explored</span></div>
+    <div class="passport-track"><i id="japan-passport-progress" style="width:{{ (visited_count / 47 * 100)|round }}%"></i></div>
+    <small>Open a new place to earn a passport stamp and XP.</small>
+    <button class="passport-open-mini" id="japan-open-passport-card" type="button">View stamps & region progress →</button>
+  </article>
+</section>
+
+<section class="japan-toolbar" aria-label="Japan map controls">
+  <label class="japan-search-wrap">
+    <span>Search</span>
+    <input id="japan-search" class="filter-input" type="search" placeholder="Tokyo, 京都, Hokkaido..." autocomplete="off">
+  </label>
+  <div class="japan-level-control" aria-label="Learning difficulty">
+    <span>Learning level</span>
+    <div class="level-segment" id="japan-level-switch">
+      <button type="button" data-level="beginner">Beginner</button>
+      <button type="button" data-level="intermediate">Intermediate</button>
+      <button type="button" data-level="advanced">Advanced</button>
+    </div>
+  </div>
+  <div class="japan-season-wrap">
+    <span>Season</span>
+    <div class="japan-season-switch" id="japan-season-switch">
+      <button type="button" data-season="spring">🌸 Spring</button>
+      <button type="button" data-season="summer">☀️ Summer</button>
+      <button type="button" data-season="autumn">🍁 Autumn</button>
+      <button type="button" data-season="winter">❄️ Winter</button>
+    </div>
+  </div>
+  <div class="japan-region-wrap">
+    <span>Region</span>
+    <div class="japan-region-chips" id="japan-region-chips"><button class="active" type="button" data-region="All">All Japan</button></div>
+  </div>
+</section>
+
+<section class="japan-season-banner" id="japan-season-banner" aria-live="polite"></section>
+
+<section class="japan-train-panel" id="japan-train-panel" hidden>
+  <div class="japan-train-panel-head">
+    <div><p class="hero-eyebrow">電車で旅する — travel by train</p><h2>Train Route Mode</h2><p>Choose a route, follow its stops, and learn useful station Japanese on the way. Route lines connect Kotoba’s prefectural-capital learning pins, so they are educational journeys rather than exact railway station maps.</p></div>
+    <button class="btn-ghost" id="japan-train-close" type="button">Close</button>
+  </div>
+  <div class="japan-train-route-grid" id="japan-train-route-grid"></div>
+  <div class="japan-train-vocab" id="japan-train-vocab"></div>
+</section>
+
+<section class="japan-explorer-layout">
+  <article class="japan-map-card">
+    <div class="japan-map-head">
+      <div><p class="hero-eyebrow">47都道府県</p><h2>Interactive Japan map</h2></div>
+      <div class="japan-map-key"><span><i class="key-dot"></i> Unvisited</span><span><i class="key-dot visited"></i> Explored</span></div>
+    </div>
+    <div class="japan-map-wrap" id="japan-map-wrap" role="group" aria-label="Interactive Japan map">
+      <div class="jp-map-title" aria-hidden="true"><span>日本</span><strong>JAPAN</strong><small>Explore the archipelago</small></div>
+      <div class="jp-map-controls" aria-label="Map navigation">
+        <button id="japan-zoom-in" type="button" aria-label="Zoom in" title="Zoom in (+)">+</button>
+        <output id="japan-map-zoom-value" aria-label="Map zoom">100%</output>
+        <button id="japan-zoom-out" type="button" aria-label="Zoom out" title="Zoom out (-)">−</button>
+        <button id="japan-map-reset" type="button" aria-label="Reset map to all Japan" title="All Japan (Home)">⌂</button>
+        <button id="japan-map-expand" type="button" aria-label="Expand map" aria-pressed="false" title="Expand map">⛶</button>
+      </div>
+      <div class="jp-map-compass" aria-hidden="true"><span>N</span><i></i></div>
+      <svg id="japan-map" viewBox="0 0 760 920" role="group" tabindex="0" aria-label="Japan's 47 prefectures and capital cities" aria-describedby="japan-map-help">
+        <defs>
+          <linearGradient id="jp-ocean" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b9d9e8"/><stop offset="1" stop-color="#95bdd5"/></linearGradient>
+          <linearGradient id="jp-land" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fffcef"/><stop offset=".55" stop-color="#f4f0db"/><stop offset="1" stop-color="#e8e3c4"/></linearGradient>
+          <filter id="jp-shadow" x="-10%" y="-10%" width="120%" height="120%"><feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#31546c" flood-opacity=".16"/></filter>
+        </defs>
+        <rect width="760" height="920" fill="url(#jp-ocean)"/>
+        <g id="japan-context-layer" aria-hidden="true"></g>
+        <g id="japan-grid-layer" aria-hidden="true"></g>
+        <g id="japan-islands"></g>
+        <g id="japan-geographic-labels" aria-hidden="true"></g>
+        <g id="japan-season-layer" aria-hidden="true"></g>
+        <g id="japan-route-layer" aria-hidden="true"></g>
+        <g id="japan-pin-layer"></g>
+        <g id="japan-label-layer"></g>
+        <g id="japan-plane" class="japan-plane" aria-hidden="true"><text x="0" y="0">✈</text></g>
+        <g id="japan-train" class="japan-route-train" aria-hidden="true"><text x="0" y="0">🚄</text></g>
+      </svg>
+      <div class="jp-map-scale" aria-label="Approximate scale at map center"><span id="japan-map-scale-label">300 km</span><i id="japan-map-scale-bar"></i></div>
+      <div class="japan-map-hint" id="japan-map-help">Pinch or scroll to zoom · drag to move · tap a prefecture</div>
+    </div>
+    <p class="japan-map-note">Zoom in for more city labels. Region filters focus the map. Keyboard: + / − to zoom, arrow keys to move, Home to reset.</p>
+    <p class="jp-map-attribution">Map data: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a> / geoBoundaries · Natural Earth. <a href="{{ url_for('static', filename='maps/attribution.txt') }}" target="_blank">Sources & licences</a>. Coastlines simplified for display.</p>
+  </article>
+
+  <aside class="japan-list-panel" aria-label="Japan locations">
+    <div class="japan-list-head"><div><p class="hero-eyebrow">Places</p><h2 id="japan-list-title">All 47</h2></div><span id="japan-result-count">47</span></div>
+    <div class="japan-place-list" id="japan-place-list"></div>
+  </aside>
+</section>
+
+<section class="japan-how">
+  <div><span>1</span><h3>Pick a place</h3><p>Use the map, search, or region chips.</p></div>
+  <div><span>2</span><h3>Learn five words</h3><p>Kotoba mixes local words with level-appropriate travel Japanese and avoids immediate repeats.</p></div>
+  <div><span>3</span><h3>Take the mini quiz</h3><p>Answers feed your Smart Review and Mistake Notebook.</p></div>
+  <div><span>4</span><h3>Fill your passport</h3><p>Collect prefecture stamps, finish regions, and complete train journeys.</p></div>
+</section>
+
+<div class="japan-drawer-backdrop" id="japan-drawer-backdrop" hidden></div>
+<aside class="japan-drawer" id="japan-drawer" aria-hidden="true" aria-label="Location details">
+  <button class="japan-drawer-close" id="japan-drawer-close" type="button" aria-label="Close location details">×</button>
+  <div id="japan-drawer-content"></div>
+</aside>
+
+<div class="japan-passport-backdrop" id="japan-passport-backdrop" hidden></div>
+<section class="japan-passport-modal" id="japan-passport-modal" hidden aria-hidden="true" aria-label="Japan Explorer passport">
+  <div class="japan-passport-modal-head">
+    <div><p class="hero-eyebrow">旅の記録 — travel record</p><h2>Japan Explorer Passport</h2><p>Every explored prefecture becomes a stamp. Complete regions and train journeys to fill the book.</p></div>
+    <button class="japan-passport-close" id="japan-passport-close" type="button" aria-label="Close passport">×</button>
+  </div>
+  <div class="japan-passport-stats" id="japan-passport-stats"></div>
+  <div class="japan-passport-regions" id="japan-passport-regions"></div>
+  <div class="japan-passport-route-progress" id="japan-passport-route-progress"></div>
+  <div class="japan-passport-stamp-grid" id="japan-passport-stamp-grid"></div>
+</section>
+
+<div class="passport-stamp-pop" id="passport-stamp-pop" hidden aria-live="polite">
+  <div class="passport-stamp-ring"><strong>旅</strong><span>NEW STAMP</span></div>
+  <p id="passport-stamp-name">Explored!</p>
+</div>
+
+<script>
+window.JAPAN_EXPLORER_DATA = {{ japan_data|tojson }};
+window.JAPAN_VISITED = {{ visited_ids|tojson }};
+window.JAPAN_DEFAULT_LEVEL = {{ default_level|tojson }};
+</script>
+{% endblock %}
+
+{% block scripts %}
+<script defer src="{{ url_for('static', filename='js/japan_geography.js') }}"></script>
+<script defer src="{{ url_for('static', filename='js/japan_map.js') }}"></script>
+<script defer src="{{ url_for('static', filename='js/japan_explorer.js') }}"></script>
+{% endblock %}

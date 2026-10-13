@@ -1,0 +1,67 @@
+name: Verify and build Android
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: pip install -r requirements.txt
+      - run: python sync_android.py
+      - run: |
+          python test_restored_content.py
+          python smoke_test_android.py
+          python test_search.py --android
+          python test_release_safety.py
+          python test_numbers_startup.py
+          python test_cloud_sync.py
+          python test_asset_loading.py
+          python test_content_categories.py
+          python test_responsive_shell.py
+          python test_glass_coverage.py
+          python test_glass_integration.py
+          python test_glass_surface_41.py
+          python test_glass_artifacts_42.py
+      - run: node test_voice_search.js
+      - run: node test_liquid_glass.cjs
+      - run: |
+          npm install --prefix /tmp/kotoba-dom --no-audit --no-fund --ignore-scripts jsdom@26.1.0
+          export NODE_PATH=/tmp/kotoba-dom/node_modules
+          node test_navigation_theme.cjs
+          node test_kanji_themes.cjs
+          node test_journey_home.cjs
+          node test_scroll_lock.cjs
+          node test_jlpt_mock.cjs
+          node test_cloud_sync.cjs
+          node test_audio_lifecycle.cjs
+          node test_intro_startup.cjs
+          node test_catalog_batches.cjs
+          node test_browser_cache.cjs
+          JSDOM_MODULE=/tmp/kotoba-dom/node_modules/jsdom node test_japan_map.cjs
+          JSDOM_MODULE=/tmp/kotoba-dom/node_modules/jsdom node test_speaking.cjs
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.13'
+      - uses: android-actions/setup-android@v4
+        with:
+          packages: ''
+      - run: sdkmanager --install "platforms;android-36" "build-tools;36.0.0"
+      - run: gradle :app:assembleDebug :app:lintDebug --console=plain
+        working-directory: android
+        env:
+          KOTOBA_BUILD_PYTHON: python
+      - uses: actions/upload-artifact@v4
+        with:
+          name: kotoba-test-apk
+          path: android/app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error

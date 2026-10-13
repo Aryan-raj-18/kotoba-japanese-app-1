@@ -1,0 +1,16 @@
+✔ Browser speech preserves every segment and waits for user Search (2.654017ms)
+✔ Closing or restarting ignores a late result from the old recording (0.762438ms)
+✔ Correcting the transcript stops speech from overwriting the edit (0.661636ms)
+✔ Native Done speaking requests the final result instead of cancelling (0.971332ms)
+✔ Native stale callbacks cannot replace a newer session (0.752433ms)
+✔ Selecting an alternative uses that phrase, not the first suggestion (0.71073ms)
+✔ Local voice input emits filter events only after user confirmation (0.741156ms)
+✔ Typed and spoken local filters keep English word boundaries and kana normalization (1.182951ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 14.701691
